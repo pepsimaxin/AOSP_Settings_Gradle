@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tests/unit/InstrumentedEntitlementApp/InstrumentedEntitlementApp.iml" filepath="$PROJECT_DIR$/tests/unit/InstrumentedEntitlementApp/InstrumentedEntitlementApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/anomaly-tester/anomaly-tester.iml" filepath="$PROJECT_DIR$/tests/anomaly-tester/anomaly-tester.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/perftests/perftests.iml" filepath="$PROJECT_DIR$/tests/perftests/perftests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/robotests/robotests.iml" filepath="$PROJECT_DIR$/tests/robotests/robotests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/uitests/uitests.iml" filepath="$PROJECT_DIR$/tests/uitests/uitests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/unit/unit.iml" filepath="$PROJECT_DIR$/tests/unit/unit.iml" />
+    </modules>
+  </component>
+</project>

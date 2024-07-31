@@ -1,0 +1,162 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        kotlin_version = '1.6.21'
+    }
+
+    repositories {
+        maven {
+            url 'https://maven.aliyun.com/repository/jcenter'
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/central'
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/google'
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.1'
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.18'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.protobuf'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+
+apply from: 'dependencies.gradle'
+
+android {
+    packagingOptions {
+        exclude 'META-INF/androidx.window_window.version'
+    }
+
+    configurations {
+        all*.exclude group: 'androidx.window', module: 'window'
+        all*.exclude group: 'com.squareup.okhttp3', module: 'okhttp'
+    }
+
+    compileSdk = 30
+
+    defaultConfig {
+        applicationId "com.android.settings"
+        minSdkVersion 30
+        targetSdkVersion 30
+        versionCode 30
+        versionName "30.0"
+        //resConfigs "zh-rCN", "zh-rHK", "zh-rTW", "en", "ug-rCN"
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled false
+            //zipAlignEnabled true
+        }
+
+        debug {
+            debuggable false
+            minifyEnabled false
+            //zipAlignEnabled true
+        }
+
+        applicationVariants.all { variant ->
+            variant.outputs.all {
+                outputFileName = "BoringSettings.apk"
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            proto.srcDirs = ['protos']
+            manifest.srcFile 'AndroidManifest.xml'
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    jarFiles.each { jarFile ->
+        compileOnly files("clibs-compile/$jarFile")
+    }
+
+    implementation fileTree(dir: 'clibs', include: ['*.jar', '*.aar'])
+
+    implementation("com.github.bumptech.glide:glide:4.11.0") {
+        exclude group: "com.android.support"    // 排除掉 com.android.support 组
+    }
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    annotationProcessor files('clibs/CP-SettingsLib-annotation-processor.jar')    // search 生成索引类插件
+
+    // baseline profile
+    implementation "androidx.profileinstaller:profileinstaller:1.3.1"
+}
+
+allprojects {
+    repositories {
+        maven {
+            url 'https://maven.aliyun.com/repository/jcenter'
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/central'
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/google'
+        }
+    }
+
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            if (options.bootstrapClasspath != null) {
+                Set<File> fileSet = options.bootstrapClasspath.getFiles()
+                List<File> newFileList = new ArrayList<>()
+                // 相对位置，根据存放的位置修改路径
+                newFileList.add(new File("clibs-compile/framework.jar"))
+                newFileList.add(new File("clibs-compile/core-all.jar"))
+                newFileList.addAll(fileSet)
+                options.bootstrapClasspath = files(
+                        newFileList.toArray()
+                )
+            }
+        }
+    }
+}
+
+protobuf {
+    protoc {
+        // 通用 artifact
+        artifact = 'com.google.protobuf:protoc:3.8.0'
+        // MacOS
+        if (org.gradle.internal.os.OperatingSystem.current().isMacOsX()) {
+            artifact = 'com.google.protobuf:protoc:3.8.0:osx-x86_64'
+        }
+    }
+
+    generateProtoTasks {
+        all().each { task ->
+            task.builtins {
+                remove java
+                java {
+                    option "lite"
+                }
+            }
+        }
+    }
+}

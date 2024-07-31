@@ -1,0 +1,70 @@
+ext {
+    libs = [
+        viewpager2                   : 'androidx.viewpager2:viewpager2:1.0.0',
+        recyclerview                 : 'androidx.recyclerview:recyclerview:1.2.1',
+        legacy_support_v4            : 'androidx.legacy:legacy-support-v4:1.0.0',
+        legacy_preference_v14        : 'androidx.legacy:legacy-preference-v14:1.0.0',
+        appcompat                    : 'androidx.appcompat:appcompat:1.4.0-alpha03',
+        annotation                   : 'androidx.annotation:annotation:1.3.0-alpha01',
+        mediarouter                  : 'androidx.mediarouter:mediarouter:1.2.0-alpha01',
+        lifecycle_runtime            : 'androidx.lifecycle:lifecycle-runtime:2.4.0-alpha03',
+        lifecycle_extensions         : 'androidx.lifecycle:lifecycle-extensions:2.2.0',
+        palette                      : 'androidx.palette:palette:1.0.0',
+        constraintlayout             : 'androidx.constraintlayout:constraintlayout:2.0.1',
+        constraintlayout_solver      : 'androidx.constraintlayout:constraintlayout-solver:2.0.1',
+        leanback                     : 'androidx.leanback:leanback:1.1.0-alpha04',
+        slice_builders               : 'androidx.slice:slice-builders:1.1.0-alpha02',
+        slice_core                   : 'androidx.slice:slice-core:1.1.0-alpha02',
+        slice_view                   : 'androidx.slice:slice-view:1.1.0-alpha02',
+        core_runtime                 : 'androidx.arch.core:core-runtime:2.1.0',
+        dynamicanimation             : 'androidx.dynamicanimation:dynamicanimation:1.1.0-alpha03',
+        cardview                     : 'androidx.cardview:cardview:1.0.0',
+        material                     : 'com.google.android.material:material:1.5.0-alpha02',
+        protobuf_javalite            : 'com.google.protobuf:protobuf-javalite:3.8.0',
+        protoc                       : 'com.google.protobuf:protoc:3.8.0',
+        errorprone                   : 'com.google.errorprone:error_prone_annotations:2.5.1',
+        guava                        : 'com.google.guava:guava:31.1-android',
+        core                         : 'androidx.core:core:1.9.0',
+        preference                   : 'androidx.preference:preference:1.2.0',
+        fragment                     : 'androidx.fragment:fragment:1.4.1',
+
+        core_ktx                     : 'androidx.core:core-ktx:1.3.1',
+        kotlin_stdlib_jdk7           : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version",
+        kotlinx_coroutines_android   : "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_version",
+        kotlinx_coroutines_core      : "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_version",
+        kotlin_reflect               : "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version",
+    ]
+
+    jarFiles = [
+        'framework.jar',
+        'core-all.jar',
+        'telephony-common.jar',
+        'ims-common.jar',
+        'app-compat-annotations.jar'
+    ]
+
+    commonMaven = [
+        libs.appcompat,
+        libs.preference,
+        libs.recyclerview,
+        libs.slice_builders,
+        libs.slice_core,
+        libs.slice_view,
+        libs.constraintlayout,
+        libs.cardview,
+        libs.material,
+        libs.lifecycle_runtime,
+        libs.lifecycle_extensions,
+        libs.protobuf_javalite,
+        libs.lottie,
+        libs.guava,
+        libs.OkHttp
+    ]
+
+    specialLib = [
+         libs.WifiTrackerLib,
+         libs.setupcompat,
+         libs.setupdesign,
+         libs.iconloaderlib
+    ]
+}
