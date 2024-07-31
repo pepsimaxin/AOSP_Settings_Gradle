@@ -1389,7 +1389,6 @@
     <string name="sd_mount" product="default" msgid="5279813999455776169">"Khweza ikhadi le-SD"</string>
     <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"Sula ikhadi le-SD"</string>
-    <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Sula yonke idatha ekugcineni nge-USB kwangaphakathi, njengomculo nezithombe"</string>
     <string name="sd_format_summary" product="default" msgid="60583152211068164">"Isula yonke idatha ekhadini le-SD, njengomculo nezithombe"</string>
     <string name="memory_clear_cache_title" msgid="2605096903803953619">"Sula idatha yenqolobane?"</string>
     <string name="memory_clear_cache_message" msgid="4759561226480906588">"Lokhu kuzosula idatha yenqolobane kuzo zonke izinhlelo zokusebenza."</string>
@@ -1861,7 +1860,6 @@
     <string name="application_size_label" msgid="6407051020651716729">"Usayizi wohlelo lokusebenza"</string>
     <string name="external_code_size_label" msgid="7375146402660973743">"Uhlelo lokusebenza lokugcina kwi-USB"</string>
     <string name="data_size_label" msgid="7814478940141255234">"Idatha yomsebenzisi"</string>
-    <string name="external_data_size_label" product="nosdcard" msgid="1054860423004751290">"Idatha yesitoreji se-USB"</string>
     <string name="external_data_size_label" product="default" msgid="3370825186202856353">"Ikhadi le-SD"</string>
     <string name="uninstall_text" msgid="315764653029060126">"Khipha"</string>
     <string name="uninstall_all_users_text" msgid="5924715251087176474">"Kupha kubo bonke abasebenzisi"</string>
@@ -1915,9 +1913,7 @@
     <string name="invalid_size_value" msgid="7017371543563259201">"Ayikwazanga ukubala usayizi wephakeji."</string>
     <string name="version_text" msgid="7628938665256107608">"Inguqulo <xliff:g id="VERSION_NUM">%1$s</xliff:g>"</string>
     <string name="move_app" msgid="5421158479447276791">"Hambisa"</string>
-    <string name="move_app_to_internal" product="tablet" msgid="5799782476959541144">"Yisa kwithebhulethi"</string>
     <string name="move_app_to_internal" product="default" msgid="7395498801589544372">"Hambisa kwifoni"</string>
-    <string name="move_app_to_sdcard" product="nosdcard" msgid="1145367822171576972">"Hambisa kusitoreji se-USB"</string>
     <string name="move_app_to_sdcard" product="default" msgid="7161667212614143767">"Hambisa ekhadini le-SD"</string>
     <string name="another_migration_already_in_progress" msgid="6550546307856052261">"Okunye ukuthutha sekuvele kuyaqhubeka."</string>
     <string name="insufficient_storage" msgid="8115088042669030558">"Ayikho indawo eyanele yokulondoloza."</string>
@@ -2645,7 +2641,6 @@
     <string name="adaptive_connectivity_summary" msgid="3648731530666326885">"Kunweba impilo yebhethri kuphinde kuthuthukise ukusebenza kwedivayisi ngokuphatha uxhumo lenethiwekhi yakho ngokuzenzakalelayo"</string>
     <string name="credentials_title" msgid="7535942196886123656">" Isitoreji sokuqinisekisa"</string>
     <string name="credentials_install" msgid="3933218407598415827">"Faka isitifiketi"</string>
-    <string name="credentials_install_summary" product="nosdcard" msgid="6644116499934553975">"Faka izitifiketi kusuka ekugcineni"</string>
     <string name="credentials_install_summary" product="default" msgid="8161351950524166012">"Faka izitifiketi zombhalo ofihliwe kusuka ekhadini le-SD"</string>
     <string name="credentials_reset" msgid="4246628389366452655">"Sula ukufakazela ubuqiniso"</string>
     <string name="credentials_reset_summary" msgid="5400585520572874255">"Susa zonke izitifiketi"</string>

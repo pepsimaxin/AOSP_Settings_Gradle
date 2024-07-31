@@ -1590,13 +1590,9 @@
     <string name="master_clear_desc_also_erases_external" msgid="4738661805356792736"><li>"音樂"</li>\n<li>"相片"</li>\n<li>"其他使用者資料"</li></string>
     <string name="master_clear_desc_also_erases_esim" msgid="6418163562288667727"><li>"eSIM 卡"</li></string>
     <string name="master_clear_desc_no_cancel_mobile_plan" msgid="3112614935795369143">\n\n"此操作不會取消您的流動服務計劃。"</string>
-    <string name="master_clear_desc_erase_external_storage" product="nosdcard" msgid="7088655731755912201">\n\n"如要一併清除音樂、圖片及其他使用者資料，則需清除 "<b>"USB 儲存裝置"</b>"資料。"</string>
     <string name="master_clear_desc_erase_external_storage" product="default" msgid="4145566517710675883">\n\n"如要一併清除音樂、圖片及其他使用者資料，則需清除 "<b>"SD 記憶卡"</b>"資料。"</string>
-    <string name="erase_external_storage" product="nosdcard" msgid="2182181846128639635">"清除 USB 儲存裝置資料"</string>
     <string name="erase_external_storage" product="default" msgid="2610056855012660451">"清除 SD 記憶卡資料"</string>
-    <string name="erase_external_storage_description" product="nosdcard" msgid="6358699244894944843">"清除內部 USB 儲存裝置中的所有資料，例如音樂或相片"</string>
     <string name="erase_external_storage_description" product="default" msgid="3367779850546310380">"清除 SD 記憶卡中的所有資料，例如音樂或相片"</string>
-    <string name="master_clear_button_text" product="tablet" msgid="3554085992851027633">"清除所有資料"</string>
     <string name="master_clear_button_text" product="default" msgid="3554085992851027633">"清除所有資料"</string>
     <string name="master_clear_final_desc" msgid="5218005891800878932">"系統會刪除您所有的個人資料和已下載的應用程式。您無法復原這個動作。"</string>
     <string name="master_clear_final_desc_esim" msgid="3570139379312933326">"系統會刪除您所有的個人資料，包括已下載的應用程式和 SIM 卡。您無法復原這個動作。"</string>
@@ -1864,7 +1860,6 @@
     <string name="application_size_label" msgid="6407051020651716729">"應用程式大小"</string>
     <string name="external_code_size_label" msgid="7375146402660973743">"USB 儲存裝置應用程式"</string>
     <string name="data_size_label" msgid="7814478940141255234">"使用者資料"</string>
-    <string name="external_data_size_label" product="nosdcard" msgid="1054860423004751290">"USB 儲存裝置資料"</string>
     <string name="external_data_size_label" product="default" msgid="3370825186202856353">"SD 卡"</string>
     <string name="uninstall_text" msgid="315764653029060126">"解除安裝"</string>
     <string name="uninstall_all_users_text" msgid="5924715251087176474">"為所有使用者解除安裝"</string>
@@ -1899,7 +1894,6 @@
     <string name="filter_apps_disabled" msgid="5068011814871004105">"已停用的應用程式"</string>
     <string name="filter_apps_third_party" msgid="9049447784849114843">"已下載"</string>
     <string name="filter_apps_running" msgid="535465683273284141">"執行中"</string>
-    <string name="filter_apps_onsdcard" product="nosdcard" msgid="5140211657134608469">"USB 儲存裝置"</string>
     <string name="filter_apps_onsdcard" product="default" msgid="1774499644768369891">"於 SD 卡"</string>
     <string name="not_installed" msgid="5074606858798519449">"沒有為此使用者安裝"</string>
     <string name="installed" msgid="2837449358488825884">"已安裝"</string>
@@ -1919,9 +1913,7 @@
     <string name="invalid_size_value" msgid="7017371543563259201">"無法計算套件大小。"</string>
     <string name="version_text" msgid="7628938665256107608">"版本 <xliff:g id="VERSION_NUM">%1$s</xliff:g>"</string>
     <string name="move_app" msgid="5421158479447276791">"移動"</string>
-    <string name="move_app_to_internal" product="tablet" msgid="5799782476959541144">"移至平板電腦"</string>
     <string name="move_app_to_internal" product="default" msgid="7395498801589544372">"移至手機"</string>
-    <string name="move_app_to_sdcard" product="nosdcard" msgid="1145367822171576972">"移至 USB 儲存裝置"</string>
     <string name="move_app_to_sdcard" product="default" msgid="7161667212614143767">"移至 SD 卡"</string>
     <string name="another_migration_already_in_progress" msgid="6550546307856052261">"另一個轉移正在進行中。"</string>
     <string name="insufficient_storage" msgid="8115088042669030558">"儲存空間不足。"</string>
@@ -2649,7 +2641,6 @@
     <string name="adaptive_connectivity_summary" msgid="3648731530666326885">"自動管理網路連線，藉此延長電池壽命並提升裝置效能"</string>
     <string name="credentials_title" msgid="7535942196886123656">"憑證儲存空間"</string>
     <string name="credentials_install" msgid="3933218407598415827">"安裝憑證"</string>
-    <string name="credentials_install_summary" product="nosdcard" msgid="6644116499934553975">"從儲存裝置安裝憑證"</string>
     <string name="credentials_install_summary" product="default" msgid="8161351950524166012">"從 SD 記憶卡安裝憑證"</string>
     <string name="credentials_reset" msgid="4246628389366452655">"清除憑證"</string>
     <string name="credentials_reset_summary" msgid="5400585520572874255">"移除所有憑證"</string>

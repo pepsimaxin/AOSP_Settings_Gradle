@@ -3145,8 +3145,6 @@
     <string name="status_awake_time">Awake time</string>
     <!-- SD card & phone storage settings screen heading. This is displayed above items that pertain to the phone's internal storage  -->
     <string name="internal_memory">Internal storage</string>
-    <!-- SD card & phone storage settings screen heading. This is displayed above items that pertain to the SD card [CHAR LIMIT=30] -->
-    <string name="sd_memory" product="nosdcard">USB storage</string>
     <!-- SD card & phone storage settings screen heading. This is displayed above items that pertain to the SD card -->
     <string name="sd_memory" product="default">SD card</string>
     <!-- SD card & phone storage settings title. The amount of free space for some storage partition.  For example, this is listed under both the "Internal phone storage" section and the "SD card" section. -->
@@ -3171,8 +3169,7 @@
     <string name="memory_media_misc_usage">Other files</string>
     <!-- Storage item representing all cached data on device. [CHAR LIMIT=48] -->
     <string name="memory_media_cache_usage">Cached data</string>
-    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   [CHAR LIMIT=25] -->
-    <string name="sd_eject" product="nosdcard">Unmount shared storage</string>
+
     <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   -->
     <string name="sd_eject" product="default">Unmount SD card</string>
 
@@ -3204,12 +3201,8 @@
     <!-- SD card & phone storage settings item summary that will result in the phone connected to PC and MTP/PTP enabled.   [CHAR LIMIT=80] -->
     <string name="mtp_ptp_mode_summary">MTP or PTP function is active</string>
 
-    <!-- SD card eject confirmation dialog title   [CHAR LIMIT=25] -->
-    <string name="dlg_confirm_unmount_title" product="nosdcard">Unmount USB storage?</string>
     <!-- SD card eject confirmation dialog title   -->
     <string name="dlg_confirm_unmount_title" product="default">Unmount SD card?</string>
-    <!-- SD card eject confirmation dialog  [CHAR LIMIT=NONE] -->
-    <string name="dlg_confirm_unmount_text" product="nosdcard">If you unmount the USB storage, some apps you are using will stop and may be unavailable until you remount the USB storage.</string>
     <!-- SD card eject confirmation dialog  -->
     <string name="dlg_confirm_unmount_text" product="default">If you unmount the SD card, some apps you are using will stop and may be unavailable until you remount the SD card.</string>
 
@@ -4504,8 +4497,6 @@
     <string name="move_app_to_internal" product="tablet">Move to tablet</string>
     <!-- Manage applications, text for Move button to move app to internal storage -->
     <string name="move_app_to_internal" product="default">Move to phone</string>
-    <!-- Manage applications, text for Move button  to move app to sdcard [CHAR LIMIT=25] -->
-    <string name="move_app_to_sdcard" product="nosdcard">Move to USB storage</string>
     <!-- Manage applications, text for Move button  to move app to sdcard -->
     <string name="move_app_to_sdcard" product="default">Move to SD card</string>
 

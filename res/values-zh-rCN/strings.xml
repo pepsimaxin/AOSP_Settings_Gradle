@@ -55,7 +55,6 @@
     <string name="font_size_preview_text_subtitle" msgid="5806349524325544614">"第 11 章：奥兹国神奇的翡翠城"</string>
     <string name="font_size_preview_text_body" msgid="3323732544011097199">"尽管有绿色眼镜保护着眼睛，桃乐丝和她的朋友们在刚看到这座奇妙的城市时，还是被它耀眼的光芒照得眼花缭乱。街道两旁耸立着绿色大理石砌成的美丽房屋，到处镶嵌着闪闪发光的翡翠。他们走过的人行道同样是用绿色大理石铺砌而成，石块接合处嵌有一排排紧密相连的翡翠，在阳光的照耀下闪闪发亮。房屋的窗户镶嵌着绿色的玻璃，城市上空有淡淡的绿晕，就连阳光也散发着绿色光芒。\n\n街道上有很多行人，无论男女老少全都穿着绿色衣物，连皮肤都泛着绿色。他们都用惊异的眼光注视着桃乐丝和她这群外貌迥异的伙伴们，孩子们一看到狮子都拔腿跑了，躲到他们母亲身后；没有人想开口跟桃乐丝他们说话。街上有许多商店，桃乐丝看见店里的每一件商品都是绿色的，有绿色的糖果，绿色的爆米花，还有各种各样的绿鞋子、绿帽子和绿衣服。有位小贩在路上卖绿色的柠檬水，当孩子们去买汽水时，桃乐丝发现他们付钱时所用的硬币竟然也是绿色的。\n\n城里似乎没有马，也没有其他任何动物。有人用绿色小推车来回运载物品。每个人看起来都是那么快乐、满足，一切都显得安定繁荣。"</string>
     <string name="font_size_save" msgid="206892409190870726">"确定"</string>
-    <string name="sdcard_setting" product="nosdcard" msgid="6071836464978826249">"USB存储设备"</string>
     <string name="sdcard_setting" product="default" msgid="3713462184783824923">"SD卡"</string>
     <string name="bluetooth" msgid="8898478620943459654">"蓝牙"</string>
     <string name="bluetooth_is_discoverable" msgid="4798961627677790935">"附近所有蓝牙设备均可检测到此设备（<xliff:g id="DISCOVERABLE_TIME_PERIOD">%1$s</xliff:g>）"</string>
@@ -213,7 +212,6 @@
     <string name="action_drag_label_remove" msgid="1034900377796780568">"移除语言"</string>
     <string name="activity_picker_label" msgid="351250401590691126">"选择活动"</string>
     <string name="display_label" msgid="3056320781191343221">"屏幕"</string>
-    <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"USB存储设备"</string>
     <string name="sd_card_settings_label" product="default" msgid="8715502912796241588">"SD卡"</string>
     <string name="proxy_settings_label" msgid="6300573815025557843">"代理设置"</string>
     <string name="cancel" msgid="5780102414089664898">"取消"</string>
@@ -1338,7 +1336,6 @@
     <string name="storage_settings_for_app" msgid="229425418984637483">"存储和缓存"</string>
     <string name="storage_usb_settings" msgid="7058142934214211583">"存储"</string>
     <string name="storage_settings_title" msgid="486118156723194815">"存储设置"</string>
-    <string name="storage_settings_summary" product="nosdcard" msgid="3858049818577638926">"卸载USB存储设备，查看可用存储设备"</string>
     <string name="storage_settings_summary" product="default" msgid="267557695753980969">"卸载SD卡，查看可用存储设备"</string>
     <string name="imei_multi_sim" msgid="71477088017585479">"IMEI（SIM 卡插槽 %1$d）"</string>
     <string name="view_saved_network" msgid="1232387673095080910">"要进行查看，请选择已保存的网络"</string>
@@ -1374,7 +1371,6 @@
     <string name="status_up_time" msgid="1274778533719495438">"开机累计时长"</string>
     <string name="status_awake_time" msgid="2573925324168081586">"唤醒时间"</string>
     <string name="internal_memory" msgid="1869518160077033848">"内部存储空间"</string>
-    <string name="sd_memory" product="nosdcard" msgid="5456718463397723781">"USB存储设备"</string>
     <string name="sd_memory" product="default" msgid="3098344183202722455">"SD卡"</string>
     <string name="memory_available" msgid="712528795743654737">"可用空间"</string>
     <string name="memory_available_read_only" msgid="3201969221573511590">"可用空间（只读）"</string>
@@ -1387,32 +1383,20 @@
     <string name="memory_music_usage" msgid="8100634000114206429">"音频（音乐、铃声、播客等）"</string>
     <string name="memory_media_misc_usage" msgid="7066851245178533269">"其他文件"</string>
     <string name="memory_media_cache_usage" msgid="780808666853685824">"缓存数据"</string>
-    <string name="sd_eject" product="nosdcard" msgid="6136102589751843304">"卸载共享存储设备"</string>
     <string name="sd_eject" product="default" msgid="8062832622096296251">"卸载SD卡"</string>
-    <string name="sd_eject_summary" product="nosdcard" msgid="6859940774161708871">"卸载内部USB存储设备"</string>
     <string name="sd_eject_summary" product="default" msgid="5151243312587186226">"需要先卸载SD卡，然后才能将其安全移除"</string>
-    <string name="sd_insert_summary" product="nosdcard" msgid="9164545135649775664">"插入要装载的USB存储设备"</string>
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"插入SD卡进行安装"</string>
-    <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"装载USB存储设备"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"安装SD卡"</string>
-    <string name="sd_mount_summary" product="nosdcard" msgid="2190410240845521205"></string>
     <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
-    <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"格式化USB存储设备"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"格式化SD卡"</string>
-    <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"清除内部USB存储设备中的全部数据，例如音乐和照片"</string>
     <string name="sd_format_summary" product="default" msgid="60583152211068164">"清除SD卡中的全部数据，例如音乐和照片"</string>
     <string name="memory_clear_cache_title" msgid="2605096903803953619">"是否清除缓存数据？"</string>
     <string name="memory_clear_cache_message" msgid="4759561226480906588">"此操作会清除所有应用的缓存数据。"</string>
     <string name="mtp_ptp_mode_summary" msgid="7969656567437639239">"已开启MTP或PTP功能"</string>
-    <string name="dlg_confirm_unmount_title" product="nosdcard" msgid="7694112411895701320">"要卸载USB存储设备吗？"</string>
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"要卸载SD卡吗？"</string>
-    <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"如果卸载该USB存储设备，您当前使用的某些应用会停止运行，并且在您重新装载该设备前可能都无法使用。"</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"如果卸载该SD卡，您当前使用的某些应用会停止，并且在您重新装载该SD卡前，这些应用可能都无法使用。"</string>
-    <string name="dlg_error_unmount_title" product="nosdcard" msgid="2205587942165199845"></string>
     <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"></string>
-    <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"无法卸载USB存储设备，请稍后重试。"</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"无法卸载SD卡，请稍后重试。"</string>
-    <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"系统将会卸载USB存储设备。"</string>
     <string name="unmount_inform_text" product="default" msgid="716578785262713312">"系统将会卸载SD卡。"</string>
     <string name="sd_ejecting_title" msgid="1641122369013595273">"正在卸载"</string>
     <string name="sd_ejecting_summary" msgid="861928572729341132">"正在卸载"</string>
@@ -1605,13 +1589,9 @@
     <string name="master_clear_desc_also_erases_external" msgid="4738661805356792736"><li>"音乐"</li>\n<li>"照片"</li>\n<li>"其他的用户数据"</li></string>
     <string name="master_clear_desc_also_erases_esim" msgid="6418163562288667727"><li>"eSIM 卡"</li></string>
     <string name="master_clear_desc_no_cancel_mobile_plan" msgid="3112614935795369143">\n\n"这样并不会取消您的移动服务套餐。"</string>
-    <string name="master_clear_desc_erase_external_storage" product="nosdcard" msgid="7088655731755912201">\n\n"要清除音乐、照片和其他用户数据，请清空该 "<b>"USB存储设备"</b>"。"</string>
     <string name="master_clear_desc_erase_external_storage" product="default" msgid="4145566517710675883">\n\n"要清除音乐、图片和其他用户数据，您需要清空该 "<b>"SD卡"</b>"。"</string>
-    <string name="erase_external_storage" product="nosdcard" msgid="2182181846128639635">"格式化USB存储设备"</string>
     <string name="erase_external_storage" product="default" msgid="2610056855012660451">"格式化SD卡"</string>
-    <string name="erase_external_storage_description" product="nosdcard" msgid="6358699244894944843">"清除该内部USB存储设备中的全部数据，例如音乐或照片"</string>
     <string name="erase_external_storage_description" product="default" msgid="3367779850546310380">"清除SD卡中的全部数据，例如音乐或照片"</string>
-    <string name="master_clear_button_text" product="tablet" msgid="3554085992851027633">"清除所有数据"</string>
     <string name="master_clear_button_text" product="default" msgid="3554085992851027633">"清除所有数据"</string>
     <string name="master_clear_final_desc" msgid="5218005891800878932">"系统将删除您所有的个人信息和已下载的应用。此操作无法撤消。"</string>
     <string name="master_clear_final_desc_esim" msgid="3570139379312933326">"系统将删除您所有的个人信息（包括已下载的应用和 SIM 卡）。此操作无法撤消。"</string>
@@ -1879,7 +1859,6 @@
     <string name="application_size_label" msgid="6407051020651716729">"应用大小"</string>
     <string name="external_code_size_label" msgid="7375146402660973743">"USB存储（应用）"</string>
     <string name="data_size_label" msgid="7814478940141255234">"用户数据"</string>
-    <string name="external_data_size_label" product="nosdcard" msgid="1054860423004751290">"USB存储（数据）"</string>
     <string name="external_data_size_label" product="default" msgid="3370825186202856353">"SD卡"</string>
     <string name="uninstall_text" msgid="315764653029060126">"卸载"</string>
     <string name="uninstall_all_users_text" msgid="5924715251087176474">"为所有用户卸载"</string>
@@ -1914,7 +1893,6 @@
     <string name="filter_apps_disabled" msgid="5068011814871004105">"已停用的应用"</string>
     <string name="filter_apps_third_party" msgid="9049447784849114843">"已下载"</string>
     <string name="filter_apps_running" msgid="535465683273284141">"正在运行"</string>
-    <string name="filter_apps_onsdcard" product="nosdcard" msgid="5140211657134608469">"USB存储设备"</string>
     <string name="filter_apps_onsdcard" product="default" msgid="1774499644768369891">"SD卡中"</string>
     <string name="not_installed" msgid="5074606858798519449">"未针对此用户安装"</string>
     <string name="installed" msgid="2837449358488825884">"已安装"</string>
@@ -1934,9 +1912,7 @@
     <string name="invalid_size_value" msgid="7017371543563259201">"无法计算软件包的大小。"</string>
     <string name="version_text" msgid="7628938665256107608">"版本 <xliff:g id="VERSION_NUM">%1$s</xliff:g>"</string>
     <string name="move_app" msgid="5421158479447276791">"移动"</string>
-    <string name="move_app_to_internal" product="tablet" msgid="5799782476959541144">"移至平板电脑"</string>
     <string name="move_app_to_internal" product="default" msgid="7395498801589544372">"移至手机"</string>
-    <string name="move_app_to_sdcard" product="nosdcard" msgid="1145367822171576972">"移至USB存储设备"</string>
     <string name="move_app_to_sdcard" product="default" msgid="7161667212614143767">"移至SD卡"</string>
     <string name="another_migration_already_in_progress" msgid="6550546307856052261">"系统目前正在执行另一项迁移操作。"</string>
     <string name="insufficient_storage" msgid="8115088042669030558">"存储空间不足。"</string>
@@ -2664,7 +2640,6 @@
     <string name="adaptive_connectivity_summary" msgid="3648731530666326885">"自动管理您的网络连接，从而延长电池续航时间并提升设备性能"</string>
     <string name="credentials_title" msgid="7535942196886123656">"凭据存储"</string>
     <string name="credentials_install" msgid="3933218407598415827">"安装证书"</string>
-    <string name="credentials_install_summary" product="nosdcard" msgid="6644116499934553975">"从存储设备安装证书"</string>
     <string name="credentials_install_summary" product="default" msgid="8161351950524166012">"从SD卡安装证书"</string>
     <string name="credentials_reset" msgid="4246628389366452655">"清除凭据"</string>
     <string name="credentials_reset_summary" msgid="5400585520572874255">"删除所有证书"</string>
