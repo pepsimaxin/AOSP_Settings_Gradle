@@ -44,7 +44,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Suspended"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"unknown"</string>
     <string name="sdcard_unmount" product="default" msgid="8078570285871053815">"Unmount SD card"</string>
-    <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"Erase USB storage"</string>
     <string name="sdcard_format" product="default" msgid="3676635435136326182">"Erase SD card"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Preview"</string>
     <string name="preview_page_indicator_content_description" msgid="2790254666634885865">"Preview, page <xliff:g id="CURRENT_PAGE">%1$d</xliff:g> of <xliff:g id="NUM_PAGES">%2$d</xliff:g>"</string>
@@ -213,7 +212,6 @@
     <string name="action_drag_label_remove" msgid="1034900377796780568">"Remove language"</string>
     <string name="activity_picker_label" msgid="351250401590691126">"Choose activity"</string>
     <string name="display_label" msgid="3056320781191343221">"Screen"</string>
-    <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"USB storage"</string>
     <string name="sd_card_settings_label" product="default" msgid="8715502912796241588">"SD card"</string>
     <string name="proxy_settings_label" msgid="6300573815025557843">"Proxy settings"</string>
     <string name="cancel" msgid="5780102414089664898">"Cancel"</string>
@@ -1338,7 +1336,6 @@
     <string name="storage_settings_for_app" msgid="229425418984637483">"Storage and cache"</string>
     <string name="storage_usb_settings" msgid="7058142934214211583">"Storage"</string>
     <string name="storage_settings_title" msgid="486118156723194815">"Storage settings"</string>
-    <string name="storage_settings_summary" product="nosdcard" msgid="3858049818577638926">"Unmount USB storage, view available storage"</string>
     <string name="storage_settings_summary" product="default" msgid="267557695753980969">"Unmount SD card, view available storage"</string>
     <string name="imei_multi_sim" msgid="71477088017585479">"IMEI (sim slot %1$d)"</string>
     <string name="view_saved_network" msgid="1232387673095080910">"To view, choose saved network"</string>
@@ -1374,7 +1371,6 @@
     <string name="status_up_time" msgid="1274778533719495438">"Uptime"</string>
     <string name="status_awake_time" msgid="2573925324168081586">"Awake time"</string>
     <string name="internal_memory" msgid="1869518160077033848">"Internal storage"</string>
-    <string name="sd_memory" product="nosdcard" msgid="5456718463397723781">"USB storage"</string>
     <string name="sd_memory" product="default" msgid="3098344183202722455">"SD card"</string>
     <string name="memory_available" msgid="712528795743654737">"Available"</string>
     <string name="memory_available_read_only" msgid="3201969221573511590">"Available (read-only)"</string>
@@ -1387,32 +1383,20 @@
     <string name="memory_music_usage" msgid="8100634000114206429">"Audio (music, ringtones, podcasts, etc.)"</string>
     <string name="memory_media_misc_usage" msgid="7066851245178533269">"Other files"</string>
     <string name="memory_media_cache_usage" msgid="780808666853685824">"Cached data"</string>
-    <string name="sd_eject" product="nosdcard" msgid="6136102589751843304">"Unmount shared storage"</string>
     <string name="sd_eject" product="default" msgid="8062832622096296251">"Unmount SD card"</string>
-    <string name="sd_eject_summary" product="nosdcard" msgid="6859940774161708871">"Unmount the internal USB storage"</string>
     <string name="sd_eject_summary" product="default" msgid="5151243312587186226">"Unmount the SD card so that you can remove it safely"</string>
-    <string name="sd_insert_summary" product="nosdcard" msgid="9164545135649775664">"Insert USB storage for mounting"</string>
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"Insert an SD card for mounting"</string>
-    <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"Mount USB storage"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"Mount SD card"</string>
-    <string name="sd_mount_summary" product="nosdcard" msgid="2190410240845521205"></string>
     <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
-    <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"Erase USB storage"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"Erase SD card"</string>
-    <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Erases all data on the internal USB storage, such as music and photos"</string>
     <string name="sd_format_summary" product="default" msgid="60583152211068164">"Erases all data on the SD card, such as music and photos"</string>
     <string name="memory_clear_cache_title" msgid="2605096903803953619">"Clear cached data?"</string>
     <string name="memory_clear_cache_message" msgid="4759561226480906588">"This will clear cached data for all apps."</string>
     <string name="mtp_ptp_mode_summary" msgid="7969656567437639239">"MTP or PTP function is active"</string>
-    <string name="dlg_confirm_unmount_title" product="nosdcard" msgid="7694112411895701320">"Unmount USB storage"</string>
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"Unmount SD card?"</string>
-    <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"If you unmount the USB storage, some apps that you are using will stop and may be unavailable until you remount the USB storage."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"If you unmount the SD card, some apps that you are using will stop and may be unavailable until you remount the SD card."</string>
-    <string name="dlg_error_unmount_title" product="nosdcard" msgid="2205587942165199845"></string>
     <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"></string>
-    <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"Cannot unmount USB storage. Try again later."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"Couldn\'t unmount SD card. Try again later."</string>
-    <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"USB storage will be unmounted."</string>
     <string name="unmount_inform_text" product="default" msgid="716578785262713312">"SD card will be unmounted."</string>
     <string name="sd_ejecting_title" msgid="1641122369013595273">"Unmounting"</string>
     <string name="sd_ejecting_summary" msgid="861928572729341132">"Unmount in progress"</string>
@@ -1606,13 +1590,9 @@
     <string name="master_clear_desc_also_erases_external" msgid="4738661805356792736"><li>"Music"</li>\n<li>"Photos"</li>\n<li>"Other user data"</li></string>
     <string name="master_clear_desc_also_erases_esim" msgid="6418163562288667727"><li>"eSIMs"</li></string>
     <string name="master_clear_desc_no_cancel_mobile_plan" msgid="3112614935795369143">\n\n"This will not cancel your mobile service plan."</string>
-    <string name="master_clear_desc_erase_external_storage" product="nosdcard" msgid="7088655731755912201">\n\n"To clear music, pictures and other user data, the "<b>"USB storage"</b>" needs to be erased."</string>
     <string name="master_clear_desc_erase_external_storage" product="default" msgid="4145566517710675883">\n\n"To clear music, pictures and other user data, the "<b>"SD card"</b>" needs to be erased."</string>
-    <string name="erase_external_storage" product="nosdcard" msgid="2182181846128639635">"Erase USB storage"</string>
     <string name="erase_external_storage" product="default" msgid="2610056855012660451">"Erase SD card"</string>
-    <string name="erase_external_storage_description" product="nosdcard" msgid="6358699244894944843">"Erase all the data on the internal USB storage, such as music or photos"</string>
     <string name="erase_external_storage_description" product="default" msgid="3367779850546310380">"Erase all the data on the SD card, such as music or photos"</string>
-    <string name="master_clear_button_text" product="tablet" msgid="3554085992851027633">"Erase all data"</string>
     <string name="master_clear_button_text" product="default" msgid="3554085992851027633">"Erase all data"</string>
     <string name="master_clear_final_desc" msgid="5218005891800878932">"All of your personal information and downloaded apps will be deleted. You can’t undo this action."</string>
     <string name="master_clear_final_desc_esim" msgid="3570139379312933326">"All of your personal information, including downloaded apps &amp; SIMs, will be deleted. You can’t undo this action."</string>
@@ -1880,7 +1860,6 @@
     <string name="application_size_label" msgid="6407051020651716729">"App size"</string>
     <string name="external_code_size_label" msgid="7375146402660973743">"USB storage app"</string>
     <string name="data_size_label" msgid="7814478940141255234">"User data"</string>
-    <string name="external_data_size_label" product="nosdcard" msgid="1054860423004751290">"USB storage data"</string>
     <string name="external_data_size_label" product="default" msgid="3370825186202856353">"SD card"</string>
     <string name="uninstall_text" msgid="315764653029060126">"Uninstall"</string>
     <string name="uninstall_all_users_text" msgid="5924715251087176474">"Uninstall for all users"</string>
@@ -1915,7 +1894,6 @@
     <string name="filter_apps_disabled" msgid="5068011814871004105">"Disabled apps"</string>
     <string name="filter_apps_third_party" msgid="9049447784849114843">"Downloaded"</string>
     <string name="filter_apps_running" msgid="535465683273284141">"Running"</string>
-    <string name="filter_apps_onsdcard" product="nosdcard" msgid="5140211657134608469">"USB storage"</string>
     <string name="filter_apps_onsdcard" product="default" msgid="1774499644768369891">"On SD card"</string>
     <string name="not_installed" msgid="5074606858798519449">"Not installed for this user"</string>
     <string name="installed" msgid="2837449358488825884">"Installed"</string>
@@ -1937,7 +1915,6 @@
     <string name="move_app" msgid="5421158479447276791">"Move"</string>
     <string name="move_app_to_internal" product="tablet" msgid="5799782476959541144">"Move to tablet"</string>
     <string name="move_app_to_internal" product="default" msgid="7395498801589544372">"Move to phone"</string>
-    <string name="move_app_to_sdcard" product="nosdcard" msgid="1145367822171576972">"Move to USB storage"</string>
     <string name="move_app_to_sdcard" product="default" msgid="7161667212614143767">"Move to SD card"</string>
     <string name="another_migration_already_in_progress" msgid="6550546307856052261">"Another migration is already in progress."</string>
     <string name="insufficient_storage" msgid="8115088042669030558">"Not enough storage space."</string>
@@ -2665,7 +2642,6 @@
     <string name="adaptive_connectivity_summary" msgid="3648731530666326885">"Extends battery life and improves device performance by automatically managing your network connections"</string>
     <string name="credentials_title" msgid="7535942196886123656">"Credential storage"</string>
     <string name="credentials_install" msgid="3933218407598415827">"Install a certificate"</string>
-    <string name="credentials_install_summary" product="nosdcard" msgid="6644116499934553975">"Install certificates from storage"</string>
     <string name="credentials_install_summary" product="default" msgid="8161351950524166012">"Install certificates from SD card"</string>
     <string name="credentials_reset" msgid="4246628389366452655">"Clear credentials"</string>
     <string name="credentials_reset_summary" msgid="5400585520572874255">"Remove all certificates"</string>

@@ -44,7 +44,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Kumiswe okwesikhashana"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Akwaziwa"</string>
     <string name="sdcard_unmount" product="default" msgid="8078570285871053815">"Khipha ikhadi le-SD"</string>
-    <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"Sula isitoreji se-USB"</string>
     <string name="sdcard_format" product="default" msgid="3676635435136326182">"Sula ikhadi le-SD"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Hlola kuqala"</string>
     <string name="preview_page_indicator_content_description" msgid="2790254666634885865">"Hlola kuqala ikhasi <xliff:g id="CURRENT_PAGE">%1$d</xliff:g> kwezingu-<xliff:g id="NUM_PAGES">%2$d</xliff:g>"</string>
@@ -185,19 +184,13 @@
     <string name="sdcard_changes_instructions" msgid="2331969501845866957">"Izinguquko zenzeka lapho ikhebula ye-USB ixhunyiwe kabusha"</string>
     <string name="sdcard_settings_screen_mass_storage_text" msgid="129059989000252994">"Nika amandla isitoreji esiphezulu se-USB"</string>
     <string name="sdcard_settings_total_bytes_label" msgid="5298511430610207103">"Inani lamabhaythi:"</string>
-    <string name="sdcard_settings_not_present_status" product="nosdcard" msgid="6189761476582690998">"Isilondolozi se-USB sehlisiwe."</string>
     <string name="sdcard_settings_not_present_status" product="default" msgid="6601962586941623203">"Alikho ikhadi le-SD."</string>
     <string name="sdcard_settings_available_bytes_label" msgid="7721283102767669004">"Amabhaythi atholakalayo:"</string>
-    <string name="sdcard_settings_mass_storage_status" product="nosdcard" msgid="4878190674458263222">"Ikhadi le-SD lisetshenziswa njengedivaysi yesilondolozi ephezulu."</string>
     <string name="sdcard_settings_mass_storage_status" product="default" msgid="8850227049504860012">"Ikhadi le-SD lisetshenziswa njengedivaysi yesilondolozi esiphezulu"</string>
-    <string name="sdcard_settings_unmounted_status" product="nosdcard" msgid="1053258530368541571">"Kuphephile manje ukuthi ukhiphe ikhadi le-SD"</string>
     <string name="sdcard_settings_unmounted_status" product="default" msgid="5813940671700138561">"Kuphephile manje ukuba ukhiphe ikhadi le-SD."</string>
-    <string name="sdcard_settings_bad_removal_status" product="nosdcard" msgid="209564009449909311">"Ikhadi lesitoreji se-SD likhishwe ngenkathi lisasebenza!"</string>
     <string name="sdcard_settings_bad_removal_status" product="default" msgid="6817342973919819392">"Ikhadi le-SD likhishwe ngenkathi lisasebenza!"</string>
     <string name="sdcard_settings_used_bytes_label" msgid="5646588579332741943">"Amabhaythi asebenzisiwe:"</string>
-    <string name="sdcard_settings_scanning_status" product="nosdcard" msgid="8037280964384235345">"Iskena isitoreji se-USB kwimidiya..."</string>
     <string name="sdcard_settings_scanning_status" product="default" msgid="3297316465982471437">"Iskena ikhadi le-SD lemidiya..."</string>
-    <string name="sdcard_settings_read_only_status" product="nosdcard" msgid="3444648373391629840">"Isilondolozi se-USB sikhwezelwe ukufunda kuphela"</string>
     <string name="sdcard_settings_read_only_status" product="default" msgid="4338796260718910164">"Ikhadi le-SD likhuliswe njengelokufunda kuphela"</string>
     <string name="skip_label" msgid="6380034601349015895">"Yeqa"</string>
     <string name="next_label" msgid="1248293387735652187">"Okulandelayo"</string>
@@ -219,7 +212,6 @@
     <string name="action_drag_label_remove" msgid="1034900377796780568">"Susa ulimi"</string>
     <string name="activity_picker_label" msgid="351250401590691126">"Khetha okwenziwayo"</string>
     <string name="display_label" msgid="3056320781191343221">"Isikrini"</string>
-    <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"Isitoreji se-USB"</string>
     <string name="sd_card_settings_label" product="default" msgid="8715502912796241588">"Ikhadi le-SD"</string>
     <string name="proxy_settings_label" msgid="6300573815025557843">"Izilungiselelo zommeleli"</string>
     <string name="cancel" msgid="5780102414089664898">"Khansela"</string>
@@ -1344,7 +1336,6 @@
     <string name="storage_settings_for_app" msgid="229425418984637483">"Isitoreji nenqolobane"</string>
     <string name="storage_usb_settings" msgid="7058142934214211583">"Ukugcina"</string>
     <string name="storage_settings_title" msgid="486118156723194815">"Izilungiselelo zesitoreji"</string>
-    <string name="storage_settings_summary" product="nosdcard" msgid="3858049818577638926">"Yehlisa isitoreji se-USB, buka isitoreji esivulekile"</string>
     <string name="storage_settings_summary" product="default" msgid="267557695753980969">"Yehlisa ikhadi le-SD, buka isikhala sesitoreji esisele"</string>
     <string name="imei_multi_sim" msgid="71477088017585479">"I-IMEI (imbobo ye-sim %1$d)"</string>
     <string name="view_saved_network" msgid="1232387673095080910">"Ukuze ubuke, khetha inethiwekhi elondoloziwe"</string>
@@ -1380,7 +1371,6 @@
     <string name="status_up_time" msgid="1274778533719495438">"Isikhathi esiphezulu"</string>
     <string name="status_awake_time" msgid="2573925324168081586">"Isikhathi sokuphaphama"</string>
     <string name="internal_memory" msgid="1869518160077033848">"Isitoreji sangaphakathi"</string>
-    <string name="sd_memory" product="nosdcard" msgid="5456718463397723781">"Isitoreji se-USB"</string>
     <string name="sd_memory" product="default" msgid="3098344183202722455">"Ikhadi le-SD"</string>
     <string name="memory_available" msgid="712528795743654737">"Tholakalayo"</string>
     <string name="memory_available_read_only" msgid="3201969221573511590">"Kuyatholakala (ukufunda-kuphela)"</string>
@@ -1393,32 +1383,21 @@
     <string name="memory_music_usage" msgid="8100634000114206429">"Umsindo (umculo, ithoni yokukhala, ama-podcasts nokunye)"</string>
     <string name="memory_media_misc_usage" msgid="7066851245178533269">"Amanye amafayela"</string>
     <string name="memory_media_cache_usage" msgid="780808666853685824">"Idatha yenqolobane"</string>
-    <string name="sd_eject" product="nosdcard" msgid="6136102589751843304">"Yehlisa isitoreji sokwabelene"</string>
     <string name="sd_eject" product="default" msgid="8062832622096296251">"Khipha ikhadi le-SD"</string>
-    <string name="sd_eject_summary" product="nosdcard" msgid="6859940774161708871">"Yehlisa isitoreji se-USB sangaphakathi"</string>
     <string name="sd_eject_summary" product="default" msgid="5151243312587186226">"Yehlisa ikhadi le-SD ukuze ulikhiphe ngokuphephile"</string>
-    <string name="sd_insert_summary" product="nosdcard" msgid="9164545135649775664">"Faka isitoreji se-USB ukuze sikhwezwe"</string>
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"Faka ikhadi le-SD lokukhuphula"</string>
-    <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"Khweza isitoreji se-USB"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"Khweza ikhadi le-SD"</string>
-    <string name="sd_mount_summary" product="nosdcard" msgid="2190410240845521205"></string>
     <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
-    <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"Susa isitoreji se-USB"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"Sula ikhadi le-SD"</string>
     <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"Sula yonke idatha ekugcineni nge-USB kwangaphakathi, njengomculo nezithombe"</string>
     <string name="sd_format_summary" product="default" msgid="60583152211068164">"Isula yonke idatha ekhadini le-SD, njengomculo nezithombe"</string>
     <string name="memory_clear_cache_title" msgid="2605096903803953619">"Sula idatha yenqolobane?"</string>
     <string name="memory_clear_cache_message" msgid="4759561226480906588">"Lokhu kuzosula idatha yenqolobane kuzo zonke izinhlelo zokusebenza."</string>
     <string name="mtp_ptp_mode_summary" msgid="7969656567437639239">"Umsebenzi we-MTP noma we-PTP uyasebenza"</string>
-    <string name="dlg_confirm_unmount_title" product="nosdcard" msgid="7694112411895701320">"Yehlisa indawo yokugcina ye-USB?"</string>
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"Yehlisa ikhadi le-SD"</string>
-    <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"Uma wehlisa isitoreji se-USB, ezinye izinhlelo zokusebenza ozisebenzisayo zizoma futhi zingase zingatholakali kuze kube yilapho ukhwelisa futhi isitoreji se-USB."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"Uma wehlisa ikhadi le-SD, ezinye izinhlelo zokusebenza ozisebenzisayo zizoma futhi kungase zingatholakali kuze kube yilapho ukhweza ikhadi le-SD."</string>
-    <string name="dlg_error_unmount_title" product="nosdcard" msgid="2205587942165199845"></string>
     <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"></string>
-    <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"Ayikwazi ukwehlisa isitoreji se-USB. Sicela uzame futhi emuva kwesikhathi."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"Ayikwazi ukwehlisa ikhadi le-SD. Zama futhi emuva kwesikhathi."</string>
-    <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"Isitoreji se-USB sizokwehliswa."</string>
     <string name="unmount_inform_text" product="default" msgid="716578785262713312">"Ikhadi le-SD lizokwehliswa."</string>
     <string name="sd_ejecting_title" msgid="1641122369013595273">"Yehlisa"</string>
     <string name="sd_ejecting_summary" msgid="861928572729341132">"Ukwehlisa kuyaqhubeka"</string>
@@ -1612,13 +1591,9 @@
     <string name="master_clear_desc_also_erases_external" msgid="4738661805356792736"><li>"Umculo"</li>\n<li>"Izithombe"</li>\n<li>"Enye idatha yomsebenzisi"</li></string>
     <string name="master_clear_desc_also_erases_esim" msgid="6418163562288667727">"Ama"<li>"eSIM"</li></string>
     <string name="master_clear_desc_no_cancel_mobile_plan" msgid="3112614935795369143">\n\n"Lokhu ngeke kukhansele uhlelo lwakho lwesevisi yefoni."</string>
-    <string name="master_clear_desc_erase_external_storage" product="nosdcard" msgid="7088655731755912201">\n\n"Ukusula futhi umculo, izithombe, nenye idatha yomsebenzisi, "<b>" indawo yokugcina ye-USB"</b>"idinga ukusulwa."</string>
     <string name="master_clear_desc_erase_external_storage" product="default" msgid="4145566517710675883">\n\n"Ukusula umculo, izithombe, nenye imininingo yomsebenzisi, "<b>"ikhadi le-SD"</b>"kumele lisuswe."</string>
-    <string name="erase_external_storage" product="nosdcard" msgid="2182181846128639635">"Susa isitoreji se-USB"</string>
     <string name="erase_external_storage" product="default" msgid="2610056855012660451">"Sula ikhadi le-SD"</string>
-    <string name="erase_external_storage_description" product="nosdcard" msgid="6358699244894944843">"Sula yonke idatha ekusitoreji se-USB , njengomculo noma izithombe."</string>
     <string name="erase_external_storage_description" product="default" msgid="3367779850546310380">"Sula yonke idatha ekhadini le-SD, njengomculo noma izithombe"</string>
-    <string name="master_clear_button_text" product="tablet" msgid="3554085992851027633">"Sula yonke idatha"</string>
     <string name="master_clear_button_text" product="default" msgid="3554085992851027633">"Sula yonke idatha"</string>
     <string name="master_clear_final_desc" msgid="5218005891800878932">"Lonke ulwazi lwakho lomuntu siqu nezinhlelo zokusebenza ezilandiwe zizosuswa. Awukwazi ukuhlehlisa lesi senzo."</string>
     <string name="master_clear_final_desc_esim" msgid="3570139379312933326">"Lonke ulwazi lwakho lomuntu siqu, olufaka izinhlelo zokusebenza ezilandiwe nama-SIM, luzosuswa. Awukwazi ukuhlehlisa lesi senzo."</string>
@@ -1921,7 +1896,6 @@
     <string name="filter_apps_disabled" msgid="5068011814871004105">"Izinhlelo zokusebenza ezikhutshaziwe"</string>
     <string name="filter_apps_third_party" msgid="9049447784849114843">"Landiwe"</string>
     <string name="filter_apps_running" msgid="535465683273284141">"Sebenzayo"</string>
-    <string name="filter_apps_onsdcard" product="nosdcard" msgid="5140211657134608469">"Isitoreji se-USB"</string>
     <string name="filter_apps_onsdcard" product="default" msgid="1774499644768369891">"Ekhadini le-SD"</string>
     <string name="not_installed" msgid="5074606858798519449">"Akufakiwe kulo msebenzisi"</string>
     <string name="installed" msgid="2837449358488825884">"Kufakiwe"</string>

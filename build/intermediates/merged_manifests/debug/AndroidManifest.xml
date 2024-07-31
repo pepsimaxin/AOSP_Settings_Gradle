@@ -126,7 +126,6 @@
         android:label="@string/settings_label"
         android:requiredForAllUsers="true"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.Settings"
         android:usesCleartextTraffic="true" >
         <uses-library android:name="org.apache.http.legacy" />

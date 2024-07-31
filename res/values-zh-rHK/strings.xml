@@ -44,7 +44,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"已暫停"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"不明"</string>
     <string name="sdcard_unmount" product="default" msgid="8078570285871053815">"卸載 SD 卡"</string>
-    <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"清除 USB 儲存裝置資料"</string>
     <string name="sdcard_format" product="default" msgid="3676635435136326182">"清除 SD 記憶卡資料"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"預覽"</string>
     <string name="preview_page_indicator_content_description" msgid="2790254666634885865">"預覽第 <xliff:g id="CURRENT_PAGE">%1$d</xliff:g> 頁 (共 <xliff:g id="NUM_PAGES">%2$d</xliff:g> 頁)"</string>
@@ -56,7 +55,6 @@
     <string name="font_size_preview_text_subtitle" msgid="5806349524325544614">"第 11 章：奧茲國的奇妙翡翠城"</string>
     <string name="font_size_preview_text_body" msgid="3323732544011097199">"即使戴著綠色眼鏡保護雙眼，桃樂絲和她的朋友一開始還是被這座奇妙城市的耀眼光芒照得目眩神迷。街道兩旁都是以碧綠大理石砌成的美麗房屋，到處鑲滿閃閃發亮的翡翠。她們走過的路面同樣以碧綠大理石鋪砌而成，石板與石板之間鑲有一排排緊密相連的翡翠，在陽光的照耀下閃閃發亮。房屋的窗戶鑲嵌著翠綠玻璃，城市上空呈現淡綠色，就連陽光也散發著綠色光芒。\n\n路上有很多行人，不論男女老幼都穿著綠色衣服，甚至皮膚也略帶綠色。他們好奇地盯著桃樂絲和她那群外貌奇特的夥伴，所有小孩一看到獅子都拔足而逃，各自躲到母親身後；然而，沒有人開口與他們交談。街道上的商店五花八門，桃樂絲發現店裡每件商品都是綠色的，有綠色的糖果和爆谷，還有綠色的鞋子、帽子和衣服。有位小販在路上售賣綠色檸檬水，當孩子們拿錢購買時，桃樂絲發現錢幣也是綠色的。\n\n城裡似乎沒有馬，也沒有任何動物。居民都是推著綠色小車運載物品。每個人看起來都很開心滿足，一切都安定繁榮。"</string>
     <string name="font_size_save" msgid="206892409190870726">"確定"</string>
-    <string name="sdcard_setting" product="nosdcard" msgid="6071836464978826249">"USB 儲存裝置"</string>
     <string name="sdcard_setting" product="default" msgid="3713462184783824923">"SD 卡"</string>
     <string name="bluetooth" msgid="8898478620943459654">"藍牙"</string>
     <string name="bluetooth_is_discoverable" msgid="4798961627677790935">"向附近所有藍牙裝置顯示 (<xliff:g id="DISCOVERABLE_TIME_PERIOD">%1$s</xliff:g>)"</string>
@@ -186,19 +184,13 @@
     <string name="sdcard_changes_instructions" msgid="2331969501845866957">"重新接上 USB 連接線時，所作的更改才會生效。"</string>
     <string name="sdcard_settings_screen_mass_storage_text" msgid="129059989000252994">"啟用 USB 大量儲存裝置"</string>
     <string name="sdcard_settings_total_bytes_label" msgid="5298511430610207103">"總容量 (位元組)："</string>
-    <string name="sdcard_settings_not_present_status" product="nosdcard" msgid="6189761476582690998">"未掛接 USB 儲存裝置。"</string>
     <string name="sdcard_settings_not_present_status" product="default" msgid="6601962586941623203">"沒有 SD 記憶卡。"</string>
     <string name="sdcard_settings_available_bytes_label" msgid="7721283102767669004">"可用空間 (位元組)："</string>
-    <string name="sdcard_settings_mass_storage_status" product="nosdcard" msgid="4878190674458263222">"USB 儲存裝置目前作為大量儲存裝置使用。"</string>
     <string name="sdcard_settings_mass_storage_status" product="default" msgid="8850227049504860012">"SD 記憶卡目前作為大量儲存裝置使用。"</string>
-    <string name="sdcard_settings_unmounted_status" product="nosdcard" msgid="1053258530368541571">"現在可以安全移除 USB 儲存裝置了。"</string>
     <string name="sdcard_settings_unmounted_status" product="default" msgid="5813940671700138561">"現在可以安全移除 SD 記憶卡了。"</string>
-    <string name="sdcard_settings_bad_removal_status" product="nosdcard" msgid="209564009449909311">"USB 儲存裝置在使用期間被移除！"</string>
     <string name="sdcard_settings_bad_removal_status" product="default" msgid="6817342973919819392">"SD 卡在使用期間被移除！"</string>
     <string name="sdcard_settings_used_bytes_label" msgid="5646588579332741943">"已用空間 (位元組)："</string>
-    <string name="sdcard_settings_scanning_status" product="nosdcard" msgid="8037280964384235345">"正在掃瞄 USB 儲存裝置中的媒體..."</string>
     <string name="sdcard_settings_scanning_status" product="default" msgid="3297316465982471437">"正在掃瞄 SD 卡中的媒體..."</string>
-    <string name="sdcard_settings_read_only_status" product="nosdcard" msgid="3444648373391629840">"USB 儲存裝置已掛接為唯讀裝置。"</string>
     <string name="sdcard_settings_read_only_status" product="default" msgid="4338796260718910164">"SD 記憶卡已掛接為唯讀裝置。"</string>
     <string name="skip_label" msgid="6380034601349015895">"略過"</string>
     <string name="next_label" msgid="1248293387735652187">"下一步"</string>
@@ -220,7 +212,6 @@
     <string name="action_drag_label_remove" msgid="1034900377796780568">"移除語言"</string>
     <string name="activity_picker_label" msgid="351250401590691126">"選擇活動"</string>
     <string name="display_label" msgid="3056320781191343221">"螢幕"</string>
-    <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"USB 儲存裝置"</string>
     <string name="sd_card_settings_label" product="default" msgid="8715502912796241588">"SD 卡"</string>
     <string name="proxy_settings_label" msgid="6300573815025557843">"代理設定"</string>
     <string name="cancel" msgid="5780102414089664898">"取消"</string>
@@ -1345,7 +1336,6 @@
     <string name="storage_settings_for_app" msgid="229425418984637483">"儲存空間與快取空間"</string>
     <string name="storage_usb_settings" msgid="7058142934214211583">"儲存空間"</string>
     <string name="storage_settings_title" msgid="486118156723194815">"儲存設定"</string>
-    <string name="storage_settings_summary" product="nosdcard" msgid="3858049818577638926">"卸載 USB 儲存裝置，查看可用的儲存空間"</string>
     <string name="storage_settings_summary" product="default" msgid="267557695753980969">"卸載 SD 卡，查看可用儲存空間"</string>
     <string name="imei_multi_sim" msgid="71477088017585479">"IMEI (SIM 卡插槽 %1$d)"</string>
     <string name="view_saved_network" msgid="1232387673095080910">"如要查看，請選擇已儲存的網絡"</string>
@@ -1381,7 +1371,6 @@
     <string name="status_up_time" msgid="1274778533719495438">"開機時間"</string>
     <string name="status_awake_time" msgid="2573925324168081586">"啟用時間"</string>
     <string name="internal_memory" msgid="1869518160077033848">"內部儲存空間"</string>
-    <string name="sd_memory" product="nosdcard" msgid="5456718463397723781">"USB 儲存裝置"</string>
     <string name="sd_memory" product="default" msgid="3098344183202722455">"SD 卡"</string>
     <string name="memory_available" msgid="712528795743654737">"可用"</string>
     <string name="memory_available_read_only" msgid="3201969221573511590">"可用空間 (唯讀)"</string>
@@ -1394,32 +1383,20 @@
     <string name="memory_music_usage" msgid="8100634000114206429">"音頻 (音樂、鈴聲、Podcast 等)"</string>
     <string name="memory_media_misc_usage" msgid="7066851245178533269">"其他檔案"</string>
     <string name="memory_media_cache_usage" msgid="780808666853685824">"快取資料"</string>
-    <string name="sd_eject" product="nosdcard" msgid="6136102589751843304">"卸載共用儲存裝置"</string>
     <string name="sd_eject" product="default" msgid="8062832622096296251">"卸載 SD 卡"</string>
-    <string name="sd_eject_summary" product="nosdcard" msgid="6859940774161708871">"卸載內部 USB 儲存裝置"</string>
     <string name="sd_eject_summary" product="default" msgid="5151243312587186226">"請先卸載 SD 記憶卡，才能將其安全移除"</string>
-    <string name="sd_insert_summary" product="nosdcard" msgid="9164545135649775664">"插入用於掛接的 USB 儲存裝置"</string>
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"插入用於掛接的 SD 卡"</string>
-    <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"掛接 USB 儲存裝置"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"掛接 SD 卡"</string>
-    <string name="sd_mount_summary" product="nosdcard" msgid="2190410240845521205"></string>
     <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
-    <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"清除 USB 儲存裝置資料"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"清除 SD 記憶卡資料"</string>
-    <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"清除內部 USB 儲存裝置中的所有資料，例如音樂和相片"</string>
     <string name="sd_format_summary" product="default" msgid="60583152211068164">"清除 SD 記憶卡中的所有資料，例如音樂和相片"</string>
     <string name="memory_clear_cache_title" msgid="2605096903803953619">"清除快取資料？"</string>
     <string name="memory_clear_cache_message" msgid="4759561226480906588">"這會清除所有應用程式的快取資料。"</string>
     <string name="mtp_ptp_mode_summary" msgid="7969656567437639239">"MTP 或 PTP 功能已啟用"</string>
-    <string name="dlg_confirm_unmount_title" product="nosdcard" msgid="7694112411895701320">"卸載 USB 儲存裝置？"</string>
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"您要卸載 SD 記憶卡嗎？"</string>
-    <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"如果您卸載 USB 儲存裝置，則某些正在使用的應用程式會停止運作，而且可能無法使用，直到重新掛接 USB 儲存裝置之後才會恢復正常。"</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"如果您卸載 SD 記憶卡，則某些正在使用中的應用程式會停止運作，而且可能無法使用，直到重新掛接 SD 記憶卡之後才會恢復正常。"</string>
-    <string name="dlg_error_unmount_title" product="nosdcard" msgid="2205587942165199845"></string>
     <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"></string>
-    <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"無法卸載 USB 儲存裝置，請稍後再試。"</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"無法卸載 SD 記憶卡。請稍後再試。"</string>
-    <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"即將卸載 USB 儲存裝置。"</string>
     <string name="unmount_inform_text" product="default" msgid="716578785262713312">"即將卸載 SD 記憶卡。"</string>
     <string name="sd_ejecting_title" msgid="1641122369013595273">"卸載中"</string>
     <string name="sd_ejecting_summary" msgid="861928572729341132">"卸載中"</string>

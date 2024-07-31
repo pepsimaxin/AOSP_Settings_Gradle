@@ -44,7 +44,6 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Тоқтатылған"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Белгісіз"</string>
     <string name="sdcard_unmount" product="default" msgid="8078570285871053815">"SD картасын шығару"</string>
-    <string name="sdcard_format" product="nosdcard" msgid="3248760426252305366">"USB жадын өшіру"</string>
     <string name="sdcard_format" product="default" msgid="3676635435136326182">"SD картасын өшіру"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Алдын ала қарау"</string>
     <string name="preview_page_indicator_content_description" msgid="2790254666634885865">"<xliff:g id="NUM_PAGES">%2$d</xliff:g> ішінен <xliff:g id="CURRENT_PAGE">%1$d</xliff:g> алдын ала қарау"</string>
@@ -213,7 +212,6 @@
     <string name="action_drag_label_remove" msgid="1034900377796780568">"Тілді жою"</string>
     <string name="activity_picker_label" msgid="351250401590691126">"Әрекет таңдау"</string>
     <string name="display_label" msgid="3056320781191343221">"Экран"</string>
-    <string name="sd_card_settings_label" product="nosdcard" msgid="1850505156136467106">"USB жады"</string>
     <string name="sd_card_settings_label" product="default" msgid="8715502912796241588">"SD картасы"</string>
     <string name="proxy_settings_label" msgid="6300573815025557843">"Прокси параметрлері"</string>
     <string name="cancel" msgid="5780102414089664898">"Бас тарту"</string>
@@ -1338,7 +1336,6 @@
     <string name="storage_settings_for_app" msgid="229425418984637483">"Жад және кэш"</string>
     <string name="storage_usb_settings" msgid="7058142934214211583">"Жад"</string>
     <string name="storage_settings_title" msgid="486118156723194815">"Жад параметрлері"</string>
-    <string name="storage_settings_summary" product="nosdcard" msgid="3858049818577638926">"USB жадын шығару, қол жетімді жадты көру"</string>
     <string name="storage_settings_summary" product="default" msgid="267557695753980969">"SD картасын шығарып, қол жетімді жадты көру"</string>
     <string name="imei_multi_sim" msgid="71477088017585479">"IMEI (sim ұясы: %1$d)"</string>
     <string name="view_saved_network" msgid="1232387673095080910">"Көру үшін сақталған желіні таңдаңыз."</string>
@@ -1374,7 +1371,6 @@
     <string name="status_up_time" msgid="1274778533719495438">"Қосылғаннан бергі жұмыс уақыты"</string>
     <string name="status_awake_time" msgid="2573925324168081586">"Ояну уақыты"</string>
     <string name="internal_memory" msgid="1869518160077033848">"Ішкі жад"</string>
-    <string name="sd_memory" product="nosdcard" msgid="5456718463397723781">"USB жады"</string>
     <string name="sd_memory" product="default" msgid="3098344183202722455">"SD картасы"</string>
     <string name="memory_available" msgid="712528795743654737">"Қол жетімді"</string>
     <string name="memory_available_read_only" msgid="3201969221573511590">"Қол жетімді (оқу үшін ғана)"</string>
@@ -1387,32 +1383,20 @@
     <string name="memory_music_usage" msgid="8100634000114206429">"Aудио (музыка, әуендер, подкастар, т.б.)"</string>
     <string name="memory_media_misc_usage" msgid="7066851245178533269">"Басқа файлдар"</string>
     <string name="memory_media_cache_usage" msgid="780808666853685824">"Кэштелген дерек"</string>
-    <string name="sd_eject" product="nosdcard" msgid="6136102589751843304">"Ортақ жадты шығару"</string>
     <string name="sd_eject" product="default" msgid="8062832622096296251">"SD картасын шығару"</string>
-    <string name="sd_eject_summary" product="nosdcard" msgid="6859940774161708871">"Ішкі USB жадын шығару"</string>
     <string name="sd_eject_summary" product="default" msgid="5151243312587186226">"SD картасын қауіпсіз алу үшін алдымен шығару әрекетін орындаңыз"</string>
-    <string name="sd_insert_summary" product="nosdcard" msgid="9164545135649775664">"USB жадын қосу үшін енгізу"</string>
     <string name="sd_insert_summary" product="default" msgid="5949168259622002192">"SD картасын қосу үшін енгізу"</string>
-    <string name="sd_mount" product="nosdcard" msgid="8305985249945415150">"USB жадын енгізу"</string>
     <string name="sd_mount" product="default" msgid="5279813999455776169">"SD картасын салу"</string>
-    <string name="sd_mount_summary" product="nosdcard" msgid="2190410240845521205"></string>
     <string name="sd_mount_summary" product="default" msgid="2190410240845521205"></string>
-    <string name="sd_format" product="nosdcard" msgid="8657427883364711513">"USB жадын өшіру"</string>
     <string name="sd_format" product="default" msgid="9085302892248732329">"SD картасын өшіру"</string>
-    <string name="sd_format_summary" product="nosdcard" msgid="6179784504937189658">"USB жадындағы музыка және фотосуреттер сияқты деректерді өшіру"</string>
     <string name="sd_format_summary" product="default" msgid="60583152211068164">"SD картадағы музыка және фотосуреттер сияқты барлық деректерді өшіру"</string>
     <string name="memory_clear_cache_title" msgid="2605096903803953619">"Кэштелген дерек өшірілсін бе?"</string>
     <string name="memory_clear_cache_message" msgid="4759561226480906588">"Барлық қолданбалардың кэштелген деректері өшіріледі."</string>
     <string name="mtp_ptp_mode_summary" msgid="7969656567437639239">"MTP (медиа жіберу) немесе PTP (фотосурет жіберу) протоколдары қосылған"</string>
-    <string name="dlg_confirm_unmount_title" product="nosdcard" msgid="7694112411895701320">"USB жады шығарылсын ба?"</string>
     <string name="dlg_confirm_unmount_title" product="default" msgid="8251329019960361646">"SD картасы шығарылсын ба?"</string>
-    <string name="dlg_confirm_unmount_text" product="nosdcard" msgid="1212025106709645023">"Егер USB жады шығарылса, қолданыстағы кейбір қолданбалар тоқтап қалады және сіз қайта USB жадына салғанша қол жетімсіз болуы мүмкін."</string>
     <string name="dlg_confirm_unmount_text" product="default" msgid="3887768438615563697">"Егер SD картасын шығарсаңыз, қолданыстағы кейбір қолданбалар тоқтауы мүмкін және SD картасы қайта енгізілгенше қол жетімсіз болуы мүмкін."</string>
-    <string name="dlg_error_unmount_title" product="nosdcard" msgid="2205587942165199845"></string>
     <string name="dlg_error_unmount_title" product="default" msgid="2205587942165199845"></string>
-    <string name="dlg_error_unmount_text" product="nosdcard" msgid="7876201891724279436">"USB жадын шығара алмады. Кейінірек қайта әрекеттеніп көріңіз."</string>
     <string name="dlg_error_unmount_text" product="default" msgid="2185659901137961711">"SD картасын шығару мүмкін орындалмады. Кейінірек қайта әрекеттеніңіз."</string>
-    <string name="unmount_inform_text" product="nosdcard" msgid="5932607205977999175">"USB жады шығарылады."</string>
     <string name="unmount_inform_text" product="default" msgid="716578785262713312">"SD картасы шығарылады."</string>
     <string name="sd_ejecting_title" msgid="1641122369013595273">"Шығаруда"</string>
     <string name="sd_ejecting_summary" msgid="861928572729341132">"Шығару әрекеті орныдалуда"</string>
