@@ -74,16 +74,12 @@
     <string name="bluetooth_rename_button" msgid="9162500408570289545">"Rename"</string>
     <string name="bluetooth_disconnect_title" msgid="4581951246357823044">"Disconnect device?"</string>
     <string name="bluetooth_disconnect_all_profiles" product="default" msgid="1934297101665686854">"Your phone will disconnect from <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
-    <string name="bluetooth_disconnect_all_profiles" product="tablet" msgid="336622948210457991">"Your tablet will disconnect from <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
-    <string name="bluetooth_disconnect_all_profiles" product="device" msgid="6944790936166852428">"Your device will disconnect from <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_disconnect_dialog_ok" msgid="4173740094381092185">"Disconnect"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="909734990821975673">"You don\'t have permission to change Bluetooth settings."</string>
     <string name="bluetooth_pairing_pref_title" msgid="3497193027590444598">"Pair new device"</string>
     <string name="keywords_add_bt_device" msgid="4533191164203174011">"Bluetooth"</string>
     <string name="bluetooth_is_visible_message" msgid="3811631869768157387">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> is visible to nearby devices while the Bluetooth settings are open."</string>
     <string name="bluetooth_footer_mac_message" product="default" msgid="4782330594323261630">"Phone\'s Bluetooth address: <xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
-    <string name="bluetooth_footer_mac_message" product="tablet" msgid="1257226691967432025">"Tablet\'s Bluetooth address: <xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
-    <string name="bluetooth_footer_mac_message" product="device" msgid="2863536947810007600">"Device\'s Bluetooth address: <xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
     <string name="bluetooth_is_disconnect_question" msgid="777406775955421784">"Disconnect <xliff:g id="DEVICE_NAME">%1$s</xliff:g>?"</string>
     <string name="bluetooth_broadcasting" msgid="6379176741690311973">"Broadcasting"</string>
     <string name="bluetooth_device" msgid="2217973503732544291">"Unnamed Bluetooth device"</string>
@@ -101,21 +97,13 @@
     <string name="bluetooth_ask_disablement" msgid="1879788777942714761">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to turn off Bluetooth"</string>
     <string name="bluetooth_ask_enablement_no_name" msgid="5091401961637405417">"An app wants to turn on Bluetooth"</string>
     <string name="bluetooth_ask_disablement_no_name" msgid="382299750909188822">"An app wants to turn off Bluetooth"</string>
-    <string name="bluetooth_ask_discovery" product="tablet" msgid="1273405567801929487">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to make your tablet visible to other Bluetooth devices for <xliff:g id="TIMEOUT">%2$d</xliff:g> seconds."</string>
     <string name="bluetooth_ask_discovery" product="default" msgid="7013223328571883275">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to make your phone visible to other Bluetooth devices for <xliff:g id="TIMEOUT">%2$d</xliff:g> seconds."</string>
-    <string name="bluetooth_ask_discovery_no_name" product="tablet" msgid="3266007454914144057">"An app wants to make your tablet visible to other Bluetooth devices for <xliff:g id="TIMEOUT">%1$d</xliff:g> seconds."</string>
     <string name="bluetooth_ask_discovery_no_name" product="default" msgid="7989444746980501116">"An app wants to make your phone visible to other Bluetooth devices for <xliff:g id="TIMEOUT">%1$d</xliff:g> seconds."</string>
-    <string name="bluetooth_ask_lasting_discovery" product="tablet" msgid="6482084870735107773">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to make your tablet visible to other Bluetooth devices. You can change this later in Bluetooth settings."</string>
     <string name="bluetooth_ask_lasting_discovery" product="default" msgid="2352494279465502950">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to make your phone visible to other Bluetooth devices. You can change this later in Bluetooth settings."</string>
-    <string name="bluetooth_ask_lasting_discovery_no_name" product="tablet" msgid="2732992604509910896">"An app wants to make your tablet visible to other Bluetooth devices. You can change this later in Bluetooth settings."</string>
     <string name="bluetooth_ask_lasting_discovery_no_name" product="default" msgid="356982103612920264">"An app wants to make your phone visible to other Bluetooth devices. You can change this later in Bluetooth settings."</string>
-    <string name="bluetooth_ask_enablement_and_discovery" product="tablet" msgid="6103655179509599427">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to turn on Bluetooth and make your tablet visible to other devices for <xliff:g id="TIMEOUT">%2$d</xliff:g> seconds."</string>
     <string name="bluetooth_ask_enablement_and_discovery" product="default" msgid="934276632311449337">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to turn on Bluetooth and make your phone visible to other devices for <xliff:g id="TIMEOUT">%2$d</xliff:g> seconds."</string>
-    <string name="bluetooth_ask_enablement_and_discovery_no_name" product="tablet" msgid="1284048348024444485">"An app wants to turn on Bluetooth and make your tablet visible to other devices for <xliff:g id="TIMEOUT">%1$d</xliff:g> seconds."</string>
     <string name="bluetooth_ask_enablement_and_discovery_no_name" product="default" msgid="2661614145022629454">"An app wants to turn on Bluetooth and make your phone visible to other devices for <xliff:g id="TIMEOUT">%1$d</xliff:g> seconds."</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet" msgid="8588317955400593623">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to turn on Bluetooth and make your tablet visible to other devices. You can change this later in Bluetooth settings."</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery" product="default" msgid="4047444317445386579">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to turn on Bluetooth and make your phone visible to other devices. You can change this later in Bluetooth settings."</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery_no_name" product="tablet" msgid="4922952478824372605">"An app wants to turn on Bluetooth and make your tablet visible to other devices. You can change this later in Bluetooth settings."</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery_no_name" product="default" msgid="1381582950049639439">"An app wants to turn on Bluetooth and make your phone visible to other devices. You can change this later in Bluetooth settings."</string>
     <string name="bluetooth_turning_on" msgid="3842613808709024730">"Turning on Bluetooth…"</string>
     <string name="bluetooth_turning_off" msgid="7406309124247701148">"Turning Bluetooth off…"</string>
@@ -134,8 +122,6 @@
     <string name="bluetooth_off_footer" msgid="76578735660216295">"Turn on Bluetooth to connect to other devices."</string>
     <string name="bluetooth_paired_device_title" msgid="3240639218362342026">"Your devices"</string>
     <string name="bluetooth_pairing_page_title" msgid="3403981358823707692">"Pair new device"</string>
-    <string name="bluetooth_pref_summary" product="tablet" msgid="3506962706611366830">"Allow your tablet to communicate with nearby Bluetooth devices"</string>
-    <string name="bluetooth_pref_summary" product="device" msgid="2192027516577675587">"Allow your device to communicate with nearby Bluetooth devices"</string>
     <string name="bluetooth_pref_summary" product="default" msgid="768958961865499804">"Allow your phone to communicate with nearby Bluetooth devices"</string>
     <string name="bluetooth_disable_a2dp_hw_offload" msgid="5942913792817797541">"Disable Bluetooth A2DP hardware offload"</string>
     <string name="bluetooth_disable_a2dp_hw_offload_dialog_title" msgid="8610420176339657720">"Restart Device?"</string>
@@ -236,7 +222,6 @@
     <string name="roaming_reenable_message" msgid="5150423860521673540">"You have lost data connectivity because you left your home network with data roaming turned off."</string>
     <string name="roaming_turn_it_on_button" msgid="6999283810847157816">"Turn it on"</string>
     <string name="roaming_warning" msgid="7703647889040229013">"Roaming charges may apply."</string>
-    <string name="roaming_warning_multiuser" product="tablet" msgid="5629953315019604726">"When you allow data roaming, roaming charges may apply.\n\nThis setting affects all users on this tablet."</string>
     <string name="roaming_warning_multiuser" product="default" msgid="3693719745119874126">"When you allow data roaming, roaming charges may apply.\n\nThis setting affects all users on this phone."</string>
     <string name="roaming_reenable_title" msgid="770824950144026180">"Allow data roaming?"</string>
     <string name="networks" msgid="5184501333492775095">"Operator selection"</string>
@@ -298,7 +283,6 @@
     <string name="encryption_and_credential_settings_title" msgid="5856216318961482983">"Encryption and credentials"</string>
     <string name="encryption_and_credential_settings_summary" product="default" msgid="5298195959570992363">"Phone encrypted"</string>
     <string name="decryption_settings_summary" product="default" msgid="1742645256103613503">"Phone not encrypted"</string>
-    <string name="encryption_and_credential_settings_summary" product="tablet" msgid="3776741531205406800">"Device encrypted"</string>
     <string name="decryption_settings_summary" product="tablet" msgid="1864963068216544631">"Device not encrypted"</string>
     <string name="lockscreen_settings_title" msgid="4086121748092341549">"Lock screen"</string>
     <string name="lockscreen_settings_what_to_show_category" msgid="9205490627927741254">"What to show"</string>
@@ -489,12 +473,8 @@
     <string name="suggested_fingerprint_lock_settings_summary" product="default" msgid="1040265358906410746"></string>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Choose screen lock"</string>
     <string name="lock_settings_picker_title_profile" msgid="8377696902400733227">"Choose work lock"</string>
-    <string name="setup_lock_settings_picker_title" product="tablet" msgid="1276283007274778191">"Protect your tablet"</string>
-    <string name="setup_lock_settings_picker_title" product="device" msgid="3585905639045649905">"Protect your device"</string>
     <string name="setup_lock_settings_picker_title" product="default" msgid="2758197863515864300">"Protect your phone"</string>
     <string name="lock_settings_picker_biometrics_added_security_message" msgid="1105247657304421299">"For added security, set a backup screen lock"</string>
-    <string name="setup_lock_settings_picker_message" product="tablet" msgid="4870877800737248926">"Prevent others from using this tablet without your permission by activating device protection features. Choose the screen lock that you would like to use."</string>
-    <string name="setup_lock_settings_picker_message" product="device" msgid="8961855222808442301">"Prevent others from using this device without your permission by activating device protection features. Choose the screen lock that you would like to use."</string>
     <string name="setup_lock_settings_picker_message" product="default" msgid="8867435145945818970">"Prevent others from using this phone without your permission by activating device protection features. Choose the screen lock that you would like to use."</string>
     <string name="lock_settings_picker_fingerprint_message" msgid="6414674538453498900">"Choose your backup screen lock method"</string>
     <string name="lock_settings_picker_face_message" msgid="2044129433641084149">"Choose your backup screen lock method"</string>

@@ -74,16 +74,12 @@
     <string name="bluetooth_rename_button" msgid="9162500408570289545">"Rename"</string>
     <string name="bluetooth_disconnect_title" msgid="4581951246357823044">"Disconnect device?"</string>
     <string name="bluetooth_disconnect_all_profiles" product="default" msgid="1934297101665686854">"Your phone will disconnect from <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
-    <string name="bluetooth_disconnect_all_profiles" product="tablet" msgid="336622948210457991">"Your tablet will disconnect from <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
-    <string name="bluetooth_disconnect_all_profiles" product="device" msgid="6944790936166852428">"Your device will disconnect from <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_disconnect_dialog_ok" msgid="4173740094381092185">"Disconnect"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="909734990821975673">"You don\'t have permission to change Bluetooth settings."</string>
     <string name="bluetooth_pairing_pref_title" msgid="3497193027590444598">"Pair new device"</string>
     <string name="keywords_add_bt_device" msgid="4533191164203174011">"Bluetooth"</string>
     <string name="bluetooth_is_visible_message" msgid="3811631869768157387">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> is visible to nearby devices while the Bluetooth settings are open."</string>
     <string name="bluetooth_footer_mac_message" product="default" msgid="4782330594323261630">"Phone\'s Bluetooth address: <xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
-    <string name="bluetooth_footer_mac_message" product="tablet" msgid="1257226691967432025">"Tablet\'s Bluetooth address: <xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
-    <string name="bluetooth_footer_mac_message" product="device" msgid="2863536947810007600">"Device\'s Bluetooth address: <xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
     <string name="bluetooth_is_disconnect_question" msgid="777406775955421784">"Disconnect <xliff:g id="DEVICE_NAME">%1$s</xliff:g>?"</string>
     <string name="bluetooth_broadcasting" msgid="6379176741690311973">"Broadcasting"</string>
     <string name="bluetooth_device" msgid="2217973503732544291">"Unnamed Bluetooth device"</string>
@@ -101,21 +97,13 @@
     <string name="bluetooth_ask_disablement" msgid="1879788777942714761">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to turn off Bluetooth"</string>
     <string name="bluetooth_ask_enablement_no_name" msgid="5091401961637405417">"An app wants to turn on Bluetooth"</string>
     <string name="bluetooth_ask_disablement_no_name" msgid="382299750909188822">"An app wants to turn off Bluetooth"</string>
-    <string name="bluetooth_ask_discovery" product="tablet" msgid="1273405567801929487">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to make your tablet visible to other Bluetooth devices for <xliff:g id="TIMEOUT">%2$d</xliff:g> seconds."</string>
     <string name="bluetooth_ask_discovery" product="default" msgid="7013223328571883275">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to make your phone visible to other Bluetooth devices for <xliff:g id="TIMEOUT">%2$d</xliff:g> seconds."</string>
-    <string name="bluetooth_ask_discovery_no_name" product="tablet" msgid="3266007454914144057">"An app wants to make your tablet visible to other Bluetooth devices for <xliff:g id="TIMEOUT">%1$d</xliff:g> seconds."</string>
     <string name="bluetooth_ask_discovery_no_name" product="default" msgid="7989444746980501116">"An app wants to make your phone visible to other Bluetooth devices for <xliff:g id="TIMEOUT">%1$d</xliff:g> seconds."</string>
-    <string name="bluetooth_ask_lasting_discovery" product="tablet" msgid="6482084870735107773">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to make your tablet visible to other Bluetooth devices. You can change this later in Bluetooth settings."</string>
     <string name="bluetooth_ask_lasting_discovery" product="default" msgid="2352494279465502950">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to make your phone visible to other Bluetooth devices. You can change this later in Bluetooth settings."</string>
-    <string name="bluetooth_ask_lasting_discovery_no_name" product="tablet" msgid="2732992604509910896">"An app wants to make your tablet visible to other Bluetooth devices. You can change this later in Bluetooth settings."</string>
     <string name="bluetooth_ask_lasting_discovery_no_name" product="default" msgid="356982103612920264">"An app wants to make your phone visible to other Bluetooth devices. You can change this later in Bluetooth settings."</string>
-    <string name="bluetooth_ask_enablement_and_discovery" product="tablet" msgid="6103655179509599427">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to turn on Bluetooth and make your tablet visible to other devices for <xliff:g id="TIMEOUT">%2$d</xliff:g> seconds."</string>
     <string name="bluetooth_ask_enablement_and_discovery" product="default" msgid="934276632311449337">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to turn on Bluetooth and make your phone visible to other devices for <xliff:g id="TIMEOUT">%2$d</xliff:g> seconds."</string>
-    <string name="bluetooth_ask_enablement_and_discovery_no_name" product="tablet" msgid="1284048348024444485">"An app wants to turn on Bluetooth and make your tablet visible to other devices for <xliff:g id="TIMEOUT">%1$d</xliff:g> seconds."</string>
     <string name="bluetooth_ask_enablement_and_discovery_no_name" product="default" msgid="2661614145022629454">"An app wants to turn on Bluetooth and make your phone visible to other devices for <xliff:g id="TIMEOUT">%1$d</xliff:g> seconds."</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet" msgid="8588317955400593623">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to turn on Bluetooth and make your tablet visible to other devices. You can change this later in Bluetooth settings."</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery" product="default" msgid="4047444317445386579">"<xliff:g id="APP_NAME">%1$s</xliff:g> wants to turn on Bluetooth and make your phone visible to other devices. You can change this later in Bluetooth settings."</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery_no_name" product="tablet" msgid="4922952478824372605">"An app wants to turn on Bluetooth and make your tablet visible to other devices. You can change this later in Bluetooth settings."</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery_no_name" product="default" msgid="1381582950049639439">"An app wants to turn on Bluetooth and make your phone visible to other devices. You can change this later in Bluetooth settings."</string>
     <string name="bluetooth_turning_on" msgid="3842613808709024730">"Turning on Bluetooth…"</string>
     <string name="bluetooth_turning_off" msgid="7406309124247701148">"Turning Bluetooth off…"</string>
@@ -134,8 +122,6 @@
     <string name="bluetooth_off_footer" msgid="76578735660216295">"Turn on Bluetooth to connect to other devices."</string>
     <string name="bluetooth_paired_device_title" msgid="3240639218362342026">"Your devices"</string>
     <string name="bluetooth_pairing_page_title" msgid="3403981358823707692">"Pair new device"</string>
-    <string name="bluetooth_pref_summary" product="tablet" msgid="3506962706611366830">"Allow your tablet to communicate with nearby Bluetooth devices"</string>
-    <string name="bluetooth_pref_summary" product="device" msgid="2192027516577675587">"Allow your device to communicate with nearby Bluetooth devices"</string>
     <string name="bluetooth_pref_summary" product="default" msgid="768958961865499804">"Allow your phone to communicate with nearby Bluetooth devices"</string>
     <string name="bluetooth_disable_a2dp_hw_offload" msgid="5942913792817797541">"Disable Bluetooth A2DP hardware offload"</string>
     <string name="bluetooth_disable_a2dp_hw_offload_dialog_title" msgid="8610420176339657720">"Restart Device?"</string>
@@ -236,7 +222,6 @@
     <string name="roaming_reenable_message" msgid="5150423860521673540">"You have lost data connectivity because you left your home network with data roaming turned off."</string>
     <string name="roaming_turn_it_on_button" msgid="6999283810847157816">"Turn it on"</string>
     <string name="roaming_warning" msgid="7703647889040229013">"Roaming charges may apply."</string>
-    <string name="roaming_warning_multiuser" product="tablet" msgid="5629953315019604726">"When you allow data roaming, roaming charges may apply.\n\nThis setting affects all users on this tablet."</string>
     <string name="roaming_warning_multiuser" product="default" msgid="3693719745119874126">"When you allow data roaming, roaming charges may apply.\n\nThis setting affects all users on this phone."</string>
     <string name="roaming_reenable_title" msgid="770824950144026180">"Allow data roaming?"</string>
     <string name="networks" msgid="5184501333492775095">"Operator selection"</string>
@@ -298,8 +283,6 @@
     <string name="encryption_and_credential_settings_title" msgid="5856216318961482983">"Encryption and credentials"</string>
     <string name="encryption_and_credential_settings_summary" product="default" msgid="5298195959570992363">"Phone encrypted"</string>
     <string name="decryption_settings_summary" product="default" msgid="1742645256103613503">"Phone not encrypted"</string>
-    <string name="encryption_and_credential_settings_summary" product="tablet" msgid="3776741531205406800">"Device encrypted"</string>
-    <string name="decryption_settings_summary" product="tablet" msgid="1864963068216544631">"Device not encrypted"</string>
     <string name="lockscreen_settings_title" msgid="4086121748092341549">"Lock screen"</string>
     <string name="lockscreen_settings_what_to_show_category" msgid="9205490627927741254">"What to show"</string>
     <string name="security_settings_summary" msgid="1627059516127354233">"Set My Location, screen unlock, SIM card lock, credential storage lock"</string>
@@ -393,11 +376,7 @@
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"Skip fingerprint?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"Fingerprint setup only takes a minute or two. If you skip this, you can add your fingerprint later in settings."</string>
     <string name="lock_screen_intro_skip_title" msgid="342553937472568925">"Skip screen lock?"</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp" product="tablet" msgid="1570832293693405757">"Device protection features won’t be turned on. You won’t be able to prevent others from using this tablet if it’s lost, stolen or reset."</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp" product="device" msgid="4618501606519351904">"Device protection features won’t be turned on. You won’t be able to prevent others from using this device if it’s lost, stolen or reset."</string>
     <string name="lock_screen_intro_skip_dialog_text_frp" product="default" msgid="2412426429887900241">"Device protection features won’t be turned on. You won’t be able to prevent others from using this phone if it’s lost, stolen or reset."</string>
-    <string name="lock_screen_intro_skip_dialog_text" product="tablet" msgid="7119039592587429936">"Device protection features won’t be turned on. You won’t be able to prevent others from using this tablet if it’s lost or stolen."</string>
-    <string name="lock_screen_intro_skip_dialog_text" product="device" msgid="3365990364131398523">"Device protection features won’t be turned on. You won’t be able to prevent others from using this device if it’s lost or stolen."</string>
     <string name="lock_screen_intro_skip_dialog_text" product="default" msgid="4908278819257287536">"Device protection features won’t be turned on. You won’t be able to prevent others from using this phone if it’s lost or stolen."</string>
     <string name="skip_anyway_button_label" msgid="3442274117023270068">"Skip anyway"</string>
     <string name="go_back_button_label" msgid="6139455414099035594">"Go back"</string>
@@ -418,11 +397,7 @@
     <string name="security_settings_fingerprint_enroll_enrolling_skip" msgid="3004786457919122854">"Do it later"</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_title" msgid="352947044008973812">"Skip fingerprint setup?"</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_message" msgid="4876965433600560365">"You’ve chosen to use your fingerprint as one way to unlock your phone. If you skip now, you’ll need to set this up later. Setup takes only a minute or so."</string>
-    <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="tablet" msgid="6901147203720764421">"Protect your tablet with a screen lock option so that no one will be able to use it if it is lost or stolen. You also need a screen lock option to set up fingerprint. Tap Cancel, then set a PIN, pattern or password."</string>
-    <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="device" msgid="1286244133923093528">"Protect your device with a screen lock option so that no one will be able to use it if it is lost or stolen. You also need a screen lock option to set up fingerprint. Tap Cancel, then set a PIN, pattern or password."</string>
     <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="default" msgid="4810191157587317521">"Protect your phone with a screen lock option so that no one will be able to use it if it is lost or stolen. You also need a screen lock option to set up fingerprint. Tap Cancel, then set a PIN, pattern or password."</string>
-    <string name="face_lock_screen_setup_skip_dialog_text" product="tablet" msgid="7387535629289108475">"By protecting your tablet with a screen lock option, no one will be able to use it if it is lost or stolen. You also need a screen lock option to set up face unlock. To go back, tap Cancel."</string>
-    <string name="face_lock_screen_setup_skip_dialog_text" product="device" msgid="4995287019957131123">"By protecting your device with a screen lock option, no one will be able to use it if it is lost or stolen. You also need a screen lock option to set up face unlock. To go back, tap Cancel."</string>
     <string name="face_lock_screen_setup_skip_dialog_text" product="default" msgid="7086796722966738156">"By protecting your phone with a screen lock option, no one will be able to use it if it is lost or stolen. You also need a screen lock option to set up face unlock. To go back, tap Cancel."</string>
     <string name="lock_screen_pin_skip_title" msgid="6853866579893458111">"Skip PIN setup?"</string>
     <string name="lock_screen_password_skip_title" msgid="8891463713793185768">"Skip password setup?"</string>
@@ -449,52 +424,35 @@
     <string name="fingerprint_last_delete_message_profile_challenge" msgid="3460246522493987163">"You won\'t be able to use your fingerprints to unlock your work profile, authorise purchases or sign in to work apps"</string>
     <string name="fingerprint_last_delete_confirm" msgid="3294910995598819259">"Yes, remove"</string>
     <string name="crypt_keeper_settings_title" msgid="4938812137822100044">"Encryption"</string>
-    <string name="crypt_keeper_encrypt_title" product="tablet" msgid="7484150746479958376">"Encrypt tablet"</string>
     <string name="crypt_keeper_encrypt_title" product="default" msgid="8302873664348463041">"Encrypt phone"</string>
     <string name="crypt_keeper_encrypted_summary" msgid="3866488451639592071">"Encrypted"</string>
-    <string name="crypt_keeper_desc" product="tablet" msgid="4103951371711323192">"You can encrypt your accounts, settings, downloaded apps and their data, media and other files. After you encrypt your tablet, assuming you\'ve set up a screen lock (that is, a pattern or numeric PIN or password), you\'ll need to unlock the screen to decrypt the tablet every time you power it on. The only other way to decrypt is to perform a factory data reset, erasing all your data.\n\nEncryption takes an hour or more. You must start with a charged battery and keep your tablet plugged in throughout the process. If you interrupt it, you\'ll lose some or all of your data"</string>
     <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">"You can encrypt your accounts, settings, downloaded apps and their data, media and other files. After you encrypt your phone, assuming you\'ve set up a screen lock (that is, a pattern or numeric PIN or password), you\'ll need to unlock the screen to decrypt the phone every time you power it on. The only other way to decrypt is to perform a factory data reset, erasing all your data.\n\nEncryption takes an hour or more. You must start with a charged battery and keep your phone plugged in throughout the process. If you interrupt it, you\'ll lose some or all of your data."</string>
-    <string name="crypt_keeper_button_text" product="tablet" msgid="5551608011810921471">"Encrypt tablet"</string>
     <string name="crypt_keeper_button_text" product="default" msgid="6370330929679426136">"Encrypt phone"</string>
     <string name="crypt_keeper_low_charge_text" msgid="4920087247177024521">"Please charge your battery and try again."</string>
     <string name="crypt_keeper_unplugged_text" msgid="2709721134148651329">"Please plug in your charger and try again."</string>
     <string name="crypt_keeper_dialog_need_password_title" msgid="1847280235529858357">"No lock-screen PIN or password"</string>
     <string name="crypt_keeper_dialog_need_password_message" msgid="7210616262954236042">"You need to set a lock screen PIN or password before you can start encryption."</string>
     <string name="crypt_keeper_confirm_title" msgid="8600000209722452230">"Encrypt?"</string>
-    <string name="crypt_keeper_final_desc" product="tablet" msgid="3270587498436152259">"The encryption operation is irreversible and if you interrupt it, you\'ll lose data. Encryption takes an hour or more, during which the tablet will restart several times."</string>
     <string name="crypt_keeper_final_desc" product="default" msgid="3040428543349852419">"The encryption operation is irreversible and if you interrupt it, you\'ll lose data. Encryption takes an hour or more, during which the phone will restart several times."</string>
     <string name="crypt_keeper_setup_title" msgid="3339725741305796680">"Encrypting"</string>
-    <string name="crypt_keeper_setup_description" product="tablet" msgid="4417016995091289019">"Wait while your tablet is being encrypted. <xliff:g id="PERCENT">^1</xliff:g>% complete."</string>
     <string name="crypt_keeper_setup_description" product="default" msgid="7902355422499500352">"Wait while your phone is being encrypted. <xliff:g id="PERCENT">^1</xliff:g>% complete."</string>
-    <string name="crypt_keeper_setup_time_remaining" product="tablet" msgid="8348188415839917821">"Wait while your tablet is being encrypted. Time remaining: <xliff:g id="DURATION">^1</xliff:g>"</string>
     <string name="crypt_keeper_setup_time_remaining" product="default" msgid="8556105766597855198">"Wait while your phone is being encrypted. Time remaining: <xliff:g id="DURATION">^1</xliff:g>"</string>
-    <string name="crypt_keeper_force_power_cycle" product="tablet" msgid="3832496715430327682">"To unlock your tablet, turn it off and then on."</string>
     <string name="crypt_keeper_force_power_cycle" product="default" msgid="5070346039522135361">"To unlock your phone, turn it off and then on."</string>
     <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"Warning: Your device will be wiped after <xliff:g id="COUNT">^1</xliff:g> more failed attempts to be unlocked!"</string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"Type your password"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"Encryption unsuccessful"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"Encryption was interrupted and can\'t be completed. As a result, the data on your tablet is no longer accessible. \n\n To resume using your tablet, you need to perform a factory reset. When you set up your tablet after the reset, you\'ll have an opportunity to restore any data that was backed up to your Google Account."</string>
     <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"Encryption was interrupted and can\'t be completed. As a result, the data on your phone is no longer accessible. \n\nTo resume using your phone, you need to perform a factory reset. When you set up your phone after the reset, you\'ll have an opportunity to restore any data that was backed up to your Google Account."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="5920153462176846037">"Decryption unsuccessful"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"The password that you entered is correct, but unfortunately your data is corrupt. \n\nTo resume using your tablet, you will need to perform a factory reset. When you set up your tablet after the reset, you\'ll have an opportunity to restore any data that was backed up to your Google Account."</string>
     <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"The password that you entered is correct, but unfortunately your data is corrupt. \n\nTo resume using your phone, you need to perform a factory reset. When you set up your phone after the reset, you’ll have an opportunity to restore any data that was backed up to your Google Account."</string>
     <string name="crypt_keeper_switch_input_method" msgid="7712732134989470573">"Switch input method"</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"Secure your phone"</string>
-    <string name="suggested_lock_settings_summary" product="tablet" msgid="3213718550422761562">"Set screen lock to protect tablet"</string>
-    <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Set screen lock to protect device"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Set screen lock to protect phone"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Add fingerprint to unlock"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="tablet" msgid="1040265358906410746"></string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"></string>
     <string name="suggested_fingerprint_lock_settings_summary" product="default" msgid="1040265358906410746"></string>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Choose screen lock"</string>
     <string name="lock_settings_picker_title_profile" msgid="8377696902400733227">"Choose work lock"</string>
-    <string name="setup_lock_settings_picker_title" product="tablet" msgid="1276283007274778191">"Protect your tablet"</string>
-    <string name="setup_lock_settings_picker_title" product="device" msgid="3585905639045649905">"Protect your device"</string>
     <string name="setup_lock_settings_picker_title" product="default" msgid="2758197863515864300">"Protect your phone"</string>
     <string name="lock_settings_picker_biometrics_added_security_message" msgid="1105247657304421299">"For added security, set a backup screen lock"</string>
-    <string name="setup_lock_settings_picker_message" product="tablet" msgid="4870877800737248926">"Prevent others from using this tablet without your permission by activating device protection features. Choose the screen lock that you would like to use."</string>
-    <string name="setup_lock_settings_picker_message" product="device" msgid="8961855222808442301">"Prevent others from using this device without your permission by activating device protection features. Choose the screen lock that you would like to use."</string>
     <string name="setup_lock_settings_picker_message" product="default" msgid="8867435145945818970">"Prevent others from using this phone without your permission by activating device protection features. Choose the screen lock that you would like to use."</string>
     <string name="lock_settings_picker_fingerprint_message" msgid="6414674538453498900">"Choose your backup screen lock method"</string>
     <string name="lock_settings_picker_face_message" msgid="2044129433641084149">"Choose your backup screen lock method"</string>
@@ -717,8 +675,6 @@
     <string name="bluetooth_device_mac_address" msgid="4873325074786732703">"Device\'s Bluetooth address: <xliff:g id="ADDRESS">%1$s</xliff:g>"</string>
     <string name="bluetooth_unpair_dialog_title" msgid="6943633443716052995">"Forget device?"</string>
     <string name="bluetooth_unpair_dialog_body" product="default" msgid="4730377171981539265">"Your phone will no longer be paired with <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
-    <string name="bluetooth_unpair_dialog_body" product="tablet" msgid="3428463407231980054">"Your tablet will no longer be paired with <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
-    <string name="bluetooth_unpair_dialog_body" product="device" msgid="5117397433721336918">"Your device will no longer be paired with <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="bluetooth_untethered_unpair_dialog_body" msgid="1938465582242297905">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> will no longer be paired with any device linked to this account"</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"Forget device"</string>
     <string name="bluetooth_connect_specific_profiles_title" msgid="1323072239637864488">"Connect to…"</string>
@@ -726,7 +682,6 @@
     <string name="bluetooth_disconnect_headset_profile" msgid="7857706184371154920">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> will be disconnected from hands-free audio."</string>
     <string name="bluetooth_disconnect_hid_profile" msgid="4794752406024916925">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> will be disconnected from input device."</string>
     <string name="bluetooth_disconnect_pan_user_profile" msgid="283176886159444413">"Internet access via <xliff:g id="DEVICE_NAME">%1$s</xliff:g> will be disconnected."</string>
-    <string name="bluetooth_disconnect_pan_nap_profile" product="tablet" msgid="733193449967330892">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> will be disconnected from sharing this tablet’s Internet connection."</string>
     <string name="bluetooth_disconnect_pan_nap_profile" product="default" msgid="7852265676243153982">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> will be disconnected from sharing this phone’s Internet connection."</string>
     <string name="bluetooth_device_advanced_title" msgid="1181664272013729515">"Paired Bluetooth device"</string>
     <string name="bluetooth_device_advanced_online_mode_title" msgid="8302236592496988747">"Connect"</string>
@@ -773,7 +728,6 @@
     <string name="show_refresh_rate" msgid="5742688821872354973">"Show refresh rate"</string>
     <string name="show_refresh_rate_summary" msgid="3558118122374609663">"Show the current display refresh rate"</string>
     <string name="nfc_quick_toggle_title" msgid="3607620705230351666">"NFC"</string>
-    <string name="nfc_quick_toggle_summary" product="tablet" msgid="3622326550467939809">"Allow data exchange when the tablet touches an NFC device"</string>
     <string name="nfc_quick_toggle_summary" product="default" msgid="1460871052409162980">"Allow data exchange when the phone touches an NFC device"</string>
     <string name="nfc_disclaimer_title" msgid="3696580694485048039">"Turn on NFC"</string>
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC exchanges data between this device and other nearby devices or targets, such as payment terminals, access readers and interactive ads or tags."</string>
@@ -1026,7 +980,6 @@
     <string name="wifi_p2p_delete_group_message" msgid="4880242270742385699">"Forget this group?"</string>
     <string name="wifi_hotspot_checkbox_text" msgid="1549663436920597006">"Wi‑Fi hotspot"</string>
     <string name="wifi_hotspot_off_subtext" msgid="2751383134504362078">"Not sharing Internet or content with other devices"</string>
-    <string name="wifi_hotspot_tethering_on_subtext" product="tablet" msgid="5832429443898690152">"Sharing this tablet’s Internet connection via hotspot"</string>
     <string name="wifi_hotspot_tethering_on_subtext" product="default" msgid="5451921191609178326">"Sharing this phone’s Internet connection via hotspot"</string>
     <string name="wifi_hotspot_on_local_only_subtext" msgid="965051079784031636">"App is sharing content. To share Internet connection, turn hotspot off, then on"</string>
     <string name="wifi_hotspot_no_password_subtext" msgid="3685689196772398783">"No password set"</string>
@@ -1049,13 +1002,11 @@
     <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"Android Hotspot"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"Save this network?"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g> wants to save a network to your phone"</string>
-    <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g> wants to save a network to your tablet"</string>
     <string name="wifi_add_app_single_network_saving_summary" msgid="7366337245410388895">"Saving…"</string>
     <string name="wifi_add_app_single_network_saved_summary" msgid="7135016314713158289">"Saved"</string>
     <string name="wifi_add_app_network_save_failed_summary" msgid="7223817782309294652">"Can’t save. Try again."</string>
     <string name="wifi_add_app_networks_title" msgid="4384594865433042851">"Save networks?"</string>
     <string name="wifi_add_app_networks_summary" product="default" msgid="2670215712788515167">"<xliff:g id="APPNAME">%1$s</xliff:g> wants to save these networks to your phone"</string>
-    <string name="wifi_add_app_networks_summary" product="tablet" msgid="2088967184512169910">"<xliff:g id="APPNAME">%1$s</xliff:g> wants to save these networks to your tablet"</string>
     <string name="wifi_add_app_networks_saving_summary" msgid="577680250954742033">"Saving <xliff:g id="NUMBER">%d</xliff:g> networks…"</string>
     <string name="wifi_add_app_networks_saved_summary" msgid="1648417628665152905">"Networks saved"</string>
     <string name="wifi_calling_settings_title" msgid="264665264535884440">"Wi-Fi Calling"</string>
