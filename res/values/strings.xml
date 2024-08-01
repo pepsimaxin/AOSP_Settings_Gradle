@@ -11111,12 +11111,6 @@
     <!-- Summary text on a card explaining that a setting does not exist / is not supported on the device [CHAR_LIMIT=NONE]-->
     <string name="unsupported_setting_summary" product="default">Setting isn’t supported on this phone</string>
 
-    <!-- Summary text on a card explaining that a setting does not exist / is not supported on the device [CHAR_LIMIT=NONE]-->
-    <string name="unsupported_setting_summary" product="tablet">Setting isn’t supported on this tablet</string>
-
-    <!-- Summary text on a card explaining that a setting does not exist / is not supported on the device [CHAR_LIMIT=NONE]-->
-    <string name="unsupported_setting_summary" product="device">Setting isn’t supported on this device</string>
-
     <!-- Summary text on a card explaining that a setting cannot be changed by the current user. [CHAR_LIMIT=NONE] -->
     <string name="disabled_for_user_setting_summary">Setting can’t be changed by current user</string>
 

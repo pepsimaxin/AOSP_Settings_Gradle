@@ -1968,7 +1968,6 @@
     <string name="user_dict_settings_all_languages" msgid="8563387437755363526">"所有语言"</string>
     <string name="user_dict_settings_more_languages" msgid="5378870726809672319">"更多语言..."</string>
     <string name="testing" msgid="6294172343766732037">"测试"</string>
-    <string name="testing_phone_info" product="tablet" msgid="1910768200608214456">"平板电脑信息"</string>
     <string name="testing_phone_info" product="default" msgid="1150527695827743906">"手机信息"</string>
     <string name="input_methods_settings_title" msgid="7796027458321225550">"文字输入"</string>
     <string name="input_method" msgid="2982805181425436775">"输入法"</string>
@@ -2387,7 +2386,6 @@
     <string name="power_bluetooth" msgid="5085900180846238196">"蓝牙"</string>
     <string name="power_cell" msgid="5507921058696341513">"移动网络待机"</string>
     <string name="power_phone" msgid="2768396619208561670">"语音通话"</string>
-    <string name="power_idle" product="tablet" msgid="4689321599298911021">"平板电脑待机"</string>
     <string name="power_idle" product="default" msgid="9132502722499465252">"手机待机"</string>
     <string name="power_unaccounted" msgid="2160811497426475703">"其他"</string>
     <string name="power_overcounted" msgid="3681101460287472876">"多算了的"</string>
@@ -2396,7 +2394,6 @@
     <string name="usage_type_wake_lock" msgid="3442487584173668904">"保持唤醒状态"</string>
     <string name="usage_type_gps" msgid="4118035982288964651">"GPS"</string>
     <string name="usage_type_wifi_running" msgid="5573404832197356206">"WLAN运行时间"</string>
-    <string name="usage_type_phone" product="tablet" msgid="4527092861928972130">"平板电脑"</string>
     <string name="usage_type_phone" product="default" msgid="4149330237181984782">"通话"</string>
     <string name="usage_type_data_send" msgid="4375755152437282184">"发送的移动数据包"</string>
     <string name="usage_type_data_recv" msgid="7821924049621005218">"接收的移动数据包"</string>
@@ -2419,7 +2416,6 @@
     <string name="battery_action_wifi" msgid="1829212604573932607">"WLAN设置"</string>
     <string name="battery_action_bluetooth" msgid="4723692623358386789">"蓝牙设置"</string>
     <string name="battery_desc_voice" msgid="6900799826084022585">"语音通话所耗的电量"</string>
-    <string name="battery_desc_standby" product="tablet" msgid="5818742458684767043">"平板电脑待机所耗的电量"</string>
     <string name="battery_desc_standby" product="default" msgid="2543075041964578103">"手机待机所耗的电量"</string>
     <string name="battery_desc_radio" msgid="454677140485133914">"移动网络所耗的电量"</string>
     <string name="battery_sugg_radio" msgid="5476234634503535270">"不在信号覆盖范围内时切换到飞行模式，以节约电量"</string>
@@ -2661,7 +2657,6 @@
     <string name="remove_account_label" msgid="4169490568375358010">"移除帐号"</string>
     <string name="header_add_an_account" msgid="3919151542338822661">"添加帐号"</string>
     <string name="really_remove_account_title" msgid="253097435885652310">"要移除帐号吗？"</string>
-    <string name="really_remove_account_message" product="tablet" msgid="8893801622174947887">"移除该帐号会从平板电脑中删除所有相关的邮件、联系人以及其他数据。"</string>
     <string name="remove_account_failed" msgid="3709502163548900644">"您的管理员不允许进行这项更改"</string>
     <string name="cant_sync_dialog_title" msgid="2613000568881139517">"无法手动同步"</string>
     <string name="cant_sync_dialog_message" msgid="7612557105054568581">"此项内容的同步功能目前未开启。要更改此设置，请暂时开启后台流量和自动同步功能。"</string>
@@ -2734,7 +2729,6 @@
     <string name="data_usage_app_restrict_dialog" msgid="5534272311979978297">"只能连接到移动网络时，此功能可能会导致需要使用后台流量的应用无法正常运行。\n\n您可以在相关应用的设置中为其设定更合适的数据流量控制选项。"</string>
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"您必须先设置移动数据流量上限，才能限制后台数据流量。"</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"要打开自动同步数据功能吗？"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"您在网络上对自己的帐号进行的所有更改都会自动同步到您的平板电脑。\n\n有些帐号还可以将您在平板电脑上进行的所有更改自动同步到网络上。Google 帐号就支持此类双向同步。"</string>
     <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"您在网络上对自己的帐号进行的所有更改都会自动同步到您的手机。\n\n有些帐号还可以将您在手机上进行的所有更改自动同步到网络上。Google 帐号就支持此类双向同步。"</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"要关闭自动同步数据功能吗？"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"这样可以节省数据流量和电池电量，但您需要手动同步每个帐号才能获得最新信息，并且在有更新时不会收到通知。"</string>
@@ -2744,11 +2738,9 @@
     <string name="data_usage_warning_editor_title" msgid="5252748452973120016">"设置流量用量警告"</string>
     <string name="data_usage_limit_editor_title" msgid="8826855902435008518">"设置流量使用上限"</string>
     <string name="data_usage_limit_dialog_title" msgid="2053134451707801439">"限制流量用量"</string>
-    <string name="data_usage_limit_dialog_mobile" product="tablet" msgid="6000062970083379466">"当移动数据流量的使用量达到您设置的上限时，您的平板电脑将关闭移动数据网络。\n\n由于流量用量是由您的平板电脑计算的，而您的运营商对流量用量的计算方式可能有所不同，因此建议您设置一个保守的上限值。"</string>
     <string name="data_usage_limit_dialog_mobile" product="default" msgid="4942895670789168024">"当移动数据流量的使用量达到您设置的上限时，您的手机将关闭移动数据网络。\n\n由于流量用量是由您的手机计算的，而您的运营商对流量用量的计算方式可能有所不同，因此建议您设置一个保守的上限值。"</string>
     <string name="data_usage_restrict_background_title" msgid="2745551538820692821">"要限制后台流量吗？"</string>
     <string name="data_usage_restrict_background" msgid="1893102079135282794">"如果您限制后台移动数据流量，则只有在您连接到 WLAN 网络时，部分应用和服务才能正常运行。"</string>
-    <string name="data_usage_restrict_background_multiuser" product="tablet" msgid="5588623586867665419">"如果您限制后台移动数据流量，则只有在您连接到 WLAN 网络时，部分应用和服务才能正常运行。\n\n此设置会影响这部平板电脑上的所有用户。"</string>
     <string name="data_usage_restrict_background_multiuser" product="default" msgid="6402714504088590463">"如果您限制后台移动数据流量，则只有在您连接到 WLAN 网络时，部分应用和服务才能正常运行。\n\n此设置会影响这部手机上的所有用户。"</string>
     <string name="data_usage_sweep_warning" msgid="2072854703184614828"><font size="18">"<xliff:g id="NUMBER">^1</xliff:g>"</font>" "<font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"警告"</font></string>
     <string name="data_usage_sweep_limit" msgid="6947019190890086284"><font size="18">"<xliff:g id="NUMBER">^1</xliff:g>"</font>" "<font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"上限"</font></string>
@@ -2756,7 +2748,6 @@
     <string name="data_usage_uninstalled_apps_users" msgid="1262228664057122983">"已删除的应用和用户"</string>
     <string name="data_usage_received_sent" msgid="1486740779864806124">"已接收<xliff:g id="RECEIVED">%1$s</xliff:g>，已发送<xliff:g id="SENT">%2$s</xliff:g>"</string>
     <string name="data_usage_total_during_range" msgid="2695893609573024612">"<xliff:g id="RANGE">%2$s</xliff:g>：已使用约 <xliff:g id="TOTAL">%1$s</xliff:g>。"</string>
-    <string name="data_usage_total_during_range_mobile" product="tablet" msgid="45300375132284265">"<xliff:g id="RANGE">%2$s</xliff:g>：已使用约 <xliff:g id="TOTAL">%1$s</xliff:g>，由您的平板电脑计算得出。您的运营商对于流量的计算方法可能有所不同。"</string>
     <string name="data_usage_total_during_range_mobile" product="default" msgid="3183594094081558193">"<xliff:g id="RANGE">%2$s</xliff:g>：已使用约 <xliff:g id="TOTAL">%1$s</xliff:g>，由您的手机计算得出。您的运营商对于流量的计算方法可能有所不同。"</string>
     <string name="data_usage_metered_title" msgid="6421347352444253058">"网络限制"</string>
     <string name="data_usage_metered_body" msgid="1206840367501998582">"当后台数据流量受到限制时，系统会将按流量计费的网络视为移动网络。在使用这类网络下载大量数据前，应用可能会发出警告消息。"</string>
@@ -2891,7 +2882,6 @@
     <string name="user_you" msgid="3070562015202859996">"您（<xliff:g id="NAME">%s</xliff:g>）"</string>
     <string name="user_nickname" msgid="3763630194459958977">"昵称"</string>
     <string name="user_add_max_count" msgid="5739771048517070983">"您最多可添加 <xliff:g id="USER_COUNT">%1$d</xliff:g> 位用户"</string>
-    <string name="user_cannot_manage_message" product="tablet" msgid="3405022988077682357">"只有平板电脑的机主可以管理用户。"</string>
     <string name="user_cannot_manage_message" product="default" msgid="6434662649769855494">"只有手机的机主可以管理用户。"</string>
     <string name="user_cannot_add_accounts_message" msgid="2351326078338805337">"受限个人资料无法添加帐号"</string>
     <string name="user_remove_user_menu" msgid="2183714948094429367">"将<xliff:g id="USER_NAME">%1$s</xliff:g>从此设备中删除"</string>
@@ -2901,7 +2891,6 @@
     <string name="user_confirm_remove_title" msgid="3626559103278006002">"要删除此用户吗？"</string>
     <string name="user_profile_confirm_remove_title" msgid="3131574314149375354">"要移除此个人资料吗？"</string>
     <string name="work_profile_confirm_remove_title" msgid="6229618888167176036">"要移除工作资料吗？"</string>
-    <string name="user_confirm_remove_self_message" product="tablet" msgid="439222554798995592">"您将丢失自己在这台平板电脑上的空间和数据，此操作无法撤消。"</string>
     <string name="user_confirm_remove_self_message" product="default" msgid="5991495192044543230">"您将丢失自己在这部手机上的空间和数据，此操作无法撤消。"</string>
     <string name="user_confirm_remove_message" msgid="362545924965977597">"该用户名下的所有应用和数据都将随之删除。"</string>
     <string name="work_profile_confirm_remove_message" msgid="1037294114103024478">"如果继续，则此工作资料中的所有应用和数据都会被删除。"</string>
@@ -3002,7 +2991,6 @@
     <string name="restriction_bluetooth_config_summary" msgid="7558879931011271603">"允许修改蓝牙配对和设置"</string>
     <string name="restriction_nfc_enable_title" msgid="525512312298242911">"NFC"</string>
     <string name="restriction_nfc_enable_summary_config" msgid="8065688740509581028">"允许在此<xliff:g id="DEVICE_NAME">%1$s</xliff:g>与其他NFC设备触碰时交换数据"</string>
-    <string name="restriction_nfc_enable_summary" product="tablet" msgid="6397567147629410131">"允许在平板电脑与其他设备触碰时交换数据"</string>
     <string name="restriction_nfc_enable_summary" product="default" msgid="3331800894734678808">"允许在手机与其他设备触碰时交换数据"</string>
     <string name="restriction_location_enable_title" msgid="4872281754836538066">"位置信息"</string>
     <string name="restriction_location_enable_summary" msgid="7139292323897390221">"允许应用使用您的位置信息"</string>

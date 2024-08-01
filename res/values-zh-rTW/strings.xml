@@ -433,22 +433,16 @@
     <string name="crypt_keeper_dialog_need_password_title" msgid="1847280235529858357">"沒有鎖定螢幕的 PIN 或密碼"</string>
     <string name="crypt_keeper_dialog_need_password_message" msgid="7210616262954236042">"你必須先設定鎖定螢幕的 PIN 或密碼，才能開始加密。"</string>
     <string name="crypt_keeper_confirm_title" msgid="8600000209722452230">"加密？"</string>
-    <string name="crypt_keeper_final_desc" product="tablet" msgid="3270587498436152259">"你無法取消加密操作，如果過程中斷，資料將會遺失。加密過程可能需要 1 個小時以上的時間，你的平板電腦會在過程中重新啟動數次。"</string>
     <string name="crypt_keeper_final_desc" product="default" msgid="3040428543349852419">"你無法取消加密操作，如果過程中斷，資料將會遺失。加密過程可能需要 1 個小時以上的時間，你的手機會在過程中重新啟動數次。"</string>
     <string name="crypt_keeper_setup_title" msgid="3339725741305796680">"加密中"</string>
-    <string name="crypt_keeper_setup_description" product="tablet" msgid="4417016995091289019">"平板電腦正在進行加密，請稍候 (已完成 <xliff:g id="PERCENT">^1</xliff:g>%)。"</string>
     <string name="crypt_keeper_setup_description" product="default" msgid="7902355422499500352">"正在對手機加密，請稍候 (已完成 <xliff:g id="PERCENT">^1</xliff:g>%)。"</string>
-    <string name="crypt_keeper_setup_time_remaining" product="tablet" msgid="8348188415839917821">"平板電腦加密作業正在進行中，請稍候 (剩餘時間：<xliff:g id="DURATION">^1</xliff:g>)"</string>
     <string name="crypt_keeper_setup_time_remaining" product="default" msgid="8556105766597855198">"手機加密作業正在進行中，請稍候 (剩餘時間：<xliff:g id="DURATION">^1</xliff:g>)"</string>
-    <string name="crypt_keeper_force_power_cycle" product="tablet" msgid="3832496715430327682">"如要將平板電腦解除鎖定，請關閉平板電腦後再開機。"</string>
     <string name="crypt_keeper_force_power_cycle" product="default" msgid="5070346039522135361">"如要將手機解除鎖定，請關閉手機後再開機。"</string>
     <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"警告：解鎖嘗試次數還剩 <xliff:g id="COUNT">^1</xliff:g> 次！如果持續失敗，你的裝置將會遭到清除。"</string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"輸入密碼"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"加密失敗"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"加密過程中斷，無法完成，因此你再也不能存取平板電腦上的資料。\n\n如要恢復使用平板電腦，請先將平板電腦重設回原廠設定。完成重設後，你可以在設定平板電腦時，將先前備份至「Google 帳戶」的資料全部還原。"</string>
     <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"加密過程中斷，無法完成，因此你再也不能存取手機上的資料。\n\n如要恢復使用手機，請先將手機重設回原廠設定。完成重設後，你可以在設定手機時，將先前備份至「Google 帳戶」的資料全部還原。"</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="5920153462176846037">"解密失敗"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"你所輸入的密碼正確，但你的資料已毀損。\n\n如要繼續使用平板電腦，請將該裝置重設為原廠設定。重設完成後，當你對平板電腦進行設定時，可以將備份在個人 Google 帳戶中的資料全部還原。"</string>
     <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"你所輸入的密碼正確，但你的資料已毀損。\n\n如要繼續使用手機，請將該裝置重設為原廠設定。重設完成後，當你對手機進行設定時，可以將備份在個人 Google 帳戶中的資料全部還原。"</string>
     <string name="crypt_keeper_switch_input_method" msgid="7712732134989470573">"切換輸入法"</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"保護手機安全"</string>
@@ -688,7 +682,6 @@
     <string name="bluetooth_disconnect_headset_profile" msgid="7857706184371154920">"即將中斷 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 與免持聽筒音訊的連線。"</string>
     <string name="bluetooth_disconnect_hid_profile" msgid="4794752406024916925">"即將中斷 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 與輸入裝置的連線。"</string>
     <string name="bluetooth_disconnect_pan_user_profile" msgid="283176886159444413">"即將中斷透過 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 取得的網際網路連線。"</string>
-    <string name="bluetooth_disconnect_pan_nap_profile" product="tablet" msgid="733193449967330892">"即將中斷「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」透過這部平板電腦取得的網際網路連線。"</string>
     <string name="bluetooth_disconnect_pan_nap_profile" product="default" msgid="7852265676243153982">"即將中斷「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」透過這支手機取得的網際網路連線。"</string>
     <string name="bluetooth_device_advanced_title" msgid="1181664272013729515">"已配對的藍牙裝置"</string>
     <string name="bluetooth_device_advanced_online_mode_title" msgid="8302236592496988747">"連線"</string>
@@ -735,7 +728,6 @@
     <string name="show_refresh_rate" msgid="5742688821872354973">"顯示重新整理頻率"</string>
     <string name="show_refresh_rate_summary" msgid="3558118122374609663">"顯示目前的螢幕重新整理頻率"</string>
     <string name="nfc_quick_toggle_title" msgid="3607620705230351666">"NFC"</string>
-    <string name="nfc_quick_toggle_summary" product="tablet" msgid="3622326550467939809">"允許平板電腦與 NFC 裝置接觸時交換資料"</string>
     <string name="nfc_quick_toggle_summary" product="default" msgid="1460871052409162980">"允許手機與 NFC 裝置接觸時交換資料"</string>
     <string name="nfc_disclaimer_title" msgid="3696580694485048039">"開啟 NFC"</string>
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC 能夠讓這個裝置與附近的其他裝置或目標 (例如付款終端機、門禁讀卡機以及互動式廣告或標記) 交換資料。"</string>
@@ -988,7 +980,6 @@
     <string name="wifi_p2p_delete_group_message" msgid="4880242270742385699">"刪除這個群組？"</string>
     <string name="wifi_hotspot_checkbox_text" msgid="1549663436920597006">"Wi‑Fi 無線基地台"</string>
     <string name="wifi_hotspot_off_subtext" msgid="2751383134504362078">"目前沒有與其他裝置分享網際網路或內容"</string>
-    <string name="wifi_hotspot_tethering_on_subtext" product="tablet" msgid="5832429443898690152">"正在透過無線基地台分享這部平板電腦的網際網路連線"</string>
     <string name="wifi_hotspot_tethering_on_subtext" product="default" msgid="5451921191609178326">"正在透過無線基地台分享這支手機的網際網路連線"</string>
     <string name="wifi_hotspot_on_local_only_subtext" msgid="965051079784031636">"應用程式正在分享內容。如要分享網際網路連線，請關閉無線基地台並重新開啟"</string>
     <string name="wifi_hotspot_no_password_subtext" msgid="3685689196772398783">"未設定密碼"</string>
@@ -1011,13 +1002,11 @@
     <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"Android 無線基地台"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"要儲存這個網路嗎？"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"「<xliff:g id="APPNAME">%1$s</xliff:g>」想在你的手機中新增網路"</string>
-    <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"「<xliff:g id="APPNAME">%1$s</xliff:g>」想在你的平板電腦中新增網路"</string>
     <string name="wifi_add_app_single_network_saving_summary" msgid="7366337245410388895">"儲存中…"</string>
     <string name="wifi_add_app_single_network_saved_summary" msgid="7135016314713158289">"已儲存"</string>
     <string name="wifi_add_app_network_save_failed_summary" msgid="7223817782309294652">"無法儲存，請再試一次。"</string>
     <string name="wifi_add_app_networks_title" msgid="4384594865433042851">"要儲存網路嗎？"</string>
     <string name="wifi_add_app_networks_summary" product="default" msgid="2670215712788515167">"「<xliff:g id="APPNAME">%1$s</xliff:g>」想在你的手機中新增這些網路"</string>
-    <string name="wifi_add_app_networks_summary" product="tablet" msgid="2088967184512169910">"「<xliff:g id="APPNAME">%1$s</xliff:g>」想在你的平板電腦中新增這些網路"</string>
     <string name="wifi_add_app_networks_saving_summary" msgid="577680250954742033">"正在儲存 <xliff:g id="NUMBER">%d</xliff:g> 個網路…"</string>
     <string name="wifi_add_app_networks_saved_summary" msgid="1648417628665152905">"已儲存網路"</string>
     <string name="wifi_calling_settings_title" msgid="264665264535884440">"Wi-Fi 通話"</string>
@@ -1086,16 +1075,12 @@
     <string name="dock_audio_settings_title" msgid="8294821925086965934">"音效"</string>
     <string name="dock_audio_summary_desk" msgid="4158593887711452737">"隨附的桌上型座架設定"</string>
     <string name="dock_audio_summary_car" msgid="292911654994476080">"隨附的車用座架設定"</string>
-    <string name="dock_audio_summary_none" product="tablet" msgid="7758416095500202500">"平板電腦未安置於座架上"</string>
     <string name="dock_audio_summary_none" product="default" msgid="9056359991181743485">"手機未固定至座架"</string>
     <string name="dock_audio_summary_unknown" msgid="5486086330763810318">"隨附的座架設定"</string>
     <string name="dock_not_found_title" msgid="4721157149003423417">"找不到座架"</string>
-    <string name="dock_not_found_text" product="tablet" msgid="9192097687086523411">"你必須先將平板電腦安置於座架上，才能設定座架音效。"</string>
     <string name="dock_not_found_text" product="default" msgid="2247163115146852069">"你必須先將手機安置於座架上，才能設定座架音效。"</string>
     <string name="dock_sounds_enable_title" msgid="2974614136344237932">"座架插入音效"</string>
-    <string name="dock_sounds_enable_summary_on" product="tablet" msgid="468592489565539336">"將平板電腦置入座架或移出座架時播放音效"</string>
     <string name="dock_sounds_enable_summary_on" product="default" msgid="8121670617316301768">"手機插入底座或離開底座時播放音效"</string>
-    <string name="dock_sounds_enable_summary_off" product="tablet" msgid="7833926726878567889">"將平板電腦置入座架或移出座架時，不要播放音效"</string>
     <string name="dock_sounds_enable_summary_off" product="default" msgid="5560601997128422001">"手機插入底座或離開底座時，不要播放音效"</string>
     <string name="account_settings" msgid="255404935489127404">"帳戶"</string>
     <string name="accessibility_category_work" msgid="5133894487353964944">"工作資料夾帳戶 - <xliff:g id="MANAGED_BY">%s</xliff:g>"</string>
@@ -1112,9 +1097,7 @@
     <string name="color_mode_option_automatic" msgid="2281217686509980870">"自動調整"</string>
     <string name="color_mode_summary_natural" msgid="8298840714001791628">"僅使用準確的色彩"</string>
     <string name="color_mode_summary_automatic" msgid="8157885594041700275">"在鮮明與準確的色彩間進行調整"</string>
-    <string name="accelerometer_summary_on" product="tablet" msgid="6413384391658481700">"旋轉平板電腦時自動切換瀏覽模式"</string>
     <string name="accelerometer_summary_on" product="default" msgid="7117139542131700779">"旋轉手機時自動改變顯示方向"</string>
-    <string name="accelerometer_summary_off" product="tablet" msgid="3747370091309939684">"旋轉平板電腦時自動切換瀏覽模式"</string>
     <string name="accelerometer_summary_off" product="default" msgid="4451125241783158763">"旋轉手機時自動改變顯示方向"</string>
     <string name="brightness" msgid="6216871641021779698">"亮度"</string>
     <string name="brightness_title" msgid="5457874893085305155">"亮度"</string>
@@ -1242,9 +1225,7 @@
     <string name="sim_lock_settings_summary_on" msgid="1562184566830887925">"已鎖定"</string>
     <string name="sim_lock_settings_title" msgid="1401619059761012696">"SIM 卡鎖定"</string>
     <string name="sim_pin_toggle" msgid="98754920202404425">"鎖定 SIM 卡"</string>
-    <string name="sim_lock_on" product="tablet" msgid="5857965768682972363">"需要 PIN 才能使用平板電腦"</string>
     <string name="sim_lock_on" product="default" msgid="3303147192981388923">"需要輸入 PIN 碼才可使用電話"</string>
-    <string name="sim_lock_off" product="tablet" msgid="7188936582548721225">"需要 PIN 才能使用平板電腦"</string>
     <string name="sim_lock_off" product="default" msgid="4634118006847137785">"需要輸入 PIN 碼才可使用電話"</string>
     <string name="sim_pin_change" msgid="5978881209990507379">"變更 SIM 卡 PIN 碼"</string>
     <string name="sim_enter_pin" msgid="8235202785516053253">"SIM 卡 PIN 碼"</string>
@@ -1292,7 +1273,6 @@
     <string name="device_info_not_available" msgid="4804474466616712326">"無法取得"</string>
     <string name="device_status_activity_title" msgid="1812666241137263882">"狀態"</string>
     <string name="device_status" msgid="7988547478034984649">"狀態"</string>
-    <string name="device_status_summary" product="tablet" msgid="8826216824111648900">"電池、網路狀態及其他資訊"</string>
     <string name="device_status_summary" product="default" msgid="8132661857066128832">"電話號碼、訊號等。"</string>
     <string name="storage_settings" msgid="7472188817781592677">"儲存空間"</string>
     <string name="storage_settings_for_app" msgid="229425418984637483">"儲存空間和快取"</string>
@@ -1301,11 +1281,8 @@
     <string name="storage_settings_summary" product="default" msgid="267557695753980969">"卸載 SD 卡，檢視可用儲存媒體。"</string>
     <string name="imei_multi_sim" msgid="71477088017585479">"IMEI (SIM 卡插槽 %1$d)"</string>
     <string name="view_saved_network" msgid="1232387673095080910">"如要查看 MAC 位址，請選擇已儲存的網路"</string>
-    <string name="status_number" product="tablet" msgid="3597945414666253183">"MDN"</string>
     <string name="status_number" product="default" msgid="8407999629121682207">"電話號碼"</string>
-    <string name="status_number_sim_slot" product="tablet" msgid="6582203988975619529">"MDN (SIM 卡插槽 %1$d)"</string>
     <string name="status_number_sim_slot" product="default" msgid="5724823197745786398">"電話號碼 (SIM 卡插槽 %1$d)"</string>
-    <string name="status_number_sim_status" product="tablet" msgid="4239876366511743428">"SIM 卡上的 MDN"</string>
     <string name="status_number_sim_status" product="default" msgid="2772745542921910086">"SIM 卡上的電話號碼"</string>
     <string name="status_min_number" msgid="4492899165438225714">"MIN"</string>
     <string name="status_msid_number" msgid="3871958248824595774">"MSID"</string>
@@ -1450,9 +1427,6 @@
     <string name="storage_wizard_move_progress_cancel" msgid="3494022998599718937">"取消移動"</string>
     <string name="storage_wizard_slow_body" msgid="8293565076885232029">"這個 <xliff:g id="NAME_0">^1</xliff:g>的速度緩慢。\n\n你可以繼續使用，但應用程式移動到這個位置後可能無法流暢執行，資料移轉作業也會耗費大量時間。\n\n建議你改用速度更快的 <xliff:g id="NAME_1">^1</xliff:g>來提升效能。"</string>
     <string name="storage_wizard_init_v2_title" msgid="2538630338392381113">"你要如何使用這個 <xliff:g id="NAME">^1</xliff:g>？"</string>
-    <string name="storage_wizard_init_v2_internal_title" product="tablet" msgid="1884468440013151482">"做為額外的平板電腦儲存空間"</string>
-    <string name="storage_wizard_init_v2_internal_summary" product="tablet" msgid="2907833056467441047">"僅限這台平板電腦的應用程式、檔案和媒體"</string>
-    <string name="storage_wizard_init_v2_internal_action" product="tablet" msgid="3278694259614995649">"平板電腦儲存空間"</string>
     <string name="storage_wizard_init_v2_internal_title" product="default" msgid="5941952998075252284">"做為額外的手機儲存空間"</string>
     <string name="storage_wizard_init_v2_internal_summary" product="default" msgid="3022584310096954875">"僅限這支手機的應用程式、檔案和媒體"</string>
     <string name="storage_wizard_init_v2_internal_action" product="default" msgid="5645732875040797464">"手機儲存空間"</string>
@@ -1465,12 +1439,10 @@
     <string name="storage_wizard_format_confirm_v2_body" msgid="635958708974709506">"這個 <xliff:g id="NAME_0">^1</xliff:g>必須經過格式化才能儲存應用程式、檔案和媒體。\n\n格式化會清除 <xliff:g id="NAME_1">^2</xliff:g>上的現有內容。為避免內容遺失，請將其中的內容備份到其他 <xliff:g id="NAME_2">^3</xliff:g>或裝置上。"</string>
     <string name="storage_wizard_format_confirm_v2_action" msgid="5718254101386377126">"將 <xliff:g id="NAME">^1</xliff:g>格式化"</string>
     <string name="storage_wizard_migrate_v2_title" msgid="3471564531564756698">"要將內容移至 <xliff:g id="NAME">^1</xliff:g>嗎？"</string>
-    <string name="storage_wizard_migrate_v2_body" product="tablet" msgid="4541523202790415721">"你可以將檔案、媒體和特定應用程式移至這個 <xliff:g id="NAME">^1</xliff:g>。\n\n這項移動作業大約需要 <xliff:g id="DURATION">^3</xliff:g>，完成後將可釋出 <xliff:g id="SIZE">^2</xliff:g> 的平板電腦儲存空間。"</string>
     <string name="storage_wizard_migrate_v2_body" product="default" msgid="809730501314645325">"你可以將檔案、媒體和特定應用程式移至這個 <xliff:g id="NAME">^1</xliff:g>。\n\n這項移動作業大約需要 <xliff:g id="DURATION">^3</xliff:g>，完成後將可釋出 <xliff:g id="SIZE">^2</xliff:g> 的手機儲存空間。"</string>
     <string name="storage_wizard_migrate_v2_checklist" msgid="2618258869444553060">"移動作業期間的注意事項："</string>
     <string name="storage_wizard_migrate_v2_checklist_media" msgid="5867134681730723744">"請勿移除 <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_migrate_v2_checklist_apps" msgid="1882077445750580783">"部分應用程式將無法運作"</string>
-    <string name="storage_wizard_migrate_v2_checklist_battery" product="tablet" msgid="6111770421449869539">"請將這台平板電腦維持在充電狀態"</string>
     <string name="storage_wizard_migrate_v2_checklist_battery" product="default" msgid="8826915870192535008">"請將這支手機維持在充電狀態"</string>
     <string name="storage_wizard_migrate_v2_now" msgid="3341460117088026966">"移動內容"</string>
     <string name="storage_wizard_migrate_v2_later" msgid="6067756122853315642">"稍後再移動內容"</string>
@@ -1544,7 +1516,6 @@
     <string name="reset_esim_error_msg" msgid="4441504470684307370">"發生錯誤，因此無法清除已下載的 SIM 卡。\n\n請重新啟動你的裝置，然後再試一次。"</string>
     <string name="master_clear_title" msgid="5309249309235959383">"清除所有資料 (恢復原廠設定)"</string>
     <string name="master_clear_short_title" msgid="5331449583601739360">"清除所有資料 (恢復原廠設定)"</string>
-    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"這會清除你平板電腦"<b>"內部儲存裝置"</b>"中的所有資料，包括：\n\n"<li>"你的 Google 帳戶"</li>\n<li>"系統和應用程式資料及設定"</li>\n<li>"已下載的應用程式"</li></string>
     <string name="master_clear_desc" product="default" msgid="8447637796694856323">"這會清除你手機"<b>"內部儲存裝置"</b>"中的所有資料，包括：\n\n"<li>"你的 Google 帳戶"</li>\n<li>"系統和應用程式資料及設定"</li>\n<li>"已下載的應用程式"</li></string>
     <string name="master_clear_accounts" product="default" msgid="142220980039357651">\n\n"你目前已登入下列帳戶：\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="7492338002408466023">\n\n"這個裝置上還有其他使用者。\n"</string>
@@ -1602,9 +1573,7 @@
     <string name="usb_title" msgid="1157283449840612901">"USB"</string>
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"USB 網路共用"</string>
     <string name="usb_tethering_subtext" product="default" msgid="3168636595109044213">"透過 USB 分享手機的網際網路連線"</string>
-    <string name="usb_tethering_subtext" product="tablet" msgid="1749659335004856576">"透過 USB 分享平板電腦的網際網路連線"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"藍牙網路共用"</string>
-    <string name="bluetooth_tethering_subtext" product="tablet" msgid="2023654677593885805">"透過藍牙分享平板電腦的網際網路連線"</string>
     <string name="bluetooth_tethering_subtext" product="default" msgid="4322810060538179348">"透過藍牙分享手機的網際網路連線"</string>
     <string name="bluetooth_tethering_off_subtext_config" msgid="6941934844527406581">"透過藍牙分享這個「<xliff:g id="DEVICE_NAME">%1$d</xliff:g>」的網際網路連線"</string>
     <string name="bluetooth_tethering_overflow_error" msgid="5292358672240161566">"最多只能有 <xliff:g id="MAXCONNECTION">%1$d</xliff:g> 個裝置共用網路。"</string>
@@ -1656,7 +1625,6 @@
     <string name="location_neighborhood_level" msgid="3668890550358558267">"允許應用程式使用 Google 的定位服務加速判斷你的約略位置。系統會收集匿名的位置資料並傳送給 Google。"</string>
     <string name="location_neighborhood_level_wifi" msgid="6227393490651891977">"根據 Wi-Fi 判定位置"</string>
     <string name="location_gps" msgid="8783616672454701134">"GPS 衛星定位"</string>
-    <string name="location_street_level" product="tablet" msgid="865953107414742784">"允許應用程式使用平板電腦的 GPS 找出你的精確位置"</string>
     <string name="location_street_level" product="default" msgid="3813836654645896185">"允許應用程式使用手機的 GPS 找出你的精確位置"</string>
     <string name="assisted_gps" msgid="1714546606018821498">"使用輔助 GPS"</string>
     <string name="assisted_gps_enabled" msgid="6220188450779319248">"使用伺服器輔助 GPS (取消勾選即可降低網路使用量)"</string>
@@ -1787,7 +1755,6 @@
     </plurals>
     <string name="forgot_password_title" msgid="3967873480875239885">"請與 IT 管理員聯絡"</string>
     <string name="forgot_password_text" msgid="2583194470767613163">"IT 管理員可協助你重設 PIN 碼、解鎖圖案或密碼"</string>
-    <string name="install_all_warning" product="tablet" msgid="7010749217925069520">"來歷不明的應用程式可能會損害你的平板電腦和個人資料。安裝這個來源提供的應用程式集表示你同意，如因使用這些應用程式導致你的平板電腦受損或資料遺失，須自行負責。"</string>
     <string name="install_all_warning" product="default" msgid="652516435709047343">"來歷不明的應用程式可能會損害你的手機和個人資料。安裝這個來源提供的應用程式即表示你同意，如因使用這些應用程式導致你的手機受損或資料遺失，須自行負責。"</string>
     <string name="fdr_esim_failure_title" msgid="4776006228989385163">"清除已下載的 SIM 卡時發生問題"</string>
     <string name="fdr_esim_failure_text" msgid="8353414537422446964">"請重新啟動裝置，然後再試一次。如果繼續恢復原廠設定，已下載的 SIM 卡可能仍會保留在裝置中。"</string>
@@ -1870,7 +1837,6 @@
     <string name="invalid_size_value" msgid="7017371543563259201">"無法計算套件大小。"</string>
     <string name="version_text" msgid="7628938665256107608">"版本 <xliff:g id="VERSION_NUM">%1$s</xliff:g>"</string>
     <string name="move_app" msgid="5421158479447276791">"移動"</string>
-    <string name="move_app_to_internal" product="tablet" msgid="5799782476959541144">"移至平板電腦"</string>
     <string name="move_app_to_internal" product="default" msgid="7395498801589544372">"移至手機"</string>
     <string name="move_app_to_sdcard" product="default" msgid="7161667212614143767">"移至 SD 卡"</string>
     <string name="another_migration_already_in_progress" msgid="6550546307856052261">"目前已在執行另一項遷移作業。"</string>
@@ -1934,7 +1900,6 @@
     <string name="process_service_in_use_description" msgid="4210957264507014878">"服務 <xliff:g id="COMP_NAME">%1$s</xliff:g> 正在使用中。"</string>
     <string name="process_provider_in_use_description" msgid="6730020083976048028">"供應商 <xliff:g id="COMP_NAME">%1$s</xliff:g> 正在使用中。"</string>
     <string name="runningservicedetails_stop_dlg_title" msgid="6201041461740445113">"停止系統服務？"</string>
-    <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"如果你停用這項服務，你的平板電腦上的某些功能可能無法正常運作，待你重新開機後才會恢復正常。"</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"如果你停用這項服務，你的手機上的某些功能可能無法正常運作，待你重新開機後才會恢復正常。"</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"語言、輸入和手勢"</string>
     <string name="language_input_gesture_summary_on_with_assist" msgid="8670153838520237089"></string>
@@ -2003,7 +1968,6 @@
     <string name="user_dict_settings_all_languages" msgid="8563387437755363526">"所有語言"</string>
     <string name="user_dict_settings_more_languages" msgid="5378870726809672319">"更多語言…"</string>
     <string name="testing" msgid="6294172343766732037">"測試中"</string>
-    <string name="testing_phone_info" product="tablet" msgid="1910768200608214456">"平板電腦資訊"</string>
     <string name="testing_phone_info" product="default" msgid="1150527695827743906">"手機資訊"</string>
     <string name="input_methods_settings_title" msgid="7796027458321225550">"文字輸入法"</string>
     <string name="input_method" msgid="2982805181425436775">"輸入法"</string>
@@ -2340,27 +2304,19 @@
     <string name="packages_subtitle" msgid="8687690644931499428">"已包含封裝檔案"</string>
     <string name="battery_tip_summary_title" msgid="321127485145626939">"應用程式正常執行中"</string>
     <string name="battery_tip_summary_summary" product="default" msgid="6077959765904507849">"手機的背景耗電量一般"</string>
-    <string name="battery_tip_summary_summary" product="tablet" msgid="5063158368808711973">"平板電腦的背景耗電量一般"</string>
-    <string name="battery_tip_summary_summary" product="device" msgid="4242899844618910548">"裝置的背景耗電量一般"</string>
     <string name="battery_tip_low_battery_title" msgid="7789690720316830767">"電池電量不足"</string>
     <string name="battery_tip_low_battery_summary" msgid="357649681960300945">"電量衰退過快"</string>
     <string name="battery_tip_smart_battery_title" product="default" msgid="2903272443772298636">"延長手機的電池續航力"</string>
-    <string name="battery_tip_smart_battery_title" product="tablet" msgid="6813017377960004819">"延長平板電腦的電池續航力"</string>
-    <string name="battery_tip_smart_battery_title" product="device" msgid="4805599360437606335">"延長裝置的電池續航力"</string>
     <string name="battery_tip_smart_battery_summary" msgid="3592965553502362965">"開啟 Battery Manager"</string>
     <string name="battery_tip_early_heads_up_title" msgid="4411387863476629452">"開啟省電模式"</string>
     <string name="battery_tip_early_heads_up_summary" msgid="578523794827443977">"電池電力可能會比平常更快耗盡"</string>
     <string name="battery_tip_early_heads_up_done_title" msgid="4413270905575486715">"省電模式已開啟"</string>
     <string name="battery_tip_early_heads_up_done_summary" msgid="7858923105760361208">"部分功能可能受到限制"</string>
     <string name="battery_tip_high_usage_title" product="default" msgid="2375953293196088319">"手機使用率比平常高"</string>
-    <string name="battery_tip_high_usage_title" product="tablet" msgid="8515903411746145740">"平板電腦使用率比平常高"</string>
-    <string name="battery_tip_high_usage_title" product="device" msgid="6577086402173910457">"裝置使用率比平常高"</string>
     <string name="battery_tip_high_usage_summary" msgid="5356399389711499862">"電池電量可能會比平常更快耗盡"</string>
     <string name="battery_tip_limited_temporarily_title" msgid="7152799456221596915">"最佳化調整電池狀態"</string>
     <string name="battery_tip_limited_temporarily_summary" msgid="6837061824463128857">"系統已暫時限制電池用量。輕觸即可瞭解詳情。"</string>
     <string name="battery_tip_dialog_message" product="default" msgid="4681734836472195966">"你的手機使用率比平常高，電池電量可能比預期更快耗盡。\n\n你常用的應用程式如下 (按照電池用量由高到低排序)："</string>
-    <string name="battery_tip_dialog_message" product="tablet" msgid="3934298305232120382">"你的平板電腦使用率比平常高，電池電量可能比預期更快耗盡。\n\n你常用的應用程式如下 (按照電池用量由高到低排序)："</string>
-    <string name="battery_tip_dialog_message" product="device" msgid="2620789680336796054">"你的裝置使用率比平常高，電池電量可能比預期更快耗盡。\n\n你常用的應用程式如下 (按照電池用量由高到低排序)："</string>
     <string name="battery_tip_dialog_message_footer" msgid="986542164372177504">"包含高耗電背景活動"</string>
     <plurals name="battery_tip_restrict_title" formatted="false" msgid="3108195491484891588">
       <item quantity="other">限制 %1$d 個應用程式</item>
@@ -2391,8 +2347,6 @@
     <string name="battery_tip_unrestrict_app_dialog_ok" msgid="7940183167721998470">"移除"</string>
     <string name="battery_tip_unrestrict_app_dialog_cancel" msgid="4968135709160207507">"取消"</string>
     <string name="battery_tip_dialog_summary_message" product="default" msgid="6097167058237891756">"你的應用程式目前耗用的電力正常。如果應用程式耗用過多電力，你的手機會為你提供操作建議。\n\n如果電池電量偏低，你隨時可以開啟省電模式。"</string>
-    <string name="battery_tip_dialog_summary_message" product="tablet" msgid="573297655597451123">"你的應用程式目前耗用的電力正常。如果應用程式耗用過多電力，你的平板電腦會為你提供操作建議。\n\n如果電池電量偏低，你隨時可以開啟省電模式。"</string>
-    <string name="battery_tip_dialog_summary_message" product="device" msgid="8222461068860745749">"你的應用程式目前耗用的電力正常。如果應用程式耗用過多電力，裝置會提供相關操作建議。\n\n如果電池電量偏低，你隨時可以開啟省電模式。"</string>
     <string name="smart_battery_manager_title" msgid="3677620516657920364">"Battery Manager"</string>
     <string name="smart_battery_title" msgid="9095903608520254254">"自動管理應用程式"</string>
     <string name="smart_battery_summary" product="default" msgid="1492277404000064998">"針對不常使用的應用程式限制電池用量"</string>
@@ -2417,21 +2371,13 @@
     <string name="battery_missing_help_message" msgid="4583322687535428926">"讀取電池計量器時發生問題。輕觸即可"<annotation id="url">"瞭解詳情"</annotation></string>
     <string name="dialog_stop_title" msgid="5972757101865665655">"要停止應用程式嗎？"</string>
     <string name="dialog_stop_message" product="default" msgid="2063536418875183799">"由於「<xliff:g id="APP">%1$s</xliff:g>」一直讓你的手機保持喚醒狀態，因此手機無法正常管理電池。\n\n你可以停止這個應用程式來解決此問題。\n\n如果問題持續發生，你可能需要解除安裝該應用程式，才能改善電池效能。"</string>
-    <string name="dialog_stop_message" product="tablet" msgid="426862716783569739">"由於「<xliff:g id="APP">%1$s</xliff:g>」一直讓你的平板電腦保持喚醒狀態，因此平板電腦無法正常管理電池。\n\n你可以停止這個應用程式來解決此問題。\n\n如果問題持續發生，你可能需要解除安裝該應用程式，才能改善電池效能。"</string>
-    <string name="dialog_stop_message" product="device" msgid="4252335402634772603">"由於「<xliff:g id="APP">%1$s</xliff:g>」一直讓你的裝置保持喚醒狀態，因此裝置無法正常管理電池。\n\n你可以停止這個應用程式來解決此問題。\n\n如果問題持續發生，你可能需要解除安裝該應用程式，才能改善電池效能。"</string>
     <string name="dialog_stop_message_wakeup_alarm" product="default" msgid="604462000476810125">"由於「<xliff:g id="APP_0">%1$s</xliff:g>」一直讓你的手機保持喚醒狀態，因此手機無法正常管理電池。\n\n你可以停止「<xliff:g id="APP_1">%1$s</xliff:g>」來解決此問題。\n\n如果問題持續發生，你可能需要解除安裝該應用程式，才能改善電池效能。"</string>
-    <string name="dialog_stop_message_wakeup_alarm" product="tablet" msgid="7737426241260791605">"由於「<xliff:g id="APP_0">%1$s</xliff:g>」一直讓你的平板電腦保持喚醒狀態，因此平板電腦無法正常管理電池。\n\n你可以停止「<xliff:g id="APP_1">%1$s</xliff:g>」來解決此問題。\n\n如果問題持續發生，你可能需要解除安裝該應用程式，才能改善電池效能。"</string>
-    <string name="dialog_stop_message_wakeup_alarm" product="device" msgid="1820679795932901383">"由於「<xliff:g id="APP_0">%1$s</xliff:g>」一直讓你的裝置保持喚醒狀態，因此裝置無法正常管理電池。\n\n你可以停止「<xliff:g id="APP_1">%1$s</xliff:g>」來解決此問題。\n\n如果問題持續發生，你可能需要解除安裝該應用程式，才能改善電池效能。"</string>
     <string name="dialog_stop_ok" msgid="1171516542217183180">"停止應用程式"</string>
     <string name="dialog_background_check_title" msgid="8571605969100408762">"要關閉背景使用功能並停止應用程式嗎？"</string>
     <string name="dialog_background_check_message" product="default" msgid="6203374578970183277">"由於「<xliff:g id="APP_0">%1$s</xliff:g>」一直讓你的手機保持喚醒狀態，因此你的手機無法正常管理電池。\n\n請設定手機禁止讓「<xliff:g id="APP_1">%1$s</xliff:g>」在背景執行，以解決這個問題。"</string>
-    <string name="dialog_background_check_message" product="tablet" msgid="1282389215667916176">"由於「<xliff:g id="APP_0">%1$s</xliff:g>」一直讓你的平板電腦保持喚醒狀態，因此你的平板電腦無法正常管理電池。\n\n請設定平板電腦禁止讓「<xliff:g id="APP_1">%1$s</xliff:g>」在背景執行，以解決這個問題。"</string>
-    <string name="dialog_background_check_message" product="device" msgid="8005524265739819577">"由於「<xliff:g id="APP_0">%1$s</xliff:g>」一直讓你的裝置保持喚醒狀態，因此你的裝置無法正常管理電池。\n\n請設定裝置禁止讓「<xliff:g id="APP_1">%1$s</xliff:g>」在背景執行，以解決這個問題。"</string>
     <string name="dialog_background_check_ok" msgid="5792934035264144797">"關閉"</string>
     <string name="dialog_location_title" msgid="1323400468370901875">"要關閉定位功能嗎？"</string>
     <string name="dialog_location_message" product="default" msgid="5597959072209122057">"由於「<xliff:g id="APP">%1$s</xliff:g>」在你未使用時持續要求取得你的位置資訊，因此手機無法正常管理電池。\n\n請關閉這個應用程式的定位功能，以解決這個問題。"</string>
-    <string name="dialog_location_message" product="tablet" msgid="7165269165194599595">"由於「<xliff:g id="APP">%1$s</xliff:g>」在你未使用時持續要求取得你的位置資訊，因此平板電腦無法正常管理電池。\n\n請關閉這個應用程式的定位功能，以解決這個問題。"</string>
-    <string name="dialog_location_message" product="device" msgid="4606829479989940464">"由於「<xliff:g id="APP">%1$s</xliff:g>」在你未使用時持續要求取得你的位置資訊，因此裝置無法正常管理電池。\n\n請關閉這個應用程式的定位功能，以解決這個問題。"</string>
     <string name="dialog_location_ok" msgid="6338680851382069716">"關閉"</string>
     <string name="power_screen" msgid="4596900105850963806">"螢幕"</string>
     <string name="power_flashlight" msgid="8993388636332573202">"手電筒"</string>
@@ -2440,7 +2386,6 @@
     <string name="power_bluetooth" msgid="5085900180846238196">"藍牙"</string>
     <string name="power_cell" msgid="5507921058696341513">"行動網路待命中"</string>
     <string name="power_phone" msgid="2768396619208561670">"語音通話"</string>
-    <string name="power_idle" product="tablet" msgid="4689321599298911021">"平板電腦閒置"</string>
     <string name="power_idle" product="default" msgid="9132502722499465252">"手機閒置"</string>
     <string name="power_unaccounted" msgid="2160811497426475703">"其他"</string>
     <string name="power_overcounted" msgid="3681101460287472876">"估計過高"</string>
@@ -2449,7 +2394,6 @@
     <string name="usage_type_wake_lock" msgid="3442487584173668904">"停用休眠"</string>
     <string name="usage_type_gps" msgid="4118035982288964651">"GPS"</string>
     <string name="usage_type_wifi_running" msgid="5573404832197356206">"Wi-Fi 使用時間"</string>
-    <string name="usage_type_phone" product="tablet" msgid="4527092861928972130">"平板電腦"</string>
     <string name="usage_type_phone" product="default" msgid="4149330237181984782">"手機"</string>
     <string name="usage_type_data_send" msgid="4375755152437282184">"已傳送的行動封包"</string>
     <string name="usage_type_data_recv" msgid="7821924049621005218">"已接收的行動封包"</string>
@@ -2472,7 +2416,6 @@
     <string name="battery_action_wifi" msgid="1829212604573932607">"Wi-Fi 設定"</string>
     <string name="battery_action_bluetooth" msgid="4723692623358386789">"藍牙設定"</string>
     <string name="battery_desc_voice" msgid="6900799826084022585">"語音通話耗電量"</string>
-    <string name="battery_desc_standby" product="tablet" msgid="5818742458684767043">"平板電腦閒置時的耗電量"</string>
     <string name="battery_desc_standby" product="default" msgid="2543075041964578103">"手機閒置時的耗電量"</string>
     <string name="battery_desc_radio" msgid="454677140485133914">"手機無線電耗電量"</string>
     <string name="battery_sugg_radio" msgid="5476234634503535270">"切換到飛行模式，以便裝置不在服務涵蓋範圍時能節省電力"</string>
@@ -2529,8 +2472,6 @@
     <string name="battery_saver_turn_on_summary" msgid="1433919417587171160">"延長電池續航力"</string>
     <string name="battery_saver_sticky_title_new" msgid="5942813274115684599">"充電時關閉"</string>
     <string name="battery_saver_sticky_description_new" product="default" msgid="6862168106613838677">"在你手機的電池電量達 <xliff:g id="PERCENT">%1$s</xliff:g> 時關閉省電模式"</string>
-    <string name="battery_saver_sticky_description_new" product="tablet" msgid="6740553373344759992">"在你平板電腦的電池電量達 <xliff:g id="PERCENT">%1$s</xliff:g> 時關閉省電模式"</string>
-    <string name="battery_saver_sticky_description_new" product="device" msgid="8512106347424406909">"在你裝置的電池電量達 <xliff:g id="PERCENT">%1$s</xliff:g> 時關閉省電模式"</string>
     <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
     <skip />
     <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"開啟"</string>
@@ -2716,9 +2657,7 @@
     <string name="remove_account_label" msgid="4169490568375358010">"移除帳戶"</string>
     <string name="header_add_an_account" msgid="3919151542338822661">"新增帳戶"</string>
     <string name="really_remove_account_title" msgid="253097435885652310">"確定要移除帳戶？"</string>
-    <string name="really_remove_account_message" product="tablet" msgid="8893801622174947887">"移除帳戶後，平板電腦上所有的訊息、聯絡人和其他資料將全部遭到刪除！"</string>
     <string name="really_remove_account_message" product="default" msgid="1217810840427479274">"移除帳戶後，手機上所有的郵件、聯絡人和其他資料將全部遭到刪除！"</string>
-    <string name="really_remove_account_message" product="device" msgid="5241756807386611084">"移除帳戶後，裝置上所有的訊息、聯絡人和其他資料將全部遭到刪除！"</string>
     <string name="remove_account_failed" msgid="3709502163548900644">"你的管理員不允許這項變更"</string>
     <string name="cant_sync_dialog_title" msgid="2613000568881139517">"無法手動同步處理"</string>
     <string name="cant_sync_dialog_message" msgid="7612557105054568581">"這個項目的同步處理功能已停用。如要變更這項設定，請暫時開啟背景資料與自動同步處理功能。"</string>
@@ -2791,7 +2730,6 @@
     <string name="data_usage_app_restrict_dialog" msgid="5534272311979978297">"如果採用這項功能，當只有行動網路可供使用時，需要背景數據傳輸的應用程式可能會停止運作。\n\n你可以在應用程式的設定選單中，找出更多適當的數據用量的選項。"</string>
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"你必須先設定行動數據用量上限，才能限制背景資料。"</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"開啟資料自動同步功能？"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"你在網路上對帳戶進行的所有變更都會自動複製到你的平板電腦。\n\n有些帳戶還可以自動將你在平板電腦上進行的所有變更複製到網路上，Google 帳戶即是按照這種方式運作。"</string>
     <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"你在網路上對帳戶進行的所有變更都會自動複製到你的手機。\n\n有些帳戶還可以自動將你在手機上進行的所有變更複製到網路上，Google 帳戶即是按照這種方式運作。"</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"關閉資料自動同步功能？"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"這樣可以節省數據用量和電池用量，但你必須手動同步處理每個帳戶才能收集最新資訊。此外，系統進行更新時不會通知你。"</string>
@@ -2801,11 +2739,9 @@
     <string name="data_usage_warning_editor_title" msgid="5252748452973120016">"設定數據用量警告"</string>
     <string name="data_usage_limit_editor_title" msgid="8826855902435008518">"設定數據用量上限"</string>
     <string name="data_usage_limit_dialog_title" msgid="2053134451707801439">"限制數據用量"</string>
-    <string name="data_usage_limit_dialog_mobile" product="tablet" msgid="6000062970083379466">"當行動數據用量達到你設定的上限時，平板電腦將關閉行動數據功能。\n\n由於數據用量是由平板電腦自動計算，而電信業者對用量的計算方式可能有所不同，因此建議你設定保守的上限值。"</string>
     <string name="data_usage_limit_dialog_mobile" product="default" msgid="4942895670789168024">"當行動數據用量達到你設定的上限時，手機將關閉行動數據功能。\n\n由於數據用量是由手機自動計算，而電信業者對用量的計算方式可能有所不同，因此建議你設定保守的上限值。"</string>
     <string name="data_usage_restrict_background_title" msgid="2745551538820692821">"限制背景資料？"</string>
     <string name="data_usage_restrict_background" msgid="1893102079135282794">"如果限制背景行動數據用量，部分應用程式和服務將無法正常運作 (除非你連上 Wi-Fi 網路)。"</string>
-    <string name="data_usage_restrict_background_multiuser" product="tablet" msgid="5588623586867665419">"如果限制背景行動數據用量，部分應用程式和服務將無法正常運作 (除非你連上 Wi-Fi 網路)。\n\n這項設定會影響這部平板電腦的所有使用者。"</string>
     <string name="data_usage_restrict_background_multiuser" product="default" msgid="6402714504088590463">"如果限制背景行動數據用量，部分應用程式和服務將無法正常運作 (除非你連上 Wi-Fi 網路)。\n\n這項設定會影響這支手機的所有使用者。"</string>
     <string name="data_usage_sweep_warning" msgid="2072854703184614828"><font size="18">"<xliff:g id="NUMBER">^1</xliff:g>"</font>" "<font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"警告"</font></string>
     <string name="data_usage_sweep_limit" msgid="6947019190890086284"><font size="18">"<xliff:g id="NUMBER">^1</xliff:g>"</font><font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"上限"</font></string>
@@ -2813,7 +2749,6 @@
     <string name="data_usage_uninstalled_apps_users" msgid="1262228664057122983">"已移除的應用程式和使用者"</string>
     <string name="data_usage_received_sent" msgid="1486740779864806124">"已接收 <xliff:g id="RECEIVED">%1$s</xliff:g>，已傳送 <xliff:g id="SENT">%2$s</xliff:g>"</string>
     <string name="data_usage_total_during_range" msgid="2695893609573024612">"<xliff:g id="RANGE">%2$s</xliff:g>：已使用約 <xliff:g id="TOTAL">%1$s</xliff:g>。"</string>
-    <string name="data_usage_total_during_range_mobile" product="tablet" msgid="45300375132284265">"<xliff:g id="RANGE">%2$s</xliff:g>：根據平板電腦計算，已使用約 <xliff:g id="TOTAL">%1$s</xliff:g>。你的電信業者對於數據用量的計算方式可能會有所不同。"</string>
     <string name="data_usage_total_during_range_mobile" product="default" msgid="3183594094081558193">"<xliff:g id="RANGE">%2$s</xliff:g>：根據手機計算，已使用約 <xliff:g id="TOTAL">%1$s</xliff:g>。你的電信業者對於數據用量的計算方式可能會有所不同。"</string>
     <string name="data_usage_metered_title" msgid="6421347352444253058">"網路限制"</string>
     <string name="data_usage_metered_body" msgid="1206840367501998582">"當背景數據流量受到限制時，系統會將按流量計費的網路視為行動網路。使用這類網路下載大量資料前，應用程式可能會顯示警告訊息。"</string>
@@ -2936,8 +2871,6 @@
       <item quantity="one">查看憑證</item>
     </plurals>
     <string name="user_settings_title" msgid="6550866465409807877">"多位使用者"</string>
-    <string name="user_settings_footer_text" product="device" msgid="7523914344521302179">"新增使用者來共用你的裝置。每位使用者在裝置上都享有個人空間，並可自訂主螢幕、帳戶、應用程式和設定等。"</string>
-    <string name="user_settings_footer_text" product="tablet" msgid="3730074318510244552">"新增使用者來共用你的平板電腦。每位使用者在平板電腦上都享有個人空間，並可自訂主螢幕、帳戶、應用程式和設定等。"</string>
     <string name="user_settings_footer_text" product="default" msgid="4420915712050349125">"你可以新增其他使用者，讓他們一起使用你的手機。每位使用者在手機上都享有個人空間，並可自訂主螢幕、帳戶、應用程式和設定等。"</string>
     <string name="user_list_title" msgid="1387379079186123404">"使用者和個人資料"</string>
     <string name="user_add_user_or_profile_menu" msgid="305851380425838287">"新增使用者或個人資料"</string>
@@ -2950,7 +2883,6 @@
     <string name="user_you" msgid="3070562015202859996">"你 (<xliff:g id="NAME">%s</xliff:g>)"</string>
     <string name="user_nickname" msgid="3763630194459958977">"暱稱"</string>
     <string name="user_add_max_count" msgid="5739771048517070983">"你最多可新增 <xliff:g id="USER_COUNT">%1$d</xliff:g> 位使用者"</string>
-    <string name="user_cannot_manage_message" product="tablet" msgid="3405022988077682357">"只有平板電腦的擁有者可以管理使用者。"</string>
     <string name="user_cannot_manage_message" product="default" msgid="6434662649769855494">"只有手機的擁有者可以管理使用者。"</string>
     <string name="user_cannot_add_accounts_message" msgid="2351326078338805337">"設有限制的個人資料無法新增帳戶"</string>
     <string name="user_remove_user_menu" msgid="2183714948094429367">"將 <xliff:g id="USER_NAME">%1$s</xliff:g> 從這個裝置中刪除"</string>
@@ -2960,7 +2892,6 @@
     <string name="user_confirm_remove_title" msgid="3626559103278006002">"要刪除這位使用者嗎？"</string>
     <string name="user_profile_confirm_remove_title" msgid="3131574314149375354">"移除這個設定檔？"</string>
     <string name="work_profile_confirm_remove_title" msgid="6229618888167176036">"移除工作設定檔？"</string>
-    <string name="user_confirm_remove_self_message" product="tablet" msgid="439222554798995592">"你在這台平板電腦上的可用空間和資料將會消失，這個動作無法復原。"</string>
     <string name="user_confirm_remove_self_message" product="default" msgid="5991495192044543230">"你在這支手機上的可用空間和資料將會消失，這個動作無法復原。"</string>
     <string name="user_confirm_remove_message" msgid="362545924965977597">"所有應用程式和資料都會遭到刪除。"</string>
     <string name="work_profile_confirm_remove_message" msgid="1037294114103024478">"如果繼續執行，這個設定檔中的所有應用程式和資料都將遭到刪除。"</string>
@@ -3061,7 +2992,6 @@
     <string name="restriction_bluetooth_config_summary" msgid="7558879931011271603">"允許修改藍牙配對與設定"</string>
     <string name="restriction_nfc_enable_title" msgid="525512312298242911">"NFC"</string>
     <string name="restriction_nfc_enable_summary_config" msgid="8065688740509581028">"允許這台 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 經由靠接與另一台 NFC 裝置傳輸資料"</string>
-    <string name="restriction_nfc_enable_summary" product="tablet" msgid="6397567147629410131">"允許平板電腦與其他裝置接觸時交換資料"</string>
     <string name="restriction_nfc_enable_summary" product="default" msgid="3331800894734678808">"允許手機與其他裝置接觸時交換資料"</string>
     <string name="restriction_location_enable_title" msgid="4872281754836538066">"位置"</string>
     <string name="restriction_location_enable_summary" msgid="7139292323897390221">"允許應用程式使用你的位置資訊"</string>
@@ -4376,8 +4306,6 @@
     <string name="deletion_helper_preference_title" msgid="6364023246849161274">"立即釋出空間"</string>
     <string name="gesture_preference_title" msgid="8291899281322647187">"手勢"</string>
     <string name="gesture_preference_summary" product="default" msgid="7941981260703379398">"透過簡單的手勢操作手機"</string>
-    <string name="gesture_preference_summary" product="tablet" msgid="4031666250963488007">"透過簡單的手勢操作平板電腦"</string>
-    <string name="gesture_preference_summary" product="device" msgid="3520072325356373349">"透過簡單的手勢操作裝置"</string>
     <string name="double_tap_power_for_camera_title" msgid="7982364144330923683">"快速開啟相機"</string>
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"只要在任何畫面中按兩下電源按鈕，即可快速開啟相機。"</string>
     <string name="double_tap_power_for_camera_suggestion_title" msgid="4299496243418753571">"快速開啟相機"</string>
@@ -4406,25 +4334,15 @@
     <string name="gesture_settings_activity_title" msgid="6047431928567911330">"手勢設定"</string>
     <string name="keywords_gesture_navigation_settings" msgid="667561222717238931">"手勢操作, 系統偵測「返回」手勢的敏感度,「返回」手勢"</string>
     <string name="ambient_display_title" product="default" msgid="5885136049497127396">"輕觸兩下以查看手機"</string>
-    <string name="ambient_display_title" product="tablet" msgid="205744440641466921">"輕觸兩下平板電腦即可查看"</string>
-    <string name="ambient_display_title" product="device" msgid="4164103424628824786">"輕觸兩下裝置即可查看"</string>
     <string name="ambient_display_summary" msgid="2650326740502690434">"輕觸兩下螢幕即可查看時間、通知和其他資訊。"</string>
     <string name="ambient_display_pickup_title" product="default" msgid="4418310591912877548">"拿起以查看手機"</string>
-    <string name="ambient_display_pickup_title" product="tablet" msgid="8055486872070888377">"拿起平板電腦即可查看"</string>
-    <string name="ambient_display_pickup_title" product="device" msgid="8980156994848721455">"拿起裝置即可查看"</string>
     <string name="ambient_display_wake_screen_title" msgid="7637678749035378085">"喚醒螢幕"</string>
     <string name="ambient_display_pickup_summary" product="default" msgid="1087355013674109242">"拿起手機即可查看時間、通知和其他資訊。"</string>
-    <string name="ambient_display_pickup_summary" product="tablet" msgid="2589556997034530529">"拿起平板電腦即可查看時間、通知和其他資訊。"</string>
-    <string name="ambient_display_pickup_summary" product="device" msgid="1916011370011115627">"拿起裝置即可查看時間、通知和其他資訊。"</string>
     <string name="ambient_display_tap_screen_title" product="default" msgid="2811332293938467179">"輕觸以查看手機"</string>
-    <string name="ambient_display_tap_screen_title" product="tablet" msgid="6461531447715370632">"輕觸以查看平板電腦"</string>
-    <string name="ambient_display_tap_screen_title" product="device" msgid="4423803387551153840">"輕觸以查看裝置"</string>
     <string name="ambient_display_tap_screen_summary" msgid="4480489179996521405">"如要查看時間、通知和其他資訊，請輕觸螢幕。"</string>
     <string name="fingerprint_swipe_for_notifications_title" msgid="2271217256447175017">"滑動指紋感應器以查看通知"</string>
     <string name="fingerprint_gesture_screen_title" msgid="9086261338232806522">"滑動手指"</string>
     <string name="fingerprint_swipe_for_notifications_summary" product="default" msgid="286662791588779673">"將手指放在手機背面的指紋感應器上並向下滑動，即可查看通知。"</string>
-    <string name="fingerprint_swipe_for_notifications_summary" product="tablet" msgid="8642092907817554454">"將手指放在平板電腦背面的指紋感應器上並向下滑動，即可查看通知。"</string>
-    <string name="fingerprint_swipe_for_notifications_summary" product="device" msgid="3888927017311372398">"將手指放在裝置背面的指紋感應器上並向下滑動，即可查看通知。"</string>
     <string name="fingerprint_swipe_for_notifications_suggestion_title" msgid="2956636269742745449">"快速查看通知"</string>
     <string name="gesture_setting_on" msgid="3223448394997988591">"開啟"</string>
     <string name="gesture_setting_off" msgid="3444029475726294919">"關閉"</string>
@@ -4591,8 +4509,6 @@
     <string name="platform_compat_dialog_title_no_apps" msgid="4387656000745989506">"沒有可用的應用程式"</string>
     <string name="platform_compat_dialog_text_no_apps" msgid="5715226015751055812">"你只能修改可偵錯應用程式的應用程式相容性變更。請安裝可進行偵錯的應用程式，然後再試一次。"</string>
     <string name="unsupported_setting_summary" product="default" msgid="1085229417771470172">"這支手機不支援這項設定"</string>
-    <string name="unsupported_setting_summary" product="tablet" msgid="7402414129786489664">"這台平板電腦不支援這項設定"</string>
-    <string name="unsupported_setting_summary" product="device" msgid="3422953459122926833">"這個裝置不支援這項設定"</string>
     <string name="disabled_for_user_setting_summary" msgid="9096036019081828639">"目前的使用者無法變更設定"</string>
     <string name="disabled_dependent_setting_summary" msgid="4508635725315852504">"必須一併變更其他設定"</string>
     <string name="unknown_unavailability_setting_summary" msgid="9060213910510360231">"無法變更設定"</string>
@@ -4605,8 +4521,6 @@
     <string name="media_output_label_title" msgid="4139048973886819148">"透過以下裝置播放「<xliff:g id="LABEL">%s</xliff:g>」"</string>
     <string name="media_output_default_summary" msgid="4200343059396412376">"這個裝置"</string>
     <string name="media_output_summary" product="default" msgid="4760338801715262899">"手機"</string>
-    <string name="media_output_summary" product="tablet" msgid="5138101426462250247">"平板電腦"</string>
-    <string name="media_output_summary" product="device" msgid="3598300438694764381">"裝置"</string>
     <string name="media_out_summary_ongoing_call_state" msgid="475188726850090363">"通話時無法使用"</string>
     <string name="media_output_summary_unavailable" msgid="2695058965888813093">"無法使用"</string>
     <string name="media_output_group_panel_title" msgid="3086245179062913037">"新增輸出裝置"</string>
@@ -4616,8 +4530,6 @@
     <string name="media_output_switching" msgid="7488216595474868546">"切換中…"</string>
     <string name="take_call_on_title" msgid="1159417893879946757">"接聽來電時使用的裝置"</string>
     <string name="cannot_change_apn_toast" msgid="296540724089240405">"這個 APN 無法變更。"</string>
-    <string name="battery_suggestion_title" product="tablet" msgid="1525940496459255289">"延長平板電腦的電池續航力"</string>
-    <string name="battery_suggestion_title" product="device" msgid="2280773774080720377">"延長裝置的電池續航力"</string>
     <string name="battery_suggestion_title" product="default" msgid="4811554469047272537">"延長手機的電池續航力"</string>
     <string name="battery_suggestion_summary" msgid="8186720080540016197"></string>
     <string name="gesture_prevent_ringing_screen_title" msgid="8293094715267769349">"暫停響鈴"</string>
@@ -4877,8 +4789,6 @@
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"要關閉 VoLTE 嗎？"</string>
     <string name="volte_5G_limited_text" msgid="7150583768725182345">"這麼做會一併關閉 5G 連線。\n進行語音通話時，你無法使用網際網路，部分應用程式也可能會無法正常運作。"</string>
     <string name="no_5g_in_dsds_text" product="default" msgid="772747677303920132">"使用 2 張 SIM 卡時，這支手機只能連線到 4G 網路。"<annotation id="url">"瞭解詳情"</annotation></string>
-    <string name="no_5g_in_dsds_text" product="tablet" msgid="4757328474425714624">"使用 2 張 SIM 卡時，這台平板電腦只能連線到 4G 網路。"<annotation id="url">"瞭解詳情"</annotation></string>
-    <string name="no_5g_in_dsds_text" product="device" msgid="6983783505032683314">"使用 2 張 SIM 卡時，這部裝置只能連線到 4G 網路。"<annotation id="url">"瞭解詳情"</annotation></string>
     <string name="cached_apps_freezer" msgid="1057519579761550350">"暫停執行快取的應用程式"</string>
     <string name="overlay_settings_title" msgid="1032863083496396365">"允許應用程式可重疊顯示在「設定」畫面上"</string>
     <string name="overlay_settings_summary" msgid="2745336273786148166">"允許可顯示在其他應用程式上的應用程式重疊顯示在「設定」畫面上"</string>
