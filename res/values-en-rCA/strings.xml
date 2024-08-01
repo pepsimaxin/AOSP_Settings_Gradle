@@ -1635,7 +1635,6 @@
     <string name="location_access_summary" msgid="8634100005481578143">"Let apps that have asked your permission use your location information"</string>
     <string name="location_sources_heading" msgid="6126965815860570524">"Location sources"</string>
     <string name="about_settings" product="default" msgid="4038626127378127613">"About phone"</string>
-    <string name="about_settings" product="emulator" msgid="2516560858771320366">"About emulated device"</string>
     <string name="about_settings_summary" msgid="4831942939227432513">"View legal info, status, software version"</string>
     <string name="legal_information" msgid="7509900979811934843">"Legal information"</string>
     <string name="contributors_title" msgid="7965640251547037965">"Contributors"</string>

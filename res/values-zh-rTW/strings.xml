@@ -1688,10 +1688,7 @@
     <string name="location_access_title" msgid="4052667453826272040">"存取我的位置資訊"</string>
     <string name="location_access_summary" msgid="8634100005481578143">"允許獲得你許可的應用程式使用你的位置資訊"</string>
     <string name="location_sources_heading" msgid="6126965815860570524">"位置資訊來源"</string>
-    <string name="about_settings" product="tablet" msgid="2888705054709289693">"關於平板電腦"</string>
     <string name="about_settings" product="default" msgid="4038626127378127613">"關於手機"</string>
-    <string name="about_settings" product="device" msgid="9012888717090302815">"關於裝置"</string>
-    <string name="about_settings" product="emulator" msgid="2516560858771320366">"關於模擬裝置"</string>
     <string name="about_settings_summary" msgid="4831942939227432513">"查看法律資訊、狀態、軟體版本"</string>
     <string name="legal_information" msgid="7509900979811934843">"法律資訊"</string>
     <string name="contributors_title" msgid="7965640251547037965">"貢獻者"</string>
