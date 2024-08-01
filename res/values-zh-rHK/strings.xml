@@ -1969,7 +1969,6 @@
     <string name="user_dict_settings_all_languages" msgid="8563387437755363526">"所有語言"</string>
     <string name="user_dict_settings_more_languages" msgid="5378870726809672319">"更多語言..."</string>
     <string name="testing" msgid="6294172343766732037">"測試"</string>
-    <string name="testing_phone_info" product="tablet" msgid="1910768200608214456">"平板電腦資訊"</string>
     <string name="testing_phone_info" product="default" msgid="1150527695827743906">"手機資訊"</string>
     <string name="input_methods_settings_title" msgid="7796027458321225550">"文字輸入"</string>
     <string name="input_method" msgid="2982805181425436775">"輸入法"</string>
@@ -2388,7 +2387,6 @@
     <string name="power_bluetooth" msgid="5085900180846238196">"藍牙"</string>
     <string name="power_cell" msgid="5507921058696341513">"流動網絡備用中"</string>
     <string name="power_phone" msgid="2768396619208561670">"語音通話"</string>
-    <string name="power_idle" product="tablet" msgid="4689321599298911021">"平板電腦閒置"</string>
     <string name="power_idle" product="default" msgid="9132502722499465252">"手機閒置"</string>
     <string name="power_unaccounted" msgid="2160811497426475703">"其他"</string>
     <string name="power_overcounted" msgid="3681101460287472876">"計算過高"</string>
@@ -2397,7 +2395,6 @@
     <string name="usage_type_wake_lock" msgid="3442487584173668904">"保持啟用"</string>
     <string name="usage_type_gps" msgid="4118035982288964651">"全球衛星定位系統 (GPS)"</string>
     <string name="usage_type_wifi_running" msgid="5573404832197356206">"Wi-Fi 執行中"</string>
-    <string name="usage_type_phone" product="tablet" msgid="4527092861928972130">"平板電腦"</string>
     <string name="usage_type_phone" product="default" msgid="4149330237181984782">"電話"</string>
     <string name="usage_type_data_send" msgid="4375755152437282184">"已傳送的流動數據包"</string>
     <string name="usage_type_data_recv" msgid="7821924049621005218">"已接收的流動數據包"</string>
@@ -2420,7 +2417,6 @@
     <string name="battery_action_wifi" msgid="1829212604573932607">"Wi-Fi 設定"</string>
     <string name="battery_action_bluetooth" msgid="4723692623358386789">"藍牙設定"</string>
     <string name="battery_desc_voice" msgid="6900799826084022585">"語音通話耗電量"</string>
-    <string name="battery_desc_standby" product="tablet" msgid="5818742458684767043">"平板電腦閒置時的耗電量"</string>
     <string name="battery_desc_standby" product="default" msgid="2543075041964578103">"手機閒置時的耗電量"</string>
     <string name="battery_desc_radio" msgid="454677140485133914">"手機無線電耗電量"</string>
     <string name="battery_sugg_radio" msgid="5476234634503535270">"切換到飛行模式，讓裝置處於服務覆蓋範圍外時能節省電力"</string>
@@ -2735,7 +2731,6 @@
     <string name="data_usage_app_restrict_dialog" msgid="5534272311979978297">"如果採用這項功能，當只可以連接流動網絡時，需要使用背景資料的應用程式可能會停止運作。\n\n您可以前往應用程式內的設定，找出更多適合的數據用量控制。"</string>
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"您必須先設定流動數據上限，才能限制背景數據。"</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"開啟資料自動同步功能？"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"您在網絡上對帳戶作出的任何變更都會自動複製到您的平板電腦。\n\n部分帳戶也可能自動將您在平板電腦上作出的變更複製到網絡上。Google 帳戶會按照這種方式運作。"</string>
     <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"您在網絡上對帳戶作出的任何變更都會自動複製到您的手機。\n\n部分帳戶也可能自動將您在手機上作出的變更複製到網絡上。Google 帳戶會按照這種方式運作。"</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"關閉資料自動同步功能？"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"這樣可以節省數據用量和電池用量，但您必須手動同步每個帳戶才能獲得最新資料，而且在有更新時不會收到通知。"</string>
@@ -2745,11 +2740,9 @@
     <string name="data_usage_warning_editor_title" msgid="5252748452973120016">"設定數據用量警告"</string>
     <string name="data_usage_limit_editor_title" msgid="8826855902435008518">"設定數據用量上限"</string>
     <string name="data_usage_limit_dialog_title" msgid="2053134451707801439">"限制數據用量"</string>
-    <string name="data_usage_limit_dialog_mobile" product="tablet" msgid="6000062970083379466">"平板電腦的流動數據用量一達到設定的上限，便會關閉流動數據功能。\n\n由於此數據用量由您的平板電腦計算，而流動網絡供應商的用量計算方式可能不同，因此建議您設定較保守的上限。"</string>
     <string name="data_usage_limit_dialog_mobile" product="default" msgid="4942895670789168024">"手機的流動數據用量一達到設定的上限，便會關閉流動數據功能。\n\n由於此數據用量由您的手機計算，而流動網絡供應商的用量計算方式可能不同，因此建議您設定較保守的上限。"</string>
     <string name="data_usage_restrict_background_title" msgid="2745551538820692821">"限制背景資料？"</string>
     <string name="data_usage_restrict_background" msgid="1893102079135282794">"如果您限制背景流動數據用量，部分應用程式和服務必須在連線至 Wi-Fi 後才能運作。"</string>
-    <string name="data_usage_restrict_background_multiuser" product="tablet" msgid="5588623586867665419">"如果您限制背景流動數據用量，部分應用程式和服務必須在連線至 Wi-Fi 後才能運作。\n\n此設定會影響這部平板電腦的所有使用者。"</string>
     <string name="data_usage_restrict_background_multiuser" product="default" msgid="6402714504088590463">"如果您限制背景流動數據用量，部分應用程式和服務必須在連線至 Wi-Fi 後才能運作。\n\n此設定會影響這部手機的所有使用者。"</string>
     <string name="data_usage_sweep_warning" msgid="2072854703184614828"><font size="18">"<xliff:g id="NUMBER">^1</xliff:g>"</font>" "<font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"警告"</font></string>
     <string name="data_usage_sweep_limit" msgid="6947019190890086284"><font size="18">"<xliff:g id="NUMBER">^1</xliff:g>"</font><font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"限制"</font></string>
@@ -2757,7 +2750,6 @@
     <string name="data_usage_uninstalled_apps_users" msgid="1262228664057122983">"已移除的應用程式和使用者"</string>
     <string name="data_usage_received_sent" msgid="1486740779864806124">"已接收 <xliff:g id="RECEIVED">%1$s</xliff:g>，已傳送 <xliff:g id="SENT">%2$s</xliff:g>"</string>
     <string name="data_usage_total_during_range" msgid="2695893609573024612">"<xliff:g id="RANGE">%2$s</xliff:g>：已使用約 <xliff:g id="TOTAL">%1$s</xliff:g>。"</string>
-    <string name="data_usage_total_during_range_mobile" product="tablet" msgid="45300375132284265">"<xliff:g id="RANGE">%2$s</xliff:g>：根據平板電腦計算，已使用約 <xliff:g id="TOTAL">%1$s</xliff:g>。您的流動網絡供應商可能採用不同的方法計算數據用量。"</string>
     <string name="data_usage_total_during_range_mobile" product="default" msgid="3183594094081558193">"<xliff:g id="RANGE">%2$s</xliff:g>：根據手機計算，已使用約 <xliff:g id="TOTAL">%1$s</xliff:g>。您的流動網絡供應商可能採用不同的方法計算數據用量。"</string>
     <string name="data_usage_metered_title" msgid="6421347352444253058">"網絡限制"</string>
     <string name="data_usage_metered_body" msgid="1206840367501998582">"背景數據受限制時，系統會將按用量收費的網絡視為流動網絡。使用這類網絡下載大量數據前，應用程式可能會顯示警告訊息。"</string>
@@ -2892,7 +2884,6 @@
     <string name="user_you" msgid="3070562015202859996">"您 (<xliff:g id="NAME">%s</xliff:g>)"</string>
     <string name="user_nickname" msgid="3763630194459958977">"暱稱"</string>
     <string name="user_add_max_count" msgid="5739771048517070983">"您可以加入多達 <xliff:g id="USER_COUNT">%1$d</xliff:g> 個用戶"</string>
-    <string name="user_cannot_manage_message" product="tablet" msgid="3405022988077682357">"只有平板電腦的擁有者可以管理使用者。"</string>
     <string name="user_cannot_manage_message" product="default" msgid="6434662649769855494">"只有手機的擁有者可以管理使用者。"</string>
     <string name="user_cannot_add_accounts_message" msgid="2351326078338805337">"限制存取的個人檔案無法新增帳戶"</string>
     <string name="user_remove_user_menu" msgid="2183714948094429367">"將 <xliff:g id="USER_NAME">%1$s</xliff:g> 從這部裝置中刪除"</string>
@@ -2902,7 +2893,6 @@
     <string name="user_confirm_remove_title" msgid="3626559103278006002">"要刪除這名使用者嗎？"</string>
     <string name="user_profile_confirm_remove_title" msgid="3131574314149375354">"移除這個設定檔？"</string>
     <string name="work_profile_confirm_remove_title" msgid="6229618888167176036">"要移除公司檔案嗎？"</string>
-    <string name="user_confirm_remove_self_message" product="tablet" msgid="439222554798995592">"您將會失去在這部平板電腦上的空間和資料。此操作將無法復原。"</string>
     <string name="user_confirm_remove_self_message" product="default" msgid="5991495192044543230">"您將會失去在這部手機上的空間和資料。此操作將無法復原。"</string>
     <string name="user_confirm_remove_message" msgid="362545924965977597">"所有應用程式和資料都會被刪除。"</string>
     <string name="work_profile_confirm_remove_message" msgid="1037294114103024478">"如果繼續操作，此設定檔中的所有應用程式和資料將被刪除。"</string>
@@ -3003,7 +2993,6 @@
     <string name="restriction_bluetooth_config_summary" msgid="7558879931011271603">"允許修改藍牙配對和設定"</string>
     <string name="restriction_nfc_enable_title" msgid="525512312298242911">"NFC"</string>
     <string name="restriction_nfc_enable_summary_config" msgid="8065688740509581028">"允許這部 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 透過與另一部 NFC 裝置輕觸來傳輸數據"</string>
-    <string name="restriction_nfc_enable_summary" product="tablet" msgid="6397567147629410131">"允許平板電腦在與其他裝置接觸時交換資料"</string>
     <string name="restriction_nfc_enable_summary" product="default" msgid="3331800894734678808">"允許手機在與其他裝置接觸時交換資料"</string>
     <string name="restriction_location_enable_title" msgid="4872281754836538066">"位置"</string>
     <string name="restriction_location_enable_summary" msgid="7139292323897390221">"允許應用程式使用您的位置資訊"</string>

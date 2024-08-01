@@ -4613,8 +4613,6 @@
     <!-- This is for diagnostics screen. The title of a screen with various items realted to launching screens that will giev the user info. For example, it contains "Phone information" and "Battery information" -->
     <string name="testing">Testing</string>
     <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
-    <string name="testing_phone_info" product="tablet">Tablet information</string>
-    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
     <string name="testing_phone_info" product="default">Phone information</string>
     <!-- Do not translate. In the Testing screen. The item title of the activity that shows a bunch of SIM-related operations.  -->
     <string name="testing_sim_toolkit">SIM toolkit</string>
@@ -5583,8 +5581,6 @@
     <!-- Label for power consumed by Calling -->
     <string name="power_phone">Voice calls</string>
     <!-- Label for power consumed when Idle -->
-    <string name="power_idle" product="tablet">Tablet idle</string>
-    <!-- Label for power consumed when Idle -->
     <string name="power_idle" product="default">Phone idle</string>
     <!-- Label for power that we aren't able to account for -->
     <string name="power_unaccounted">Miscellaneous</string>
@@ -5601,8 +5597,6 @@
     <string name="usage_type_gps">GPS</string>
     <!-- [CHAR LIMIT=25] Label for WIFI usage time -->
     <string name="usage_type_wifi_running">Wi\u2011Fi running</string>
-    <!-- Label for Phone usage time -->
-    <string name="usage_type_phone" product="tablet">Tablet</string>
     <!-- Label for Phone usage time -->
     <string name="usage_type_phone" product="default">Phone</string>
     <!-- Label for mobile network data sent [CHAR LIMIT=32] -->
@@ -5650,8 +5644,6 @@
     <!-- Description for voice call detail -->
     <string name="battery_desc_voice">Battery used by voice calls</string>
 
-    <!-- Description for standby detail -->
-    <string name="battery_desc_standby" product="tablet">Battery used when tablet is idle</string>
     <!-- Description for standby detail -->
     <string name="battery_desc_standby" product="default">Battery used when phone is idle</string>
 
@@ -6391,8 +6383,6 @@
     <string name="data_usage_restrict_denied_dialog">Restricting background data is possible only when you\u2019ve set a mobile data limit.</string>
     <!--  Title of dialog shown when user enables global auto sync [CHAR LIMIT=32] -->
     <string name="data_usage_auto_sync_on_dialog_title">Turn auto-sync data on?</string>
-    <!--  Body of dialog shown when user enables global auto sync, for tablet [CHAR LIMIT=none] -->
-    <string name="data_usage_auto_sync_on_dialog" product="tablet">Any changes you make to your accounts on the web will be automatically copied to your tablet.\n\nSome accounts may also automatically copy any changes you make on the tablet to the web. A Google Account works this way.</string>
     <!--  Body of dialog shown when user enables global auto sync [CHAR LIMIT=none] -->
     <string name="data_usage_auto_sync_on_dialog" product="default">Any changes you make to your accounts on the web will be automatically copied to your phone.\n\nSome accounts may also automatically copy any changes you make on the phone to the web. A Google Account works this way.</string>
     <!--  Title of dialog shown when user disables global auto sync [CHAR LIMIT=32] -->
@@ -6415,16 +6405,12 @@
     <!-- Title of dialog shown before user limits data usage. [CHAR LIMIT=48] -->
     <string name="data_usage_limit_dialog_title">Limiting data usage</string>
     <!-- Body of dialog shown before user limits mobile data usage. [CHAR LIMIT=NONE] -->
-    <string name="data_usage_limit_dialog_mobile" product="tablet">Your tablet will turn off mobile data once it reaches the limit you set.\n\nSince data usage is measured by your tablet, and your carrier may account for usage differently, consider setting a conservative limit.</string>
-    <!-- Body of dialog shown before user limits mobile data usage. [CHAR LIMIT=NONE] -->
     <string name="data_usage_limit_dialog_mobile" product="default">Your phone will turn off mobile data once it reaches the limit you set.\n\nSince data usage is measured by your phone, and your carrier may account for usage differently, consider setting a conservative limit.</string>
 
     <!-- Title of dialog shown before user restricts background data usage. [CHAR LIMIT=48] -->
     <string name="data_usage_restrict_background_title">Restrict background data?</string>
     <!-- Body of dialog shown before user restricts background data usage. [CHAR LIMIT=NONE] -->
     <string name="data_usage_restrict_background">If you restrict background mobile data, some apps and services won\u2019t work unless you\u2019re connected to Wi\u2011Fi.</string>
-    <!-- Body of dialog shown before user restricts background data usage. This is for multiuser tablets. [CHAR LIMIT=NONE] -->
-    <string name="data_usage_restrict_background_multiuser" product="tablet">If you restrict background mobile data, some apps and services won\u2019t work unless you\u2019re connected to Wi\u2011Fi.\n\nThis setting affects all users on this tablet.</string>
     <!-- Body of dialog shown before user restricts background data usage. This is for multiuser phones. [CHAR LIMIT=NONE] -->
     <string name="data_usage_restrict_background_multiuser" product="default">If you restrict background mobile data, some apps and services won\u2019t work unless you\u2019re connected to Wi\u2011Fi.\n\nThis setting affects all users on this phone.</string>
 
@@ -6444,8 +6430,6 @@
     <!-- Label displaying total network data transferred during a specific time period. [CHAR LIMIT=64] -->
     <string name="data_usage_total_during_range"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> used.</string>
 
-    <!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
-    <string name="data_usage_total_during_range_mobile" product="tablet"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> used, as measured by your tablet. Your carrier\u2019s data usage accounting may differ.</string>
     <!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
     <string name="data_usage_total_during_range_mobile" product="default"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> used, as measured by your phone. Your carrier\u2019s data usage accounting may differ.</string>
 
@@ -6741,8 +6725,6 @@
 
 
     <!-- Message to secondary users that only owner can manage users [CHAR LIMIT=none] -->
-    <string name="user_cannot_manage_message" product="tablet">Only the tablet\u2019s owner can manage users.</string>
-    <!-- Message to secondary users that only owner can manage users [CHAR LIMIT=none] -->
     <string name="user_cannot_manage_message" product="default">Only the phone\u2019s owner can manage users.</string>
     <!-- Message to limited users that they cannot add accounts [CHAR LIMIT=100] -->
     <string name="user_cannot_add_accounts_message">Restricted profiles cannot add accounts</string>
@@ -6762,8 +6744,6 @@
     <string name="user_profile_confirm_remove_title">Remove this profile?</string>
     <!-- Work profile removal confirmation title [CHAR LIMIT=25] -->
     <string name="work_profile_confirm_remove_title">Remove work profile?</string>
-    <!-- User (self) removal confirmation message [CHAR LIMIT=none] -->
-    <string name="user_confirm_remove_self_message" product="tablet">You will lose your space and data on this tablet. You can\u2019t undo this action.</string>
     <!-- User (self) removal confirmation message [CHAR LIMIT=none] -->
     <string name="user_confirm_remove_self_message" product="default">You will lose your space and data on this phone. You can\u2019t undo this action.</string>
     <!-- User removal confirmation message [CHAR LIMIT=none] -->
@@ -7160,8 +7140,6 @@
     <string name="restriction_nfc_enable_title">NFC</string>
     <!-- Restrictions summary for allowing NFC transfers (tablet) [CHAR LIMIT=100] -->
     <string name="restriction_nfc_enable_summary_config">Allow data exchange when this <xliff:g id="device_name">%1$s</xliff:g> touches another NFC device</string>
-    <!-- Restrictions summary for allowing NFC transfers (tablet) [CHAR LIMIT=100] -->
-    <string name="restriction_nfc_enable_summary" product="tablet">Allow data exchange when the tablet touches another device</string>
     <!-- Restrictions summary for allowing NFC transfers (phone) [CHAR LIMIT=100] -->
     <string name="restriction_nfc_enable_summary" product="default">Allow data exchange when the phone touches another device</string>
     <!-- Restrictions title for allowing location sharing [CHAR LIMIT=35] -->
@@ -10659,37 +10637,21 @@
 
     <!-- Preference and settings suggestion title text for ambient display double tap (phone) [CHAR LIMIT=60]-->
     <string name="ambient_display_title" product="default">Double-tap to check phone</string>
-    <!-- Preference and settings suggestion title text for ambient display double tap (tablet) [CHAR LIMIT=60]-->
-    <string name="ambient_display_title" product="tablet">Double-tap to check tablet</string>
-    <!-- Preference and settings suggestion title text for ambient display double tap (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_title" product="device">Double-tap to check device</string>
 
     <!-- Summary text for ambient display double tap [CHAR LIMIT=NONE]-->
     <string name="ambient_display_summary">To check time, notifications, and other info, double-tap your screen.</string>
 
     <!-- Preference and settings suggestion title text for ambient display pick up (phone) [CHAR LIMIT=60]-->
     <string name="ambient_display_pickup_title" product="default">Lift to check phone</string>
-    <!-- Preference and settings suggestion title text for ambient display pick up (tablet) [CHAR LIMIT=60]-->
-    <string name="ambient_display_pickup_title" product="tablet">Lift to check tablet</string>
-    <!-- Preference and settings suggestion title text for ambient display pick up (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_pickup_title" product="device">Lift to check device</string>
 
     <!-- Preference and settings suggestion title text for display wake-up gesture [CHAR LIMIT=60]-->
     <string name="ambient_display_wake_screen_title">Wake up display</string>
 
     <!-- Summary text for ambient display (phone) [CHAR LIMIT=NONE]-->
     <string name="ambient_display_pickup_summary" product="default">To check time, notifications, and other info, pick up your phone.</string>
-    <!-- Summary text for ambient display (tablet) [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_pickup_summary" product="tablet">To check time, notifications, and other info, pick up your tablet.</string>
-    <!-- Summary text for ambient display (device) [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_pickup_summary" product="device">To check time, notifications, and other info, pick up your device.</string>
 
     <!-- Preference and settings suggestion title text for ambient display tap (phone) [CHAR LIMIT=60]-->
     <string name="ambient_display_tap_screen_title" product="default">Tap to check phone</string>
-    <!-- Preference and settings suggestion title text for ambient display tap (tablet) [CHAR LIMIT=60]-->
-    <string name="ambient_display_tap_screen_title" product="tablet">Tap to check tablet</string>
-    <!-- Preference and settings suggestion title text for ambient display tap (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_tap_screen_title" product="device">Tap to check device</string>
 
     <!-- Summary text for ambient display tap [CHAR LIMIT=NONE]-->
     <string name="ambient_display_tap_screen_summary">To check time, notifications, and other info, tap your screen.</string>
@@ -10701,10 +10663,6 @@
 
     <!-- Summary text for fingerprint swipe for notifications (phone) [CHAR LIMIT=160]-->
     <string name="fingerprint_swipe_for_notifications_summary" product="default">To check your notifications, swipe down on the fingerprint sensor on the back of your phone.</string>
-    <!-- Summary text for fingerprint swipe for notifications (tablet) [CHAR LIMIT=160]-->
-    <string name="fingerprint_swipe_for_notifications_summary" product="tablet">To check your notifications, swipe down on the fingerprint sensor on the back of your tablet.</string>
-    <!-- Summary text for fingerprint swipe for notifications (device) [CHAR LIMIT=160]-->
-    <string name="fingerprint_swipe_for_notifications_summary" product="device">To check your notifications, swipe down on the fingerprint sensor on the back of your device.</string>
 
     <!-- Title for settings suggestion for fingerprint swipe for notifications [CHAR LIMIT=60] -->
     <string name="fingerprint_swipe_for_notifications_suggestion_title">See notifications quickly</string>
@@ -11158,12 +11116,6 @@
     <!-- Summary for media output settings. (phone) -->
     <string name="media_output_summary" product="default">Phone</string>
 
-    <!-- Summary for media output settings. (tablet) -->
-    <string name="media_output_summary" product="tablet">Tablet</string>
-
-    <!-- Summary for media output settings. (device) -->
-    <string name="media_output_summary" product="device">Device</string>
-
     <!-- Summary for media output settings when device is in ongoing call state. -->
     <string name="media_out_summary_ongoing_call_state">Unavailable during calls</string>
 
@@ -11191,10 +11143,6 @@
     <!-- Toast that appears when users tap an APN for which parameters cannot be viewed. [CHAR LIMIT=NONE] -->
     <string name="cannot_change_apn_toast">This APN cannot be changed.</string>
 
-    <!--  Title for battery Suggestion. (tablet) [CHAR LIMIT=46] -->
-    <string name="battery_suggestion_title" product="tablet" >Improve tablet\'s battery life</string>
-    <!--  Title for battery Suggestion. (device) [CHAR LIMIT=46] -->
-    <string name="battery_suggestion_title" product="device" >Improve device\'s battery life</string>
     <!--  Title for battery Suggestion. (phone) [CHAR LIMIT=46] -->
     <string name="battery_suggestion_title" product="default" >Improve phone\'s battery life</string>
     <!--  Summary for battery Suggestion. [CHAR LIMIT=55] -->
@@ -11902,10 +11850,6 @@
     <string name="volte_5G_limited_text">This also turns off your 5G connection.\nDuring a voice call, you can\u2019t use the internet and some apps may not work.</string>
     <!-- Footer to show current limitation of 5G on DSDS mode. [CHAR LIMIT=NONE] -->
     <string name="no_5g_in_dsds_text" product="default">When using 2 SIMs, this phone will be limited to 4G. <annotation id="url">Learn more</annotation></string>
-    <!-- Footer to show current limitation of 5G on DSDS mode for tablets. [CHAR LIMIT=NONE] -->
-    <string name="no_5g_in_dsds_text" product="tablet">When using 2 SIMs, this tablet will be limited to 4G. <annotation id="url">Learn more</annotation></string>
-    <!-- Footer to show current limitation of 5G on DSDS mode for general devices. [CHAR LIMIT=NONE] -->
-    <string name="no_5g_in_dsds_text" product="device">When using 2 SIMs, this device will be limited to 4G. <annotation id="url">Learn more</annotation></string>
     <!-- Help URI, 5G limitation in DSDS condition. [DO NOT TRANSLATE] -->
     <string name="help_uri_5g_dsds" translatable="false"></string>
 
