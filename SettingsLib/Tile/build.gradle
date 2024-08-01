@@ -3,7 +3,8 @@ plugins {
 }
 
 android {
-    compileSdk = 30
+    compileSdkVersion COMPILE_SDK
+    buildToolsVersion BUILD_TOOLS_VERSION
 
     defaultConfig {
         minSdkVersion 21
@@ -39,4 +40,8 @@ android {
             manifest.srcFile 'AndroidManifest.xml'
         }
     }
+}
+
+dependencies {
+    implementation libs.appcompat
 }
