@@ -29,7 +29,7 @@ import com.android.settings.core.TogglePreferenceController;
 
 
 public class AdaptiveSleepPreferenceController extends TogglePreferenceController {
-    public static final String PREF_NAME = "adaptive_sleep";
+    public static final String PREF_NAME = "adaptive_sleep.jpg";
     private static final String SYSTEM_KEY = ADAPTIVE_SLEEP;
     private static final int DEFAULT_VALUE = 0;
 
