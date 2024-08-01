@@ -74,8 +74,6 @@
     <string name="bluetooth_rename_button" msgid="9162500408570289545">"重命名"</string>
     <string name="bluetooth_disconnect_title" msgid="4581951246357823044">"要断开与该设备的连接吗？"</string>
     <string name="bluetooth_disconnect_all_profiles" product="default" msgid="1934297101665686854">"您的手机将断开与<xliff:g id="DEVICE_NAME">%1$s</xliff:g>的连接。"</string>
-    <string name="bluetooth_disconnect_all_profiles" product="tablet" msgid="336622948210457991">"您的平板电脑将断开与<xliff:g id="DEVICE_NAME">%1$s</xliff:g>的连接。"</string>
-    <string name="bluetooth_disconnect_all_profiles" product="device" msgid="6944790936166852428">"您的设备将断开与<xliff:g id="DEVICE_NAME">%1$s</xliff:g>的连接。"</string>
     <string name="bluetooth_disconnect_dialog_ok" msgid="4173740094381092185">"断开连接"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="909734990821975673">"您无权更改蓝牙设置。"</string>
     <string name="bluetooth_pairing_pref_title" msgid="3497193027590444598">"与新设备配对"</string>
