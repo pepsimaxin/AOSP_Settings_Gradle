@@ -49,7 +49,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly files('../../libs/framework.jar')
+    compileOnly files('../../clibs-compile/framework.jar')
     implementation project(':SettingsLib:Tile')
     implementation libs.appcompat
 }

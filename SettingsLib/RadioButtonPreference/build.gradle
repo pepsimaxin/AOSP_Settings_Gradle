@@ -50,7 +50,7 @@ repositories {
 
 dependencies {
     implementation project(':SettingsLib:SettingsTheme')
-    implementation(name: 'preference-1.2.0-alpha01', ext: 'aar')
     implementation libs.recyclerview
     implementation libs.appcompat
+    implementation libs.preference
 }
