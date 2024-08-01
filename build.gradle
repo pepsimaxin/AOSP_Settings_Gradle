@@ -102,6 +102,11 @@ dependencies {
     }
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
     annotationProcessor files('clibs/CP-SettingsLib-annotation-processor.jar')    // search 生成索引类插件
+
+    implementation project(':iconloaderlib')
+    implementation project(':setupcompat')
+    implementation project(':setupdesign')
+    implementation project(':WifiTrackerLib')
 }
 
 allprojects {
