@@ -74,16 +74,12 @@
     <string name="bluetooth_rename_button" msgid="9162500408570289545">"Qamba kabusha"</string>
     <string name="bluetooth_disconnect_title" msgid="4581951246357823044">"Nqamula idivayisi?"</string>
     <string name="bluetooth_disconnect_all_profiles" product="default" msgid="1934297101665686854">"Ifoni yakho izonqamuka kusuka ku-<xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
-    <string name="bluetooth_disconnect_all_profiles" product="tablet" msgid="336622948210457991">"Ithebhulethi yakho izonqamuka kusuka ku-<xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
-    <string name="bluetooth_disconnect_all_profiles" product="device" msgid="6944790936166852428">"Idivayisi yakho izonqamuka kusuka ku-<xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_disconnect_dialog_ok" msgid="4173740094381092185">"Nqamula"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="909734990821975673">"Awunayo imvume yokushintsha izilungiselelo ze-Bluetooth."</string>
     <string name="bluetooth_pairing_pref_title" msgid="3497193027590444598">"Bhangqa idivayisi entsha"</string>
     <string name="keywords_add_bt_device" msgid="4533191164203174011">"i-bluetooth"</string>
     <string name="bluetooth_is_visible_message" msgid="3811631869768157387">"I-<xliff:g id="DEVICE_NAME">%1$s</xliff:g> iyabonakala kumadivayisi aseduzane ngenkathi izilungiselelo ze-Bluetooth zivulekile."</string>
     <string name="bluetooth_footer_mac_message" product="default" msgid="4782330594323261630">"Ikheli le-Bluetooth lefoni: <xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
-    <string name="bluetooth_footer_mac_message" product="tablet" msgid="1257226691967432025">"Ikhli le-Bluetooth lethebhulethi: <xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
-    <string name="bluetooth_footer_mac_message" product="device" msgid="2863536947810007600">"Ikheli le-Bluetooth yedivayisi: <xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
     <string name="bluetooth_is_disconnect_question" msgid="777406775955421784">"Nqamula i-<xliff:g id="DEVICE_NAME">%1$s</xliff:g>?"</string>
     <string name="bluetooth_broadcasting" msgid="6379176741690311973">"Ukusakaza"</string>
     <string name="bluetooth_device" msgid="2217973503732544291">"Idivayisi ye-Bluetooth engaqanjwanga igama"</string>
@@ -134,8 +130,6 @@
     <string name="bluetooth_off_footer" msgid="76578735660216295">"Vula i-Bluetooth ukuze ixhumeke kwamanye amadivayisi."</string>
     <string name="bluetooth_paired_device_title" msgid="3240639218362342026">"Amadivayisi akho"</string>
     <string name="bluetooth_pairing_page_title" msgid="3403981358823707692">"Bhangqa idivayisi entsha"</string>
-    <string name="bluetooth_pref_summary" product="tablet" msgid="3506962706611366830">"Vumela ithebhulethi yakho ukuxhumana namadivayisi e-Bluetooth aseduze"</string>
-    <string name="bluetooth_pref_summary" product="device" msgid="2192027516577675587">"Vumela idivayisi yakho ukuxhumana namadivayisi aseduze e-Bluetooth"</string>
     <string name="bluetooth_pref_summary" product="default" msgid="768958961865499804">"Vumela ifoni yakho ukuxhumana namadivayisi aseduze e-Bluetooth"</string>
     <string name="bluetooth_disable_a2dp_hw_offload" msgid="5942913792817797541">"Khubaza i-Bluetooth A2DP hardware offload"</string>
     <string name="bluetooth_disable_a2dp_hw_offload_dialog_title" msgid="8610420176339657720">"Qalisa kabusha idivayisi?"</string>
@@ -393,11 +387,7 @@
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"Yeqa izigxivizo zeminwe?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"Ukusethwa kwezigxivizo zeminwe kuthatha iminithi noma amabili kuphela. Uma weqa lokhu, ungangeza izigxivizo zakho zeminwe ngemuva kwesikhathi kuzilungiselelo."</string>
     <string name="lock_screen_intro_skip_title" msgid="342553937472568925">"Yeqa ukukhiya isikrini?"</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp" product="tablet" msgid="1570832293693405757">"Izici zokuvikela idivayisi ngeke zivulwe. Ngeke ukwazi ukugwema abanye ukuthi bangasebenzisi le thebhulethi uma ilahlekile, itshontshiwe noma ilele."</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp" product="device" msgid="4618501606519351904">"Izici zokuvikela idivayisi ngeke zivulwe. Ngeke ukwazi ukugwema abanye ukuthi bangasebenzisi le divayisi uma ilahlekile, itshontshiwe noma ilele."</string>
     <string name="lock_screen_intro_skip_dialog_text_frp" product="default" msgid="2412426429887900241">"Izici zokuvikela idivayisi ngeke zivulwe. Ngeke ukwazi ukugwema abanye ukuthi bangasebenzisi le foni uma ilahlekile, itshontshiwe noma ilele."</string>
-    <string name="lock_screen_intro_skip_dialog_text" product="tablet" msgid="7119039592587429936">"Izici zokuvikela idivayisi ngeke zivulwe. Ngeke ukwazi ukugwema abanye ukuthi bangasebenzisi le thebhulethi uma ilahlekile noma itshontshiwe."</string>
-    <string name="lock_screen_intro_skip_dialog_text" product="device" msgid="3365990364131398523">"Izici zokuvikela idivayisi ngeke zivulwe. Ngeke ukwazi ukugwema abanye ukuthi bangasebenzisi le divayisi uma ilahlekile noma itshontshiwe."</string>
     <string name="lock_screen_intro_skip_dialog_text" product="default" msgid="4908278819257287536">"Izici zokuvikela idivayisi ngeke zivulwe. Ngeke ukwazi ukugwema abanye ukuthi bangasebenzisi le foni uma ilahlekile noma itshontshiwe."</string>
     <string name="skip_anyway_button_label" msgid="3442274117023270068">"Yeqa noma kunjalo"</string>
     <string name="go_back_button_label" msgid="6139455414099035594">"Buyela emuva"</string>
@@ -418,11 +408,7 @@
     <string name="security_settings_fingerprint_enroll_enrolling_skip" msgid="3004786457919122854">"Yenza kamuva"</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_title" msgid="352947044008973812">"Yeqa ukusethwa kwezigxivizo zeminwe?"</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_message" msgid="4876965433600560365">"Ukhethe ukusebenzisa izigxivizo zeminwe zakho njengendlela eyodwa yokuvula ifoni yakho. Uma weqa manje, kuzomele usethe lokhu ngemuva kwesikhathi. Ukusetha kuthatha iminithi noma isikhathi esingalapho."</string>
-    <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="tablet" msgid="6901147203720764421">"Vikela ithebulethi yakho ngenketho yokukhiya isikrini ukuze kungabikho muntu ozokwazi ukuyisebenzisa uma ilahlekile noma itshontshiwe. Futhi udinga inketho yokukhiya isikrini ukuze usethe izigxivizo zeminwe. Thepha okuthi Khansela, bese usetha iphinikhodi, iphethini, noma iphasiwedi."</string>
-    <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="device" msgid="1286244133923093528">"Vikela idivayisi yakho ngenketho yokukhiya isikrini ukuze kungabikho muntu ozokwazi ukuyisebenzisa uma ilahlekile noma itshontshiwe. Futhi udinga inketho yokukhiya isikrini ukuze usethe izigxivizo zeminwe. Thepha okuthi Khansela, bese usetha iphinikhodi, iphethini, noma iphasiwedi."</string>
     <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="default" msgid="4810191157587317521">"Vikela ifoni yakho ngenketho yokukhiya isikrini ukuze kungabikho muntu ozokwazi ukuyisebenzisa uma ilahlekile noma itshontshiwe. Futhi udinga inketho yokukhiya isikrini ukuze usethe izigxivizo zeminwe. Thepha okuthi Khansela, bese usetha iphinikhodi, iphethini, noma iphasiwedi."</string>
-    <string name="face_lock_screen_setup_skip_dialog_text" product="tablet" msgid="7387535629289108475">"Ngokuvikela ithebulethi yakho ngenketho yokukhiya isikrini, akekho ozokwazi ukuyisebenzisa uma ilahleka noma intshontshwa. Futhi udinga inketho yokukhiya isikrini ukuze usethe i-face unlock. Ukuze ubuyele emuva, thepha okuthi Khansela."</string>
-    <string name="face_lock_screen_setup_skip_dialog_text" product="device" msgid="4995287019957131123">"Ngokuvikela idivayisi yakho ngenketho yokukhiya isikrini, akekho ozokwazi ukuyisebenzisa uma ingalahleka noma intshontshwe. Futhi udinga inketho yokukhiya isikrini ukuze usethe i-face unlock. Ukuze ubuyele emuva, thepha okuthi Khansela."</string>
     <string name="face_lock_screen_setup_skip_dialog_text" product="default" msgid="7086796722966738156">"Ngokuvikela ifoni yakho ngenketho yokukhiya isikrini, akekho ozokwazi ukuyisebenzisa uma ilahlekile noma intshontshiwe. Futhi udinga inketho yokukhiya isikrini ukuze usethe i-face unlock. Ukuze ubuyele emuva, thepha okuthi Khansela."</string>
     <string name="lock_screen_pin_skip_title" msgid="6853866579893458111">"Yeqa ukusetha i-PIN?"</string>
     <string name="lock_screen_password_skip_title" msgid="8891463713793185768">"Yeqa ukusetha iphasiwedi?"</string>
@@ -480,21 +466,13 @@
     <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"Iphasiwedi oyifakile ilungile, kodwa ngeshwa idatha yakho yonakele.\n\nUkuze uqalise kabusha usebenzisa ifoni yakho, kuzomele wenze ukusetha kabusha kwasekuqaleni. Uma usetha ifoni yakho ngemuva kokusetha kabusha, uzoba nethuba lokubuyisela noma iyiphi idatha eye yenziwa isipele ku-Akhawunti yakho ye-Google."</string>
     <string name="crypt_keeper_switch_input_method" msgid="7712732134989470573">"Shintsha indlela yokufaka"</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"Vikela ifoni yakho"</string>
-    <string name="suggested_lock_settings_summary" product="tablet" msgid="3213718550422761562">"Setha ukukhiya isikrini ukuze uvikele ithebulethi"</string>
-    <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"Setha ukukhiya kwesikrini ukuze uvikele idivayisi"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"Setha ukukhiya isikrini ukuze uvikele ifoni"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Engeza izigxivizo zomunwe ukuze uvule"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="tablet" msgid="1040265358906410746"></string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"></string>
     <string name="suggested_fingerprint_lock_settings_summary" product="default" msgid="1040265358906410746"></string>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"Khetha isivali sesikrini"</string>
     <string name="lock_settings_picker_title_profile" msgid="8377696902400733227">"Khetha isikhiya somsebenzi"</string>
-    <string name="setup_lock_settings_picker_title" product="tablet" msgid="1276283007274778191">"Vikela ithebulethi yakho"</string>
-    <string name="setup_lock_settings_picker_title" product="device" msgid="3585905639045649905">"Vikela idivayisi yakho"</string>
     <string name="setup_lock_settings_picker_title" product="default" msgid="2758197863515864300">"Vikela ifoni yakho"</string>
     <string name="lock_settings_picker_biometrics_added_security_message" msgid="1105247657304421299">"Ngokuvikelwa okungeziwe, setha ukukhiya isikrini kwesipele"</string>
-    <string name="setup_lock_settings_picker_message" product="tablet" msgid="4870877800737248926">"Vimbela abanye kusukela ekusebenziseni le thebulethi ngaphandle kwemvume yakho ngokwenza kusebenze izici zokuvikela idivayisi. Khetha ukukhiya isikrini ofuna ukusisebenzisa."</string>
-    <string name="setup_lock_settings_picker_message" product="device" msgid="8961855222808442301">"Vimbela abanye kusukela ekusebenziseni le divayisi ngaphandle kwemvume yakho ngokwenza kusebenze izici zokuvikela idivayisi. Khetha ukukhiya isikrini ofuna ukukusebenzisa."</string>
     <string name="setup_lock_settings_picker_message" product="default" msgid="8867435145945818970">"Vimbela abanye kusukela ekusebenziseni le foni ngaphandle kwemvume yakho ngokwenza kusebenze izici zokuvikela idivayisi. Khetha ukukhiya isikrini ofuna ukukusebenzisa."</string>
     <string name="lock_settings_picker_fingerprint_message" msgid="6414674538453498900">"Khetha indlela yokukhiya isikrini yakho yokwenza isipele"</string>
     <string name="lock_settings_picker_face_message" msgid="2044129433641084149">"Khetha indlela yokukhiya isikrini yakho yokwenza isipele"</string>
@@ -717,8 +695,6 @@
     <string name="bluetooth_device_mac_address" msgid="4873325074786732703">"Ikheli le-Bluetooth yedivayisi: <xliff:g id="ADDRESS">%1$s</xliff:g>"</string>
     <string name="bluetooth_unpair_dialog_title" msgid="6943633443716052995">"Khohlwa idivayisi?"</string>
     <string name="bluetooth_unpair_dialog_body" product="default" msgid="4730377171981539265">"Ifoni yakho ngeke isabhanqwa ne-<xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
-    <string name="bluetooth_unpair_dialog_body" product="tablet" msgid="3428463407231980054">"Ithebhulethi yakho ngeke isabhanqwa ne-<xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
-    <string name="bluetooth_unpair_dialog_body" product="device" msgid="5117397433721336918">"Idivayisi yakho ngeke isabhanqwa ne-<xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="bluetooth_untethered_unpair_dialog_body" msgid="1938465582242297905">"I-<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ngeke isabhangqwa nanoma iyiphi idivayisi exhunywe kule akhawunti"</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"Khohlwa idivayisi"</string>
     <string name="bluetooth_connect_specific_profiles_title" msgid="1323072239637864488">"Xhuma kwi..."</string>
@@ -1705,10 +1681,7 @@
     <string name="location_access_title" msgid="4052667453826272040">"Ukufinyelela endaweni yami"</string>
     <string name="location_access_summary" msgid="8634100005481578143">"Vumela izinhlelo zokusebenza ezicele imvume yakho ukusebenzisa ulwazi lendawo yakho"</string>
     <string name="location_sources_heading" msgid="6126965815860570524">"Imithombo yendawo"</string>
-    <string name="about_settings" product="tablet" msgid="2888705054709289693">"Mayelana nethebhulethi"</string>
     <string name="about_settings" product="default" msgid="4038626127378127613">"Mayelana nefoni"</string>
-    <string name="about_settings" product="device" msgid="9012888717090302815">"Mayelana nedivayisi"</string>
-    <string name="about_settings" product="emulator" msgid="2516560858771320366">"Mayelana nedivayisi elinganisiwe"</string>
     <string name="about_settings_summary" msgid="4831942939227432513">"Buka ulwazi lomthetho, umumo wefoni, inguqulo yesofthiwe"</string>
     <string name="legal_information" msgid="7509900979811934843">"Uwazi olusemthethweni"</string>
     <string name="contributors_title" msgid="7965640251547037965">"Abanikeli"</string>

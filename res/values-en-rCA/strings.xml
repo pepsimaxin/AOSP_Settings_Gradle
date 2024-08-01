@@ -1658,9 +1658,7 @@
     <string name="location_access_title" msgid="4052667453826272040">"Access to my location"</string>
     <string name="location_access_summary" msgid="8634100005481578143">"Let apps that have asked your permission use your location information"</string>
     <string name="location_sources_heading" msgid="6126965815860570524">"Location sources"</string>
-    <string name="about_settings" product="tablet" msgid="2888705054709289693">"About tablet"</string>
     <string name="about_settings" product="default" msgid="4038626127378127613">"About phone"</string>
-    <string name="about_settings" product="device" msgid="9012888717090302815">"About device"</string>
     <string name="about_settings" product="emulator" msgid="2516560858771320366">"About emulated device"</string>
     <string name="about_settings_summary" msgid="4831942939227432513">"View legal info, status, software version"</string>
     <string name="legal_information" msgid="7509900979811934843">"Legal information"</string>
@@ -1790,7 +1788,6 @@
     <string name="fdr_continue_title" msgid="5343622664826823937">"Continue factory reset?"</string>
     <string name="fdr_continue_text" msgid="860874694422515489">"Downloaded SIMs will remain on device."</string>
     <string name="fdr_continue_btn" msgid="1875421470422667092">"Factory reset"</string>
-    <string name="install_all_warning" product="device" msgid="2348262609815354500">"Your device and personal data are more vulnerable to attack by unknown apps. By installing apps from this source, you agree that you are responsible for any damage to your device or loss of data that may result from their use."</string>
     <string name="advanced_settings" msgid="2368905204839169094">"Advanced settings"</string>
     <string name="advanced_settings_summary" msgid="1823765348195530035">"Enable more settings options"</string>
     <string name="application_info_label" msgid="1015706497694165866">"App info"</string>
@@ -2335,27 +2332,19 @@
     <string name="packages_subtitle" msgid="8687690644931499428">"Included packages"</string>
     <string name="battery_tip_summary_title" msgid="321127485145626939">"Apps are running normally"</string>
     <string name="battery_tip_summary_summary" product="default" msgid="6077959765904507849">"Phone has typical background battery usage"</string>
-    <string name="battery_tip_summary_summary" product="tablet" msgid="5063158368808711973">"Tablet has typical background battery usage"</string>
-    <string name="battery_tip_summary_summary" product="device" msgid="4242899844618910548">"Device has typical background battery usage"</string>
     <string name="battery_tip_low_battery_title" msgid="7789690720316830767">"Low battery capacity"</string>
     <string name="battery_tip_low_battery_summary" msgid="357649681960300945">"Battery can\'t provide good battery life"</string>
     <string name="battery_tip_smart_battery_title" product="default" msgid="2903272443772298636">"Improve your phone\'s battery life"</string>
-    <string name="battery_tip_smart_battery_title" product="tablet" msgid="6813017377960004819">"Improve your tablet\'s battery life"</string>
-    <string name="battery_tip_smart_battery_title" product="device" msgid="4805599360437606335">"Improve your device\'s battery life"</string>
     <string name="battery_tip_smart_battery_summary" msgid="3592965553502362965">"Turn on Battery Manager"</string>
     <string name="battery_tip_early_heads_up_title" msgid="4411387863476629452">"Turn on Battery Saver"</string>
     <string name="battery_tip_early_heads_up_summary" msgid="578523794827443977">"Battery may run out earlier than usual"</string>
     <string name="battery_tip_early_heads_up_done_title" msgid="4413270905575486715">"Battery Saver is on"</string>
     <string name="battery_tip_early_heads_up_done_summary" msgid="7858923105760361208">"Some features may be limited"</string>
     <string name="battery_tip_high_usage_title" product="default" msgid="2375953293196088319">"Phone used more than usual"</string>
-    <string name="battery_tip_high_usage_title" product="tablet" msgid="8515903411746145740">"Tablet used more than usual"</string>
-    <string name="battery_tip_high_usage_title" product="device" msgid="6577086402173910457">"Device used more than usual"</string>
     <string name="battery_tip_high_usage_summary" msgid="5356399389711499862">"Battery may run out earlier than usual"</string>
     <string name="battery_tip_limited_temporarily_title" msgid="7152799456221596915">"Optimising for battery health"</string>
     <string name="battery_tip_limited_temporarily_summary" msgid="6837061824463128857">"Battery limited temporarily. Tap to learn more."</string>
     <string name="battery_tip_dialog_message" product="default" msgid="4681734836472195966">"Your phone has been used more than usual. Your battery may run out sooner than expected.\n\nTop apps by battery usage:"</string>
-    <string name="battery_tip_dialog_message" product="tablet" msgid="3934298305232120382">"Your tablet has been used more than usual. Your battery may run out sooner than expected.\n\nTop apps by battery usage:"</string>
-    <string name="battery_tip_dialog_message" product="device" msgid="2620789680336796054">"Your device has been used more than usual. Your battery may run out sooner than expected.\n\nTop apps by battery usage:"</string>
     <string name="battery_tip_dialog_message_footer" msgid="986542164372177504">"Includes high-power background activity"</string>
     <plurals name="battery_tip_restrict_title" formatted="false" msgid="3108195491484891588">
       <item quantity="other">Restrict %1$d apps</item>
@@ -2386,8 +2375,6 @@
     <string name="battery_tip_unrestrict_app_dialog_ok" msgid="7940183167721998470">"Remove"</string>
     <string name="battery_tip_unrestrict_app_dialog_cancel" msgid="4968135709160207507">"Cancel"</string>
     <string name="battery_tip_dialog_summary_message" product="default" msgid="6097167058237891756">"Your apps are using a normal amount of battery. If apps use too much battery, your phone will suggest actions you can take.\n\nYou can always turn on Battery Saver if you\'re running low on battery."</string>
-    <string name="battery_tip_dialog_summary_message" product="tablet" msgid="573297655597451123">"Your apps are using a normal amount of battery. If apps use too much battery, your tablet will suggest actions that you can take.\n\nYou can always turn on Battery Saver if you’re running low on battery."</string>
-    <string name="battery_tip_dialog_summary_message" product="device" msgid="8222461068860745749">"Your apps are using a normal amount of battery. If apps use too much battery, your device will suggest actions that you can take.\n\nYou can always turn on Battery Saver if you’re running low on battery."</string>
     <string name="smart_battery_manager_title" msgid="3677620516657920364">"Battery Manager"</string>
     <string name="smart_battery_title" msgid="9095903608520254254">"Manage apps automatically"</string>
     <string name="smart_battery_summary" product="default" msgid="1492277404000064998">"Limit battery for apps you don\'t use often"</string>
@@ -2412,21 +2399,13 @@
     <string name="battery_missing_help_message" msgid="4583322687535428926">"Problem reading your battery meter. Tap to "<annotation id="url">"learn more"</annotation></string>
     <string name="dialog_stop_title" msgid="5972757101865665655">"Stop app?"</string>
     <string name="dialog_stop_message" product="default" msgid="2063536418875183799">"Your phone can\'t manage battery normally because <xliff:g id="APP">%1$s</xliff:g> is keeping your phone awake.\n\nTo try to fix this issue, you can stop the app.\n\nIf this keeps happening, you may need to uninstall the app to improve battery performance."</string>
-    <string name="dialog_stop_message" product="tablet" msgid="426862716783569739">"Your tablet can\'t manage battery normally because <xliff:g id="APP">%1$s</xliff:g> is keeping your tablet awake.\n\nTo try to fix this issue, you can stop the app.\n\nIf this keeps happening, you may need to uninstall the app to improve battery performance."</string>
-    <string name="dialog_stop_message" product="device" msgid="4252335402634772603">"Your device can\'t manage battery normally because <xliff:g id="APP">%1$s</xliff:g> is keeping your device awake.\n\nTo try to fix this issue, you can stop the app.\n\nIf this keeps happening, you may need to uninstall the app to improve battery performance."</string>
     <string name="dialog_stop_message_wakeup_alarm" product="default" msgid="604462000476810125">"Your phone can\'t manage battery normally because <xliff:g id="APP_0">%1$s</xliff:g> keeps waking up your phone.\n\nTo try to fix this issue, you can stop <xliff:g id="APP_1">%1$s</xliff:g>.\n\nIf this keeps happening, you may need to uninstall the app to improve battery performance."</string>
-    <string name="dialog_stop_message_wakeup_alarm" product="tablet" msgid="7737426241260791605">"Your tablet can\'t manage battery normally because <xliff:g id="APP_0">%1$s</xliff:g> keeps waking up your tablet.\n\nTo try to fix this issue, you can stop <xliff:g id="APP_1">%1$s</xliff:g>.\n\nIf this keeps happening, you may need to uninstall the app to improve battery performance."</string>
-    <string name="dialog_stop_message_wakeup_alarm" product="device" msgid="1820679795932901383">"Your device can\'t manage battery normally because <xliff:g id="APP_0">%1$s</xliff:g> keeps waking up your device.\n\nTo try to fix this issue, you can stop <xliff:g id="APP_1">%1$s</xliff:g>.\n\nIf this keeps happening, you may need to uninstall the app to improve battery performance."</string>
     <string name="dialog_stop_ok" msgid="1171516542217183180">"Stop app"</string>
     <string name="dialog_background_check_title" msgid="8571605969100408762">"Turn off background usage &amp; stop app?"</string>
     <string name="dialog_background_check_message" product="default" msgid="6203374578970183277">"Your phone can\'t manage battery normally because <xliff:g id="APP_0">%1$s</xliff:g> keeps waking up your phone.\n\nTo try to fix this issue, you can stop <xliff:g id="APP_1">%1$s</xliff:g> and prevent it from running in the background."</string>
-    <string name="dialog_background_check_message" product="tablet" msgid="1282389215667916176">"Your tablet can\'t manage battery normally because <xliff:g id="APP_0">%1$s</xliff:g> keeps waking up your tablet.\n\nTo try to fix this issue, you can stop <xliff:g id="APP_1">%1$s</xliff:g> and prevent it from running in the background."</string>
-    <string name="dialog_background_check_message" product="device" msgid="8005524265739819577">"Your device can\'t manage battery normally because <xliff:g id="APP_0">%1$s</xliff:g> keeps waking up your device.\n\nTo try to fix this issue, you can stop <xliff:g id="APP_1">%1$s</xliff:g> and prevent it from running in the background."</string>
     <string name="dialog_background_check_ok" msgid="5792934035264144797">"Turn off"</string>
     <string name="dialog_location_title" msgid="1323400468370901875">"Turn off location?"</string>
     <string name="dialog_location_message" product="default" msgid="5597959072209122057">"Your phone can\'t manage battery normally because <xliff:g id="APP">%1$s</xliff:g> keeps requesting your location when you\'re not using the app.\n\nTo fix this issue, you can turn off location for this app."</string>
-    <string name="dialog_location_message" product="tablet" msgid="7165269165194599595">"Your tablet can\'t manage battery normally because <xliff:g id="APP">%1$s</xliff:g> keeps requesting your location when you\'re not using the app.\n\nTo fix this issue, you can turn off location for this app."</string>
-    <string name="dialog_location_message" product="device" msgid="4606829479989940464">"Your device can\'t manage battery normally because <xliff:g id="APP">%1$s</xliff:g> keeps requesting your location when you\'re not using the app.\n\nTo fix this issue, you can turn off location for this app."</string>
     <string name="dialog_location_ok" msgid="6338680851382069716">"Turn off"</string>
     <string name="power_screen" msgid="4596900105850963806">"Screen"</string>
     <string name="power_flashlight" msgid="8993388636332573202">"Flashlight"</string>
@@ -2524,8 +2503,6 @@
     <string name="battery_saver_turn_on_summary" msgid="1433919417587171160">"Extend battery life"</string>
     <string name="battery_saver_sticky_title_new" msgid="5942813274115684599">"Turn off when charged"</string>
     <string name="battery_saver_sticky_description_new" product="default" msgid="6862168106613838677">"Battery Saver turns off when your phone is at <xliff:g id="PERCENT">%1$s</xliff:g>"</string>
-    <string name="battery_saver_sticky_description_new" product="tablet" msgid="6740553373344759992">"Battery Saver turns off when your tablet is at <xliff:g id="PERCENT">%1$s</xliff:g>"</string>
-    <string name="battery_saver_sticky_description_new" product="device" msgid="8512106347424406909">"Battery Saver turns off when your device is at <xliff:g id="PERCENT">%1$s</xliff:g>"</string>
     <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
     <skip />
     <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"Turn on"</string>
@@ -2711,9 +2688,7 @@
     <string name="remove_account_label" msgid="4169490568375358010">"Remove account"</string>
     <string name="header_add_an_account" msgid="3919151542338822661">"Add an account"</string>
     <string name="really_remove_account_title" msgid="253097435885652310">"Remove account?"</string>
-    <string name="really_remove_account_message" product="tablet" msgid="8893801622174947887">"Removing this account will delete all of its messages, contacts and other data from the tablet!"</string>
     <string name="really_remove_account_message" product="default" msgid="1217810840427479274">"Removing this account will delete all of its messages, contacts and other data from the phone."</string>
-    <string name="really_remove_account_message" product="device" msgid="5241756807386611084">"Removing this account will delete all of its messages, contacts and other data from the device."</string>
     <string name="remove_account_failed" msgid="3709502163548900644">"This change isn\'t allowed by your admin"</string>
     <string name="cant_sync_dialog_title" msgid="2613000568881139517">"Cannot sync manually"</string>
     <string name="cant_sync_dialog_message" msgid="7612557105054568581">"Sync for this item is currently disabled. To change your preference, temporarily turn on background data and automatic sync."</string>
@@ -2931,8 +2906,6 @@
       <item quantity="one">Check certificate</item>
     </plurals>
     <string name="user_settings_title" msgid="6550866465409807877">"Multiple users"</string>
-    <string name="user_settings_footer_text" product="device" msgid="7523914344521302179">"Share your device by adding new users. Each user has a personal space on your device for custom Home screens, accounts, apps, settings and more."</string>
-    <string name="user_settings_footer_text" product="tablet" msgid="3730074318510244552">"Share your tablet by adding new users. Each user has a personal space on your tablet for custom Home screens, accounts, apps, settings and more."</string>
     <string name="user_settings_footer_text" product="default" msgid="4420915712050349125">"Share your phone by adding new users. Each user has a personal space on your phone for custom Home screens, accounts, apps, settings and more."</string>
     <string name="user_list_title" msgid="1387379079186123404">"Users &amp; profiles"</string>
     <string name="user_add_user_or_profile_menu" msgid="305851380425838287">"Add user or profile"</string>
@@ -4371,8 +4344,6 @@
     <string name="deletion_helper_preference_title" msgid="6364023246849161274">"Free up space now"</string>
     <string name="gesture_preference_title" msgid="8291899281322647187">"Gestures"</string>
     <string name="gesture_preference_summary" product="default" msgid="7941981260703379398">"Quick Gestures to control your phone"</string>
-    <string name="gesture_preference_summary" product="tablet" msgid="4031666250963488007">"Quick Gestures to control your tablet"</string>
-    <string name="gesture_preference_summary" product="device" msgid="3520072325356373349">"Quick Gestures to control your device"</string>
     <string name="double_tap_power_for_camera_title" msgid="7982364144330923683">"Quickly open camera"</string>
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"To quickly open camera, press the power button twice. Works from any screen."</string>
     <string name="double_tap_power_for_camera_suggestion_title" msgid="4299496243418753571">"Open camera quickly"</string>
@@ -4401,25 +4372,15 @@
     <string name="gesture_settings_activity_title" msgid="6047431928567911330">"Gesture settings"</string>
     <string name="keywords_gesture_navigation_settings" msgid="667561222717238931">"gesture navigation, back sensitivity, back gesture"</string>
     <string name="ambient_display_title" product="default" msgid="5885136049497127396">"Double-tap to check phone"</string>
-    <string name="ambient_display_title" product="tablet" msgid="205744440641466921">"Double-tap to check tablet"</string>
-    <string name="ambient_display_title" product="device" msgid="4164103424628824786">"Double-tap to check device"</string>
     <string name="ambient_display_summary" msgid="2650326740502690434">"To check time, notifications and other info, double-tap your screen."</string>
     <string name="ambient_display_pickup_title" product="default" msgid="4418310591912877548">"Lift to check phone"</string>
-    <string name="ambient_display_pickup_title" product="tablet" msgid="8055486872070888377">"Lift to check tablet"</string>
-    <string name="ambient_display_pickup_title" product="device" msgid="8980156994848721455">"Lift to check device"</string>
     <string name="ambient_display_wake_screen_title" msgid="7637678749035378085">"Wake up display"</string>
     <string name="ambient_display_pickup_summary" product="default" msgid="1087355013674109242">"To check time, notifications and other info, pick up your phone."</string>
-    <string name="ambient_display_pickup_summary" product="tablet" msgid="2589556997034530529">"To check time, notifications and other info, pick up your tablet."</string>
-    <string name="ambient_display_pickup_summary" product="device" msgid="1916011370011115627">"To check time, notifications and other info, pick up your device."</string>
     <string name="ambient_display_tap_screen_title" product="default" msgid="2811332293938467179">"Tap to check phone"</string>
-    <string name="ambient_display_tap_screen_title" product="tablet" msgid="6461531447715370632">"Tap to check tablet"</string>
-    <string name="ambient_display_tap_screen_title" product="device" msgid="4423803387551153840">"Tap to check device"</string>
     <string name="ambient_display_tap_screen_summary" msgid="4480489179996521405">"To check time, notifications and other info, tap your screen."</string>
     <string name="fingerprint_swipe_for_notifications_title" msgid="2271217256447175017">"Swipe fingerprint for notifications"</string>
     <string name="fingerprint_gesture_screen_title" msgid="9086261338232806522">"Swipe fingerprint"</string>
     <string name="fingerprint_swipe_for_notifications_summary" product="default" msgid="286662791588779673">"To check your notifications, swipe down on the fingerprint sensor on the back of your phone."</string>
-    <string name="fingerprint_swipe_for_notifications_summary" product="tablet" msgid="8642092907817554454">"To check your notifications, swipe down on the fingerprint sensor on the back of your tablet."</string>
-    <string name="fingerprint_swipe_for_notifications_summary" product="device" msgid="3888927017311372398">"To check your notifications, swipe down on the fingerprint sensor on the back of your device."</string>
     <string name="fingerprint_swipe_for_notifications_suggestion_title" msgid="2956636269742745449">"See notifications quickly"</string>
     <string name="gesture_setting_on" msgid="3223448394997988591">"On"</string>
     <string name="gesture_setting_off" msgid="3444029475726294919">"Off"</string>
@@ -4586,8 +4547,6 @@
     <string name="platform_compat_dialog_title_no_apps" msgid="4387656000745989506">"No apps available"</string>
     <string name="platform_compat_dialog_text_no_apps" msgid="5715226015751055812">"App compatibility changes can only be modified for debuggable apps. Install a debuggable app and try again."</string>
     <string name="unsupported_setting_summary" product="default" msgid="1085229417771470172">"Setting isn’t supported on this phone"</string>
-    <string name="unsupported_setting_summary" product="tablet" msgid="7402414129786489664">"Setting isn’t supported on this tablet"</string>
-    <string name="unsupported_setting_summary" product="device" msgid="3422953459122926833">"Setting isn’t supported on this device"</string>
     <string name="disabled_for_user_setting_summary" msgid="9096036019081828639">"Setting can’t be changed by current user"</string>
     <string name="disabled_dependent_setting_summary" msgid="4508635725315852504">"Depends on another setting"</string>
     <string name="unknown_unavailability_setting_summary" msgid="9060213910510360231">"Setting unavailable"</string>
@@ -4600,8 +4559,6 @@
     <string name="media_output_label_title" msgid="4139048973886819148">"Play <xliff:g id="LABEL">%s</xliff:g> on"</string>
     <string name="media_output_default_summary" msgid="4200343059396412376">"This device"</string>
     <string name="media_output_summary" product="default" msgid="4760338801715262899">"Phone"</string>
-    <string name="media_output_summary" product="tablet" msgid="5138101426462250247">"Tablet"</string>
-    <string name="media_output_summary" product="device" msgid="3598300438694764381">"Device"</string>
     <string name="media_out_summary_ongoing_call_state" msgid="475188726850090363">"Unavailable during calls"</string>
     <string name="media_output_summary_unavailable" msgid="2695058965888813093">"Unavailable"</string>
     <string name="media_output_group_panel_title" msgid="3086245179062913037">"Add outputs"</string>
@@ -4611,8 +4568,6 @@
     <string name="media_output_switching" msgid="7488216595474868546">"Switching…"</string>
     <string name="take_call_on_title" msgid="1159417893879946757">"Take call on"</string>
     <string name="cannot_change_apn_toast" msgid="296540724089240405">"This APN cannot be changed."</string>
-    <string name="battery_suggestion_title" product="tablet" msgid="1525940496459255289">"Improve tablet\'s battery life"</string>
-    <string name="battery_suggestion_title" product="device" msgid="2280773774080720377">"Improve device\'s battery life"</string>
     <string name="battery_suggestion_title" product="default" msgid="4811554469047272537">"Improve phone\'s battery life"</string>
     <string name="battery_suggestion_summary" msgid="8186720080540016197"></string>
     <string name="gesture_prevent_ringing_screen_title" msgid="8293094715267769349">"Prevent ringing"</string>
@@ -4872,8 +4827,6 @@
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"Turn off VoLTE?"</string>
     <string name="volte_5G_limited_text" msgid="7150583768725182345">"This also turns off your 5G connection.\nDuring a voice call, you can’t use the Internet and some apps may not work."</string>
     <string name="no_5g_in_dsds_text" product="default" msgid="772747677303920132">"When using two SIMs, this phone will be limited to 4G. "<annotation id="url">"Learn more"</annotation></string>
-    <string name="no_5g_in_dsds_text" product="tablet" msgid="4757328474425714624">"When using two SIMs, this tablet will be limited to 4G. "<annotation id="url">"Learn more"</annotation></string>
-    <string name="no_5g_in_dsds_text" product="device" msgid="6983783505032683314">"When using two SIMs, this device will be limited to 4G. "<annotation id="url">"Learn more"</annotation></string>
     <string name="cached_apps_freezer" msgid="1057519579761550350">"Suspend execution for cached apps"</string>
     <string name="overlay_settings_title" msgid="1032863083496396365">"Allow screen overlays on settings"</string>
     <string name="overlay_settings_summary" msgid="2745336273786148166">"Allow apps that can display over other apps to overlay settings screens"</string>
