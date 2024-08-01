@@ -107,6 +107,21 @@ dependencies {
     implementation project(':setupcompat')
     implementation project(':setupdesign')
     implementation project(':WifiTrackerLib')
+    implementation project(':SettingsLib')
+    implementation project(':SettingsLib:ActionBarShadow')
+    implementation project(':SettingsLib:RestrictedLockUtils')
+    implementation project(':SettingsLib:ActionButtonsPreference')
+    implementation project(':SettingsLib:HelpUtils')
+    implementation project(':SettingsLib:SettingsSpinner')
+    implementation project(':SettingsLib:Tile')
+    implementation project(':SettingsLib:LayoutPreference')
+    implementation project(':SettingsLib:AppPreference')
+    implementation project(':SettingsLib:RadioButtonPreference')
+    implementation project(':SettingsLib:search')
+    implementation project(':SettingsLib:SearchWidget')
+    implementation project(':SettingsLib:EntityHeaderWidgets')
+    implementation project(':SettingsLib:AdaptiveIcon')
+    implementation project(':SettingsLib:DisplayDensityUtils')
 }
 
 allprojects {
