@@ -28,11 +28,6 @@ android {
         abortOnError false
     }
 
-    afterEvaluate {
-        generateReleaseBuildConfig.enabled = false
-        generateDebugBuildConfig.enabled = false
-    }
-
     sourceSets {
         main {
             java.srcDirs = ['src']
@@ -51,6 +46,5 @@ repositories {
 dependencies {
     compileOnly files('../clibs-compile/framework.jar')
     implementation libs.appcompat
-    implementation libs.preference
     implementation project(':SettingsLib:HelpUtils')
 }

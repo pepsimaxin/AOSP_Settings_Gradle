@@ -20,4 +20,8 @@ package com.android.settingslib.search;
  * Stub for Intellij, not compiled! See {@link IndexableProcessor}
  */
 public class SearchIndexableResourcesMobile extends SearchIndexableResourcesBase {
+    @Override
+    public void addIndex(SearchIndexableData searchIndexableData) {
+
+    }
 }
