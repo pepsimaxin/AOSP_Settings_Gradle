@@ -1969,7 +1969,6 @@
     <string name="user_dict_settings_all_languages" msgid="8563387437755363526">"For all languages"</string>
     <string name="user_dict_settings_more_languages" msgid="5378870726809672319">"More languages…"</string>
     <string name="testing" msgid="6294172343766732037">"Testing"</string>
-    <string name="testing_phone_info" product="tablet" msgid="1910768200608214456">"Tablet information"</string>
     <string name="testing_phone_info" product="default" msgid="1150527695827743906">"Phone information"</string>
     <string name="input_methods_settings_title" msgid="7796027458321225550">"Text input"</string>
     <string name="input_method" msgid="2982805181425436775">"Input method"</string>
@@ -2388,7 +2387,6 @@
     <string name="power_bluetooth" msgid="5085900180846238196">"Bluetooth"</string>
     <string name="power_cell" msgid="5507921058696341513">"Mobile network standby"</string>
     <string name="power_phone" msgid="2768396619208561670">"Voice calls"</string>
-    <string name="power_idle" product="tablet" msgid="4689321599298911021">"Tablet idle"</string>
     <string name="power_idle" product="default" msgid="9132502722499465252">"Phone idle"</string>
     <string name="power_unaccounted" msgid="2160811497426475703">"Miscellaneous"</string>
     <string name="power_overcounted" msgid="3681101460287472876">"Over-counted"</string>
@@ -2397,7 +2395,6 @@
     <string name="usage_type_wake_lock" msgid="3442487584173668904">"Keep awake"</string>
     <string name="usage_type_gps" msgid="4118035982288964651">"GPS"</string>
     <string name="usage_type_wifi_running" msgid="5573404832197356206">"Wi‑Fi running"</string>
-    <string name="usage_type_phone" product="tablet" msgid="4527092861928972130">"Tablet"</string>
     <string name="usage_type_phone" product="default" msgid="4149330237181984782">"Phone"</string>
     <string name="usage_type_data_send" msgid="4375755152437282184">"Mobile packets sent"</string>
     <string name="usage_type_data_recv" msgid="7821924049621005218">"Mobile packets received"</string>
@@ -2420,7 +2417,6 @@
     <string name="battery_action_wifi" msgid="1829212604573932607">"Wi‑Fi settings"</string>
     <string name="battery_action_bluetooth" msgid="4723692623358386789">"Bluetooth settings"</string>
     <string name="battery_desc_voice" msgid="6900799826084022585">"Battery used by voice calls"</string>
-    <string name="battery_desc_standby" product="tablet" msgid="5818742458684767043">"Battery used when tablet is idle"</string>
     <string name="battery_desc_standby" product="default" msgid="2543075041964578103">"Battery used when phone is idle"</string>
     <string name="battery_desc_radio" msgid="454677140485133914">"Battery used by mobile radio"</string>
     <string name="battery_sugg_radio" msgid="5476234634503535270">"Switch to airplane mode to save power in areas with no cell coverage"</string>
@@ -2735,7 +2731,6 @@
     <string name="data_usage_app_restrict_dialog" msgid="5534272311979978297">"This feature may cause an app that depends on background data to stop working when only mobile networks are available.\n\nYou can find more appropriate data usage controls in the settings available within the app."</string>
     <string name="data_usage_restrict_denied_dialog" msgid="8599940395497268584">"Restricting background data is possible only when you’ve set a mobile data limit."</string>
     <string name="data_usage_auto_sync_on_dialog_title" msgid="2048411447974361181">"Turn auto-sync data on?"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="6387714350903085918">"Any changes that you make to your accounts on the web will be automatically copied to your tablet.\n\nSome accounts may also automatically copy any changes that you make on the tablet to the web. A Google Account works this way."</string>
     <string name="data_usage_auto_sync_on_dialog" product="default" msgid="6457107552266187107">"Any changes that you make to your accounts on the web will be automatically copied to your phone.\n\nSome accounts may also automatically copy any changes that you make on the phone to the web. A Google Account works this way."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="1783917145440587470">"Turn auto-sync data off?"</string>
     <string name="data_usage_auto_sync_off_dialog" msgid="6523112583569674837">"This will conserve data and battery usage, but you\'ll need to sync each account manually to collect recent information and you won\'t receive notifications when updates occur."</string>
@@ -2745,11 +2740,9 @@
     <string name="data_usage_warning_editor_title" msgid="5252748452973120016">"Set data usage warning"</string>
     <string name="data_usage_limit_editor_title" msgid="8826855902435008518">"Set data usage limit"</string>
     <string name="data_usage_limit_dialog_title" msgid="2053134451707801439">"Limiting data usage"</string>
-    <string name="data_usage_limit_dialog_mobile" product="tablet" msgid="6000062970083379466">"Your tablet will turn off mobile data once it reaches the limit you set.\n\nSince data usage is measured by your tablet, and your operator may account for usage differently, consider setting a conservative limit."</string>
     <string name="data_usage_limit_dialog_mobile" product="default" msgid="4942895670789168024">"Your phone will turn off mobile data once it reaches the limit you set.\n\nSince data usage is measured by your phone, and your carrier may account for usage differently, consider setting a conservative limit."</string>
     <string name="data_usage_restrict_background_title" msgid="2745551538820692821">"Restrict background data?"</string>
     <string name="data_usage_restrict_background" msgid="1893102079135282794">"If you restrict background mobile data, some apps and services won’t work unless you’re connected to Wi‑Fi."</string>
-    <string name="data_usage_restrict_background_multiuser" product="tablet" msgid="5588623586867665419">"If you restrict background mobile data, some apps and services won’t work unless you’re connected to Wi‑Fi.\n\nThis setting affects all users on this tablet."</string>
     <string name="data_usage_restrict_background_multiuser" product="default" msgid="6402714504088590463">"If you restrict background mobile data, some apps and services won’t work unless you’re connected to Wi‑Fi.\n\nThis setting affects all users on this phone."</string>
     <string name="data_usage_sweep_warning" msgid="2072854703184614828"><font size="18">"<xliff:g id="NUMBER">^1</xliff:g>"</font>" "<font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"warning"</font></string>
     <string name="data_usage_sweep_limit" msgid="6947019190890086284"><font size="18">"<xliff:g id="NUMBER">^1</xliff:g>"</font>" "<font size="9">"<xliff:g id="UNIT">^2</xliff:g>"</font>\n<font size="12">"limit"</font></string>
@@ -2757,7 +2750,6 @@
     <string name="data_usage_uninstalled_apps_users" msgid="1262228664057122983">"Removed apps and users"</string>
     <string name="data_usage_received_sent" msgid="1486740779864806124">"<xliff:g id="RECEIVED">%1$s</xliff:g> received, <xliff:g id="SENT">%2$s</xliff:g> sent"</string>
     <string name="data_usage_total_during_range" msgid="2695893609573024612">"<xliff:g id="RANGE">%2$s</xliff:g>: about <xliff:g id="TOTAL">%1$s</xliff:g> used."</string>
-    <string name="data_usage_total_during_range_mobile" product="tablet" msgid="45300375132284265">"<xliff:g id="RANGE">%2$s</xliff:g>: About <xliff:g id="TOTAL">%1$s</xliff:g> used, as measured by your tablet. Your operator\'s data usage accounting may differ."</string>
     <string name="data_usage_total_during_range_mobile" product="default" msgid="3183594094081558193">"<xliff:g id="RANGE">%2$s</xliff:g>: About <xliff:g id="TOTAL">%1$s</xliff:g> used, as measured by your phone. Your operator\'s data usage accounting may differ."</string>
     <string name="data_usage_metered_title" msgid="6421347352444253058">"Network restrictions"</string>
     <string name="data_usage_metered_body" msgid="1206840367501998582">"Metered networks are treated like mobile networks when background data is restricted. Apps may warn before using these networks for large downloads."</string>
@@ -2892,7 +2884,6 @@
     <string name="user_you" msgid="3070562015202859996">"You (<xliff:g id="NAME">%s</xliff:g>)"</string>
     <string name="user_nickname" msgid="3763630194459958977">"Nickname"</string>
     <string name="user_add_max_count" msgid="5739771048517070983">"You can add up to <xliff:g id="USER_COUNT">%1$d</xliff:g> users"</string>
-    <string name="user_cannot_manage_message" product="tablet" msgid="3405022988077682357">"Only the tablet\'s owner can manage users."</string>
     <string name="user_cannot_manage_message" product="default" msgid="6434662649769855494">"Only the phone\'s owner can manage users."</string>
     <string name="user_cannot_add_accounts_message" msgid="2351326078338805337">"Restricted profiles cannot add accounts"</string>
     <string name="user_remove_user_menu" msgid="2183714948094429367">"Delete <xliff:g id="USER_NAME">%1$s</xliff:g> from this device"</string>
@@ -2902,7 +2893,6 @@
     <string name="user_confirm_remove_title" msgid="3626559103278006002">"Delete this user?"</string>
     <string name="user_profile_confirm_remove_title" msgid="3131574314149375354">"Remove this profile?"</string>
     <string name="work_profile_confirm_remove_title" msgid="6229618888167176036">"Remove work profile?"</string>
-    <string name="user_confirm_remove_self_message" product="tablet" msgid="439222554798995592">"You will lose your space and data on this tablet. You can\'t undo this action."</string>
     <string name="user_confirm_remove_self_message" product="default" msgid="5991495192044543230">"You will lose your space and data on this phone. You can\'t undo this action."</string>
     <string name="user_confirm_remove_message" msgid="362545924965977597">"All apps and data will be deleted."</string>
     <string name="work_profile_confirm_remove_message" msgid="1037294114103024478">"All apps and data in this profile will be deleted if you continue."</string>
@@ -3003,7 +2993,6 @@
     <string name="restriction_bluetooth_config_summary" msgid="7558879931011271603">"Allow modification of Bluetooth pairings and settings"</string>
     <string name="restriction_nfc_enable_title" msgid="525512312298242911">"NFC"</string>
     <string name="restriction_nfc_enable_summary_config" msgid="8065688740509581028">"Allow data exchange when this <xliff:g id="DEVICE_NAME">%1$s</xliff:g> touches another NFC device"</string>
-    <string name="restriction_nfc_enable_summary" product="tablet" msgid="6397567147629410131">"Allow data exchange when the tablet touches another device"</string>
     <string name="restriction_nfc_enable_summary" product="default" msgid="3331800894734678808">"Allow data exchange when the phone touches another device"</string>
     <string name="restriction_location_enable_title" msgid="4872281754836538066">"Location"</string>
     <string name="restriction_location_enable_summary" msgid="7139292323897390221">"Let apps use your location information"</string>

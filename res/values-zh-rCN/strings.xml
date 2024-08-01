@@ -20,7 +20,7 @@
     <string name="no" msgid="5541738710521607130">"否"</string>
     <string name="create" msgid="986997212165228751">"创建"</string>
     <string name="allow" msgid="3763244945363657722">"允许"</string>
-    <string name="deny" msgid="7326117222944479942">"拒绝"</string>
+    <string name="deny" msgid="7326117222944479942">"拒绝"</string> 
     <string name="confirmation_turn_on" msgid="2979094011928347665">"开启"</string>
     <string name="device_info_default" msgid="1406619232867343310">"未知"</string>
     <plurals name="show_dev_countdown" formatted="false" msgid="1646187747875476269">
@@ -80,8 +80,6 @@
     <string name="keywords_add_bt_device" msgid="4533191164203174011">"蓝牙"</string>
     <string name="bluetooth_is_visible_message" msgid="3811631869768157387">"在 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 上开启蓝牙设置后，附近的设备将可以检测到该设备。"</string>
     <string name="bluetooth_footer_mac_message" product="default" msgid="4782330594323261630">"手机的蓝牙地址：<xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
-    <string name="bluetooth_footer_mac_message" product="tablet" msgid="1257226691967432025">"平板电脑的蓝牙地址：<xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
-    <string name="bluetooth_footer_mac_message" product="device" msgid="2863536947810007600">"设备的蓝牙地址：<xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
     <string name="bluetooth_is_disconnect_question" msgid="777406775955421784">"要断开与<xliff:g id="DEVICE_NAME">%1$s</xliff:g>的连接吗？"</string>
     <string name="bluetooth_broadcasting" msgid="6379176741690311973">"广播"</string>
     <string name="bluetooth_device" msgid="2217973503732544291">"未命名的蓝牙设备"</string>
@@ -99,21 +97,13 @@
     <string name="bluetooth_ask_disablement" msgid="1879788777942714761">"<xliff:g id="APP_NAME">%1$s</xliff:g>请求关闭蓝牙"</string>
     <string name="bluetooth_ask_enablement_no_name" msgid="5091401961637405417">"某个应用请求开启蓝牙"</string>
     <string name="bluetooth_ask_disablement_no_name" msgid="382299750909188822">"某个应用请求关闭蓝牙"</string>
-    <string name="bluetooth_ask_discovery" product="tablet" msgid="1273405567801929487">"<xliff:g id="APP_NAME">%1$s</xliff:g>想让其他蓝牙设备在 <xliff:g id="TIMEOUT">%2$d</xliff:g> 秒内可检测到您的平板电脑。"</string>
     <string name="bluetooth_ask_discovery" product="default" msgid="7013223328571883275">"<xliff:g id="APP_NAME">%1$s</xliff:g>想让其他蓝牙设备在 <xliff:g id="TIMEOUT">%2$d</xliff:g> 秒内可检测到您的手机。"</string>
-    <string name="bluetooth_ask_discovery_no_name" product="tablet" msgid="3266007454914144057">"某个应用想让其他蓝牙设备在 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒内可检测到您的平板电脑。"</string>
     <string name="bluetooth_ask_discovery_no_name" product="default" msgid="7989444746980501116">"某个应用想让其他蓝牙设备在 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒内可检测到您的手机。"</string>
-    <string name="bluetooth_ask_lasting_discovery" product="tablet" msgid="6482084870735107773">"<xliff:g id="APP_NAME">%1$s</xliff:g>想让其他蓝牙设备检测到您的平板电脑。您可以稍后在“蓝牙”设置中更改此设置。"</string>
     <string name="bluetooth_ask_lasting_discovery" product="default" msgid="2352494279465502950">"<xliff:g id="APP_NAME">%1$s</xliff:g>想让其他蓝牙设备检测到您的手机。您可以稍后在“蓝牙”设置中更改此设置。"</string>
-    <string name="bluetooth_ask_lasting_discovery_no_name" product="tablet" msgid="2732992604509910896">"某个应用想让其他蓝牙设备检测到您的平板电脑。您可以稍后在“蓝牙”设置中更改此设置。"</string>
     <string name="bluetooth_ask_lasting_discovery_no_name" product="default" msgid="356982103612920264">"某个应用想让其他蓝牙设备检测到您的手机。您可以稍后在“蓝牙”设置中更改此设置。"</string>
-    <string name="bluetooth_ask_enablement_and_discovery" product="tablet" msgid="6103655179509599427">"<xliff:g id="APP_NAME">%1$s</xliff:g>请求开启蓝牙，以便其他设备在 <xliff:g id="TIMEOUT">%2$d</xliff:g> 秒内可检测到您的平板电脑。"</string>
     <string name="bluetooth_ask_enablement_and_discovery" product="default" msgid="934276632311449337">"<xliff:g id="APP_NAME">%1$s</xliff:g>请求开启蓝牙，以便其他设备在 <xliff:g id="TIMEOUT">%2$d</xliff:g> 秒内可检测到您的手机。"</string>
-    <string name="bluetooth_ask_enablement_and_discovery_no_name" product="tablet" msgid="1284048348024444485">"某个应用请求开启蓝牙，以便其他设备在 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒内可检测到您的平板电脑。"</string>
     <string name="bluetooth_ask_enablement_and_discovery_no_name" product="default" msgid="2661614145022629454">"某个应用请求开启蓝牙，以便其他设备在 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒内可检测到您的手机。"</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet" msgid="8588317955400593623">"<xliff:g id="APP_NAME">%1$s</xliff:g>请求开启蓝牙，以便其他设备可检测到您的平板电脑。您可以稍后在“蓝牙”设置中更改此设置。"</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery" product="default" msgid="4047444317445386579">"<xliff:g id="APP_NAME">%1$s</xliff:g>请求开启蓝牙，以便其他设备可检测到您的手机。您可以稍后在“蓝牙”设置中更改此设置。"</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery_no_name" product="tablet" msgid="4922952478824372605">"某个应用请求开启蓝牙，以便其他设备可检测到您的平板电脑。您可以稍后在“蓝牙”设置中更改此设置。"</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery_no_name" product="default" msgid="1381582950049639439">"某个应用请求开启蓝牙，以便其他设备可检测到您的手机。您可以稍后在“蓝牙”设置中更改此设置。"</string>
     <string name="bluetooth_turning_on" msgid="3842613808709024730">"正在打开蓝牙..."</string>
     <string name="bluetooth_turning_off" msgid="7406309124247701148">"正在关闭蓝牙…"</string>
@@ -132,8 +122,6 @@
     <string name="bluetooth_off_footer" msgid="76578735660216295">"开启蓝牙即可连接到其他设备。"</string>
     <string name="bluetooth_paired_device_title" msgid="3240639218362342026">"您的设备"</string>
     <string name="bluetooth_pairing_page_title" msgid="3403981358823707692">"与新设备配对"</string>
-    <string name="bluetooth_pref_summary" product="tablet" msgid="3506962706611366830">"允许您的平板电脑与附近的蓝牙设备进行通信"</string>
-    <string name="bluetooth_pref_summary" product="device" msgid="2192027516577675587">"允许您的设备与附近的蓝牙设备进行通信"</string>
     <string name="bluetooth_pref_summary" product="default" msgid="768958961865499804">"允许您的手机与附近的蓝牙设备进行通信"</string>
     <string name="bluetooth_disable_a2dp_hw_offload" msgid="5942913792817797541">"停用蓝牙 A2DP 硬件卸载"</string>
     <string name="bluetooth_disable_a2dp_hw_offload_dialog_title" msgid="8610420176339657720">"要重启设备吗？"</string>
@@ -234,7 +222,6 @@
     <string name="roaming_reenable_message" msgid="5150423860521673540">"移动数据网络连接已断开，因为您已离开本地网络并关闭了数据漫游服务。"</string>
     <string name="roaming_turn_it_on_button" msgid="6999283810847157816">"将其启用"</string>
     <string name="roaming_warning" msgid="7703647889040229013">"可能需要支付漫游费用。"</string>
-    <string name="roaming_warning_multiuser" product="tablet" msgid="5629953315019604726">"如果允许数据网络漫游，您可能需要支付漫游费用！\n\n此设置会影响这部平板电脑上的所有用户。"</string>
     <string name="roaming_warning_multiuser" product="default" msgid="3693719745119874126">"如果允许数据网络漫游，您可能需要支付漫游费用！\n\n此设置会影响这部手机上的所有用户。"</string>
     <string name="roaming_reenable_title" msgid="770824950144026180">"允许数据漫游？"</string>
     <string name="networks" msgid="5184501333492775095">"运营商选择"</string>
@@ -296,8 +283,6 @@
     <string name="encryption_and_credential_settings_title" msgid="5856216318961482983">"加密与凭据"</string>
     <string name="encryption_and_credential_settings_summary" product="default" msgid="5298195959570992363">"手机已加密"</string>
     <string name="decryption_settings_summary" product="default" msgid="1742645256103613503">"手机未加密"</string>
-    <string name="encryption_and_credential_settings_summary" product="tablet" msgid="3776741531205406800">"设备已加密"</string>
-    <string name="decryption_settings_summary" product="tablet" msgid="1864963068216544631">"设备未加密"</string>
     <string name="lockscreen_settings_title" msgid="4086121748092341549">"锁定屏幕"</string>
     <string name="lockscreen_settings_what_to_show_category" msgid="9205490627927741254">"要显示的内容"</string>
     <string name="security_settings_summary" msgid="1627059516127354233">"设置我的位置、屏幕解锁、SIM 卡锁定和凭据存储锁定"</string>
@@ -391,11 +376,7 @@
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"要跳过指纹设置？"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"指纹设置只需片刻时间。如果您跳过此设置，之后可以在设置中添加您的指纹。"</string>
     <string name="lock_screen_intro_skip_title" msgid="342553937472568925">"要跳过屏幕锁定设置步骤吗？"</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp" product="tablet" msgid="1570832293693405757">"系统将不会启用设备保护功能。如果您的平板电脑丢失、被盗或被重置，您将无法防止他人使用此平板电脑。"</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp" product="device" msgid="4618501606519351904">"系统将不会启用设备保护功能。如果您的设备丢失、被盗或被重置，您将无法防止他人使用此设备。"</string>
     <string name="lock_screen_intro_skip_dialog_text_frp" product="default" msgid="2412426429887900241">"系统将不会启用设备保护功能。如果您的手机丢失、被盗或被重置，您将无法防止他人使用此手机。"</string>
-    <string name="lock_screen_intro_skip_dialog_text" product="tablet" msgid="7119039592587429936">"系统将不会启用设备保护功能。如果您的平板电脑丢失或被盗，您将无法防止他人使用此平板电脑。"</string>
-    <string name="lock_screen_intro_skip_dialog_text" product="device" msgid="3365990364131398523">"系统将不会启用设备保护功能。如果您的设备丢失或被盗，您将无法防止他人使用此设备。"</string>
     <string name="lock_screen_intro_skip_dialog_text" product="default" msgid="4908278819257287536">"系统将不会启用设备保护功能。如果您的手机丢失或被盗，您将无法防止他人使用此手机。"</string>
     <string name="skip_anyway_button_label" msgid="3442274117023270068">"仍然跳过"</string>
     <string name="go_back_button_label" msgid="6139455414099035594">"返回"</string>
@@ -416,11 +397,7 @@
     <string name="security_settings_fingerprint_enroll_enrolling_skip" msgid="3004786457919122854">"以后再说"</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_title" msgid="352947044008973812">"要跳过指纹设置？"</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_message" msgid="4876965433600560365">"您已选择使用指纹作为解锁手机的方式之一。如果您现在跳过这项设置，则以后还需要再进行设置。设置过程只需大约一分钟的时间。"</string>
-    <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="tablet" msgid="6901147203720764421">"请使用屏幕锁定选项来保护您的平板电脑，这样一来，即使平板电脑丢失或被盗，其他人也无法使用。此外，您还需要启用一种屏幕锁定选项，才能设置指纹。点按“取消”，然后设置 PIN 码、图案或密码。"</string>
-    <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="device" msgid="1286244133923093528">"请使用屏幕锁定选项来保护您的设备，这样一来，即使设备丢失或被盗，其他人也无法使用。此外，您还需要启用一种屏幕锁定选项，才能设置指纹。点按“取消”，然后设置 PIN 码、图案或密码。"</string>
     <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="default" msgid="4810191157587317521">"请使用屏幕锁定选项来保护您的手机，这样一来，即使手机丢失或被盗，其他人也无法使用。此外，您还需要启用一种屏幕锁定选项，才能设置指纹。点按“取消”，然后设置 PIN 码、图案或密码。"</string>
-    <string name="face_lock_screen_setup_skip_dialog_text" product="tablet" msgid="7387535629289108475">"通过屏幕锁定选项来保护您的平板电脑，这样一来，即使平板电脑丢失或被盗，其他人也无法使用。此外，您还需要启用一种屏幕锁定方式才能设置人脸解锁。要返回上一屏幕，请点按“取消”。"</string>
-    <string name="face_lock_screen_setup_skip_dialog_text" product="device" msgid="4995287019957131123">"通过屏幕锁定选项来保护您的设备，这样一来，即使设备丢失或被盗，其他人也无法使用。此外，您还需要启用一种屏幕锁定方式才能设置人脸解锁。要返回上一屏幕，请点按“取消”。"</string>
     <string name="face_lock_screen_setup_skip_dialog_text" product="default" msgid="7086796722966738156">"通过屏幕锁定选项来保护您的手机，这样一来，即使手机丢失或被盗，其他人也无法使用。此外，您还需要启用一种屏幕锁定方式才能设置人脸解锁。要返回上一屏幕，请点按“取消”。"</string>
     <string name="lock_screen_pin_skip_title" msgid="6853866579893458111">"要跳过 PIN 码设置吗？"</string>
     <string name="lock_screen_password_skip_title" msgid="8891463713793185768">"要跳过密码设置吗？"</string>
@@ -447,52 +424,35 @@
     <string name="fingerprint_last_delete_message_profile_challenge" msgid="3460246522493987163">"您将无法使用指纹解锁您的工作资料、对购买交易进行授权或登录工作应用"</string>
     <string name="fingerprint_last_delete_confirm" msgid="3294910995598819259">"是，移除"</string>
     <string name="crypt_keeper_settings_title" msgid="4938812137822100044">"加密"</string>
-    <string name="crypt_keeper_encrypt_title" product="tablet" msgid="7484150746479958376">"加密平板电脑"</string>
     <string name="crypt_keeper_encrypt_title" product="default" msgid="8302873664348463041">"加密手机"</string>
     <string name="crypt_keeper_encrypted_summary" msgid="3866488451639592071">"已加密"</string>
-    <string name="crypt_keeper_desc" product="tablet" msgid="4103951371711323192">"您可以对自己的帐号、设置、下载的应用及其数据、媒体和其他文件进行加密。加密平板电脑后，如果您设置了屏幕锁定（即图案、数字PIN码或密码），那么您必须在每次开机时解锁屏幕，才能将平板电脑解密。除此之外，唯一的解密方法就是恢复出厂设置，但这会清除您所有的数据。\n\n加密过程至少需要1个小时的时间。在开始加密之前，您必须先将电池充满电，并让平板电脑在整个加密过程中保持电源接通状态。如果加密过程出现中断，您将丢失部分或所有数据。"</string>
     <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">"您可以对自己的帐号、设置、下载的应用及其数据、媒体和其他文件进行加密。加密手机后，如果您设置了屏幕锁定（即图案、数字PIN码或密码），那么您必须在每次开机时解锁屏幕，才能将手机解密。除此之外，唯一的解密方法就是恢复出厂设置，但这会清除您所有的数据。\n\n加密过程至少需要1个小时的时间。在开始加密之前，您必须先将电池充满电，并让手机在整个加密过程中保持电源接通状态。如果加密过程出现中断，您将丢失部分或所有数据。"</string>
-    <string name="crypt_keeper_button_text" product="tablet" msgid="5551608011810921471">"加密平板电脑"</string>
     <string name="crypt_keeper_button_text" product="default" msgid="6370330929679426136">"加密手机"</string>
     <string name="crypt_keeper_low_charge_text" msgid="4920087247177024521">"请为电池充电，然后重试。"</string>
     <string name="crypt_keeper_unplugged_text" msgid="2709721134148651329">"请插上充电器，然后重试。"</string>
     <string name="crypt_keeper_dialog_need_password_title" msgid="1847280235529858357">"没有锁屏PIN码或密码"</string>
     <string name="crypt_keeper_dialog_need_password_message" msgid="7210616262954236042">"您需要先设置锁屏 PIN 码或密码，才能开始加密。"</string>
     <string name="crypt_keeper_confirm_title" msgid="8600000209722452230">"要加密吗？"</string>
-    <string name="crypt_keeper_final_desc" product="tablet" msgid="3270587498436152259">"加密操作无法撤消，如果您中断该过程，则会丢失数据。加密过程需要1小时或更长时间，在此期间，平板电脑会重新启动数次。"</string>
     <string name="crypt_keeper_final_desc" product="default" msgid="3040428543349852419">"加密操作无法撤消，如果您中断该过程，则会丢失数据。加密过程需要1小时或更长时间，在此期间，手机会重新启动数次。"</string>
     <string name="crypt_keeper_setup_title" msgid="3339725741305796680">"正在加密"</string>
-    <string name="crypt_keeper_setup_description" product="tablet" msgid="4417016995091289019">"正在加密您的平板电脑（已完成 <xliff:g id="PERCENT">^1</xliff:g>%），请耐心等待。"</string>
     <string name="crypt_keeper_setup_description" product="default" msgid="7902355422499500352">"正在加密您的手机（已完成 <xliff:g id="PERCENT">^1</xliff:g>%），请耐心等待。"</string>
-    <string name="crypt_keeper_setup_time_remaining" product="tablet" msgid="8348188415839917821">"您的平板电脑正在加密，请耐心等待。剩余时间：<xliff:g id="DURATION">^1</xliff:g>"</string>
     <string name="crypt_keeper_setup_time_remaining" product="default" msgid="8556105766597855198">"您的手机正在加密，请耐心等待。剩余时间：<xliff:g id="DURATION">^1</xliff:g>"</string>
-    <string name="crypt_keeper_force_power_cycle" product="tablet" msgid="3832496715430327682">"要解锁您的平板电脑，请将其关机然后再重启。"</string>
     <string name="crypt_keeper_force_power_cycle" product="default" msgid="5070346039522135361">"要解锁您的手机，请将其关机然后再重启。"</string>
     <string name="crypt_keeper_warn_wipe" msgid="8104921337301750394">"警告：如果解锁尝试再失败<xliff:g id="COUNT">^1</xliff:g>次，您的设备将被清空！"</string>
     <string name="crypt_keeper_enter_password" msgid="1274917431075529732">"键入密码"</string>
     <string name="crypt_keeper_failed_title" msgid="8173654570682244149">"加密失败"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="5977961188966570342">"加密过程中断，无法完成。因此，您已无法再使用平板电脑上的数据。\n\n要继续使用您的平板电脑，您需要恢复出厂设置。恢复出厂设置后对平板电脑进行设置时，您可以将之前备份到Google帐号的所有数据恢复到平板电脑中。"</string>
     <string name="crypt_keeper_failed_summary" product="default" msgid="1028716993071131029">"加密过程中断，无法完成。因此，您已无法再使用手机上的数据。\n\n要继续使用您的手机，您需要恢复出厂设置。恢复出厂设置后对手机进行设置时，您可以将之前备份到Google帐号的所有数据恢复到手机中。"</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="5920153462176846037">"解密失败"</string>
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="4420666705959562753">"您输入的密码正确无误，但遗憾的是，您的数据已损坏。\n\n要继续使用您的平板电脑，您需要将其恢复出厂设置。对恢复出厂设置后的平板电脑进行设置时，您可以恢复之前备份到 Google 帐号的任何数据。"</string>
     <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"您输入的密码正确无误，但遗憾的是，您的数据已损坏。\n\n要继续使用您的手机，您需要将其恢复出厂设置。对恢复出厂设置后的手机进行设置时，您可以恢复之前备份到 Google 帐号的任何数据。"</string>
     <string name="crypt_keeper_switch_input_method" msgid="7712732134989470573">"切换输入法"</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"保护手机的安全"</string>
-    <string name="suggested_lock_settings_summary" product="tablet" msgid="3213718550422761562">"设置屏幕锁定方式以保护平板电脑"</string>
-    <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"设置屏幕锁定方式以保护设备"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"设置屏幕锁定方式以保护手机"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"添加用于解锁的指纹"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="tablet" msgid="1040265358906410746"></string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"></string>
     <string name="suggested_fingerprint_lock_settings_summary" product="default" msgid="1040265358906410746"></string>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"选择屏幕锁定方式"</string>
     <string name="lock_settings_picker_title_profile" msgid="8377696902400733227">"选择工作资料锁屏方式"</string>
-    <string name="setup_lock_settings_picker_title" product="tablet" msgid="1276283007274778191">"保护您的平板电脑"</string>
-    <string name="setup_lock_settings_picker_title" product="device" msgid="3585905639045649905">"保护您的设备"</string>
     <string name="setup_lock_settings_picker_title" product="default" msgid="2758197863515864300">"为手机启用保护功能"</string>
     <string name="lock_settings_picker_biometrics_added_security_message" msgid="1105247657304421299">"为提升安全性，请设置备用的锁屏方式"</string>
-    <string name="setup_lock_settings_picker_message" product="tablet" msgid="4870877800737248926">"启用设备保护功能可防止他人在未经您允许的情况下使用此平板电脑。请选择您要使用的屏幕锁定方式。"</string>
-    <string name="setup_lock_settings_picker_message" product="device" msgid="8961855222808442301">"启用设备保护功能可防止他人在未经您允许的情况下使用此设备。请选择您要使用的屏幕锁定方式。"</string>
     <string name="setup_lock_settings_picker_message" product="default" msgid="8867435145945818970">"启用设备保护功能可防止他人在未经您允许的情况下使用此手机。请选择您要使用的屏幕锁定方式。"</string>
     <string name="lock_settings_picker_fingerprint_message" msgid="6414674538453498900">"选择您的备用屏幕锁定方式"</string>
     <string name="lock_settings_picker_face_message" msgid="2044129433641084149">"选择您的备用屏幕锁定方式"</string>
@@ -715,8 +675,6 @@
     <string name="bluetooth_device_mac_address" msgid="4873325074786732703">"设备的蓝牙地址：<xliff:g id="ADDRESS">%1$s</xliff:g>"</string>
     <string name="bluetooth_unpair_dialog_title" msgid="6943633443716052995">"要与该设备取消配对吗？"</string>
     <string name="bluetooth_unpair_dialog_body" product="default" msgid="4730377171981539265">"您的手机将与<xliff:g id="DEVICE_NAME">%1$s</xliff:g>取消配对"</string>
-    <string name="bluetooth_unpair_dialog_body" product="tablet" msgid="3428463407231980054">"您的平板电脑将与<xliff:g id="DEVICE_NAME">%1$s</xliff:g>取消配对"</string>
-    <string name="bluetooth_unpair_dialog_body" product="device" msgid="5117397433721336918">"您的设备将与<xliff:g id="DEVICE_NAME">%1$s</xliff:g>取消配对"</string>
     <string name="bluetooth_untethered_unpair_dialog_body" msgid="1938465582242297905">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>不会再与关联到此帐号的任何设备配对"</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"与设备取消配对"</string>
     <string name="bluetooth_connect_specific_profiles_title" msgid="1323072239637864488">"连接到..."</string>
@@ -724,7 +682,6 @@
     <string name="bluetooth_disconnect_headset_profile" msgid="7857706184371154920">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>将与免提音频断开连接。"</string>
     <string name="bluetooth_disconnect_hid_profile" msgid="4794752406024916925">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>将与输入设备断开连接。"</string>
     <string name="bluetooth_disconnect_pan_user_profile" msgid="283176886159444413">"经由<xliff:g id="DEVICE_NAME">%1$s</xliff:g>的互联网连接将会断开。"</string>
-    <string name="bluetooth_disconnect_pan_nap_profile" product="tablet" msgid="733193449967330892">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>将断开而不再共享该平板电脑的互联网连接。"</string>
     <string name="bluetooth_disconnect_pan_nap_profile" product="default" msgid="7852265676243153982">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>将断开而不再共享该手机的互联网连接。"</string>
     <string name="bluetooth_device_advanced_title" msgid="1181664272013729515">"已配对的蓝牙设备"</string>
     <string name="bluetooth_device_advanced_online_mode_title" msgid="8302236592496988747">"连接"</string>
@@ -771,7 +728,6 @@
     <string name="show_refresh_rate" msgid="5742688821872354973">"显示刷新频率"</string>
     <string name="show_refresh_rate_summary" msgid="3558118122374609663">"显示当前的显示屏刷新频率"</string>
     <string name="nfc_quick_toggle_title" msgid="3607620705230351666">"NFC"</string>
-    <string name="nfc_quick_toggle_summary" product="tablet" msgid="3622326550467939809">"允许平板电脑在与 NFC 设备触碰时交换数据"</string>
     <string name="nfc_quick_toggle_summary" product="default" msgid="1460871052409162980">"允许手机在与 NFC 设备触碰时交换数据"</string>
     <string name="nfc_disclaimer_title" msgid="3696580694485048039">"开启 NFC"</string>
     <string name="nfc_disclaimer_content" msgid="8256675597551036207">"NFC 可让此设备和附近的其他设备或目标（例如付款终端、门禁读卡器和互动式广告或标签）交换数据。"</string>
@@ -1024,7 +980,6 @@
     <string name="wifi_p2p_delete_group_message" msgid="4880242270742385699">"取消保存此群组？"</string>
     <string name="wifi_hotspot_checkbox_text" msgid="1549663436920597006">"WLAN 热点"</string>
     <string name="wifi_hotspot_off_subtext" msgid="2751383134504362078">"目前没有与其他设备共享互联网连接或内容"</string>
-    <string name="wifi_hotspot_tethering_on_subtext" product="tablet" msgid="5832429443898690152">"正在通过热点共享此平板电脑的互联网连接"</string>
     <string name="wifi_hotspot_tethering_on_subtext" product="default" msgid="5451921191609178326">"正在通过热点共享此手机的互联网连接"</string>
     <string name="wifi_hotspot_on_local_only_subtext" msgid="965051079784031636">"应用正在共享内容。要共享互联网连接，请先关闭热点，然后重新打开"</string>
     <string name="wifi_hotspot_no_password_subtext" msgid="3685689196772398783">"未设置密码"</string>
@@ -1047,13 +1002,11 @@
     <string name="wifi_tether_configure_ssid_default" msgid="1709397571393179300">"Android热点"</string>
     <string name="wifi_add_app_single_network_title" msgid="8911612806204065225">"要保存此网络吗？"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="6881712878537666626">"<xliff:g id="APPNAME">%1$s</xliff:g>想将 1 个网络保存到您的手机"</string>
-    <string name="wifi_add_app_single_network_summary" product="tablet" msgid="8455616967601552440">"<xliff:g id="APPNAME">%1$s</xliff:g>想将 1 个网络保存到您的平板电脑"</string>
     <string name="wifi_add_app_single_network_saving_summary" msgid="7366337245410388895">"正在保存…"</string>
     <string name="wifi_add_app_single_network_saved_summary" msgid="7135016314713158289">"已保存"</string>
     <string name="wifi_add_app_network_save_failed_summary" msgid="7223817782309294652">"无法保存，请重试。"</string>
     <string name="wifi_add_app_networks_title" msgid="4384594865433042851">"要保存网络吗？"</string>
     <string name="wifi_add_app_networks_summary" product="default" msgid="2670215712788515167">"<xliff:g id="APPNAME">%1$s</xliff:g>想将这些网络保存到您的手机"</string>
-    <string name="wifi_add_app_networks_summary" product="tablet" msgid="2088967184512169910">"<xliff:g id="APPNAME">%1$s</xliff:g>想将这些网络保存到您的平板电脑"</string>
     <string name="wifi_add_app_networks_saving_summary" msgid="577680250954742033">"正在保存 <xliff:g id="NUMBER">%d</xliff:g> 个网络…"</string>
     <string name="wifi_add_app_networks_saved_summary" msgid="1648417628665152905">"网络已保存"</string>
     <string name="wifi_calling_settings_title" msgid="264665264535884440">"WLAN 通话"</string>
@@ -1122,16 +1075,12 @@
     <string name="dock_audio_settings_title" msgid="8294821925086965934">"音频"</string>
     <string name="dock_audio_summary_desk" msgid="4158593887711452737">"附加桌面基座的设置"</string>
     <string name="dock_audio_summary_car" msgid="292911654994476080">"附加车载基座的设置"</string>
-    <string name="dock_audio_summary_none" product="tablet" msgid="7758416095500202500">"平板电脑未插入基座"</string>
     <string name="dock_audio_summary_none" product="default" msgid="9056359991181743485">"手机未插入基座"</string>
     <string name="dock_audio_summary_unknown" msgid="5486086330763810318">"附加基座的设置"</string>
     <string name="dock_not_found_title" msgid="4721157149003423417">"未找到基座"</string>
-    <string name="dock_not_found_text" product="tablet" msgid="9192097687086523411">"您需要先将平板电脑插入基座，才能设置基座音频。"</string>
     <string name="dock_not_found_text" product="default" msgid="2247163115146852069">"您需要先将手机插入基座，才能设置基座音频。"</string>
     <string name="dock_sounds_enable_title" msgid="2974614136344237932">"插入基座提示音"</string>
-    <string name="dock_sounds_enable_summary_on" product="tablet" msgid="468592489565539336">"平板电脑插入基座或拔出时发出声音"</string>
     <string name="dock_sounds_enable_summary_on" product="default" msgid="8121670617316301768">"手机插入基座或拔出时发出声音"</string>
-    <string name="dock_sounds_enable_summary_off" product="tablet" msgid="7833926726878567889">"平板电脑插入基座或拔出时不发出声音"</string>
     <string name="dock_sounds_enable_summary_off" product="default" msgid="5560601997128422001">"手机插入基座或拔出时不发出声音"</string>
     <string name="account_settings" msgid="255404935489127404">"帐号"</string>
     <string name="accessibility_category_work" msgid="5133894487353964944">"工作资料帐号 - <xliff:g id="MANAGED_BY">%s</xliff:g>"</string>
@@ -1148,9 +1097,7 @@
     <string name="color_mode_option_automatic" msgid="2281217686509980870">"自动调节"</string>
     <string name="color_mode_summary_natural" msgid="8298840714001791628">"仅使用准确色彩"</string>
     <string name="color_mode_summary_automatic" msgid="8157885594041700275">"在鲜明和准确色彩之间进行调整"</string>
-    <string name="accelerometer_summary_on" product="tablet" msgid="6413384391658481700">"旋转平板电脑时自动改变浏览模式"</string>
     <string name="accelerometer_summary_on" product="default" msgid="7117139542131700779">"旋转手机时自动改变显示方向"</string>
-    <string name="accelerometer_summary_off" product="tablet" msgid="3747370091309939684">"旋转平板电脑时自动切换浏览模式"</string>
     <string name="accelerometer_summary_off" product="default" msgid="4451125241783158763">"旋转手机时自动改变显示方向"</string>
     <string name="brightness" msgid="6216871641021779698">"亮度"</string>
     <string name="brightness_title" msgid="5457874893085305155">"亮度"</string>
@@ -1278,9 +1225,7 @@
     <string name="sim_lock_settings_summary_on" msgid="1562184566830887925">"已锁定"</string>
     <string name="sim_lock_settings_title" msgid="1401619059761012696">"SIM 卡锁定方式"</string>
     <string name="sim_pin_toggle" msgid="98754920202404425">"锁定 SIM 卡"</string>
-    <string name="sim_lock_on" product="tablet" msgid="5857965768682972363">"需要输入PIN码才能使用平板电脑"</string>
     <string name="sim_lock_on" product="default" msgid="3303147192981388923">"需要输入 PIN 码才能使用手机"</string>
-    <string name="sim_lock_off" product="tablet" msgid="7188936582548721225">"需要输入PIN码才能使用平板电脑"</string>
     <string name="sim_lock_off" product="default" msgid="4634118006847137785">"需要输入 PIN 码才能使用手机"</string>
     <string name="sim_pin_change" msgid="5978881209990507379">"更改 SIM 卡 PIN 码"</string>
     <string name="sim_enter_pin" msgid="8235202785516053253">"SIM 卡 PIN 码"</string>
@@ -1328,7 +1273,6 @@
     <string name="device_info_not_available" msgid="4804474466616712326">"无法获取"</string>
     <string name="device_status_activity_title" msgid="1812666241137263882">"状态信息"</string>
     <string name="device_status" msgid="7988547478034984649">"状态信息"</string>
-    <string name="device_status_summary" product="tablet" msgid="8826216824111648900">"电池状态、网络状态和其他信息"</string>
     <string name="device_status_summary" product="default" msgid="8132661857066128832">"电话号码、信号等"</string>
     <string name="storage_settings" msgid="7472188817781592677">"存储"</string>
     <string name="storage_settings_for_app" msgid="229425418984637483">"存储和缓存"</string>
@@ -1337,11 +1281,8 @@
     <string name="storage_settings_summary" product="default" msgid="267557695753980969">"卸载SD卡，查看可用存储设备"</string>
     <string name="imei_multi_sim" msgid="71477088017585479">"IMEI（SIM 卡插槽 %1$d）"</string>
     <string name="view_saved_network" msgid="1232387673095080910">"要进行查看，请选择已保存的网络"</string>
-    <string name="status_number" product="tablet" msgid="3597945414666253183">"移动目录编号 (MDN)"</string>
     <string name="status_number" product="default" msgid="8407999629121682207">"手机号码"</string>
-    <string name="status_number_sim_slot" product="tablet" msgid="6582203988975619529">"MDN（SIM 卡插槽 %1$d）"</string>
     <string name="status_number_sim_slot" product="default" msgid="5724823197745786398">"电话号码（SIM 卡插槽 %1$d）"</string>
-    <string name="status_number_sim_status" product="tablet" msgid="4239876366511743428">"SIM 卡上的 MDN"</string>
     <string name="status_number_sim_status" product="default" msgid="2772745542921910086">"SIM 卡上的电话号码"</string>
     <string name="status_min_number" msgid="4492899165438225714">"MIN"</string>
     <string name="status_msid_number" msgid="3871958248824595774">"MSID"</string>
@@ -1486,9 +1427,6 @@
     <string name="storage_wizard_move_progress_cancel" msgid="3494022998599718937">"取消移动"</string>
     <string name="storage_wizard_slow_body" msgid="8293565076885232029">"此<xliff:g id="NAME_0">^1</xliff:g>似乎运行缓慢。\n\n您可以继续使用，但应用移动到此处后可能无法流畅运行，而且数据传输可能会花费很长时间。\n\n建议您使用运行速度更快的<xliff:g id="NAME_1">^1</xliff:g>来提升性能。"</string>
     <string name="storage_wizard_init_v2_title" msgid="2538630338392381113">"您要如何使用此<xliff:g id="NAME">^1</xliff:g>？"</string>
-    <string name="storage_wizard_init_v2_internal_title" product="tablet" msgid="1884468440013151482">"用作额外的平板电脑存储空间"</string>
-    <string name="storage_wizard_init_v2_internal_summary" product="tablet" msgid="2907833056467441047">"仅限此平板电脑上的应用、文件和媒体"</string>
-    <string name="storage_wizard_init_v2_internal_action" product="tablet" msgid="3278694259614995649">"平板电脑存储空间"</string>
     <string name="storage_wizard_init_v2_internal_title" product="default" msgid="5941952998075252284">"用作额外的手机存储空间"</string>
     <string name="storage_wizard_init_v2_internal_summary" product="default" msgid="3022584310096954875">"仅限此手机上的应用、文件和媒体"</string>
     <string name="storage_wizard_init_v2_internal_action" product="default" msgid="5645732875040797464">"手机存储空间"</string>
@@ -1501,12 +1439,10 @@
     <string name="storage_wizard_format_confirm_v2_body" msgid="635958708974709506">"此<xliff:g id="NAME_0">^1</xliff:g>需要进行格式化才能存储应用、文件和媒体。\n\n格式化操作将会清空<xliff:g id="NAME_1">^2</xliff:g>上的现有内容。为避免内容丢失，请将内容备份到另一个<xliff:g id="NAME_2">^3</xliff:g>或设备中。"</string>
     <string name="storage_wizard_format_confirm_v2_action" msgid="5718254101386377126">"将<xliff:g id="NAME">^1</xliff:g>格式化"</string>
     <string name="storage_wizard_migrate_v2_title" msgid="3471564531564756698">"要将内容移至<xliff:g id="NAME">^1</xliff:g>吗？"</string>
-    <string name="storage_wizard_migrate_v2_body" product="tablet" msgid="4541523202790415721">"您可以将文件、媒体和特定应用移至此<xliff:g id="NAME">^1</xliff:g>。\n\n这项移动操作将释放 <xliff:g id="SIZE">^2</xliff:g> 的平板电脑存储空间，大约需要 <xliff:g id="DURATION">^3</xliff:g>的时间完成。"</string>
     <string name="storage_wizard_migrate_v2_body" product="default" msgid="809730501314645325">"您可以将文件、媒体和特定应用移至此<xliff:g id="NAME">^1</xliff:g>。\n\n这项移动操作将释放 <xliff:g id="SIZE">^2</xliff:g> 的手机存储空间，大约需要 <xliff:g id="DURATION">^3</xliff:g>的时间完成。"</string>
     <string name="storage_wizard_migrate_v2_checklist" msgid="2618258869444553060">"移动期间："</string>
     <string name="storage_wizard_migrate_v2_checklist_media" msgid="5867134681730723744">"请勿移除<xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_migrate_v2_checklist_apps" msgid="1882077445750580783">"部分应用将无法运行"</string>
-    <string name="storage_wizard_migrate_v2_checklist_battery" product="tablet" msgid="6111770421449869539">"请将此平板电脑保持在充电状态"</string>
     <string name="storage_wizard_migrate_v2_checklist_battery" product="default" msgid="8826915870192535008">"请将此手机保持在充电状态"</string>
     <string name="storage_wizard_migrate_v2_now" msgid="3341460117088026966">"移动内容"</string>
     <string name="storage_wizard_migrate_v2_later" msgid="6067756122853315642">"稍后再移动内容"</string>
@@ -1580,7 +1516,6 @@
     <string name="reset_esim_error_msg" msgid="4441504470684307370">"发生错误，因此无法清除已下载的 SIM 卡。\n\n请重启设备，然后重试。"</string>
     <string name="master_clear_title" msgid="5309249309235959383">"清除所有数据（恢复出厂设置）"</string>
     <string name="master_clear_short_title" msgid="5331449583601739360">"清除所有数据（恢复出厂设置）"</string>
-    <string name="master_clear_desc" product="tablet" msgid="3114467865487750525">"此操作会清除您平板电脑"<b>"内部存储空间"</b>"中的所有数据，包括：\n\n"<li>"您的 Google 帐号"</li>\n<li>"系统和应用的数据和设置"</li>\n<li>"已下载的应用"</li></string>
     <string name="master_clear_desc" product="default" msgid="8447637796694856323">"此操作会清除您手机"<b>"内部存储空间"</b>"中的所有数据，包括：\n\n"<li>"您的 Google 帐号"</li>\n<li>"系统和应用的数据和设置"</li>\n<li>"已下载的应用"</li></string>
     <string name="master_clear_accounts" product="default" msgid="142220980039357651">\n\n"目前，您已登录以下帐号：\n"</string>
     <string name="master_clear_other_users_present" product="default" msgid="7492338002408466023">\n\n"此设备上目前还有其他用户。\n"</string>
@@ -1638,9 +1573,7 @@
     <string name="usb_title" msgid="1157283449840612901">"USB"</string>
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"USB 网络共享"</string>
     <string name="usb_tethering_subtext" product="default" msgid="3168636595109044213">"通过 USB 共享手机的互联网连接"</string>
-    <string name="usb_tethering_subtext" product="tablet" msgid="1749659335004856576">"通过 USB 共享平板电脑的互联网连接"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"蓝牙网络共享"</string>
-    <string name="bluetooth_tethering_subtext" product="tablet" msgid="2023654677593885805">"通过蓝牙共享平板电脑的互联网连接"</string>
     <string name="bluetooth_tethering_subtext" product="default" msgid="4322810060538179348">"通过蓝牙共享手机的互联网连接"</string>
     <string name="bluetooth_tethering_off_subtext_config" msgid="6941934844527406581">"通过蓝牙共享该<xliff:g id="DEVICE_NAME">%1$d</xliff:g>的互联网连接"</string>
     <string name="bluetooth_tethering_overflow_error" msgid="5292358672240161566">"无法与 <xliff:g id="MAXCONNECTION">%1$d</xliff:g> 台以上的设备共享网络。"</string>
@@ -1692,7 +1625,6 @@
     <string name="location_neighborhood_level" msgid="3668890550358558267">"允许应用使用Google位置信息服务更快地大致了解您所在的位置。系统将收集匿名位置数据并将其发送给Google。"</string>
     <string name="location_neighborhood_level_wifi" msgid="6227393490651891977">"通过WLAN确定位置"</string>
     <string name="location_gps" msgid="8783616672454701134">"GPS卫星定位"</string>
-    <string name="location_street_level" product="tablet" msgid="865953107414742784">"允许应用使用您平板电脑上的GPS定位您的位置"</string>
     <string name="location_street_level" product="default" msgid="3813836654645896185">"允许应用使用您手机上的GPS定位您的位置"</string>
     <string name="assisted_gps" msgid="1714546606018821498">"使用增强型GPS"</string>
     <string name="assisted_gps_enabled" msgid="6220188450779319248">"使用服务器来辅助GPS（取消选中可降低网络使用率）"</string>
@@ -1702,10 +1634,7 @@
     <string name="location_access_title" msgid="4052667453826272040">"允许使用我的位置信息"</string>
     <string name="location_access_summary" msgid="8634100005481578143">"允许得到您许可的应用使用您的位置信息"</string>
     <string name="location_sources_heading" msgid="6126965815860570524">"位置信息来源"</string>
-    <string name="about_settings" product="tablet" msgid="2888705054709289693">"关于平板电脑"</string>
     <string name="about_settings" product="default" msgid="4038626127378127613">"关于手机"</string>
-    <string name="about_settings" product="device" msgid="9012888717090302815">"关于设备"</string>
-    <string name="about_settings" product="emulator" msgid="2516560858771320366">"关于模拟设备"</string>
     <string name="about_settings_summary" msgid="4831942939227432513">"查看法律信息、状态和软件版本"</string>
     <string name="legal_information" msgid="7509900979811934843">"法律信息"</string>
     <string name="contributors_title" msgid="7965640251547037965">"活动提供商"</string>
@@ -1826,7 +1755,6 @@
     </plurals>
     <string name="forgot_password_title" msgid="3967873480875239885">"请联系您的 IT 管理员"</string>
     <string name="forgot_password_text" msgid="2583194470767613163">"他们可以帮助您重置 PIN 码、解锁图案或密码"</string>
-    <string name="install_all_warning" product="tablet" msgid="7010749217925069520">"您的平板电脑和个人数据更容易受到未知应用的攻击。安装来自该来源的应用即表示，您同意对因使用这些应用可能导致的平板电脑损坏或数据丢失承担责任。"</string>
     <string name="install_all_warning" product="default" msgid="652516435709047343">"您的手机和个人数据更容易受到未知应用的攻击。安装来自该来源的应用即表示，您同意对因使用这些应用可能导致的手机损坏或数据丢失承担责任。"</string>
     <string name="fdr_esim_failure_title" msgid="4776006228989385163">"清除已下载的 SIM 卡时出现问题"</string>
     <string name="fdr_esim_failure_text" msgid="8353414537422446964">"请重新启动设备，然后重试。如果您继续恢复出厂设置，已下载的 SIM 卡可能仍会保留在设备上。"</string>

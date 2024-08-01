@@ -101,21 +101,13 @@
     <string name="bluetooth_ask_disablement" msgid="1879788777942714761">"「<xliff:g id="APP_NAME">%1$s</xliff:g>」要求關閉藍牙功能"</string>
     <string name="bluetooth_ask_enablement_no_name" msgid="5091401961637405417">"某個應用程式要求開啟藍牙功能"</string>
     <string name="bluetooth_ask_disablement_no_name" msgid="382299750909188822">"某個應用程式要求關閉藍牙功能"</string>
-    <string name="bluetooth_ask_discovery" product="tablet" msgid="1273405567801929487">"「<xliff:g id="APP_NAME">%1$s</xliff:g>」要求開放 <xliff:g id="TIMEOUT">%2$d</xliff:g> 秒讓其他藍牙裝置能偵測到你的平板電腦。"</string>
     <string name="bluetooth_ask_discovery" product="default" msgid="7013223328571883275">"「<xliff:g id="APP_NAME">%1$s</xliff:g>」要求開放 <xliff:g id="TIMEOUT">%2$d</xliff:g> 秒讓其他藍牙裝置能偵測到你的手機。"</string>
-    <string name="bluetooth_ask_discovery_no_name" product="tablet" msgid="3266007454914144057">"某個應用程式要求開放 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒讓其他藍牙裝置能偵測到你的平板電腦。"</string>
     <string name="bluetooth_ask_discovery_no_name" product="default" msgid="7989444746980501116">"某個應用程式要求開放 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒讓其他藍牙裝置能偵測到你的手機。"</string>
-    <string name="bluetooth_ask_lasting_discovery" product="tablet" msgid="6482084870735107773">"「<xliff:g id="APP_NAME">%1$s</xliff:g>」要求開放讓其他藍牙裝置能偵測到你的平板電腦。你日後可在 [藍牙] 設定中變更這項設定。"</string>
     <string name="bluetooth_ask_lasting_discovery" product="default" msgid="2352494279465502950">"「<xliff:g id="APP_NAME">%1$s</xliff:g>」要求開放讓其他藍牙裝置能偵測到你的手機。你日後可在 [藍牙] 設定中變更這項設定。"</string>
-    <string name="bluetooth_ask_lasting_discovery_no_name" product="tablet" msgid="2732992604509910896">"某個應用程式要求開放讓其他藍牙裝置能偵測到你的平板電腦。你日後可在 [藍牙] 設定中變更這項設定。"</string>
     <string name="bluetooth_ask_lasting_discovery_no_name" product="default" msgid="356982103612920264">"某個應用程式要求開放讓其他藍牙裝置能偵測到你的手機。你日後可在 [藍牙] 設定中變更這項設定。"</string>
-    <string name="bluetooth_ask_enablement_and_discovery" product="tablet" msgid="6103655179509599427">"「<xliff:g id="APP_NAME">%1$s</xliff:g>」要求開啟藍牙功能 <xliff:g id="TIMEOUT">%2$d</xliff:g> 秒，讓其他裝置能偵測到你的平板電腦。"</string>
     <string name="bluetooth_ask_enablement_and_discovery" product="default" msgid="934276632311449337">"「<xliff:g id="APP_NAME">%1$s</xliff:g>」要求開啟藍牙功能 <xliff:g id="TIMEOUT">%2$d</xliff:g> 秒，讓其他裝置能偵測到你的手機。"</string>
-    <string name="bluetooth_ask_enablement_and_discovery_no_name" product="tablet" msgid="1284048348024444485">"某個應用程式要求開啟藍牙功能 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒，讓其他裝置能偵測到你的平板電腦。"</string>
     <string name="bluetooth_ask_enablement_and_discovery_no_name" product="default" msgid="2661614145022629454">"某個應用程式要求開啟藍牙功能 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒，讓其他裝置能偵測到你的手機。"</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet" msgid="8588317955400593623">"「<xliff:g id="APP_NAME">%1$s</xliff:g>」要求開啟藍牙功能，讓其他裝置能偵測到你的平板電腦。你日後可在 [藍牙] 設定中變更這項設定。"</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery" product="default" msgid="4047444317445386579">"「<xliff:g id="APP_NAME">%1$s</xliff:g>」要求開啟藍牙功能，讓其他裝置能偵測到你的手機。你日後可在 [藍牙] 設定中變更這項設定。"</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery_no_name" product="tablet" msgid="4922952478824372605">"某個應用程式要求開啟藍牙功能，讓其他裝置能偵測到你的平板電腦。你日後可在 [藍牙] 設定中變更這項設定。"</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery_no_name" product="default" msgid="1381582950049639439">"某個應用程式要求開啟藍牙功能，讓其他裝置能偵測到你的手機。你日後可在 [藍牙] 設定中變更這項設定。"</string>
     <string name="bluetooth_turning_on" msgid="3842613808709024730">"藍牙開啟中…"</string>
     <string name="bluetooth_turning_off" msgid="7406309124247701148">"正在關閉藍牙…"</string>
@@ -393,11 +385,7 @@
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"要略過指紋設定程序嗎？"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"指紋設定程序只需一兩分鐘即可完成。如果略過這個程序，稍後可以在設定中自行新增你的指紋。"</string>
     <string name="lock_screen_intro_skip_title" msgid="342553937472568925">"要略過螢幕鎖定設定程序嗎？"</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp" product="tablet" msgid="1570832293693405757">"裝置保護功能將不會開啟。在這種情況下，你無法在這部平板電腦遺失、遭竊或重設時，防止其他人使用平板電腦。"</string>
-    <string name="lock_screen_intro_skip_dialog_text_frp" product="device" msgid="4618501606519351904">"裝置保護功能將不會開啟。在這種情況下，你無法在這個裝置遺失、遭竊或重設時，防止其他人使用裝置。"</string>
     <string name="lock_screen_intro_skip_dialog_text_frp" product="default" msgid="2412426429887900241">"裝置保護功能將不會開啟。在這種情況下，你無法在這支手機遺失、遭竊或重設時，防止其他人使用手機。"</string>
-    <string name="lock_screen_intro_skip_dialog_text" product="tablet" msgid="7119039592587429936">"裝置保護功能將不會開啟。在這種情況下，你無法在這部平板電腦遺失或遭竊時，防止其他人使用平板電腦。"</string>
-    <string name="lock_screen_intro_skip_dialog_text" product="device" msgid="3365990364131398523">"裝置保護功能將不會開啟。在這種情況下，你無法在這個裝置遺失或遭竊時，防止其他人使用裝置。"</string>
     <string name="lock_screen_intro_skip_dialog_text" product="default" msgid="4908278819257287536">"裝置保護功能將不會開啟。在這種情況下，你無法在這支手機遺失或遭竊時，防止其他人使用手機。"</string>
     <string name="skip_anyway_button_label" msgid="3442274117023270068">"略過"</string>
     <string name="go_back_button_label" msgid="6139455414099035594">"返回"</string>
@@ -418,11 +406,7 @@
     <string name="security_settings_fingerprint_enroll_enrolling_skip" msgid="3004786457919122854">"稍後再說"</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_title" msgid="352947044008973812">"要略過指紋設定程序嗎？"</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_message" msgid="4876965433600560365">"你已選擇使用指紋做為其中一種手機解鎖方式。如果現在略過這項程序，你必須在稍後完成設定。設定程序只需要一分鐘左右。"</string>
-    <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="tablet" msgid="6901147203720764421">"建議你設定螢幕鎖定選項保護你的平板電腦。這樣一來，即使平板電腦遺失或遭竊，其他人也無法使用。此外，你也必須設定螢幕鎖定選項，才能設定指紋。請輕觸 [取消]，然後設定 PIN 碼、解鎖圖案或密碼。"</string>
-    <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="device" msgid="1286244133923093528">"建議你設定螢幕鎖定選項保護你的裝置。這樣一來，即使裝置遺失或遭竊，其他人也無法使用。此外，你也必須設定螢幕鎖定選項，才能設定指紋。請輕觸 [取消]，然後設定 PIN 碼、解鎖圖案或密碼。"</string>
     <string name="fingerprint_lock_screen_setup_skip_dialog_text" product="default" msgid="4810191157587317521">"建議你設定螢幕鎖定選項保護你的手機。這樣一來，即使手機遺失或遭竊，其他人也無法使用。此外，你也必須設定螢幕鎖定選項，才能設定指紋。請輕觸 [取消]，然後設定 PIN 碼、解鎖圖案或密碼。"</string>
-    <string name="face_lock_screen_setup_skip_dialog_text" product="tablet" msgid="7387535629289108475">"建議你設定螢幕鎖定選項保護你的平板電腦。這樣一來，即使平板電腦遺失或遭竊，其他人也無法使用。此外，你也必須設定螢幕鎖定選項，才能設定人臉解鎖功能。如要返回，請輕觸 [取消]。"</string>
-    <string name="face_lock_screen_setup_skip_dialog_text" product="device" msgid="4995287019957131123">"建議你設定螢幕鎖定選項保護你的裝置。這樣一來，即使裝置遺失或遭竊，其他人也無法使用。此外，你也必須設定螢幕鎖定選項，才能設定人臉解鎖功能。如要返回，請輕觸 [取消]。"</string>
     <string name="face_lock_screen_setup_skip_dialog_text" product="default" msgid="7086796722966738156">"建議你設定螢幕鎖定選項保護你的手機。這樣一來，即使手機遺失或遭竊，其他人也無法使用。此外，你也必須設定螢幕鎖定選項，才能設定人臉解鎖功能。如要返回，請輕觸 [取消]。"</string>
     <string name="lock_screen_pin_skip_title" msgid="6853866579893458111">"要略過 PIN 碼設定程序嗎？"</string>
     <string name="lock_screen_password_skip_title" msgid="8891463713793185768">"要略過密碼設定程序嗎？"</string>
