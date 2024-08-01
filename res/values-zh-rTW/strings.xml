@@ -74,16 +74,12 @@
     <string name="bluetooth_rename_button" msgid="9162500408570289545">"重新命名"</string>
     <string name="bluetooth_disconnect_title" msgid="4581951246357823044">"要取消連結裝置嗎？"</string>
     <string name="bluetooth_disconnect_all_profiles" product="default" msgid="1934297101665686854">"你的手機將與「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」中斷連線。"</string>
-    <string name="bluetooth_disconnect_all_profiles" product="tablet" msgid="336622948210457991">"你的平板電腦將與「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」中斷連線。"</string>
-    <string name="bluetooth_disconnect_all_profiles" product="device" msgid="6944790936166852428">"你的裝置將與「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」中斷連線。"</string>
     <string name="bluetooth_disconnect_dialog_ok" msgid="4173740094381092185">"中斷連線"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="909734990821975673">"你沒有變更藍牙設定的權限。"</string>
     <string name="bluetooth_pairing_pref_title" msgid="3497193027590444598">"配對新裝置"</string>
     <string name="keywords_add_bt_device" msgid="4533191164203174011">"藍牙"</string>
     <string name="bluetooth_is_visible_message" msgid="3811631869768157387">"藍牙設定開啟時，附近的裝置可偵測到「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」。"</string>
     <string name="bluetooth_footer_mac_message" product="default" msgid="4782330594323261630">"手機的藍牙位址：<xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
-    <string name="bluetooth_footer_mac_message" product="tablet" msgid="1257226691967432025">"平板電腦的藍牙位址：<xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
-    <string name="bluetooth_footer_mac_message" product="device" msgid="2863536947810007600">"裝置的藍牙位址：<xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
     <string name="bluetooth_is_disconnect_question" msgid="777406775955421784">"要中斷與「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」的連線嗎？"</string>
     <string name="bluetooth_broadcasting" msgid="6379176741690311973">"廣播"</string>
     <string name="bluetooth_device" msgid="2217973503732544291">"未命名的藍牙裝置"</string>
@@ -126,8 +122,6 @@
     <string name="bluetooth_off_footer" msgid="76578735660216295">"開啟藍牙以連線到其他裝置。"</string>
     <string name="bluetooth_paired_device_title" msgid="3240639218362342026">"你的裝置"</string>
     <string name="bluetooth_pairing_page_title" msgid="3403981358823707692">"配對新裝置"</string>
-    <string name="bluetooth_pref_summary" product="tablet" msgid="3506962706611366830">"允許你的平板電腦與附近的藍牙裝置進行通訊"</string>
-    <string name="bluetooth_pref_summary" product="device" msgid="2192027516577675587">"允許你的裝置與附近的藍牙裝置進行通訊"</string>
     <string name="bluetooth_pref_summary" product="default" msgid="768958961865499804">"允許你的手機與附近的藍牙裝置進行通訊"</string>
     <string name="bluetooth_disable_a2dp_hw_offload" msgid="5942913792817797541">"停用藍牙 A2DP 硬體卸載"</string>
     <string name="bluetooth_disable_a2dp_hw_offload_dialog_title" msgid="8610420176339657720">"要重新啟動裝置嗎？"</string>
@@ -464,21 +458,13 @@
     <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="3200498792238652367">"你所輸入的密碼正確，但你的資料已毀損。\n\n如要繼續使用手機，請將該裝置重設為原廠設定。重設完成後，當你對手機進行設定時，可以將備份在個人 Google 帳戶中的資料全部還原。"</string>
     <string name="crypt_keeper_switch_input_method" msgid="7712732134989470573">"切換輸入法"</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"保護手機安全"</string>
-    <string name="suggested_lock_settings_summary" product="tablet" msgid="3213718550422761562">"設定螢幕鎖定以保護平板電腦"</string>
-    <string name="suggested_lock_settings_summary" product="device" msgid="8479766049078378225">"設定螢幕鎖定以保護裝置"</string>
     <string name="suggested_lock_settings_summary" product="default" msgid="2443273582716671033">"設定螢幕鎖定以保護手機"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"新增用於解鎖的指紋"</string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="tablet" msgid="1040265358906410746"></string>
-    <string name="suggested_fingerprint_lock_settings_summary" product="device" msgid="1040265358906410746"></string>
     <string name="suggested_fingerprint_lock_settings_summary" product="default" msgid="1040265358906410746"></string>
     <string name="lock_settings_picker_title" msgid="9219376327364915334">"選擇螢幕鎖定方式"</string>
     <string name="lock_settings_picker_title_profile" msgid="8377696902400733227">"選擇 Work 鎖定方式"</string>
-    <string name="setup_lock_settings_picker_title" product="tablet" msgid="1276283007274778191">"保護你的平板電腦"</string>
-    <string name="setup_lock_settings_picker_title" product="device" msgid="3585905639045649905">"保護你的裝置"</string>
     <string name="setup_lock_settings_picker_title" product="default" msgid="2758197863515864300">"保護你的手機"</string>
     <string name="lock_settings_picker_biometrics_added_security_message" msgid="1105247657304421299">"請設定備用的螢幕鎖定方式以進一步提升安全性"</string>
-    <string name="setup_lock_settings_picker_message" product="tablet" msgid="4870877800737248926">"只要啟用裝置保護功能，即可防止他人在未獲你授權的情況下使用這台平板電腦。請選擇你要使用的螢幕鎖定方式。"</string>
-    <string name="setup_lock_settings_picker_message" product="device" msgid="8961855222808442301">"只要啟用裝置保護功能，即可防止他人在未獲你授權的情況下使用這個裝置。請選擇你要使用的螢幕鎖定方式。"</string>
     <string name="setup_lock_settings_picker_message" product="default" msgid="8867435145945818970">"只要啟用裝置保護功能，即可防止他人在未獲你授權的情況下使用這支手機。請選擇你要使用的螢幕鎖定方式。"</string>
     <string name="lock_settings_picker_fingerprint_message" msgid="6414674538453498900">"選擇你的備用螢幕鎖定方法"</string>
     <string name="lock_settings_picker_face_message" msgid="2044129433641084149">"選擇你的備用螢幕鎖定方式"</string>
@@ -701,8 +687,6 @@
     <string name="bluetooth_device_mac_address" msgid="4873325074786732703">"裝置的藍牙位址：<xliff:g id="ADDRESS">%1$s</xliff:g>"</string>
     <string name="bluetooth_unpair_dialog_title" msgid="6943633443716052995">"要移除裝置嗎？"</string>
     <string name="bluetooth_unpair_dialog_body" product="default" msgid="4730377171981539265">"你的手機將與「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」解除配對"</string>
-    <string name="bluetooth_unpair_dialog_body" product="tablet" msgid="3428463407231980054">"你的平板電腦將與「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」解除配對"</string>
-    <string name="bluetooth_unpair_dialog_body" product="device" msgid="5117397433721336918">"你的裝置將與「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」解除配對"</string>
     <string name="bluetooth_untethered_unpair_dialog_body" msgid="1938465582242297905">"「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」將與任何已連結到這個帳戶的裝置解除配對"</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"移除裝置"</string>
     <string name="bluetooth_connect_specific_profiles_title" msgid="1323072239637864488">"連線到…"</string>
@@ -1817,7 +1801,6 @@
     <string name="fdr_continue_title" msgid="5343622664826823937">"要繼續恢復原廠設定嗎？"</string>
     <string name="fdr_continue_text" msgid="860874694422515489">"已下載的 SIM 卡仍會保留在裝置中。"</string>
     <string name="fdr_continue_btn" msgid="1875421470422667092">"恢復原廠設定"</string>
-    <string name="install_all_warning" product="device" msgid="2348262609815354500">"來歷不明的應用程式可能會損害你的裝置和個人資料。安裝這個來源提供的應用程式即表示你同意，如因使用這些應用程式導致你的裝置受損或資料遺失，須自行負責。"</string>
     <string name="advanced_settings" msgid="2368905204839169094">"進階設定"</string>
     <string name="advanced_settings_summary" msgid="1823765348195530035">"啟用更多設定選項"</string>
     <string name="application_info_label" msgid="1015706497694165866">"應用程式資訊"</string>

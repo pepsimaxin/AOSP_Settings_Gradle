@@ -4510,8 +4510,6 @@
     <string name="platform_compat_dialog_title_no_apps" msgid="4387656000745989506">"No apps available"</string>
     <string name="platform_compat_dialog_text_no_apps" msgid="5715226015751055812">"App compatibility changes can only be modified for debuggable apps. Install a debuggable app and try again."</string>
     <string name="unsupported_setting_summary" product="default" msgid="1085229417771470172">"Setting isn’t supported on this phone"</string>
-    <string name="unsupported_setting_summary" product="tablet" msgid="7402414129786489664">"Setting isn’t supported on this tablet"</string>
-    <string name="unsupported_setting_summary" product="device" msgid="3422953459122926833">"Setting isn’t supported on this device"</string>
     <string name="disabled_for_user_setting_summary" msgid="9096036019081828639">"Setting can’t be changed by current user"</string>
     <string name="disabled_dependent_setting_summary" msgid="4508635725315852504">"Depends on another setting"</string>
     <string name="unknown_unavailability_setting_summary" msgid="9060213910510360231">"Setting unavailable"</string>
@@ -4792,8 +4790,6 @@
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"Turn off VoLTE?"</string>
     <string name="volte_5G_limited_text" msgid="7150583768725182345">"This also turns off your 5G connection.\nDuring a voice call, you can’t use the Internet and some apps may not work."</string>
     <string name="no_5g_in_dsds_text" product="default" msgid="772747677303920132">"When using two SIMs, this phone will be limited to 4G. "<annotation id="url">"Learn more"</annotation></string>
-    <string name="no_5g_in_dsds_text" product="tablet" msgid="4757328474425714624">"When using two SIMs, this tablet will be limited to 4G. "<annotation id="url">"Learn more"</annotation></string>
-    <string name="no_5g_in_dsds_text" product="device" msgid="6983783505032683314">"When using two SIMs, this device will be limited to 4G. "<annotation id="url">"Learn more"</annotation></string>
     <string name="cached_apps_freezer" msgid="1057519579761550350">"Suspend execution for cached apps"</string>
     <string name="overlay_settings_title" msgid="1032863083496396365">"Allow screen overlays on settings"</string>
     <string name="overlay_settings_summary" msgid="2745336273786148166">"Allow apps that can display over other apps to overlay settings screens"</string>

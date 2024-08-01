@@ -1763,7 +1763,6 @@
     <string name="fdr_continue_title" msgid="5343622664826823937">"Qhubeka nokusethwa kabusha njengasekuqaleni?"</string>
     <string name="fdr_continue_text" msgid="860874694422515489">"Ama-SIM alandiwe azohlala kudivayisi."</string>
     <string name="fdr_continue_btn" msgid="1875421470422667092">"Ukusetha kabusha kwasekuqaleni"</string>
-    <string name="install_all_warning" product="device" msgid="2348262609815354500">"Idivayisi yakho nedatha yomuntu siqu isengcupheni enkulu ukuthi kungahlaselwa izinhlelo zokusebenza ezingaziwa. Ngokufaka izinhlelo zokusebenza kusukela kulo mthombo, uyavuma ukuthi unesibopho sanoma ikuphi ukonakala kudivayisi yakho noma ukulahlekelwa idatha okungabangelwa ukusetshenziswa kwazo."</string>
     <string name="advanced_settings" msgid="2368905204839169094">"Izilungiselelo ezithuthukisiwe"</string>
     <string name="advanced_settings_summary" msgid="1823765348195530035">"Nima amandla izinketho eziphezulu zezilungiselelo"</string>
     <string name="application_info_label" msgid="1015706497694165866">"Ulwazi lohlelo lokusebenza"</string>

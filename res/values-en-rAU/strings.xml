@@ -4521,8 +4521,6 @@
     <string name="media_output_label_title" msgid="4139048973886819148">"Play <xliff:g id="LABEL">%s</xliff:g> on"</string>
     <string name="media_output_default_summary" msgid="4200343059396412376">"This device"</string>
     <string name="media_output_summary" product="default" msgid="4760338801715262899">"Phone"</string>
-    <string name="media_output_summary" product="tablet" msgid="5138101426462250247">"Tablet"</string>
-    <string name="media_output_summary" product="device" msgid="3598300438694764381">"Device"</string>
     <string name="media_out_summary_ongoing_call_state" msgid="475188726850090363">"Unavailable during calls"</string>
     <string name="media_output_summary_unavailable" msgid="2695058965888813093">"Unavailable"</string>
     <string name="media_output_group_panel_title" msgid="3086245179062913037">"Add outputs"</string>
@@ -4532,8 +4530,6 @@
     <string name="media_output_switching" msgid="7488216595474868546">"Switching…"</string>
     <string name="take_call_on_title" msgid="1159417893879946757">"Take call on"</string>
     <string name="cannot_change_apn_toast" msgid="296540724089240405">"This APN cannot be changed."</string>
-    <string name="battery_suggestion_title" product="tablet" msgid="1525940496459255289">"Improve tablet\'s battery life"</string>
-    <string name="battery_suggestion_title" product="device" msgid="2280773774080720377">"Improve device\'s battery life"</string>
     <string name="battery_suggestion_title" product="default" msgid="4811554469047272537">"Improve phone\'s battery life"</string>
     <string name="battery_suggestion_summary" msgid="8186720080540016197"></string>
     <string name="gesture_prevent_ringing_screen_title" msgid="8293094715267769349">"Prevent ringing"</string>
@@ -4793,8 +4789,6 @@
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"Turn off VoLTE?"</string>
     <string name="volte_5G_limited_text" msgid="7150583768725182345">"This also turns off your 5G connection.\nDuring a voice call, you can’t use the Internet and some apps may not work."</string>
     <string name="no_5g_in_dsds_text" product="default" msgid="772747677303920132">"When using two SIMs, this phone will be limited to 4G. "<annotation id="url">"Learn more"</annotation></string>
-    <string name="no_5g_in_dsds_text" product="tablet" msgid="4757328474425714624">"When using two SIMs, this tablet will be limited to 4G. "<annotation id="url">"Learn more"</annotation></string>
-    <string name="no_5g_in_dsds_text" product="device" msgid="6983783505032683314">"When using two SIMs, this device will be limited to 4G. "<annotation id="url">"Learn more"</annotation></string>
     <string name="cached_apps_freezer" msgid="1057519579761550350">"Suspend execution for cached apps"</string>
     <string name="overlay_settings_title" msgid="1032863083496396365">"Allow screen overlays on settings"</string>
     <string name="overlay_settings_summary" msgid="2745336273786148166">"Allow apps that can display over other apps to overlay settings screens"</string>

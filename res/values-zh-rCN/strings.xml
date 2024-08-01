@@ -1762,7 +1762,6 @@
     <string name="fdr_continue_title" msgid="5343622664826823937">"要继续恢复出厂设置吗？"</string>
     <string name="fdr_continue_text" msgid="860874694422515489">"已下载的 SIM 卡仍会保留在设备上。"</string>
     <string name="fdr_continue_btn" msgid="1875421470422667092">"恢复出厂设置"</string>
-    <string name="install_all_warning" product="device" msgid="2348262609815354500">"您的设备和个人数据更容易受到未知应用的攻击。安装来自该来源的应用即表示，您同意对因使用这些应用可能导致的设备损坏或数据丢失问题承担责任。"</string>
     <string name="advanced_settings" msgid="2368905204839169094">"高级设置"</string>
     <string name="advanced_settings_summary" msgid="1823765348195530035">"启用更多设置选项"</string>
     <string name="application_info_label" msgid="1015706497694165866">"应用信息"</string>
@@ -2307,27 +2306,19 @@
     <string name="packages_subtitle" msgid="8687690644931499428">"包含的软件包"</string>
     <string name="battery_tip_summary_title" msgid="321127485145626939">"应用正常运行中"</string>
     <string name="battery_tip_summary_summary" product="default" msgid="6077959765904507849">"手机的后台耗电量正常"</string>
-    <string name="battery_tip_summary_summary" product="tablet" msgid="5063158368808711973">"平板电脑的后台耗电量正常"</string>
-    <string name="battery_tip_summary_summary" product="device" msgid="4242899844618910548">"设备的后台耗电量正常"</string>
     <string name="battery_tip_low_battery_title" msgid="7789690720316830767">"电池电量不足"</string>
     <string name="battery_tip_low_battery_summary" msgid="357649681960300945">"电池的续航时间不理想"</string>
     <string name="battery_tip_smart_battery_title" product="default" msgid="2903272443772298636">"延长手机的电池续航时间"</string>
-    <string name="battery_tip_smart_battery_title" product="tablet" msgid="6813017377960004819">"延长平板电脑的电池续航时间"</string>
-    <string name="battery_tip_smart_battery_title" product="device" msgid="4805599360437606335">"延长设备的电池续航时间"</string>
     <string name="battery_tip_smart_battery_summary" msgid="3592965553502362965">"开启电池管理器"</string>
     <string name="battery_tip_early_heads_up_title" msgid="4411387863476629452">"开启省电模式"</string>
     <string name="battery_tip_early_heads_up_summary" msgid="578523794827443977">"电池电量可能会比平时更快耗尽"</string>
     <string name="battery_tip_early_heads_up_done_title" msgid="4413270905575486715">"省电模式已开启"</string>
     <string name="battery_tip_early_heads_up_done_summary" msgid="7858923105760361208">"部分功能可能会受到限制"</string>
     <string name="battery_tip_high_usage_title" product="default" msgid="2375953293196088319">"手机的使用强度比平时高"</string>
-    <string name="battery_tip_high_usage_title" product="tablet" msgid="8515903411746145740">"平板电脑的使用强度比平时高"</string>
-    <string name="battery_tip_high_usage_title" product="device" msgid="6577086402173910457">"设备的使用强度比平时高"</string>
     <string name="battery_tip_high_usage_summary" msgid="5356399389711499862">"电池电量可能会比平时更快耗尽"</string>
     <string name="battery_tip_limited_temporarily_title" msgid="7152799456221596915">"针对电池状况进行优化"</string>
     <string name="battery_tip_limited_temporarily_summary" msgid="6837061824463128857">"暂时限用电池。点按即可了解详情。"</string>
     <string name="battery_tip_dialog_message" product="default" msgid="4681734836472195966">"您使用的手机的频率比平时高。电池电量可能会比预期更快耗尽。\n\n耗电量较高的几个应用："</string>
-    <string name="battery_tip_dialog_message" product="tablet" msgid="3934298305232120382">"您使用平板电脑的频率比平时高。电池电量可能会比预期更快耗尽。\n\n耗电量较高的几个应用："</string>
-    <string name="battery_tip_dialog_message" product="device" msgid="2620789680336796054">"您使用设备的频率比平时高。电池电量可能会比预期更快耗尽。\n\n耗电量较高的几个应用："</string>
     <string name="battery_tip_dialog_message_footer" msgid="986542164372177504">"包括高耗电后台活动"</string>
     <plurals name="battery_tip_restrict_title" formatted="false" msgid="3108195491484891588">
       <item quantity="other">限制 %1$d 个应用</item>
@@ -2358,8 +2349,6 @@
     <string name="battery_tip_unrestrict_app_dialog_ok" msgid="7940183167721998470">"移除"</string>
     <string name="battery_tip_unrestrict_app_dialog_cancel" msgid="4968135709160207507">"取消"</string>
     <string name="battery_tip_dialog_summary_message" product="default" msgid="6097167058237891756">"您的应用目前耗电量正常。如果应用耗电量过高，您的手机会提供操作建议。\n\n如果电池电量不足，您可以随时开启省电模式。"</string>
-    <string name="battery_tip_dialog_summary_message" product="tablet" msgid="573297655597451123">"您的应用目前耗电量正常。如果应用耗电量过高，您的平板电脑会为您提供操作建议。\n\n如果电池电量不足，您可以随时开启省电模式。"</string>
-    <string name="battery_tip_dialog_summary_message" product="device" msgid="8222461068860745749">"您的应用目前耗电量正常。如果应用耗电量过高，您的设备会为您提供操作建议。\n\n如果电池电量不足，您可以随时开启省电模式。"</string>
     <string name="smart_battery_manager_title" msgid="3677620516657920364">"电池管理器"</string>
     <string name="smart_battery_title" msgid="9095903608520254254">"自动管理应用"</string>
     <string name="smart_battery_summary" product="default" msgid="1492277404000064998">"限制不常用的应用的耗电量"</string>
@@ -2384,21 +2373,13 @@
     <string name="battery_missing_help_message" msgid="4583322687535428926">"读取电池计量器时出现问题。点按即可"<annotation id="url">"了解详情"</annotation></string>
     <string name="dialog_stop_title" msgid="5972757101865665655">"要停止该应用吗？"</string>
     <string name="dialog_stop_message" product="default" msgid="2063536418875183799">"由于<xliff:g id="APP">%1$s</xliff:g>一直让手机保持唤醒状态，因此您的手机无法正常管理电池。\n\n要尝试解决此问题，您可以停止该应用。\n\n如果问题仍然存在，您可能需要卸载此应用，以改善电池性能。"</string>
-    <string name="dialog_stop_message" product="tablet" msgid="426862716783569739">"由于<xliff:g id="APP">%1$s</xliff:g>一直让平板电脑保持唤醒状态，因此您的平板电脑无法正常管理电池。\n\n要尝试解决此问题，您可以停止该应用。\n\n如果问题仍然存在，您可能需要卸载此应用，以改善电池性能。"</string>
-    <string name="dialog_stop_message" product="device" msgid="4252335402634772603">"由于<xliff:g id="APP">%1$s</xliff:g>一直让设备保持唤醒状态，因此您的设备无法正常管理电池。\n\n要尝试解决此问题，您可以停止该应用。\n\n如果问题仍然存在，您可能需要卸载此应用，以改善电池性能。"</string>
     <string name="dialog_stop_message_wakeup_alarm" product="default" msgid="604462000476810125">"由于<xliff:g id="APP_0">%1$s</xliff:g>一直让手机保持唤醒状态，因此您的手机无法正常管理电池。\n\n要尝试解决此问题，您可以停止<xliff:g id="APP_1">%1$s</xliff:g>。\n\n如果问题仍然存在，您可能需要卸载此应用，以改善电池性能。"</string>
-    <string name="dialog_stop_message_wakeup_alarm" product="tablet" msgid="7737426241260791605">"由于<xliff:g id="APP_0">%1$s</xliff:g>一直让平板电脑保持唤醒状态，因此您的平板电脑无法正常管理电池。\n\n要尝试解决此问题，您可以停止<xliff:g id="APP_1">%1$s</xliff:g>。\n\n如果问题仍然存在，您可能需要卸载此应用，以改善电池性能。"</string>
-    <string name="dialog_stop_message_wakeup_alarm" product="device" msgid="1820679795932901383">"由于<xliff:g id="APP_0">%1$s</xliff:g>一直让设备保持唤醒状态，因此您的设备无法正常管理电池。\n\n要尝试解决此问题，您可以停止<xliff:g id="APP_1">%1$s</xliff:g>。\n\n如果问题仍然存在，您可能需要卸载此应用，以改善电池性能。"</string>
     <string name="dialog_stop_ok" msgid="1171516542217183180">"停止应用"</string>
     <string name="dialog_background_check_title" msgid="8571605969100408762">"要关闭后台使用功能并停止应用吗？"</string>
     <string name="dialog_background_check_message" product="default" msgid="6203374578970183277">"由于<xliff:g id="APP_0">%1$s</xliff:g>一直让手机保持唤醒状态，因此您的手机无法正常管理电池。\n\n要尝试解决此问题，您可以停止<xliff:g id="APP_1">%1$s</xliff:g>，并阻止该应用在后台运行。"</string>
-    <string name="dialog_background_check_message" product="tablet" msgid="1282389215667916176">"由于<xliff:g id="APP_0">%1$s</xliff:g>一直让平板电脑保持唤醒状态，因此您的平板电脑无法正常管理电池。\n\n要尝试解决此问题，您可以停止<xliff:g id="APP_1">%1$s</xliff:g>，并阻止该应用在后台运行。"</string>
-    <string name="dialog_background_check_message" product="device" msgid="8005524265739819577">"由于<xliff:g id="APP_0">%1$s</xliff:g>一直让设备保持唤醒状态，因此您的设备无法正常管理电池。\n\n要尝试解决此问题，您可以停止<xliff:g id="APP_1">%1$s</xliff:g>，并阻止该应用在后台运行。"</string>
     <string name="dialog_background_check_ok" msgid="5792934035264144797">"关闭"</string>
     <string name="dialog_location_title" msgid="1323400468370901875">"要禁止获取位置信息吗？"</string>
     <string name="dialog_location_message" product="default" msgid="5597959072209122057">"由于<xliff:g id="APP">%1$s</xliff:g>在您并未使用它时仍一直请求获取您的位置信息，因此您的手机无法正常管理电池。\n\n要解决此问题，请关闭此应用的位置信息服务。"</string>
-    <string name="dialog_location_message" product="tablet" msgid="7165269165194599595">"由于<xliff:g id="APP">%1$s</xliff:g>在您并未使用它时仍一直请求获取您的位置信息，因此您的平板电脑无法正常管理电池。\n\n要解决此问题，请关闭此应用的位置信息服务。"</string>
-    <string name="dialog_location_message" product="device" msgid="4606829479989940464">"由于<xliff:g id="APP">%1$s</xliff:g>在您并未使用它时仍一直请求获取您的位置信息，因此您的设备无法正常管理电池。\n\n要解决此问题，请关闭此应用的位置信息服务。"</string>
     <string name="dialog_location_ok" msgid="6338680851382069716">"关闭"</string>
     <string name="power_screen" msgid="4596900105850963806">"屏幕"</string>
     <string name="power_flashlight" msgid="8993388636332573202">"手电筒"</string>
@@ -2496,8 +2477,6 @@
     <string name="battery_saver_turn_on_summary" msgid="1433919417587171160">"延长电池续航时间"</string>
     <string name="battery_saver_sticky_title_new" msgid="5942813274115684599">"充电时关闭"</string>
     <string name="battery_saver_sticky_description_new" product="default" msgid="6862168106613838677">"在手机电量达到 <xliff:g id="PERCENT">%1$s</xliff:g> 时关闭省电模式"</string>
-    <string name="battery_saver_sticky_description_new" product="tablet" msgid="6740553373344759992">"在平板电脑电量为 <xliff:g id="PERCENT">%1$s</xliff:g> 时关闭省电模式"</string>
-    <string name="battery_saver_sticky_description_new" product="device" msgid="8512106347424406909">"在设备电量为 <xliff:g id="PERCENT">%1$s</xliff:g> 时关闭省电模式"</string>
     <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
     <skip />
     <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"开启"</string>
@@ -2684,8 +2663,6 @@
     <string name="header_add_an_account" msgid="3919151542338822661">"添加帐号"</string>
     <string name="really_remove_account_title" msgid="253097435885652310">"要移除帐号吗？"</string>
     <string name="really_remove_account_message" product="tablet" msgid="8893801622174947887">"移除该帐号会从平板电脑中删除所有相关的邮件、联系人以及其他数据。"</string>
-    <string name="really_remove_account_message" product="default" msgid="1217810840427479274">"移除该帐号会从手机中删除所有相关的邮件、联系人以及其它数据。"</string>
-    <string name="really_remove_account_message" product="device" msgid="5241756807386611084">"移除该帐号后，设备上的相关消息、联系人和其他数据也将全部删除！"</string>
     <string name="remove_account_failed" msgid="3709502163548900644">"您的管理员不允许进行这项更改"</string>
     <string name="cant_sync_dialog_title" msgid="2613000568881139517">"无法手动同步"</string>
     <string name="cant_sync_dialog_message" msgid="7612557105054568581">"此项内容的同步功能目前未开启。要更改此设置，请暂时开启后台流量和自动同步功能。"</string>
@@ -2903,8 +2880,6 @@
       <item quantity="one">检查证书</item>
     </plurals>
     <string name="user_settings_title" msgid="6550866465409807877">"多用户"</string>
-    <string name="user_settings_footer_text" product="device" msgid="7523914344521302179">"通过添加新用户来共享您的设备。每个用户都将在您的设备上拥有个人空间，以便使用自定义的主屏幕、帐号、应用和设置等。"</string>
-    <string name="user_settings_footer_text" product="tablet" msgid="3730074318510244552">"通过添加新用户来共享您的平板电脑。每个用户都将在您的平板电脑上拥有个人空间，以便使用自定义的主屏幕、帐号、应用和设置等。"</string>
     <string name="user_settings_footer_text" product="default" msgid="4420915712050349125">"通过添加新用户，您可以与他人共用一部手机。每个用户都将在您的手机上拥有个人空间，并可自行设定主屏幕、帐号、应用和设置等。"</string>
     <string name="user_list_title" msgid="1387379079186123404">"用户和个人资料"</string>
     <string name="user_add_user_or_profile_menu" msgid="305851380425838287">"添加用户或个人资料"</string>
@@ -4343,8 +4318,6 @@
     <string name="deletion_helper_preference_title" msgid="6364023246849161274">"立即释放空间"</string>
     <string name="gesture_preference_title" msgid="8291899281322647187">"手势"</string>
     <string name="gesture_preference_summary" product="default" msgid="7941981260703379398">"通过快速手势操作手机"</string>
-    <string name="gesture_preference_summary" product="tablet" msgid="4031666250963488007">"通过快速手势操作平板电脑"</string>
-    <string name="gesture_preference_summary" product="device" msgid="3520072325356373349">"通过快速手势操作设备"</string>
     <string name="double_tap_power_for_camera_title" msgid="7982364144330923683">"快速打开相机"</string>
     <string name="double_tap_power_for_camera_summary" msgid="1100926048598415509">"不论当前显示的是何屏幕画面，只需按两次电源按钮，即可快速打开相机。"</string>
     <string name="double_tap_power_for_camera_suggestion_title" msgid="4299496243418753571">"快速打开相机"</string>
@@ -4373,25 +4346,15 @@
     <string name="gesture_settings_activity_title" msgid="6047431928567911330">"手势设置"</string>
     <string name="keywords_gesture_navigation_settings" msgid="667561222717238931">"手势导航, 返回手势的灵敏度, 返回手势"</string>
     <string name="ambient_display_title" product="default" msgid="5885136049497127396">"点按两次即显示"</string>
-    <string name="ambient_display_title" product="tablet" msgid="205744440641466921">"点按两次即可查看平板电脑"</string>
-    <string name="ambient_display_title" product="device" msgid="4164103424628824786">"点按两次即可查看设备"</string>
     <string name="ambient_display_summary" msgid="2650326740502690434">"点按两次屏幕即可查看时间、通知和其他信息。"</string>
     <string name="ambient_display_pickup_title" product="default" msgid="4418310591912877548">"拿起手机即显示"</string>
-    <string name="ambient_display_pickup_title" product="tablet" msgid="8055486872070888377">"拿起平板电脑即可查看"</string>
-    <string name="ambient_display_pickup_title" product="device" msgid="8980156994848721455">"拿起设备即可查看"</string>
     <string name="ambient_display_wake_screen_title" msgid="7637678749035378085">"唤醒显示屏"</string>
     <string name="ambient_display_pickup_summary" product="default" msgid="1087355013674109242">"拿起您的手机即可查看时间、通知和其他信息。"</string>
-    <string name="ambient_display_pickup_summary" product="tablet" msgid="2589556997034530529">"拿起您的平板电脑即可查看时间、通知和其他信息。"</string>
-    <string name="ambient_display_pickup_summary" product="device" msgid="1916011370011115627">"拿起您的设备即可查看时间、通知和其他信息。"</string>
     <string name="ambient_display_tap_screen_title" product="default" msgid="2811332293938467179">"点按手机即显示"</string>
-    <string name="ambient_display_tap_screen_title" product="tablet" msgid="6461531447715370632">"点按即可查看平板电脑相关信息"</string>
-    <string name="ambient_display_tap_screen_title" product="device" msgid="4423803387551153840">"点按即可查看设备相关信息"</string>
     <string name="ambient_display_tap_screen_summary" msgid="4480489179996521405">"要查看时间、通知和其他信息，请点按您的屏幕。"</string>
     <string name="fingerprint_swipe_for_notifications_title" msgid="2271217256447175017">"滑动指纹即可查看通知"</string>
     <string name="fingerprint_gesture_screen_title" msgid="9086261338232806522">"滑动指纹"</string>
     <string name="fingerprint_swipe_for_notifications_summary" product="default" msgid="286662791588779673">"要查看通知，请在手机背面的指纹传感器上向下滑动手指。"</string>
-    <string name="fingerprint_swipe_for_notifications_summary" product="tablet" msgid="8642092907817554454">"要查看通知，请在平板电脑背面的指纹传感器上向下滑动手指。"</string>
-    <string name="fingerprint_swipe_for_notifications_summary" product="device" msgid="3888927017311372398">"要查看通知，请在设备背面的指纹传感器上向下滑动手指。"</string>
     <string name="fingerprint_swipe_for_notifications_suggestion_title" msgid="2956636269742745449">"快速查看通知"</string>
     <string name="gesture_setting_on" msgid="3223448394997988591">"开启"</string>
     <string name="gesture_setting_off" msgid="3444029475726294919">"关闭"</string>
@@ -4558,8 +4521,6 @@
     <string name="platform_compat_dialog_title_no_apps" msgid="4387656000745989506">"没有可用的应用"</string>
     <string name="platform_compat_dialog_text_no_apps" msgid="5715226015751055812">"只能修改可调试应用的应用兼容性变更。请安装可调试的应用，然后重试。"</string>
     <string name="unsupported_setting_summary" product="default" msgid="1085229417771470172">"此手机不支持这项设置"</string>
-    <string name="unsupported_setting_summary" product="tablet" msgid="7402414129786489664">"此平板电脑不支持这项设置"</string>
-    <string name="unsupported_setting_summary" product="device" msgid="3422953459122926833">"此设备不支持这项设置"</string>
     <string name="disabled_for_user_setting_summary" msgid="9096036019081828639">"当前用户无法更改设置"</string>
     <string name="disabled_dependent_setting_summary" msgid="4508635725315852504">"必须一并更改其他设置"</string>
     <string name="unknown_unavailability_setting_summary" msgid="9060213910510360231">"无法更改设置"</string>
@@ -4572,8 +4533,6 @@
     <string name="media_output_label_title" msgid="4139048973886819148">"用于播放<xliff:g id="LABEL">%s</xliff:g>内容的设备："</string>
     <string name="media_output_default_summary" msgid="4200343059396412376">"此设备"</string>
     <string name="media_output_summary" product="default" msgid="4760338801715262899">"手机"</string>
-    <string name="media_output_summary" product="tablet" msgid="5138101426462250247">"平板电脑"</string>
-    <string name="media_output_summary" product="device" msgid="3598300438694764381">"设备"</string>
     <string name="media_out_summary_ongoing_call_state" msgid="475188726850090363">"通话期间无法使用"</string>
     <string name="media_output_summary_unavailable" msgid="2695058965888813093">"无法使用"</string>
     <string name="media_output_group_panel_title" msgid="3086245179062913037">"添加输出设备"</string>
@@ -4583,8 +4542,6 @@
     <string name="media_output_switching" msgid="7488216595474868546">"正在切换…"</string>
     <string name="take_call_on_title" msgid="1159417893879946757">"接听来电的设备："</string>
     <string name="cannot_change_apn_toast" msgid="296540724089240405">"此 APN 无法更改。"</string>
-    <string name="battery_suggestion_title" product="tablet" msgid="1525940496459255289">"延长平板电脑的电池续航时间"</string>
-    <string name="battery_suggestion_title" product="device" msgid="2280773774080720377">"延长设备的电池续航时间"</string>
     <string name="battery_suggestion_title" product="default" msgid="4811554469047272537">"延长手机的电池续航时间"</string>
     <string name="battery_suggestion_summary" msgid="8186720080540016197"></string>
     <string name="gesture_prevent_ringing_screen_title" msgid="8293094715267769349">"阻止响铃"</string>
@@ -4844,8 +4801,6 @@
     <string name="volte_5G_limited_title" msgid="5908052268836750629">"要关闭 VoLTE 吗？"</string>
     <string name="volte_5G_limited_text" msgid="7150583768725182345">"此操作也会关闭您的 5G 连接。\n在语音通话期间，您无法使用互联网，并且部分应用可能无法正常运行。"</string>
     <string name="no_5g_in_dsds_text" product="default" msgid="772747677303920132">"使用 2 个 SIM 卡时，此手机将仅限使用 4G 网络。"<annotation id="url">"了解详情"</annotation></string>
-    <string name="no_5g_in_dsds_text" product="tablet" msgid="4757328474425714624">"使用 2 个 SIM 卡时，此平板电脑将仅限使用 4G 网络。"<annotation id="url">"了解详情"</annotation></string>
-    <string name="no_5g_in_dsds_text" product="device" msgid="6983783505032683314">"使用 2 个 SIM 卡时，此设备将仅限使用 4G 网络。"<annotation id="url">"了解详情"</annotation></string>
     <string name="cached_apps_freezer" msgid="1057519579761550350">"暂停执行已缓存的应用"</string>
     <string name="overlay_settings_title" msgid="1032863083496396365">"允许在“设置”上重叠显示"</string>
     <string name="overlay_settings_summary" msgid="2745336273786148166">"允许可在其他应用上层显示的应用重叠显示在“设置”屏幕上"</string>
