@@ -137,7 +137,7 @@ public class LinkSpan extends ClickableSpan {
     drawState.setUnderlineText(false);
   }
 
-  public String getId() {
-    return id;
-  }
+//  public String getId() {
+//    return id;
+//  }
 }

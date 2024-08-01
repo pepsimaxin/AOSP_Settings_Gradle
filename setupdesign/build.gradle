@@ -19,7 +19,7 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdk = 30
+    compileSdkVersion 28
 
     defaultConfig {
         minSdkVersion 14
@@ -33,12 +33,26 @@ android {
         }
     }
 
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    afterEvaluate {
+        generateReleaseBuildConfig.enabled = false
+        generateDebugBuildConfig.enabled = false
+    }
+
     sourceSets {
         main {
             manifest.srcFile 'main/AndroidManifest.xml'
             java.srcDirs = ['main/src']
             res.srcDirs = ['main/res', 'strings/res']
         }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
