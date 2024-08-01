@@ -936,22 +936,11 @@
     <string name="crypt_keeper_settings_title">Encryption</string>
 
     <!-- Title of the preferences item to control encryption -->
-    <string name="crypt_keeper_encrypt_title" product="tablet">Encrypt tablet</string>
-    <!-- Title of the preferences item to control encryption -->
     <string name="crypt_keeper_encrypt_title" product="default">Encrypt phone</string>
 
     <!-- Summary of the preferences item to control encryption, when encryption is active -->
     <string name="crypt_keeper_encrypted_summary">Encrypted</string>
 
-    <!-- Informational text in the first confirmation screen before starting device encryption -->
-    <string name="crypt_keeper_desc" product="tablet">
-    You can encrypt your accounts, settings, downloaded apps and their data,
-    media, and other files. After you encrypt your tablet, assuming you\u2019ve set up a screen lock
-    (that is, a pattern or numeric PIN or password), you\u2019ll need to unlock the screen to decrypt
-    the tablet every time you power it on. The only other way to decrypt is to perform a factory
-    data reset, erasing all your data.\n\nEncryption takes an hour or more. You must start with
-    a charged battery and keep your tablet plugged in throughout the process. If you interrupt it,
-    you\u2019ll lose some or all of your data</string>
     <!-- Informational text in the first confirmation screen before starting device encryption -->
     <string name="crypt_keeper_desc" product="default">
     You can encrypt your accounts, settings, downloaded apps and their data,
@@ -962,8 +951,6 @@
     a charged battery and keep your phone plugged in throughout the process. If you interrupt it,
     you\u2019ll lose some or all of your data.</string>
 
-    <!-- Button text to start encryption process -->
-    <string name="crypt_keeper_button_text" product="tablet">Encrypt tablet</string>
     <!-- Button text to start encryption process -->
     <string name="crypt_keeper_button_text" product="default">Encrypt phone</string>
 
@@ -980,11 +967,7 @@
 
     <!-- Title of the final confirmation screen before starting device encryption -->
     <string name="crypt_keeper_confirm_title">Encrypt?</string>
-    <!-- Warning text in the final confirmation screen before starting device encryption -->
-    <string name="crypt_keeper_final_desc" product="tablet">
-    The encryption operation is irreversible and if you interrupt it, you\u2019ll lose data.
-    Encryption takes an hour or more, during which the tablet will restart several times.
-    </string>
+
     <!-- Warning text in the final confirmation screen before starting device encryption -->
     <string name="crypt_keeper_final_desc" product="default">
     The encryption operation is irreversible and if you interrupt it, you\u2019ll lose data.
@@ -995,17 +978,12 @@
     <string name="crypt_keeper_setup_title">Encrypting</string>
 
     <!-- Informational text on the progress screen while encrypting the device -->
-    <string name="crypt_keeper_setup_description" product="tablet">Wait while your tablet
-    is being encrypted. <xliff:g id="percent" example="50">^1</xliff:g>% complete.</string>
-    <!-- Informational text on the progress screen while encrypting the device -->
     <string name="crypt_keeper_setup_description" product="default">Wait while your phone
     is being encrypted. <xliff:g id="percent" example="50">^1</xliff:g>% complete.</string>
-    <string name="crypt_keeper_setup_time_remaining" product="tablet">Wait while your tablet
-    is being encrypted. Time remaining: <xliff:g id="duration" example="1:23">^1</xliff:g></string>
+
     <string name="crypt_keeper_setup_time_remaining" product="default">Wait while your phone
     is being encrypted. Time remaining: <xliff:g id="duration" example="1:23">^1</xliff:g></string>
 
-    <string name="crypt_keeper_force_power_cycle" product="tablet">To unlock your tablet, turn it off and then on.</string>
     <string name="crypt_keeper_force_power_cycle" product="default">To unlock your phone, turn it off and then on.</string>
 
 
@@ -1021,16 +999,6 @@
     <string name="crypt_keeper_failed_title">Encryption unsuccessful</string>
 
     <!-- Informational text when encryption fails -->
-    <string name="crypt_keeper_failed_summary" product="tablet">
-      Encryption was interrupted and can\u2019t complete. As a result, the data on
-      your tablet is no longer accessible.
-      \n\n
-      To resume using your tablet, you need to perform a factory reset.
-      When you set up your tablet after the reset, you\u2019ll have an opportunity
-      to restore any data that was backed up to your Google Account.
-    </string>
-
-    <!-- Informational text when encryption fails -->
     <string name="crypt_keeper_failed_summary" product="default">
       Encryption was interrupted and can\u2019t complete. As a result, the data on
       your phone is no longer accessible.
@@ -1042,14 +1010,6 @@
     <!-- Title of the encryption screen when decrypting the device failed -->
     <string name="crypt_keeper_data_corrupt_title">Decryption unsuccessful</string>
 
-    <!-- Informational text when encryption fails -->
-    <string name="crypt_keeper_data_corrupt_summary" product="tablet">
-      The password you entered is correct, but unfortunately your data is
-      corrupt.
-      \n\nTo resume using your tablet, you need to perform a factory reset.
-      When you set up your tablet after the reset, you\u2019ll have an opportunity
-      to restore any data that was backed up to your Google Account.
-    </string>
 
     <!-- Informational text when encryption fails -->
     <string name="crypt_keeper_data_corrupt_summary" product="default">
@@ -1593,8 +1553,6 @@
     <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (user role). [CHAR LIMIT=80] -->
     <string name="bluetooth_disconnect_pan_user_profile">Internet access via <xliff:g id="device_name">%1$s</xliff:g> will be disconnected.</string>
     <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
-    <string name="bluetooth_disconnect_pan_nap_profile" product="tablet"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected from sharing this tablet\u2019s internet connection.</string>
-    <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
     <string name="bluetooth_disconnect_pan_nap_profile" product="default"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected from sharing this phone\u2019s internet connection.</string>
 
     <!-- Bluetooth settings.  Connection options screen.  The title of the screen. [CHAR LIMIT=40] -->
@@ -1715,8 +1673,6 @@
     <!-- NFC settings -->
     <!-- Used in the 1st-level settings screen to turn on NFC -->
     <string name="nfc_quick_toggle_title">NFC</string>
-    <!-- Description of NFC in the 1st level settings screen, for a tablet. [CHAR LIMIT=NONE] -->
-    <string name="nfc_quick_toggle_summary" product="tablet">Allow data exchange when the tablet touches an NFC device</string>
     <!-- Description of NFC in the 1st level settings screen, for a phone. [CHAR LIMIT=NONE] -->
     <string name="nfc_quick_toggle_summary" product="default">Allow data exchange when the phone touches an NFC device</string>
     <!-- Dialog title for NFC disclaimer [CHAR_LIMIT=40]-->
@@ -2238,8 +2194,6 @@
     <!-- Summary text when turning hotspot off -->
     <string name="wifi_hotspot_off_subtext">Not sharing internet or content with other devices</string>
     <!-- Summary text when tethering is on -->
-    <string name="wifi_hotspot_tethering_on_subtext" product="tablet">Sharing this tablet\u2019s internet connection via hotspot</string>
-    <!-- Summary text when tethering is on -->
     <string name="wifi_hotspot_tethering_on_subtext" product="default">Sharing this phone\u2019s internet connection via hotspot</string>
     <!-- Summary text when hotspot is on for local-only -->
     <string name="wifi_hotspot_on_local_only_subtext">App is sharing content. To share internet connection, turn hotspot off, then on</string>
@@ -2287,8 +2241,6 @@
     <string name="wifi_add_app_single_network_title">Save this network?</string>
     <!-- Summary for the panel of add Wi-Fi network from APP [CHAR LIMIT=NONE] -->
     <string name="wifi_add_app_single_network_summary" product="default"><xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g> wants to save a network to your phone</string>
-    <!-- Summary for the panel of add Wi-Fi network from APP [CHAR LIMIT=NONE] -->
-    <string name="wifi_add_app_single_network_summary" product="tablet"><xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g> wants to save a network to your tablet</string>
     <!-- Summary for saving status when saving single network [CHAR LIMIT=30] -->
     <string name="wifi_add_app_single_network_saving_summary">Saving\u2026</string>
     <!-- Summary for saved status when saving single network   [CHAR LIMIT=30] -->
@@ -2299,8 +2251,6 @@
     <string name="wifi_add_app_networks_title">Save networks?</string>
     <!-- Summary for the panel of add multiple Wi-Fi networks from APP [CHAR LIMIT=NONE] -->
     <string name="wifi_add_app_networks_summary" product="default"><xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g> wants to save these networks to your phone</string>
-    <!-- Summary for the panel of add multiple Wi-Fi networks from APP [CHAR LIMIT=NONE] -->
-    <string name="wifi_add_app_networks_summary" product="tablet"><xliff:g id="appName" example="ThirdPartyAppName">%1$s</xliff:g> wants to save these networks to your tablet</string>
     <!-- Summary for the panel of add Wi-Fi networks from APP [CHAR LIMIT=NONE] -->
     <string name="wifi_add_app_networks_saving_summary">Saving <xliff:g id="number" example="3">%d</xliff:g> networks\u2026</string>
     <!-- Summary for saved status when saving multiple networks   [CHAR LIMIT=NONE] -->
@@ -2545,25 +2495,17 @@
     <!-- Dock audio summary for docked to car dock -->
     <string name="dock_audio_summary_car">Settings for the attached car dock</string>
     <!-- Dock audio summary for undocked -->
-    <string name="dock_audio_summary_none" product="tablet">Tablet not docked</string>
-    <!-- Dock audio summary for undocked -->
     <string name="dock_audio_summary_none" product="default">Phone not docked</string>
     <!-- Dock audio summary for docked to unknown -->
     <string name="dock_audio_summary_unknown">Settings for the attached dock</string>
     <!-- Dock not found dialog title -->
     <string name="dock_not_found_title">Dock not found</string>
     <!-- Dock not found dialog text -->
-    <string name="dock_not_found_text" product="tablet">You need to dock the tablet before setting up dock audio.</string>
-    <!-- Dock not found dialog text -->
     <string name="dock_not_found_text" product="default">You need to dock the phone before setting up dock audio.</string>
     <!-- Dock settings screen, dock events SFX setting check box label -->
     <string name="dock_sounds_enable_title">Dock insert sound</string>
     <!-- Dock settings screen, setting option summary text when check box is selected -->
-    <string name="dock_sounds_enable_summary_on" product="tablet">Play sound when inserting or removing tablet from dock</string>
-    <!-- Dock settings screen, setting option summary text when check box is selected -->
     <string name="dock_sounds_enable_summary_on" product="default">Play sound when inserting or removing phone from dock</string>
-    <!-- Sound settings screen, setting option summary text when check box is clear -->
-    <string name="dock_sounds_enable_summary_off" product="tablet">Don\u2019t play sound when inserting or removing tablet from dock</string>
     <!-- Sound settings screen, setting option summary text when check box is clear -->
     <string name="dock_sounds_enable_summary_off" product="default">Don\u2019t play sound when inserting or removing phone from dock</string>
 
@@ -2602,11 +2544,7 @@
     <string name="color_mode_summary_automatic">Adjust between vivid and accurate colors</string>
 
     <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->
-    <string name="accelerometer_summary_on" product="tablet">Switch orientation automatically when rotating tablet</string>
-    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->
     <string name="accelerometer_summary_on" product="default">Switch orientation automatically when rotating phone</string>
-    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is clear -->
-    <string name="accelerometer_summary_off" product="tablet">Switch orientation automatically when rotating tablet</string>
     <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is clear -->
     <string name="accelerometer_summary_off" product="default">Switch orientation automatically when rotating phone</string>
     <!-- Sound & display settings screen, setting option name to change brightness level -->
@@ -2875,11 +2813,7 @@
     <!-- SIM card lock settings screen, setting check box label  [CHAR LIMIT=40] -->
     <string name="sim_pin_toggle">Lock SIM card</string>
     <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is selected  [CHAR LIMIT=40] -->
-    <string name="sim_lock_on" product="tablet">Require PIN to use tablet</string>
-    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is selected  [CHAR LIMIT=40] -->
     <string name="sim_lock_on" product="default">Require PIN to use phone</string>
-    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is clear  [CHAR LIMIT=40] -->
-    <string name="sim_lock_off" product="tablet">Require PIN to use tablet</string>
     <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is clear  [CHAR LIMIT=40] -->
     <string name="sim_lock_off" product="default">Require PIN to use phone</string>
     <!-- SIM card lock settings screen, setting option name to change the SIM PIN  [CHAR LIMIT=40] -->
@@ -2988,8 +2922,6 @@
     <string name="device_status_activity_title">Status</string>
     <!-- About phone screen, title of the item to go into the Phone status screen -->
     <string name="device_status">Status</string>
-    <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
-    <string name="device_status_summary" product="tablet">Status of the battery, network, and other information</string>
     <!-- About phone screen, summary of the item to go into the phone status screen -->
     <string name="device_status_summary" product="default">Phone number, signal, etc.</string>
     <!-- Main settings screen item's title to go into the storage settings screen [CHAR LIMIT=25] -->
@@ -3012,16 +2944,10 @@
     <string name="status_imei_sv">IMEI SV</string>
     <!-- Do not translate. About phone, status item title -->
     <string name="status_iccid">ICCID</string>
-    <!-- About tablet, status item title.  The Mobile Directory Number [CHAR LIMIT=40] -->
-    <string name="status_number" product="tablet">MDN</string>
     <!-- About phone, status item title.  The phone number of the current device [CHAR LIMIT=40] -->
     <string name="status_number" product="default">Phone number</string>
-    <!-- About tablet, status item title for multi-sim devices.  The Mobile Directory Number [CHAR LIMIT=40] -->
-    <string name="status_number_sim_slot" product="tablet">MDN (sim slot %1$d)</string>
     <!-- About phone, status item title for multi-sim devices.  The phone number of the current device [CHAR LIMIT=40] -->
     <string name="status_number_sim_slot" product="default">Phone number (sim slot %1$d)</string>
-    <!-- About tablet, status item title.  The Mobile Directory Number [CHAR LIMIT=30] -->
-    <string name="status_number_sim_status" product="tablet">MDN on SIM</string>
     <!-- About phone, status item title.  The phone number of the current device [CHAR LIMIT=30] -->
     <string name="status_number_sim_status" product="default">Phone number on SIM</string>
     <!-- About phone, status item title.  The phone MIN number of the current device.-->
@@ -3398,12 +3324,6 @@
     <string name="storage_wizard_init_v2_title">How will you use this <xliff:g id="name" example="SD card">^1</xliff:g>?</string>
 
     <!-- Title of a line item. Below this title, a user can tap a button to select this option if they want to use their SD card as extra device storage. [CHAR LIMIT=32] -->
-    <string name="storage_wizard_init_v2_internal_title" product="tablet">Use for extra tablet storage</string>
-    <!-- Subtext for a line item. Below this subtext, a user can tap a button to select this option if they want to use their SD card as extra device storage. [CHAR LIMIT=64] -->
-    <string name="storage_wizard_init_v2_internal_summary" product="tablet">For apps, files, and media on this tablet only</string>
-    <!-- Button text. A user can tap this button if they want to use their SD card as extra device storage. [CHAR LIMIT=32] -->
-    <string name="storage_wizard_init_v2_internal_action" product="tablet">Tablet storage</string>
-    <!-- Title of a line item. Below this title, a user can tap a button to select this option if they want to use their SD card as extra device storage. [CHAR LIMIT=32] -->
     <string name="storage_wizard_init_v2_internal_title" product="default">Use for extra phone storage</string>
     <!-- Subtext for a line item. Below this subtext, a user can tap a button to select this option if they want to use their SD card as extra device storage. [CHAR LIMIT=64] -->
     <string name="storage_wizard_init_v2_internal_summary" product="default">For apps, files, and media on this phone only</string>
@@ -3430,9 +3350,6 @@
 
     <!-- Title of a full-screen message. This string is confirming that a user wants to move their content to the storage device. They can press a button at the bottom of the screen to move their content. The placeholder is for the specific device (e.g. SD card, USB drive, etc.). [CHAR LIMIT=32] -->
     <string name="storage_wizard_migrate_v2_title">Move content to <xliff:g id="name" example="SD card">^1</xliff:g>?</string>
-    <!-- Main text for a full-screen message. These strings let the user know what they can move to the storage device, how much space will be made in their phone's storage, and how long the move will take. The first placeholder is for the amount of space (e.g. 1.4 GB) that will become available ("free up" is the phrasal verb used for this case). The second placeholder is for the amount of time (e.g. 6 minutes) it'll take to move their content to the storage device. The third placeholder is the name of the storage device (e.g. brand name of the SD card). [CHAR LIMIT=NONE] -->
-    <string name="storage_wizard_migrate_v2_body" product="tablet">You can move files, media, and certain apps to this <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>.
-\n\nThis move will free up <xliff:g id="size" example="3 GB">^2</xliff:g> of your tablet\u2019s storage and should take around <xliff:g id="duration" example="3 minutes">^3</xliff:g>.</string>
     <!-- Main text for a full-screen message. These strings let the user know what they can move to the storage device, how much space will be made in their device's storage, and how long the move will take. The first placeholder is for the amount of space (e.g. 1.4 GB) that will become available ("free up" is the phrasal verb used for this case). The second placeholder is for the amount of time (e.g. 6 minutes) it'll take to move their content to the storage device. The third placeholder is the name of the storage device (e.g. brand name of the SD card). [CHAR LIMIT=NONE] -->
     <string name="storage_wizard_migrate_v2_body" product="default">You can move files, media, and certain apps to this <xliff:g id="name" example="SanDisk SD card">^1</xliff:g>.
 \n\nThis move will free up <xliff:g id="size" example="3 GB">^2</xliff:g> of your phone\u2019s storage and should take around <xliff:g id="duration" example="3 minutes">^3</xliff:g>.</string>
@@ -3443,8 +3360,6 @@
     <string name="storage_wizard_migrate_v2_checklist_media">Don\u2019t remove the <xliff:g id="name" example="SD card">^1</xliff:g></string>
     <!-- Item that a user should be aware of while moving their content to the SD card. Tells them that apps may have trouble working while the move is happening. [CHAR LIMIT=64] -->
     <string name="storage_wizard_migrate_v2_checklist_apps">Some apps won\u2019t work</string>
-    <!-- Item that a user should be aware of while moving their content to the SD card. Tells them to keep the tablet charged while the move is happening. [CHAR LIMIT=64] -->
-    <string name="storage_wizard_migrate_v2_checklist_battery" product="tablet">Keep this tablet charged</string>
     <!-- Item that a user should be aware of while moving their content to the SD card. Tells them to keep the phone charged while the move is happening. [CHAR LIMIT=64] -->
     <string name="storage_wizard_migrate_v2_checklist_battery" product="default">Keep this phone charged</string>
 
@@ -3653,8 +3568,6 @@
     <!-- Button title to factory data reset the entire device. The "(factory reset)" part is optional for translation. [CHAR LIMIT=30 BACKUP_MESSAGE_ID=3531267871084279512]-->
     <string name="master_clear_short_title">Erase all data (factory reset)</string>
     <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
-    <string name="master_clear_desc" product="tablet">"This will erase all data from your tablet\u2019s <b>internal storage</b>, including:\n\n<li>Your Google Account</li>\n<li>System and app data and settings</li>\n<li>Downloaded apps</li>"</string>
-    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
     <string name="master_clear_desc" product="default">"This will erase all data from your phone\u2019s <b>internal storage</b>, including:\n\n<li>Your Google Account</li>\n<li>System and app data and settings</li>\n<li>Downloaded apps</li>"</string>
     <!-- SD card & phone storage settings screen, instructions and list of current accounts.  The list of accounts follows this text[CHAR LIMIT=NONE] -->
     <string name="master_clear_accounts" product="default">"\n\nYou are currently signed into the following accounts:\n"</string>
@@ -3777,13 +3690,10 @@
     <string name="usb_title">USB</string>
     <string name="usb_tethering_button_text">USB tethering</string>
     <string name="usb_tethering_subtext" product="default">Share phone\u2019s internet connection via USB</string>
-    <string name="usb_tethering_subtext" product="tablet">Share tablet\u2019s internet connection via USB</string>
 
     <!-- Bluetooth Tethering settings-->
     <!-- Label for bluetooth tether checkbox [CHAR LIMIT=25]-->
     <string name="bluetooth_tether_checkbox_text">Bluetooth tethering</string>
-    <!-- Bluetooth Tethering subtext [CHAR LIMIT=70]-->
-    <string name="bluetooth_tethering_subtext" product="tablet">Share tablet\u2019s internet connection via Bluetooth</string>
     <!-- Bluetooth Tethering subtext [CHAR LIMIT=70]-->
     <string name="bluetooth_tethering_subtext" product="default">Share phone\u2019s internet connection via Bluetooth</string>
     <!-- Bluetooth tethering off subtext - shown when Bluetooth Tethering is turned off [CHAR LIMIT=80]-->
@@ -3914,8 +3824,6 @@
     <string name="location_neighborhood_level_wifi">Location determined by Wi\u2011Fi</string>
     <!-- [CHAR LIMIT=30] Security & location settings screen, setting check box label for GPS satellites -->
     <string name="location_gps">GPS satellites</string>
-    <!-- [CHAR LIMIT=100] Security & location settings screen, setting check box summary for GPS satellites on a tablet -->
-    <string name="location_street_level" product="tablet">Let apps use GPS on your tablet to pinpoint your location</string>
     <!-- [CHAR LIMIT=100] Security & location settings screen, setting check box summary for GPS satellites on a phone -->
     <string name="location_street_level" product="default">Let apps use GPS on your phone to pinpoint your location</string>
     <!-- Security & location settings screen, setting check box label if Assisted GPS should be enabled -->
@@ -4402,8 +4310,6 @@
     <!-- Manage applications, text for Move button -->
     <string name="move_app">Move</string>
     <!-- Manage applications, text for Move button to move app to internal storage -->
-    <string name="move_app_to_internal" product="tablet">Move to tablet</string>
-    <!-- Manage applications, text for Move button to move app to internal storage -->
     <string name="move_app_to_internal" product="default">Move to phone</string>
     <!-- Manage applications, text for Move button  to move app to sdcard -->
     <string name="move_app_to_sdcard" product="default">Move to SD card</string>
@@ -4550,10 +4456,6 @@
         is in use.</string>
     <!-- Running service details, stop confirmation dialog title. Displays when user selects selects to stop a system service. -->
     <string name="runningservicedetails_stop_dlg_title">Stop system service?</string>
-    <!-- Running service details, stop confirmation descriptive text. Displays when user selects selects to stop a system service. -->
-    <string name="runningservicedetails_stop_dlg_text" product="tablet">If you stop this service, some
-        features of your tablet may stop working correctly until you power it off
-        and then on again.</string>
     <!-- Running service details, stop confirmation descriptive text. Displays when user selects selects to stop a system service. -->
     <string name="runningservicedetails_stop_dlg_text" product="default">If you stop this service, some
         features of your phone may stop working correctly until you power it off

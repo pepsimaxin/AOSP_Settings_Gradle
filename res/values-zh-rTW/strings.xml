@@ -222,7 +222,6 @@
     <string name="roaming_reenable_message" msgid="5150423860521673540">"由於你不在主要網路蓋涵範圍，且已關閉漫遊服務，資料連線已中斷。"</string>
     <string name="roaming_turn_it_on_button" msgid="6999283810847157816">"開啟"</string>
     <string name="roaming_warning" msgid="7703647889040229013">"可能要支付漫遊費用。"</string>
-    <string name="roaming_warning_multiuser" product="tablet" msgid="5629953315019604726">"如果你允許使用漫遊服務，可能要支付漫遊費用。\n\n這項設定會影響這部平板電腦的所有使用者。"</string>
     <string name="roaming_warning_multiuser" product="default" msgid="3693719745119874126">"如果你允許使用漫遊服務，可能要支付漫遊費用。\n\n這項設定會影響這支手機的所有使用者。"</string>
     <string name="roaming_reenable_title" msgid="770824950144026180">"允許漫遊服務？"</string>
     <string name="networks" msgid="5184501333492775095">"選取電信業者"</string>
@@ -284,8 +283,6 @@
     <string name="encryption_and_credential_settings_title" msgid="5856216318961482983">"加密和憑證"</string>
     <string name="encryption_and_credential_settings_summary" product="default" msgid="5298195959570992363">"電話已加密"</string>
     <string name="decryption_settings_summary" product="default" msgid="1742645256103613503">"手機未經加密處理"</string>
-    <string name="encryption_and_credential_settings_summary" product="tablet" msgid="3776741531205406800">"裝置已加密"</string>
-    <string name="decryption_settings_summary" product="tablet" msgid="1864963068216544631">"裝置未經加密處理"</string>
     <string name="lockscreen_settings_title" msgid="4086121748092341549">"螢幕鎖定畫面"</string>
     <string name="lockscreen_settings_what_to_show_category" msgid="9205490627927741254">"要顯示的項目"</string>
     <string name="security_settings_summary" msgid="1627059516127354233">"設定我的位置、畫面解鎖、SIM 卡鎖定、認證儲存空間鎖定"</string>
@@ -427,12 +424,9 @@
     <string name="fingerprint_last_delete_message_profile_challenge" msgid="3460246522493987163">"你將無法使用指紋將工作資料夾解鎖、授權購買交易，或是登入工作應用程式。"</string>
     <string name="fingerprint_last_delete_confirm" msgid="3294910995598819259">"是，移除"</string>
     <string name="crypt_keeper_settings_title" msgid="4938812137822100044">"加密"</string>
-    <string name="crypt_keeper_encrypt_title" product="tablet" msgid="7484150746479958376">"加密保護平板電腦"</string>
     <string name="crypt_keeper_encrypt_title" product="default" msgid="8302873664348463041">"加密保護手機"</string>
     <string name="crypt_keeper_encrypted_summary" msgid="3866488451639592071">"已加密"</string>
-    <string name="crypt_keeper_desc" product="tablet" msgid="4103951371711323192">"你可以對自己的帳戶、設定、下載的應用程式及其資料、媒體和其他檔案進行加密。加密平板電腦後，如果你設定了螢幕鎖定 (即圖案、PIN 或密碼)，那麼你必須在每次開機時解鎖螢幕，才能將平板電腦解密。除此之外，唯一的解密方法是將平板電腦恢復原廠設定，但這會清除你所有的資料。\n\n加密過程至少需要1個小時的時間。開始執行加密程序前，你必須先將電池充飽，並讓平板電腦在加密過程中全程連接電源。如果中斷程序，你將遺失部分或所有資料。"</string>
     <string name="crypt_keeper_desc" product="default" msgid="6180866043921135548">"你可以對自己的帳戶、設定、下載的應用程式及其資料、媒體和其他檔案進行加密。加密手機後，如果你設定了螢幕鎖定 (即圖案、PIN 或密碼)，那麼你必須在每次開機時解鎖螢幕，才能將手機解密。除此之外，唯一的解密方法是將手機恢復原廠設定，但這會清除你所有的資料。\n\n加密過程至少需要1個小時的時間。開始執行加密程序前，你必須先將電池充飽，並讓手機在加密過程中全程連接電源。如果中斷程序，你將遺失部分或所有資料。"</string>
-    <string name="crypt_keeper_button_text" product="tablet" msgid="5551608011810921471">"加密保護平板電腦"</string>
     <string name="crypt_keeper_button_text" product="default" msgid="6370330929679426136">"加密保護手機"</string>
     <string name="crypt_keeper_low_charge_text" msgid="4920087247177024521">"將電池充電，然後再試一次。"</string>
     <string name="crypt_keeper_unplugged_text" msgid="2709721134148651329">"連接充電器，再試一次。"</string>

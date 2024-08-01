@@ -1900,7 +1900,6 @@
     <string name="process_service_in_use_description" msgid="4210957264507014878">"正在使用服务<xliff:g id="COMP_NAME">%1$s</xliff:g>。"</string>
     <string name="process_provider_in_use_description" msgid="6730020083976048028">"正在使用提供商<xliff:g id="COMP_NAME">%1$s</xliff:g>。"</string>
     <string name="runningservicedetails_stop_dlg_title" msgid="6201041461740445113">"要停止系统服务吗？"</string>
-    <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="2076922609580490122">"如果停止此服务，您平板电脑上的某些功能也将随之停止工作，并在您将平板电脑关机然后再重新打开后才能使用。"</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="2625863973434309085">"如果停止此服务，您手机上的某些功能也将随之停止工作，并在您将手机关机然后再重新打开后才能使用。"</string>
     <string name="language_input_gesture_title" msgid="3292455685728572960">"语言、输入法和手势"</string>
     <string name="language_input_gesture_summary_on_with_assist" msgid="8670153838520237089"></string>
