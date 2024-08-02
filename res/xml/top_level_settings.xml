@@ -20,11 +20,6 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="top_level_settings">
 
-
-    <Preference
-	android:title="yifan"
-	android:order="100"/>
-
     <Preference
         android:key="top_level_network"
         android:title="@string/network_dashboard_title"

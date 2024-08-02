@@ -51,20 +51,31 @@ android {
         //resConfigs "zh-rCN", "zh-rHK", "zh-rTW", "en", "ug-rCN"
     }
 
+    signingConfigs {
+        platform {
+            storeFile file("platform-07.keystore")
+            storePassword '123456'
+            keyAlias 'platform'
+            keyPassword '123456'
+        }
+    }
+
     buildTypes {
         release {
             debuggable false
             minifyEnabled false
+            signingConfig signingConfigs.platform
         }
 
         debug {
             debuggable false
             minifyEnabled false
+            signingConfig signingConfigs.platform
         }
 
         applicationVariants.all { variant ->
             variant.outputs.all {
-                outputFileName = "BoringSettings.apk"
+                outputFileName = "MtkSettings.apk"
             }
         }
     }
