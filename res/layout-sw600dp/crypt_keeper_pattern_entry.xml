@@ -29,8 +29,7 @@
         android:layout_width="@dimen/crypt_keeper_pattern_size"
         android:layout_height="@dimen/crypt_keeper_pattern_size"
         android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/crypt_keeper_pattern_separator">
+        android:layout_gravity="center_horizontal">
 
         <include layout="@layout/crypt_keeper_pattern_field" />
 

@@ -90,6 +90,12 @@ android {
     }
 }
 
+repositories {
+    flatDir {
+        dirs 'clibs'
+    }
+}
+
 dependencies {
     jarFiles.each { jarFile ->
         compileOnly files("clibs-compile/$jarFile")
@@ -101,7 +107,25 @@ dependencies {
         exclude group: "com.android.support"    // 排除掉 com.android.support 组
     }
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
-    annotationProcessor files('clibs/CP-SettingsLib-annotation-processor.jar')    // search 生成索引类插件
+//    annotationProcessor files('clibs/CP-SettingsLib-annotation-processor.jar')    // search 生成索引类插件
+
+//    implementation files('clibs/android.hidl.base-V1.0-java.jar')
+//    implementation files('clibs/android.hardware.dumpstate-V1.0-java.jar')
+//    implementation files('clibs/android.hardware.dumpstate-V1.1-java.jar')
+
+    implementation libs.appcompat
+    implementation libs.recyclerview
+    implementation libs.slice_builders
+    implementation libs.slice_core
+    implementation libs.slice_view
+    implementation libs.constraintlayout
+    implementation libs.cardview
+    implementation libs.material
+    implementation libs.lifecycle_runtime
+    implementation libs.lifecycle_extensions
+    implementation libs.protobuf_javalite
+    implementation libs.protoc
+    implementation libs.preference
 
     implementation project(':iconloaderlib')
     implementation project(':setupcompat')

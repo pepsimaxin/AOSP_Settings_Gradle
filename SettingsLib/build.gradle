@@ -62,7 +62,7 @@ dependencies {
     implementation libs.core_ktx
     implementation libs.kotlin_stdlib_jdk7
 
-    implementation(name: 'preference-1.2.0-alpha01', ext: 'aar')
+    implementation libs.preference
     implementation project(':SettingsLib:RestrictedLockUtils')
     implementation project(':SettingsLib:AdaptiveIcon')
     implementation project(':SettingsLib:HelpUtils')

@@ -51,7 +51,7 @@ import android.util.Log;
 
 import androidx.annotation.VisibleForTesting;
 
-import com.android.settingslib.R;
+import com.android.settings.R;
 import com.android.settingslib.Utils;
 import com.android.settingslib.notification.ConversationIconFactory;
 import com.android.settingslib.utils.StringUtil;

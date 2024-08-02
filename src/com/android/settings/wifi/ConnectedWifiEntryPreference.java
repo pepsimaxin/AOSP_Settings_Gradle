@@ -21,7 +21,7 @@ import android.view.View;
 import androidx.fragment.app.Fragment;
 import androidx.preference.PreferenceViewHolder;
 
-import com.android.settingslib.R;
+import com.android.settings.R;
 import com.android.settingslib.wifi.LongPressWifiEntryPreference;
 import com.android.wifitrackerlib.WifiEntry;
 
@@ -35,7 +35,7 @@ public class ConnectedWifiEntryPreference extends LongPressWifiEntryPreference i
 
     public ConnectedWifiEntryPreference(Context context, WifiEntry wifiEntry, Fragment fragment) {
         super(context, wifiEntry, fragment);
-        setWidgetLayoutResource(R.layout.preference_widget_gear_optional_background);
+        // setWidgetLayoutResource(R.layout.preference_widget_gear_optional_background);
     }
 
     /**

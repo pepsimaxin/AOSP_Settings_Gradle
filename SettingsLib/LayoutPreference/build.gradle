@@ -51,5 +51,5 @@ repositories {
 dependencies {
     implementation libs.appcompat
     implementation libs.recyclerview
-    implementation(name: 'preference-1.2.0-alpha01', ext: 'aar')
+    implementation libs.preference
 }

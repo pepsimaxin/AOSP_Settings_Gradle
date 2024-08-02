@@ -43,7 +43,7 @@ public class LinkablePreference extends Preference {
 
     public LinkablePreference(Context ctx, AttributeSet attrs, int defStyle) {
         super(ctx, attrs, defStyle);
-        setIcon(R.drawable.ic_info_outline_24dp);
+        // setIcon(R.drawable.ic_info_outline_24dp);
         setSelectable(false);
     }
 
