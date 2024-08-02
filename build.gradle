@@ -102,12 +102,6 @@ android {
     }
 }
 
-//repositories {
-//    flatDir {
-//        dirs 'clibs'
-//    }
-//}
-
 dependencies {
     jarFiles.each { jarFile ->
         compileOnly files("clibs-compile/$jarFile")
@@ -115,15 +109,11 @@ dependencies {
 
     implementation fileTree(dir: 'clibs', include: ['*.jar', '*.aar'])
 
+    //noinspection GradleDependency
     implementation("com.github.bumptech.glide:glide:4.11.0") {
         exclude group: "com.android.support"    // 排除掉 com.android.support 组
     }
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
-//    annotationProcessor files('clibs/CP-SettingsLib-annotation-processor.jar')    // search 生成索引类插件
-
-//    implementation files('clibs/android.hidl.base-V1.0-java.jar')
-//    implementation files('clibs/android.hardware.dumpstate-V1.0-java.jar')
-//    implementation files('clibs/android.hardware.dumpstate-V1.1-java.jar')
 
     implementation libs.appcompat
     implementation libs.recyclerview
