@@ -40,20 +40,21 @@ android {
         all*.exclude group: 'com.squareup.okhttp3', module: 'okhttp'
     }
 
+    //noinspection GradleDependency
     compileSdk = 30
 
     defaultConfig {
         applicationId "com.android.settings"
         minSdkVersion 29
+        //noinspection ExpiredTargetSdkVersion
         targetSdkVersion 30
         versionCode 30
         versionName "30.0"
-        //resConfigs "zh-rCN", "zh-rHK", "zh-rTW", "en", "ug-rCN"
     }
 
     signingConfigs {
         platform {
-            storeFile file("platform-07.keystore")
+            storeFile file("platform.keystore")
             storePassword '123456'
             keyAlias 'platform'
             keyPassword '123456'
@@ -101,11 +102,11 @@ android {
     }
 }
 
-repositories {
-    flatDir {
-        dirs 'clibs'
-    }
-}
+//repositories {
+//    flatDir {
+//        dirs 'clibs'
+//    }
+//}
 
 dependencies {
     jarFiles.each { jarFile ->
