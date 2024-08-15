@@ -38,6 +38,7 @@ import com.android.settings.R;
 import com.android.settings.accounts.AvatarViewMixin;
 import com.android.settings.applications.AppAndNotificationDashboardFragment;
 import com.android.settings.core.HideNonSystemOverlayMixin;
+import com.android.settings.deviceinfo.StorageSettings;
 import com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment;
 import com.android.settings.homepage.contextualcards.ContextualCardsFragment;
 import com.android.settings.notification.SoundSettings;
@@ -101,6 +102,10 @@ public class SettingsHomepageActivity extends FragmentActivity {
                 break;
             case R.id.menu_reset:
                 fragment = new MasterClear();
+                break;
+            case R.id.menu_storage:
+                fragment = new StorageSettings();
+                break;
         }
 
         if (fragment != null) {

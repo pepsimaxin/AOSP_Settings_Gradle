@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="boring_menu_account">账号</string>
+    <string name="boring_menu_control">家居控制</string>
+    <string name="boring_menu_display">显示</string>
+    <string name="boring_menu_wifi">无线网络</string>
+    <string name="boring_menu_bluetooth">蓝牙</string>
+    <string name="boring_menu_notification">通知管理</string>
+    <string name="boring_menu_settings">通用设置</string>
+    <string name="boring_menu_wake_and_call">唤醒与对话</string>
+    <string name="boring_menu_storage">空间管理</string>
+    <string name="boring_menu_permission">撤销授权</string>
+    <string name="boring_menu_ota">软件更新</string>
+    <string name="boring_menu_reset">恢复出厂设置</string>
+    <string name="boring_menu_about">关于与帮助</string>
+
+
     <string name="boring_menu_reset_header_title">全部终端数据</string>
     <string name="boring_menu_reset_header_summry">包括账号、联系人、照片、应用等所有本设备上的数据。</string>
 </resources>

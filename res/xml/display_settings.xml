@@ -21,11 +21,6 @@
     android:title="@string/display_settings"
     settings:keywords="@string/keywords_display">
 
-    <PreferenceCategory>
-        <Preference
-            android:title="测试 Preference"/>
-    </PreferenceCategory>
-
     <com.android.settingslib.RestrictedPreference
         android:key="brightness"
         android:title="@string/brightness"

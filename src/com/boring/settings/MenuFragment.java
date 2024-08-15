@@ -22,6 +22,7 @@ public class MenuFragment extends Fragment {
         View mMenuAbout = view.findViewById(R.id.menu_about);
         View mMenuNotifications = view.findViewById(R.id.menu_notification);
         View mMenuReset = view.findViewById(R.id.menu_reset);
+        View mMenuStorage = view.findViewById(R.id.menu_storage);
 
         mMenuWifi.setOnClickListener(v -> {
             onMenuItemClicked(v, R.id.menu_wifi);
@@ -42,6 +43,10 @@ public class MenuFragment extends Fragment {
 
         mMenuReset.setOnClickListener(v -> {
             onMenuItemClicked(v, R.id.menu_reset);
+        });
+
+        mMenuStorage.setOnClickListener(v -> {
+            onMenuItemClicked(v, R.id.menu_storage);
         });
 
         onMenuItemClicked(mMenuDisplay, R.id.menu_display);

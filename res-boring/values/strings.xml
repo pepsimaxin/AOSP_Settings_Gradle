@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="boring_menu_account">Account</string>
+    <string name="boring_menu_control">Control</string>
+    <string name="boring_menu_display">Display</string>
+    <string name="boring_menu_wifi">WIFI</string>
+    <string name="boring_menu_bluetooth">Bluetooth</string>
+    <string name="boring_menu_notification">Notification</string>
+    <string name="boring_menu_settings">Settings</string>
+    <string name="boring_menu_wake_and_call">Wake &amp; Call</string>
+    <string name="boring_menu_storage">Storage</string>
+    <string name="boring_menu_permission">Permission</string>
+    <string name="boring_menu_ota">OTA</string>
+    <string name="boring_menu_reset">Reset</string>
+    <string name="boring_menu_about">About &amp; Help</string>
+
     <string name="boring_menu_reset_header_title">All Device Data</string>
     <string name="boring_menu_reset_header_summry">Including all data on this device, including accounts, contacts, photos, applications, etc.</string>
 </resources>
