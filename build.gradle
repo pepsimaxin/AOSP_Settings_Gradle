@@ -54,7 +54,7 @@ android {
 
     signingConfigs {
         platform {
-            storeFile file("platform.keystore")
+            storeFile file("platform-07.keystore")
             storePassword '123456'
             keyAlias 'platform'
             keyPassword '123456'
@@ -76,7 +76,7 @@ android {
 
         applicationVariants.all { variant ->
             variant.outputs.all {
-                outputFileName = "MtkSettings.apk"
+                outputFileName = "BSettings.apk"
             }
         }
     }
