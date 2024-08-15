@@ -33,7 +33,7 @@ public class NetworkResetPreferenceController extends AbstractPreferenceControll
 
     @Override
     public boolean isAvailable() {
-        return !mRestrictionChecker.hasUserRestriction();
+        return false/*!mRestrictionChecker.hasUserRestriction()*/;
     }
 
     @Override

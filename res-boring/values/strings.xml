@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="boring_menu_reset_header_title">All Device Data</string>
+    <string name="boring_menu_reset_header_summry">Including all data on this device, including accounts, contacts, photos, applications, etc.</string>
+</resources>

@@ -354,7 +354,8 @@ public class MasterClear extends InstrumentedFragment implements OnGlobalLayoutL
         final View masterClearContainer = mContentView.findViewById(R.id.master_clear_container);
         getContentDescription(masterClearContainer, contentDescription);
         masterClearContainer.setContentDescription(contentDescription);
-
+        // Marco: 隐藏原生描述
+        masterClearContainer.setVisibility(View.GONE);
         // Set the status of initiateButton based on scrollview
         mScrollView.setOnScrollChangeListener(new OnScrollChangeListener() {
             @Override
@@ -558,7 +559,7 @@ public class MasterClear extends InstrumentedFragment implements OnGlobalLayoutL
             return new View(getContext());
         }
 
-        mContentView = inflater.inflate(R.layout.master_clear, null);
+        mContentView = inflater.inflate(R.layout.boring_master_clear, null);
 
         establishInitialState();
         return mContentView;

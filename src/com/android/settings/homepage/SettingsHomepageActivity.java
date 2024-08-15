@@ -33,6 +33,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.android.settings.DisplaySettings;
+import com.android.settings.MasterClear;
 import com.android.settings.R;
 import com.android.settings.accounts.AvatarViewMixin;
 import com.android.settings.applications.AppAndNotificationDashboardFragment;
@@ -41,6 +42,7 @@ import com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment;
 import com.android.settings.homepage.contextualcards.ContextualCardsFragment;
 import com.android.settings.notification.SoundSettings;
 import com.android.settings.overlay.FeatureFactory;
+import com.android.settings.system.ResetDashboardFragment;
 import com.boring.settings.MenuFragment;
 
 public class SettingsHomepageActivity extends FragmentActivity {
@@ -96,6 +98,9 @@ public class SettingsHomepageActivity extends FragmentActivity {
                 break;
             case R.id.menu_notification:
                 fragment = new AppAndNotificationDashboardFragment();
+                break;
+            case R.id.menu_reset:
+                fragment = new MasterClear();
         }
 
         if (fragment != null) {

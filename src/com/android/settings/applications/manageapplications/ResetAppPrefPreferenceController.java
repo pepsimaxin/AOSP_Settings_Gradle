@@ -53,7 +53,7 @@ public class ResetAppPrefPreferenceController extends AbstractPreferenceControll
 
     @Override
     public boolean isAvailable() {
-        return true;
+        return false/*true*/;
     }
 
     @Override
