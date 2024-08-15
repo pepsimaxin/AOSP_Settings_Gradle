@@ -89,7 +89,7 @@ android {
     sourceSets {
         main {
             java.srcDirs = ['src']
-            res.srcDirs = ['res']
+            res.srcDirs = ['res', 'res-boring']
             assets.srcDirs = ['assets']
             proto.srcDirs = ['protos']
             manifest.srcFile 'AndroidManifest.xml'
