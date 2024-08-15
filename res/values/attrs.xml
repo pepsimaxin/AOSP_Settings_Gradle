@@ -158,8 +158,8 @@
 
     <!-- For TwoStatesButtonPreference -->
     <declare-styleable name="TwoStateButtonPreference">
-        <attr name="textOn" format="reference" />
-        <attr name="textOff" format="reference" />
+<!--        <attr name="textOn" format="reference" />-->
+<!--        <attr name="textOff" format="reference" />-->
     </declare-styleable>
 
     <!-- For LabeledSeekBarPreference -->

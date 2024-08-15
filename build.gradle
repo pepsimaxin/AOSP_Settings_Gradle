@@ -107,6 +107,7 @@ dependencies {
         compileOnly files("clibs-compile/$jarFile")
     }
 
+//    implementation fileTree(dir: 'clibs-compile', includes: ['preference.aar'])
     implementation fileTree(dir: 'clibs', include: ['*.jar', '*.aar'])
 
     //noinspection GradleDependency

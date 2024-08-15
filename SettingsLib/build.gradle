@@ -52,6 +52,8 @@ repositories {
 dependencies {
     compileOnly files('../clibs-compile/framework.jar')
 
+    implementation fileTree(dir: 'libs', includes: ['preference.aar', 'appcompat.aar'])
+
     implementation(libs.legacy_support_v4, {
         exclude group: 'androidx.preference', module: 'preference'
     })

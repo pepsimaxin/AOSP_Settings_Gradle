@@ -26,7 +26,12 @@
         <item name="allowDividerAbove">true</item>
     </style>
 
-    <style name="PreferenceThemeOverlay.SettingsBase" parent="@style/PreferenceThemeOverlay">
+<!--    <style name="PreferenceThemeOverlay.SettingsBase" parent="@style/PreferenceThemeOverlay">-->
+<!--        <item name="footerPreferenceStyle">@style/Preference.FooterPreference.SettingsBase</item>-->
+<!--    </style>-->
+
+    <style name="PreferenceThemeOverlay.SettingsBase"
+        parent="@style/CoolX.PreferenceThemeOverlay.DayNight">
         <item name="footerPreferenceStyle">@style/Preference.FooterPreference.SettingsBase</item>
     </style>
 

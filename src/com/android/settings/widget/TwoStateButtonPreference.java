@@ -48,12 +48,12 @@ public class TwoStateButtonPreference extends LayoutPreference implements
         } else {
             final TypedArray styledAttrs = context.obtainStyledAttributes(attrs,
                     R.styleable.TwoStateButtonPreference);
-            final int textOnId = styledAttrs.getResourceId(
+            final int textOnId = 0;/*styledAttrs.getResourceId(
                     R.styleable.TwoStateButtonPreference_textOn,
-                    R.string.summary_placeholder);
-            final int textOffId = styledAttrs.getResourceId(
+                    R.string.summary_placeholder);*/
+            final int textOffId = 0;/*styledAttrs.getResourceId(
                     R.styleable.TwoStateButtonPreference_textOff,
-                    R.string.summary_placeholder);
+                    R.string.summary_placeholder);*/
             styledAttrs.recycle();
 
             mButtonOn = findViewById(R.id.state_on_button);

@@ -40,6 +40,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+// Marco ADD: coolx preference
+//import coolx.preference.PreferenceGroupAdapter;
+
 public class HighlightablePreferenceGroupAdapter extends PreferenceGroupAdapter {
 
     private static final String TAG = "HighlightableAdapter";
