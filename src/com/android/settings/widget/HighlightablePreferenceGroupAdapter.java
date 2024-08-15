@@ -32,7 +32,7 @@ import android.view.View;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.PreferenceGroup;
-import androidx.preference.PreferenceGroupAdapter;
+//import androidx.preference.PreferenceGroupAdapter;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceViewHolder;
 import androidx.recyclerview.widget.RecyclerView;
@@ -41,7 +41,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 // Marco ADD: coolx preference
-//import coolx.preference.PreferenceGroupAdapter;
+import coolx.preference.PreferenceGroupAdapter;
 
 public class HighlightablePreferenceGroupAdapter extends PreferenceGroupAdapter {
 

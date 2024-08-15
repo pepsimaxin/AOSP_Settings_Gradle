@@ -19,8 +19,12 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="display_settings_screen"
     android:title="@string/display_settings"
-    settings:keywords="@string/keywords_display"
-    settings:initialExpandedChildrenCount="5">
+    settings:keywords="@string/keywords_display">
+
+    <PreferenceCategory>
+        <Preference
+            android:title="测试 Preference"/>
+    </PreferenceCategory>
 
     <com.android.settingslib.RestrictedPreference
         android:key="brightness"
@@ -108,11 +112,13 @@
         android:summary="@string/peak_refresh_rate_summary"
         settings:controller="com.android.settings.display.PeakRefreshRatePreferenceController" />
 
-    <Preference
-        android:key="font_size"
-        android:title="@string/title_font_size"
-        android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
-        settings:controller="com.android.settings.display.FontSizePreferenceController" />
+    <PreferenceCategory>
+        <Preference
+            android:key="font_size"
+            android:title="@string/title_font_size"
+            android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
+            settings:controller="com.android.settings.display.FontSizePreferenceController" />
+    </PreferenceCategory>
 
     <com.android.settings.display.ScreenZoomPreference
         android:key="display_settings_screen_zoom"
