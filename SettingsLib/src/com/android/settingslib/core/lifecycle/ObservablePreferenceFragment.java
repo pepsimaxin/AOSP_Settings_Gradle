@@ -31,8 +31,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import androidx.lifecycle.LifecycleOwner;
-import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceScreen;
+
+import coolx.preference.PreferenceFragmentCompat;
 
 /**
  * {@link PreferenceFragmentCompat} that has hooks to observe fragment lifecycle events.

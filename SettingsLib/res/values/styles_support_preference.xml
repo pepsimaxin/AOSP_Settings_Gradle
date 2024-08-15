@@ -32,6 +32,14 @@
 
     <style name="PreferenceThemeOverlay.SettingsBase"
         parent="@style/CoolX.PreferenceThemeOverlay.DayNight">
+        <item name="preferenceCategoryTitleTextAppearance">@style/CoolX.PreferenceCategory.TextAppearance</item>
+        <item name="preferenceCategoryStyle">@style/CoolX.Preference.Category</item>
+        <item name="preferenceStyle">@style/CoolX.Preference</item>
+        <item name="checkBoxPreferenceStyle">@style/CoolX.Preference.CheckBoxPreference</item>
+        <item name="dialogPreferenceStyle">@style/CoolX.Preference.DialogPreference</item>
+        <item name="editTextPreferenceStyle">@style/CoolX.Preference.DialogPreference.EditTextPreference</item>
+        <item name="dropdownPreferenceStyle">@style/CoolX.Preference.DropDown</item>
+        <item name="switchPreferenceStyle">@style/CoolX.Preference.SwitchPreference</item>
         <item name="footerPreferenceStyle">@style/Preference.FooterPreference.SettingsBase</item>
     </style>
 
