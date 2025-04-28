@@ -1,0 +1,117 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion COMPILE_SDK
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+//    afterEvaluate {
+//        generateReleaseBuildConfig.enabled = false
+//        generateDebugBuildConfig.enabled = false
+//    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+            manifest.srcFile 'AndroidManifest.xml'
+        }
+    }
+}
+
+//repositories {
+//    flatDir {
+//        dirs '../libs'
+//    }
+//}
+
+//def commonMaven = [
+//        libs.recyclerview,
+//        libs.appcompat,
+//        libs.lifecycle_runtime,
+//        libs.mediarouter,
+//        libs.core_ktx,
+//        libs.kotlin_stdlib_jdk7,
+//        libs.preference
+//]
+//
+//def coolxSettingsLibDependencies = [
+//        libs.ActionBarShadow,
+//        libs.ActionButtonsPreference,
+//        libs.AdaptiveIcon,
+//        libs.AppPreference,
+//        libs.BannerMessagePreference,
+//        libs.BarChartPreference,
+//        libs.ButtonPreference,
+//        libs.CollapsingToolbarBaseActivity,
+//        libs.DisplayDensityUtils,
+//        libs.EmergencyNumber,
+//        libs.EntityHeaderWidgets,
+//        libs.FooterPreference,
+//        libs.HelpUtils,
+//        libs.IllustrationPreference,
+//        libs.LayoutPreference,
+//        libs.MainSwitchPreference,
+//        libs.ProgressBar,
+//        libs.RadioButtonPreference,
+//        libs.RestrictedLockUtils,
+//        libs.SearchWidget,
+//        libs.SelectorWithWidgetPreference,
+//        libs.SettingsSpinner,
+//        libs.SettingsTransition,
+//        libs.Tile,
+//        libs.TopIntroPreference,
+//        libs.TwoTargetPreference,
+//        libs.UsageProgressBarPreference,
+//        libs.Utils
+//]
+
+dependencies {
+//    compileOnly files('../libs/framework.jar')
+//    compileOnly files('../libs/zxing-core-1.7.jar')
+//
+//    implementation files('libs/core-icu4j.jar')
+//    implementation(libs.legacy_support_v4, {
+//        exclude group: 'androidx.preference', module: 'preference'
+//    })
+
+    // Common
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+    implementation "androidx.appcompat:appcompat:1.4.0-alpha03"
+    implementation "androidx.lifecycle:lifecycle-runtime:2.4.0-alpha03"
+    implementation "androidx.mediarouter:mediarouter:1.2.0-alpha01"
+    implementation "androidx.core:core-ktx:1.3.1"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21"
+    implementation "androidx.preference:preference:1.2.0"
+
+    // SettingsLib 子模块 Maven 依赖
+//    implementation coolxSettingsLibDependencies
+
+//    implementation libs.WifiTrackerLib
+//    implementation libs.iconloaderlib
+//    implementation libs.setupcompat
+//    implementation libs.setupdesign
+}
