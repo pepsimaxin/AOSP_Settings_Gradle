@@ -1,4 +1,15 @@
 ext {
+    getSignFile = {
+        def device = "${CP_DEVICE}"
+        switch (device) {
+            case "CP27"             : return file('keystore/platform-cp27.keystore')
+            case "CP12T_CoolOS_3.0" : return file('keystore/platform-sprd.keystore')
+            case "CP03t"            : return file('keystore/platform-mtk.keystore')
+            case "CP23A"            : return file('keystore/platform-cp23a.keystore')
+        }
+        return file('/keystore/platform-mtk.keystore')
+    }
+
     libs = [
         viewpager2                   : 'androidx.viewpager2:viewpager2:1.0.0',
         recyclerview                 : 'androidx.recyclerview:recyclerview:1.2.1',
@@ -36,6 +47,50 @@ ext {
 
         lottie                       : 'com.airbnb.android:lottie:3.4.1',
         OkHttp                       : 'com.squareup.okhttp3:okhttp:4.4.1',
+
+        preference_coolx             : 'coolx.preference:preference:3.1.0.1',
+        appcompat_coolx              : 'coolx.appcompat:appcompat:3.1.2.6',
+        utils_coolx                  : 'coolx.utils:common:1.0.0-alpha01',
+        os_coolx                     : 'coolx.os:os-distribution:0.0.2',
+
+        SettingsLib                  : 'coolx.settingslib:settingslib:1.0.0-beta15',
+        ActionBarShadow              : 'coolx.settingslib:actionBarShadow:1.0.0-beta03',
+        ActionButtonsPreference      : 'coolx.settingslib:actionButtonsPreference:1.0.0-beta05',
+        ActivityEmbedding            : 'coolx.settingslib:activityEmbedding:1.0.0-beta03',
+        AdaptiveIcon                 : 'coolx.settingslib:adaptiveIcon:1.0.0-beta03',
+        AppPreference                : 'coolx.settingslib:appPreference:1.0.0-beta04',
+        BannerMessagePreference      : 'coolx.settingslib:bannerMessagePreference:1.0.0-beta03',
+        BarChartPreference           : 'coolx.settingslib:barChartPreference:1.0.0-beta03',
+        ButtonPreference             : 'coolx.settingslib:buttonPreference:1.0.0-beta03',
+        CollapsingToolbarBaseActivity: 'coolx.settingslib:collapsingToolbarBaseActivity:1.0.0-beta03',
+        DisplayDensityUtils          : 'coolx.settingslib:displayDensityUtils:1.0.0-beta03',
+        EmergencyNumber              : 'coolx.settingslib:emergencyNumber:1.0.0-beta04',
+        EntityHeaderWidgets          : 'coolx.settingslib:entityHeaderWidgets:1.0.0-beta03',
+        FooterPreference             : 'coolx.settingslib:footerPreference:1.0.0-beta03',
+        HelpUtils                    : 'coolx.settingslib:helpUtils:1.0.0-beta03',
+        IllustrationPreference       : 'coolx.settingslib:illustrationPreference:1.0.0-beta03',
+        LayoutPreference             : 'coolx.settingslib:layoutPreference:1.0.0-beta03',
+        MainSwitchPreference         : 'coolx.settingslib:mainSwitchPreference:1.0.0-beta07',
+        ProgressBar                  : 'coolx.settingslib:progressBar:1.0.0-beta03',
+        RadioButtonPreference        : 'coolx.settingslib:radioButtonPreference:1.0.0-beta03',
+        RestrictedLockUtils          : 'coolx.settingslib:restrictedLockUtils:1.0.0-beta03',
+        SchedulesProvider            : 'coolx.settingslib:schedulesProvider:1.0.0-beta03',
+        SearchProvider               : 'coolx.settingslib:searchProvider:1.0.0-beta03',
+        SearchWidget                 : 'coolx.settingslib:searchWidget:1.0.0-beta03',
+        SelectorWithWidgetPreference : 'coolx.settingslib:selectorWithWidgetPreference:1.0.0-beta03',
+        SettingsSpinner              : 'coolx.settingslib:settingsSpinner:1.0.0-beta04',
+        SettingsTheme                : 'coolx.settingslib:settingsTheme:1.0.0-beta03',
+        SettingsTransition           : 'coolx.settingslib:settingsTransition:1.0.0-beta03',
+        Tile                         : 'coolx.settingslib:tile:1.0.0-beta03',
+        TopIntroPreference           : 'coolx.settingslib:topIntroPreference:1.0.0-beta03',
+        TwoTargetPreference          : 'coolx.settingslib:twoTargetPreference:1.0.0-beta04',
+        UsageProgressBarPreference   : 'coolx.settingslib:usageProgressBarPreference:1.0.0-beta03',
+        Utils                        : 'coolx.settingslib:utils:1.0.0-beta03',
+
+        setupcompat                  : 'coolx.setupcompat:setupcompat:1.0.0-beta02',
+        setupdesign                  : 'coolx.setupdesign:setupdesign:1.0.0-beta02',
+        iconloaderlib                : 'coolx.iconloaderlib:iconloaderlib:1.0.0-beta03',
+        WifiTrackerLib               : 'coolx.wifiTrackerLib:wifiTrackerLib:1.0.0-beta03'
     ]
 
     jarFiles = [
@@ -65,10 +120,55 @@ ext {
         libs.OkHttp
     ]
 
-//    specialLib = [
-//         libs.WifiTrackerLib,
-//         libs.setupcompat,
-//         libs.setupdesign,
-//         libs.iconloaderlib
-//    ]
+    coolxMaven = [
+        libs.appcompat_coolx,
+        libs.preference_coolx,
+        libs.os_coolx
+    ]
+
+    coolxSettingsLibDependencies = [
+        libs.SettingsLib
+    ]
+
+    coolxSettingsLibSubDependencies = [
+        libs.ActionBarShadow,
+        libs.ActionButtonsPreference,
+        libs.ActivityEmbedding,
+        libs.AdaptiveIcon,
+        libs.AppPreference,
+        libs.BannerMessagePreference,
+        libs.BarChartPreference,
+        libs.ButtonPreference,
+        libs.CollapsingToolbarBaseActivity,
+        libs.DisplayDensityUtils,
+        libs.EmergencyNumber,
+        libs.EntityHeaderWidgets,
+        libs.FooterPreference,
+        libs.HelpUtils,
+        libs.IllustrationPreference,
+        libs.LayoutPreference,
+        libs.MainSwitchPreference,
+        libs.ProgressBar,
+        libs.RadioButtonPreference,
+        libs.RestrictedLockUtils,
+        libs.SchedulesProvider,
+        libs.SearchProvider,
+        libs.SearchWidget,
+        libs.SelectorWithWidgetPreference,
+        libs.SettingsSpinner,
+        libs.SettingsTheme,
+        libs.SettingsTransition,
+        libs.Tile,
+        libs.TopIntroPreference,
+        libs.TwoTargetPreference,
+        libs.UsageProgressBarPreference,
+        libs.Utils
+    ]
+
+    specialLib = [
+         libs.WifiTrackerLib,
+         libs.setupcompat,
+         libs.setupdesign,
+         libs.iconloaderlib
+    ]
 }
