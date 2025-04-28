@@ -1,0 +1,54 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    compileSdkVersion COMPILE_SDK
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    afterEvaluate {
+        generateReleaseBuildConfig.enabled = false
+        generateDebugBuildConfig.enabled = false
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src']
+            manifest.srcFile 'AndroidManifest.xml'
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs '../../libs'
+    }
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:1.4.0-alpha03"
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+    implementation "androidx.lifecycle:lifecycle-runtime:2.4.0-alpha03"
+}
