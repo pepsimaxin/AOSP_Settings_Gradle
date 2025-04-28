@@ -98,7 +98,6 @@ dependencies {
 //        exclude group: 'androidx.preference', module: 'preference'
 //    })
 
-    // Common
     implementation "androidx.recyclerview:recyclerview:1.2.1"
     implementation "androidx.appcompat:appcompat:1.4.0-alpha03"
     implementation "androidx.lifecycle:lifecycle-runtime:2.4.0-alpha03"
@@ -114,4 +113,41 @@ dependencies {
 //    implementation libs.iconloaderlib
 //    implementation libs.setupcompat
 //    implementation libs.setupdesign
+    implementation project(':SettingsLib:ActionBarShadow')
+    implementation project(':SettingsLib:ActionButtonsPreference')
+    implementation project(':SettingsLib:ActivityEmbedding')
+    implementation project(':SettingsLib:AdaptiveIcon')
+    implementation project(':SettingsLib:AppPreference')
+    implementation project(':SettingsLib:BannerMessagePreference')
+    implementation project(':SettingsLib:BarChartPreference')
+    implementation project(':SettingsLib:ButtonPreference')
+    implementation project(':SettingsLib:CollapsingToolbarBaseActivity')
+    implementation project(':SettingsLib:DeviceStateRotationLock')
+    implementation project(':SettingsLib:DisplayUtils')
+    implementation project(':SettingsLib:EmergencyNumber')
+    implementation project(':SettingsLib:EntityHeaderWidgets')
+    implementation project(':SettingsLib:FooterPreference')
+    implementation project(':SettingsLib:HelpUtils')
+    implementation project(':SettingsLib:IllustrationPreference')
+    implementation project(':SettingsLib:LayoutPreference')
+    implementation project(':SettingsLib:MainSwitchPreference')
+    implementation project(':SettingsLib:ProfileSelector')
+    implementation project(':SettingsLib:ProgressBar')
+    implementation project(':SettingsLib:RadioButtonPreference')
+    implementation project(':SettingsLib:RestrictedLockUtils')
+    implementation project(':SettingsLib:SchedulesProvider')
+    implementation project(':SettingsLib:Search')
+    implementation project(':SettingsLib:SearchProvider')
+    implementation project(':SettingsLib:SearchWidget')
+    implementation project(':SettingsLib:SelectorWithWidgetPreference')
+    implementation project(':SettingsLib:SettingsSpinner')
+    implementation project(':SettingsLib:SettingsTheme')
+    implementation project(':SettingsLib:SettingsTransition')
+//include ':SettingsLib:Spa'
+    implementation project(':SettingsLib:SpaPrivileged')
+    implementation project(':SettingsLib:Tile')
+    implementation project(':SettingsLib:TopIntroPreference')
+    implementation project(':SettingsLib:TwoTargetPreference')
+    implementation project(':SettingsLib:UsageProgressBarPreference')
+    implementation project(':SettingsLib:Utils')
 }
