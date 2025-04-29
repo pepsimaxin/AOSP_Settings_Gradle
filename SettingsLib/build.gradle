@@ -107,9 +107,9 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21"
     implementation "androidx.preference:preference:1.2.0"
     implementation "androidx.localbroadcastmanager:localbroadcastmanager:1.1.0"
-//    implementation "androidx.room:room-runtime:2.7.0-alpha01"
-//    implementation "androidx.sqlite:sqlite:2.5.0-alpha01"
-//    implementation "com.google.zxing:core:3.5.3"
+    implementation "androidx.room:room-runtime:2.7.0-alpha01"
+    implementation "androidx.sqlite:sqlite:2.5.0-alpha01"
+    implementation "com.google.zxing:core:3.5.3"
 //    implementation "com.google.guava:guava:33.3.1-android"
 //    implementation "androidx.concurrent:concurrent-futures-ktx:1.2.0"
 

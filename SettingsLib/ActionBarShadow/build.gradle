@@ -41,11 +41,11 @@ android {
     }
 }
 
-repositories {
-    flatDir {
-        dirs '../../libs'
-    }
-}
+//repositories {
+//    flatDir {
+//        dirs '../../libs'
+//    }
+//}
 
 dependencies {
     implementation "androidx.appcompat:appcompat:1.4.0-alpha03"

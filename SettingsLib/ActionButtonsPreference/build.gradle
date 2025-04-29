@@ -42,11 +42,11 @@ android {
     }
 }
 
-repositories {
-    flatDir {
-        dirs '../../libs'
-    }
-}
+//repositories {
+//    flatDir {
+//        dirs '../../libs'
+//    }
+//}
 
 dependencies {
     implementation project(':SettingsLib:Utils')
