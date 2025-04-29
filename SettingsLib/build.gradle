@@ -136,7 +136,7 @@ dependencies {
     implementation project(':SettingsLib:RadioButtonPreference')
     implementation project(':SettingsLib:RestrictedLockUtils')
     implementation project(':SettingsLib:SchedulesProvider')
-    implementation project(':SettingsLib:Search')
+//    implementation project(':SettingsLib:Search')
     implementation project(':SettingsLib:SearchProvider')
     implementation project(':SettingsLib:SearchWidget')
     implementation project(':SettingsLib:SelectorWithWidgetPreference')
