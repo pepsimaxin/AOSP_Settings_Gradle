@@ -31,6 +31,7 @@ import com.airbnb.lottie.value.SimpleLottieValueCallback;
 
 import java.util.HashMap;
 
+import com.android.settingslib.widget.preference.illustration.R;
 /**
  * ColorUtils is a util class which help the lottie illustration
  * changes the color of tags in the json file.

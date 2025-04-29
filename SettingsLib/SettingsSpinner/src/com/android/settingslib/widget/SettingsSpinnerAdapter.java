@@ -23,6 +23,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
+import com.android.settingslib.widget.spinner.R;
+
 /**
  * An ArrayAdapter which was used by Spinner with settings style.
  * @param <T> the data type to be loaded.

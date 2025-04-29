@@ -43,6 +43,8 @@ import com.airbnb.lottie.LottieDrawable;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
+import com.android.settingslib.widget.preference.illustration.R;
+
 /**
  * IllustrationPreference is a preference that can play lottie format animation
  */

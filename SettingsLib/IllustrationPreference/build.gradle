@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace = "com.android.settingslib.widget.preference.illustration"
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {

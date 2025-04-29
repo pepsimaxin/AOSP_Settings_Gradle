@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace = "com.android.settingslib.widget.preference.selector"
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {

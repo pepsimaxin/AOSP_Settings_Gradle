@@ -25,6 +25,8 @@ import android.widget.LinearLayout;
 
 import androidx.annotation.Nullable;
 
+import com.android.settingslib.widget.preference.banner.R;
+
 /**
  * The view providing {@link BannerMessagePreference}.
  *

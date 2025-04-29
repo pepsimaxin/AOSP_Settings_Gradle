@@ -28,6 +28,8 @@ import androidx.core.content.res.TypedArrayUtils;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
 
+import com.android.settingslib.widget.preference.layout.R;
+
 /**
  * A preference can be simply customized a view by adding layout attribute in xml.
  * User also can decide whether or not LayoutPreference allows above divider or below divider.

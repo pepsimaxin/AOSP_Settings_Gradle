@@ -29,6 +29,8 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.android.settingslib.widget.preference.illustration.R;
+
 /**
  * Util class which dynamically changes the color of tags in a lottie json file between Dark Theme
  * (DT) and Light Theme (LT). This class assumes the json file is for Dark Theme.

@@ -34,6 +34,8 @@ import androidx.preference.PreferenceViewHolder;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.android.settingslib.widget.preference.usage.R;
+
 /**
  * Progres bar preference with a usage summary and a total summary.
  * This preference shows number in usage summary with enlarged font size.

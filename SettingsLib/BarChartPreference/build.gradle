@@ -3,6 +3,8 @@ plugins {
 }
 
 android {
+    namespace = "com.android.settingslib.widget.preference.barchart"
+
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {

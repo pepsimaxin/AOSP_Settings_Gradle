@@ -30,6 +30,8 @@ import android.widget.TextView;
 import androidx.annotation.ColorInt;
 import androidx.annotation.VisibleForTesting;
 
+import com.android.settingslib.widget.preference.barchart.R;
+
 /**
  * {@link View} for a single vertical bar with icon and summary.
  */

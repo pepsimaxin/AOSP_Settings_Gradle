@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace = "com.android.settingslib.widget.activityembedding"
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {

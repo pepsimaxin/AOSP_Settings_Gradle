@@ -26,6 +26,8 @@ import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceClickListener;
 import androidx.preference.PreferenceViewHolder;
 
+import com.android.settingslib.widget.spinner.R;
+
 /**
  * This preference uses Spinner & SettingsSpinnerAdapter which provide default layouts for
  * both view and drop down view of the Spinner.

@@ -36,10 +36,10 @@ import android.view.MenuItem.OnMenuItemClickListener;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.VisibleForTesting;
 
-import com.android.settingslib.widget.R;
-
 import java.net.URISyntaxException;
 import java.util.Locale;
+
+import com.android.settingslib.widget.help.R;
 
 /**
  * Functions to easily prepare contextual help menu option items with an intent that opens up the

@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace = "com.android.settingslib.widget.spinner"
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {
