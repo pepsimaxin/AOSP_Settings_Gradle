@@ -29,8 +29,6 @@ import android.graphics.drawable.Drawable;
 
 import androidx.core.graphics.ColorUtils;
 
-import com.android.launcher3.R;
-
 /**
  * Subclass which draws a placeholder icon when the actual icon is not yet loaded
  */

@@ -88,6 +88,10 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
     implementation project(':SettingsLib')
+    implementation project(':WifiTrackerLib')
+    implementation project(':iconloaderlib')
+    implementation project(':setupdesign')
+    implementation project(':setupcompat')
 
     implementation("com.github.bumptech.glide:glide:4.11.0") {
         exclude group: "com.android.support"    // 排除掉 com.android.support 组
