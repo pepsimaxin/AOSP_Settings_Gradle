@@ -157,3 +157,9 @@ dependencies {
 //        }
 //    }
 //}
+configurations.configureEach {
+    exclude group: 'com.google.common.util.concurrent', module: 'listenablefuture'
+    exclude group: 'android.icu', module: 'core-all'
+    exclude group: 'com.android.icu', module: 'core-all'
+    exclude group: 'com.google.common.util.concurrent.ListenableFuture', module: 'guava'
+}

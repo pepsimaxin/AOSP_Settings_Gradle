@@ -94,7 +94,7 @@ dependencies {
 //    compileOnly files('../libs/framework.jar')
 //    compileOnly files('../libs/zxing-core-1.7.jar')
 //
-//    implementation files('../libs/core-icu4j.jar')
+    implementation files('../libs/core-icu4j.jar')
     implementation('androidx.legacy:legacy-support-v4:1.0.0', {
         exclude group: 'androidx.preference', module: 'preference'
     })
@@ -168,6 +168,7 @@ dependencies {
 
 configurations.configureEach {
     exclude group: 'com.google.common.util.concurrent', module: 'listenablefuture'
-    exclude group: 'android.icu.*', module: 'core-all'
+    exclude group: 'android.icu', module: 'core-all'
+    exclude group: 'com.android.icu', module: 'core-all'
     exclude group: 'com.google.common.util.concurrent.ListenableFuture', module: 'guava'
 }
