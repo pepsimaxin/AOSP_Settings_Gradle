@@ -285,7 +285,7 @@ public class HearingAidDeviceManager {
                 Settings.Secure.HEARING_AID_RINGTONE_ROUTING,
                 HearingAidAudioRoutingConstants.RoutingValue.AUTO);
         final int systemSoundsRoutingValue = Settings.Secure.getInt(mContentResolver,
-                Settings.Secure.HEARING_AID_SYSTEM_SOUNDS_ROUTING,
+                Settings.Secure.HEARING_AID_NOTIFICATION_ROUTING,
                 HearingAidAudioRoutingConstants.RoutingValue.AUTO);
 
         setPreferredDeviceRoutingStrategies(

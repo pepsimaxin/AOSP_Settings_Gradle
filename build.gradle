@@ -1,7 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     ext {
-        kotlin_version = '1.6.21'
+        kotlin_version = '1.9.0'
     }
 
     repositories {
@@ -25,8 +25,8 @@ buildscript {
 }
 
 apply plugin: 'com.android.application'
-apply plugin: 'com.google.protobuf'
-apply plugin: 'kotlin-android-extensions'
+//apply plugin: 'com.google.protobuf'
+//apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
 
 android {
@@ -75,7 +75,7 @@ android {
             java.srcDirs = ['src']
             res.srcDirs = ['res']
             assets.srcDirs = ['assets']
-            proto.srcDirs = ['protos']
+//            proto.srcDirs = ['protos']
             manifest.srcFile 'AndroidManifest.xml'
         }
     }
@@ -93,6 +93,8 @@ dependencies {
     implementation project(':iconloaderlib')
     implementation project(':setupdesign')
     implementation project(':setupcompat')
+    implementation "com.google.protobuf:protoc:3.8.0"
+    implementation "com.google.protobuf:protobuf-javalite:3.8.0"
 
     implementation("com.github.bumptech.glide:glide:4.11.0") {
         exclude group: "com.android.support"    // 排除掉 com.android.support 组
@@ -134,24 +136,24 @@ dependencies {
 //    }
 //}
 
-protobuf {
-    protoc {
-        // 通用 artifact
-        artifact = 'com.google.protobuf:protoc:3.8.0'
-        // MacOS
-        if (org.gradle.internal.os.OperatingSystem.current().isMacOsX()) {
-            artifact = 'com.google.protobuf:protoc:3.8.0:osx-x86_64'
-        }
-    }
-
-    generateProtoTasks {
-        all().each { task ->
-            task.builtins {
-                remove java
-                java {
-                    option "lite"
-                }
-            }
-        }
-    }
-}
+//protobuf {
+//    protoc {
+//        // 通用 artifact
+//        artifact = 'com.google.protobuf:protoc:3.8.0'
+//        // MacOS
+//        if (org.gradle.internal.os.OperatingSystem.current().isMacOsX()) {
+//            artifact = 'com.google.protobuf:protoc:3.8.0:osx-x86_64'
+//        }
+//    }
+//
+//    generateProtoTasks {
+//        all().each { task ->
+//            task.builtins {
+//                remove java
+//                java {
+//                    option "lite"
+//                }
+//            }
+//        }
+//    }
+//}

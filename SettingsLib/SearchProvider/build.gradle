@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace 'com.android.settingslib.searchprovider'
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {

@@ -403,7 +403,8 @@ public abstract class MediaDevice implements Comparable<MediaDevice> {
             return false;
         }
         setConnectedRecord();
-        mRouterManager.transfer(mPackageName, mRouteInfo);
+        // Marco
+        // mRouterManager.transfer(mPackageName, mRouteInfo, null);
         return true;
     }
 

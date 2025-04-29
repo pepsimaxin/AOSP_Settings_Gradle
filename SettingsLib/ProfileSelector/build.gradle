@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+    namespace = "com.android.settingslib.widget.profileselector"
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {

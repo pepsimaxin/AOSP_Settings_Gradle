@@ -151,7 +151,8 @@ public class InfoMediaManager extends MediaManager {
         boolean isConnected = false;
         final RoutingSessionInfo info = mRouterManager.getSystemRoutingSession(null);
         if (info != null) {
-            mRouterManager.transfer(info, device.mRouteInfo);
+            // Marco
+            // mRouterManager.transfer(info, device.mRouteInfo);
             isConnected = true;
         }
         return isConnected;
