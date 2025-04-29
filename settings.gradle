@@ -1,4 +1,10 @@
 include ':Filter'
+
+include ':iconloaderlib'
+include ':WifiTrackerLib'
+include ':setupcompat'
+include ':setupdesign'
+
 include ':SettingsLib'
 include 'SettingsLib:ActionBarShadow'
 include 'SettingsLib:ActionButtonsPreference'
