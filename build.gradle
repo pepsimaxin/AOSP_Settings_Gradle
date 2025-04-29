@@ -30,14 +30,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    packagingOptions {
-        exclude 'META-INF/androidx.window_window.version'
-    }
-
-    configurations {
-        all*.exclude group: 'androidx.window', module: 'window'
-        all*.exclude group: 'com.squareup.okhttp3', module: 'okhttp'
-    }
+//    packagingOptions {
+//        exclude 'META-INF/androidx.window_window.version'
+//    }
+//
+//    configurations {
+//        all*.exclude group: 'androidx.window', module: 'window'
+//        all*.exclude group: 'com.squareup.okhttp3', module: 'okhttp'
+//    }
 
     compileSdk = 34
 
@@ -70,14 +70,26 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
     sourceSets {
         main {
             java.srcDirs = ['src']
-            res.srcDirs = ['res']
+            res.srcDirs = ['res', 'res-export', 'res-product']
             assets.srcDirs = ['assets']
 //            proto.srcDirs = ['protos']
             manifest.srcFile 'AndroidManifest.xml'
         }
+    }
+
+    buildFeatures {
+        compose true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = '1.5.0' // 假设1.4.0支持Kotlin 1.9.0
     }
 
     lintOptions {
@@ -157,9 +169,3 @@ dependencies {
 //        }
 //    }
 //}
-configurations.configureEach {
-    exclude group: 'com.google.common.util.concurrent', module: 'listenablefuture'
-    exclude group: 'android.icu', module: 'core-all'
-    exclude group: 'com.android.icu', module: 'core-all'
-    exclude group: 'com.google.common.util.concurrent.ListenableFuture', module: 'guava'
-}
