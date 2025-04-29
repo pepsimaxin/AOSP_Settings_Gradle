@@ -17,10 +17,11 @@ apply plugin: 'com.android.library'
 
 android {
     // Not specifying compileSdkVersion here so clients can specify it; must be at least Q
+    compileSdkVersion 34
 
     defaultConfig {
-        minSdkVersion 14
-        targetSdkVersion 28
+        minSdkVersion 31
+        targetSdkVersion 34
     }
 
     buildTypes {
@@ -30,6 +31,16 @@ android {
         }
     }
 
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+//    afterEvaluate {
+//        generateReleaseBuildConfig.enabled = false
+//        generateDebugBuildConfig.enabled = false
+//    }
+
     sourceSets.main {
         manifest.srcFile 'AndroidManifest.xml'
         java.srcDirs = ['main/java', 'partnerconfig/java']
@@ -38,11 +49,12 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 }
 
 dependencies {
-    implementation "androidx.annotation:annotation:1.0.0"
+    implementation "androidx.annotation:annotation:1.3.0-alpha01"
+    implementation "com.google.errorprone:error_prone_annotations:2.5.1"
 }

@@ -1,9 +1,21 @@
-plugins {
-    id 'com.android.library'
-}
+apply plugin: 'com.android.library'
 
 android {
-    namespace = "com.android.launcher3.icons"
+    compileSdkVersion COMPILE_SDK
+
+    defaultConfig {
+        minSdkVersion 31
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
     sourceSets {
         main {
             java.srcDirs = ['src', 'src_full_lib']
@@ -11,15 +23,27 @@ android {
             res.srcDirs = ['res']
         }
     }
-    lint {
-        abortOnError false
-    }
 
     tasks.withType(JavaCompile) {
         options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+//    afterEvaluate {
+//        generateReleaseBuildConfig.enabled = false
+//        generateDebugBuildConfig.enabled = false
+//    }
 }
 
 dependencies {
-    implementation "androidx.core:core"
+    implementation "androidx.appcompat:appcompat:1.4.0-alpha03"
 }
