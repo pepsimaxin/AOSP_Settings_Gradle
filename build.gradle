@@ -137,7 +137,7 @@ dependencies {
     implementation project(':SettingsLib:SettingsSpinner')
     implementation project(':SettingsLib:SettingsTheme')
     implementation project(':SettingsLib:SettingsTransition')
-    implementation project(':SettingsLib:Spa')
+//    implementation project(':SettingsLib:Spa')
     implementation project(':SettingsLib:SpaPrivileged')
     implementation project(':SettingsLib:Tile')
     implementation project(':SettingsLib:TopIntroPreference')
@@ -145,6 +145,7 @@ dependencies {
     implementation project(':SettingsLib:UsageProgressBarPreference')
     implementation project(':SettingsLib:Utils')
 
+    implementation project(':spa')
 
 
     implementation "com.google.protobuf:protoc:3.8.0"
