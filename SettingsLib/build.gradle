@@ -157,7 +157,7 @@ dependencies {
     implementation project(':SettingsLib:SettingsSpinner')
     implementation project(':SettingsLib:SettingsTheme')
     implementation project(':SettingsLib:SettingsTransition')
-//include ':SettingsLib:Spa'
+    implementation project(':SettingsLib:Spa')
     implementation project(':SettingsLib:SpaPrivileged')
     implementation project(':SettingsLib:Tile')
     implementation project(':SettingsLib:TopIntroPreference')

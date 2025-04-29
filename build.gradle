@@ -100,11 +100,53 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
-    implementation project(':SettingsLib')
+
     implementation project(':WifiTrackerLib')
     implementation project(':iconloaderlib')
     implementation project(':setupdesign')
     implementation project(':setupcompat')
+
+    implementation project(':SettingsLib')
+    implementation project(':SettingsLib:ActionBarShadow')
+    implementation project(':SettingsLib:ActionButtonsPreference')
+    implementation project(':SettingsLib:ActivityEmbedding')
+    implementation project(':SettingsLib:AdaptiveIcon')
+    implementation project(':SettingsLib:AppPreference')
+    implementation project(':SettingsLib:BannerMessagePreference')
+    implementation project(':SettingsLib:BarChartPreference')
+    implementation project(':SettingsLib:ButtonPreference')
+    implementation project(':SettingsLib:CollapsingToolbarBaseActivity')
+    implementation project(':SettingsLib:DeviceStateRotationLock')
+    implementation project(':SettingsLib:DisplayUtils')
+    implementation project(':SettingsLib:EmergencyNumber')
+    implementation project(':SettingsLib:EntityHeaderWidgets')
+    implementation project(':SettingsLib:FooterPreference')
+    implementation project(':SettingsLib:HelpUtils')
+    implementation project(':SettingsLib:IllustrationPreference')
+    implementation project(':SettingsLib:LayoutPreference')
+    implementation project(':SettingsLib:MainSwitchPreference')
+    implementation project(':SettingsLib:ProfileSelector')
+    implementation project(':SettingsLib:ProgressBar')
+    implementation project(':SettingsLib:RadioButtonPreference')
+    implementation project(':SettingsLib:RestrictedLockUtils')
+    implementation project(':SettingsLib:SchedulesProvider')
+//    implementation project(':SettingsLib:Search')
+    implementation project(':SettingsLib:SearchProvider')
+    implementation project(':SettingsLib:SearchWidget')
+    implementation project(':SettingsLib:SelectorWithWidgetPreference')
+    implementation project(':SettingsLib:SettingsSpinner')
+    implementation project(':SettingsLib:SettingsTheme')
+    implementation project(':SettingsLib:SettingsTransition')
+    implementation project(':SettingsLib:Spa')
+    implementation project(':SettingsLib:SpaPrivileged')
+    implementation project(':SettingsLib:Tile')
+    implementation project(':SettingsLib:TopIntroPreference')
+    implementation project(':SettingsLib:TwoTargetPreference')
+    implementation project(':SettingsLib:UsageProgressBarPreference')
+    implementation project(':SettingsLib:Utils')
+
+
+
     implementation "com.google.protobuf:protoc:3.8.0"
     implementation "com.google.protobuf:protobuf-javalite:3.8.0"
 
