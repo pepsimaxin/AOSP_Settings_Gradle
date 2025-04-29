@@ -6,8 +6,8 @@ android {
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {
-        minSdkVersion 21
-        targetSdkVersion 30
+        minSdkVersion 31
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
     }
@@ -44,7 +44,7 @@ android {
 
 dependencies {
 //    compileOnly files('../../libs/framework.jar')
-    implementation "androidx.window:window:1.3.0"
+    compileOnly files('../../libs/window-1.2.0-alpha01.aar')
     implementation project(':SettingsLib:Utils')
     implementation "androidx.core:core:1.9.0"
 }
