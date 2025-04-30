@@ -42,7 +42,7 @@ import java.util.List;
 class BluetoothBroadcastSourcePreference extends Preference {
 
     private static final int RESOURCE_ID_UNKNOWN_PROGRAM_INFO = R.string.device_info_default;
-    private static final int RESOURCE_ID_ICON = R.drawable.settings_input_antenna;
+    private static final int RESOURCE_ID_ICON = com.android.settingslib.R.drawable.settings_input_antenna;
 
     private BluetoothLeBroadcastMetadata mBluetoothLeBroadcastMetadata;
     private BluetoothLeBroadcastReceiveState mBluetoothLeBroadcastReceiveState;

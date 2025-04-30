@@ -66,8 +66,8 @@ public class BackAnimationPreferenceDialog extends InstrumentedDialogFragment
     @NonNull
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         return new AlertDialog.Builder(getActivity())
-                .setTitle(R.string.back_navigation_animation)
-                .setMessage(R.string.back_navigation_animation_dialog)
+                .setTitle(com.android.settingslib.R.string.back_navigation_animation)
+                .setMessage(com.android.settingslib.R.string.back_navigation_animation_dialog)
                 .setPositiveButton(android.R.string.ok, this /* onClickListener */)
                 .create();
     }

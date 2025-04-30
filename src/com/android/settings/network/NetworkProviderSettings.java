@@ -274,7 +274,7 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
             return;
         }
 
-        setPinnedHeaderView(R.layout.progress_header);
+        setPinnedHeaderView(com.android.settingslib.widget.progressbar.R.layout.progress_header);
         setProgressBarVisible(false);
 
         if (hasWifiManager()) {
