@@ -251,10 +251,10 @@ public class FingerprintEnrollmentActivity extends FragmentActivity {
         } else {
             getSupportFragmentManager().beginTransaction()
                     .setReorderingAllowed(true)
-                    .setCustomAnimations(R.anim.shared_x_axis_activity_open_enter_dynamic_color,
-                            R.anim.shared_x_axis_activity_open_exit,
-                            R.anim.shared_x_axis_activity_close_enter_dynamic_color,
-                            R.anim.shared_x_axis_activity_close_exit)
+                    .setCustomAnimations(com.google.android.setupdesign.R.anim.shared_x_axis_activity_open_enter_dynamic_color,
+                            com.google.android.setupdesign.R.anim.shared_x_axis_activity_open_exit,
+                            com.google.android.setupdesign.R.anim.shared_x_axis_activity_close_enter_dynamic_color,
+                            com.google.android.setupdesign.R.anim.shared_x_axis_activity_close_exit)
                     .replace(R.id.fragment_container_view, fragmentClass, null, tag)
                     .addToBackStack(tag)
                     .commit();

@@ -400,7 +400,7 @@ public abstract class BiometricEnrollIntroduction extends BiometricEnrollBase
                 finish();
             }
         } else if (requestCode == LEARN_MORE_REQUEST) {
-            overridePendingTransition(R.anim.sud_slide_back_in, R.anim.sud_slide_back_out);
+            overridePendingTransition(com.google.android.setupdesign.R.anim.sud_slide_back_in, com.google.android.setupdesign.R.anim.sud_slide_back_out);
         } else if (requestCode == ENROLL_NEXT_BIOMETRIC_REQUEST
                 || cameFromMultiBioFpAuthAddAnother) {
             if (isResultFinished(resultCode)) {

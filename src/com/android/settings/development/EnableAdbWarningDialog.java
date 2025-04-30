@@ -50,8 +50,8 @@ public class EnableAdbWarningDialog extends InstrumentedDialogFragment implement
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         return new AlertDialog.Builder(getActivity())
-                .setTitle(R.string.adb_warning_title)
-                .setMessage(R.string.adb_warning_message)
+                .setTitle(com.android.settingslib.R.string.adb_warning_title)
+                .setMessage(com.android.settingslib.R.string.adb_warning_message)
                 .setPositiveButton(android.R.string.ok, this /* onClickListener */)
                 .setNegativeButton(android.R.string.cancel, this /* onClickListener */)
                 .create();

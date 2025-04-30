@@ -742,7 +742,7 @@ public class ChooseLockPattern extends SettingsActivity {
             if (stage == Stage.ConfirmWrong || stage == Stage.ChoiceTooShort) {
                 TypedValue typedValue = new TypedValue();
                 Theme theme = getActivity().getTheme();
-                theme.resolveAttribute(R.attr.colorError, typedValue, true);
+                theme.resolveAttribute(androidx.appcompat.R.attr.colorError, typedValue, true);
                 mHeaderText.setTextColor(typedValue.data);
 
             } else {

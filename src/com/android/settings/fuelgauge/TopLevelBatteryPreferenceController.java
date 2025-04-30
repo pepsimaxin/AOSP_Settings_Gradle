@@ -137,14 +137,14 @@ public class TopLevelBatteryPreferenceController extends BasePreferenceControlle
 
     private CharSequence generateLabel(BatteryInfo info) {
         if (Utils.containsIncompatibleChargers(mContext, TAG)) {
-            return mContext.getString(R.string.battery_info_status_not_charging);
+            return mContext.getString(com.android.settingslib.R.string.battery_info_status_not_charging);
         }
         if (!info.discharging && info.chargeLabel != null) {
             return info.chargeLabel;
         } else if (info.remainingLabel == null) {
             return info.batteryPercentString;
         } else {
-            return mContext.getString(R.string.power_remaining_settings_home_page,
+            return mContext.getString(com.android.settingslib.R.string.power_remaining_settings_home_page,
                     info.batteryPercentString,
                     info.remainingLabel);
         }

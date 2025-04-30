@@ -102,15 +102,15 @@ public class FingerprintEnrollProgressViewModel extends AndroidViewModel {
             mAcquireLiveData.postValue(isAcquiredGood);
         }
 
-        @Override
-        public void onPointerDown(int sensorId) {
-            mPointerDownLiveData.postValue(sensorId);
-        }
-
-        @Override
-        public void onPointerUp(int sensorId) {
-            mPointerUpLiveData.postValue(sensorId);
-        }
+//        @Override
+//        public void onPointerDown(int sensorId) {
+//            mPointerDownLiveData.postValue(sensorId);
+//        }
+//
+//        @Override
+//        public void onPointerUp(int sensorId) {
+//            mPointerUpLiveData.postValue(sensorId);
+//        }
     };
 
     public FingerprintEnrollProgressViewModel(@NonNull Application application,

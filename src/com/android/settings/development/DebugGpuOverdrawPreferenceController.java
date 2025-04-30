@@ -41,8 +41,8 @@ public class DebugGpuOverdrawPreferenceController extends
     public DebugGpuOverdrawPreferenceController(Context context) {
         super(context);
 
-        mListValues = context.getResources().getStringArray(R.array.debug_hw_overdraw_values);
-        mListSummaries = context.getResources().getStringArray(R.array.debug_hw_overdraw_entries);
+        mListValues = context.getResources().getStringArray(com.android.settingslib.R.array.debug_hw_overdraw_values);
+        mListSummaries = context.getResources().getStringArray(com.android.settingslib.R.array.debug_hw_overdraw_entries);
     }
 
     @Override

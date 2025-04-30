@@ -98,11 +98,11 @@ public class MockLocationAppPreferenceController extends DeveloperOptionsPrefere
 
         if (!TextUtils.isEmpty(mockLocationApp)) {
             mPreference.setSummary(
-                    mContext.getResources().getString(R.string.mock_location_app_set,
+                    mContext.getResources().getString(com.android.settingslib.R.string.mock_location_app_set,
                             getAppLabel(mockLocationApp)));
         } else {
             mPreference.setSummary(
-                    mContext.getResources().getString(R.string.mock_location_app_not_set));
+                    mContext.getResources().getString(com.android.settingslib.R.string.mock_location_app_not_set));
         }
     }
 

@@ -41,8 +41,8 @@ public class DebugNonRectClipOperationsPreferenceController extends
     public DebugNonRectClipOperationsPreferenceController(Context context) {
         super(context);
 
-        mListValues = context.getResources().getStringArray(R.array.show_non_rect_clip_values);
-        mListSummaries = context.getResources().getStringArray(R.array.show_non_rect_clip_entries);
+        mListValues = context.getResources().getStringArray(com.android.settingslib.R.array.show_non_rect_clip_values);
+        mListSummaries = context.getResources().getStringArray(com.android.settingslib.R.array.show_non_rect_clip_entries);
     }
 
     @Override
