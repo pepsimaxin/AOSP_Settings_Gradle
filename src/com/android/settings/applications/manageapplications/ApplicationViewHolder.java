@@ -98,7 +98,7 @@ public class ApplicationViewHolder extends RecyclerView.ViewHolder {
                             .inflate(R.layout.preference_widget_primary_switch, widgetFrame, true);
                 }
                 View divider = LayoutInflater.from(parent.getContext()).inflate(
-                        R.layout.preference_two_target_divider, view, false);
+                        com.android.settingslib.widget.preference.twotarget.R.layout.preference_two_target_divider, view, false);
                 // second to last, before widget frame
                 view.addView(divider, view.getChildCount() - 1);
             }
@@ -183,7 +183,7 @@ public class ApplicationViewHolder extends RecyclerView.ViewHolder {
         } else if (!info.enabled || info.enabledSetting
                 == PackageManager.COMPONENT_ENABLED_STATE_DISABLED_UNTIL_USED) {
             mDisabled.setVisibility(View.VISIBLE);
-            mDisabled.setText(R.string.disabled);
+            mDisabled.setText(com.android.settingslib.R.string.disabled);
         } else {
             mDisabled.setVisibility(View.GONE);
         }

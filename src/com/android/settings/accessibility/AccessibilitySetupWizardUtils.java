@@ -53,7 +53,7 @@ class AccessibilitySetupWizardUtils {
         layout.setDividerInsets(Integer.MAX_VALUE, 0);
 
         if (ThemeHelper.shouldApplyMaterialYouStyle(context)) {
-            final LinearLayout headerLayout = layout.findManagedViewById(R.id.sud_layout_header);
+            final LinearLayout headerLayout = layout.findManagedViewById(com.google.android.setupdesign.R.id.sud_layout_header);
             if (headerLayout != null) {
                 headerLayout.setPadding(0, layout.getPaddingTop(), 0,
                         layout.getPaddingBottom());
