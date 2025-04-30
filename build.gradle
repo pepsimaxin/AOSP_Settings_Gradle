@@ -131,7 +131,7 @@ dependencies {
     implementation files('libs/app-usage-event-protos-lite.jar')
     implementation files('libs/battery-event-protos-lite.jar')
     implementation files('libs/battery-usage-slot-protos-lite.jar')
-    implementation files('libs/contextualcards.aar ')
+    implementation fileTree(dir: 'libs-compile', include: ['*.jar', '*.aar'])
     implementation files('libs/development_settings_flag_lib.jar')
     implementation files('libs/factory_reset_flags_lib.jar')
     implementation files('libs/fuelgauge-log-protos-lite.jar')
@@ -207,7 +207,7 @@ dependencies {
         exclude group: "com.android.support"    // 排除掉 com.android.support 组
     }
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
-    annotationProcessor files('libs/CP-SettingsLib-annotation-processor.jar')    // search 生成索引类插件
+//    annotationProcessor files('libs/CP-SettingsLib-annotation-processor.jar')    // search 生成索引类插件
 
     // baseline profile
     implementation "androidx.profileinstaller:profileinstaller:1.3.1"
@@ -228,8 +228,12 @@ dependencies {
     implementation "org.jetbrains.kotlinx:atomicfu:0.26.1"
     implementation "androidx.compose.runtime:runtime-livedata:1.4.0-alpha01"
 
+    implementation "com.google.zxing:core:3.5.3"
 
     implementation "androidx.constraintlayout:constraintlayout:2.2.0"
+//    implementation "androidx.window:window-java:1.3.0"
+    compileOnly files('libs/window-1.2.0-alpha01.aar')
+
 }
 
 //allprojects {
