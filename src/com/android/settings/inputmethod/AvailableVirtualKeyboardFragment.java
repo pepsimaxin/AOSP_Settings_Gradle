@@ -154,8 +154,11 @@ public class AvailableVirtualKeyboardFragment extends DashboardFragment
                 DevicePolicyManager.class).getPermittedInputMethods();
         final Context prefContext = getPrefContext();
         final List<InputMethodInfo> imis = mInputMethodSettingValues.getInputMethodList();
+        // Marco: 需要重新调
+//        final List<InputMethodInfo> enabledImis = getContext().getSystemService(
+//                InputMethodManager.class).getEnabledInputMethodListAsUser(mUserId);
         final List<InputMethodInfo> enabledImis = getContext().getSystemService(
-                InputMethodManager.class).getEnabledInputMethodListAsUser(mUserId);
+                InputMethodManager.class).getEnabledInputMethodListAsUser(UserHandle.getUserHandleForUid(mUserId));
         final int numImis = (imis == null ? 0 : imis.size());
         for (int i = 0; i < numImis; ++i) {
             final InputMethodInfo imi = imis.get(i);

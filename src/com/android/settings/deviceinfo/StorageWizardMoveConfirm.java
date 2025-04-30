@@ -81,20 +81,21 @@ public class StorageWizardMoveConfirm extends StorageWizardBase {
         // Ensure that all users are unlocked so that we can move their data
         if (StorageManager.isFileEncrypted()) {
             for (UserInfo user : getSystemService(UserManager.class).getUsers()) {
-                if (!StorageManager.isUserKeyUnlocked(user.id)) {
-                    Log.d(TAG, "User " + user.id + " is currently locked; requesting unlock");
-                    final CharSequence description = TextUtils.expandTemplate(
-                            getText(R.string.storage_wizard_move_unlock), user.name);
-                    final ChooseLockSettingsHelper.Builder builder =
-                            new ChooseLockSettingsHelper.Builder(this);
-                    builder.setRequestCode(REQUEST_CREDENTIAL)
-                            .setDescription(description)
-                            .setUserId(user.id)
-                            .setForceVerifyPath(true)
-                            .setAllowAnyUserId(true)
-                            .show();
-                    return;
-                }
+                // Marco：需要重新调
+//                if (!StorageManager.isUserKeyUnlocked(user.id)) {
+//                    Log.d(TAG, "User " + user.id + " is currently locked; requesting unlock");
+//                    final CharSequence description = TextUtils.expandTemplate(
+//                            getText(R.string.storage_wizard_move_unlock), user.name);
+//                    final ChooseLockSettingsHelper.Builder builder =
+//                            new ChooseLockSettingsHelper.Builder(this);
+//                    builder.setRequestCode(REQUEST_CREDENTIAL)
+//                            .setDescription(description)
+//                            .setUserId(user.id)
+//                            .setForceVerifyPath(true)
+//                            .setAllowAnyUserId(true)
+//                            .show();
+//                    return;
+//                }
             }
         }
 

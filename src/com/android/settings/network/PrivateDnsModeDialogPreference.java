@@ -157,7 +157,7 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
         final RadioButton offRadioButton = view.findViewById(R.id.private_dns_mode_off);
         offRadioButton.setText(com.android.settingslib.R.string.private_dns_mode_off);
         final RadioButton opportunisticRadioButton =
-                view.findViewById(com.android.settingslib.R.id.private_dns_mode_opportunistic);
+                view.findViewById(R.id.private_dns_mode_opportunistic);
         opportunisticRadioButton.setText(com.android.settingslib.R.string.private_dns_mode_opportunistic);
         final RadioButton providerRadioButton = view.findViewById(R.id.private_dns_mode_provider);
         providerRadioButton.setText(com.android.settingslib.R.string.private_dns_mode_provider);

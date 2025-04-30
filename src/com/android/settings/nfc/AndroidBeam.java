@@ -105,7 +105,9 @@ public class AndroidBeam extends InstrumentedFragment
         if (mBeamDisallowedByOnlyAdmin) {
             mSwitchBar.hide();
         } else {
-            mSwitchBar.setChecked(!mBeamDisallowedByBase && mNfcAdapter.isNdefPushEnabled());
+            // Marco: 需要重新调
+//            mSwitchBar.setChecked(!mBeamDisallowedByBase && mNfcAdapter.isNdefPushEnabled());
+            mSwitchBar.setChecked(!mBeamDisallowedByBase);
             mSwitchBar.addOnSwitchChangeListener(this);
             mSwitchBar.setEnabled(!mBeamDisallowedByBase);
             mSwitchBar.show();
@@ -130,11 +132,12 @@ public class AndroidBeam extends InstrumentedFragment
     public void onSwitchChanged(Switch switchView, boolean desiredState) {
         boolean success = false;
         mSwitchBar.setEnabled(false);
-        if (desiredState) {
-            success = mNfcAdapter.enableNdefPush();
-        } else {
-            success = mNfcAdapter.disableNdefPush();
-        }
+        // Marco: 需要重新调
+//        if (desiredState) {
+//            success = mNfcAdapter.enableNdefPush();
+//        } else {
+//            success = mNfcAdapter.disableNdefPush();
+//        }
         if (success) {
             mSwitchBar.setChecked(desiredState);
         }

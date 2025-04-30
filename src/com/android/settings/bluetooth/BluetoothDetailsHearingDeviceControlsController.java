@@ -51,8 +51,10 @@ public class BluetoothDetailsHearingDeviceControlsController extends BluetoothDe
 
     @Override
     public boolean isAvailable() {
-        return mCachedDevice.isHearingAidDevice() && FeatureFlagUtils.isEnabled(mContext,
-                FeatureFlagUtils.SETTINGS_ACCESSIBILITY_HEARING_AID_PAGE);
+//        return mCachedDevice.isHearingAidDevice() && FeatureFlagUtils.isEnabled(mContext,
+//                FeatureFlagUtils.SETTINGS_ACCESSIBILITY_HEARING_AID_PAGE);
+        // Marco: 需要重新调
+        return true;
     }
 
     @Override

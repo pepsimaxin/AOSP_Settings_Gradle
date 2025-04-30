@@ -69,11 +69,12 @@ public class PaymentSettingsEnabler extends BaseNfcEnabler {
         if (!isNfcAvailable()) {
             return;
         }
-        if (mCardEmuManager.getServices(CardEmulation.CATEGORY_PAYMENT).isEmpty()) {
-            mIsPaymentAvailable = false;
-        } else {
-            mIsPaymentAvailable = true;
-        }
+        // Marco: 需要重新调
+//        if (mCardEmuManager.getServices(CardEmulation.CATEGORY_PAYMENT).isEmpty()) {
+//            mIsPaymentAvailable = false;
+//        } else {
+//            mIsPaymentAvailable = true;
+//        }
         super.resume();
     }
 }

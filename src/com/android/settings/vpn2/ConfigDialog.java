@@ -499,13 +499,14 @@ class ConfigDialog extends AlertDialog implements TextWatcher,
                     address = parts[0];
                     prefixLength = Integer.parseInt(parts[1]);
                 }
-                byte[] bytes = InetAddress.parseNumericAddress(address).getAddress();
-                int integer = (bytes[3] & 0xFF) | (bytes[2] & 0xFF) << 8 |
-                        (bytes[1] & 0xFF) << 16 | (bytes[0] & 0xFF) << 24;
-                if (bytes.length != 4 || prefixLength < 0 || prefixLength > 32 ||
-                        (prefixLength < 32 && (integer << prefixLength) != 0)) {
-                    return false;
-                }
+                // Marco: 需要重新调
+//                byte[] bytes = InetAddress.parseNumericAddress(address).getAddress();
+//                int integer = (bytes[3] & 0xFF) | (bytes[2] & 0xFF) << 8 |
+//                        (bytes[1] & 0xFF) << 16 | (bytes[0] & 0xFF) << 24;
+//                if (bytes.length != 4 || prefixLength < 0 || prefixLength > 32 ||
+//                        (prefixLength < 32 && (integer << prefixLength) != 0)) {
+//                    return false;
+//                }
             }
         } catch (Exception e) {
             return false;

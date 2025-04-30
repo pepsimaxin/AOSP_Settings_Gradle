@@ -20,6 +20,7 @@ import android.content.Context;
 import android.hardware.input.InputDeviceIdentifier;
 import android.hardware.input.InputManager;
 import android.hardware.input.KeyboardLayout;
+import android.os.UserHandle;
 import android.view.InputDevice;
 import android.view.inputmethod.InputMethodInfo;
 import android.view.inputmethod.InputMethodManager;
@@ -61,7 +62,9 @@ public class NewKeyboardSettingsUtils {
 
     static List<String> getSuitableImeLabels(Context context, InputMethodManager imm, int userId) {
         List<String> suitableInputMethodInfoLabels = new ArrayList<>();
-        List<InputMethodInfo> infoList = imm.getEnabledInputMethodListAsUser(userId);
+        // Marco: 需要重新调
+//        List<InputMethodInfo> infoList = imm.getEnabledInputMethodListAsUser(userId);
+        List<InputMethodInfo> infoList = imm.getEnabledInputMethodListAsUser(UserHandle.getUserHandleForUid(userId));
         for (InputMethodInfo info : infoList) {
             List<InputMethodSubtype> subtypes =
                     imm.getEnabledInputMethodSubtypeList(info, true);
@@ -125,6 +128,8 @@ public class NewKeyboardSettingsUtils {
 
     static String getKeyboardLayout(InputManager inputManager, int userId,
             InputDeviceIdentifier identifier, InputMethodInfo info, InputMethodSubtype subtype) {
-        return inputManager.getKeyboardLayoutForInputDevice(identifier, userId, info, subtype);
+        // Marco: 需要重新调
+        return null;
+//        return inputManager.getKeyboardLayoutForInputDevice(identifier, userId, info, subtype);
     }
 }

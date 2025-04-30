@@ -890,7 +890,8 @@ public class ChooseLockPattern extends SettingsActivity {
             mChosenPattern = chosenPattern;
             mUserId = userId;
 
-            mLockVirgin = !mUtils.isPatternEverChosen(mUserId);
+            // Marco: SDK API 需要重新调
+//            mLockVirgin = !mUtils.isPatternEverChosen(mUserId);
 
             start();
         }

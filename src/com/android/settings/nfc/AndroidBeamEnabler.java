@@ -62,11 +62,12 @@ public class AndroidBeamEnabler extends BaseNfcEnabler {
                 } else {
                     mPreference.checkRestrictionAndSetDisabled(UserManager.DISALLOW_OUTGOING_BEAM);
                 }
-                if (mNfcAdapter.isNdefPushEnabled() && mPreference.isEnabled()) {
-                    mPreference.setSummary(R.string.android_beam_on_summary);
-                } else {
-                    mPreference.setSummary(R.string.android_beam_off_summary);
-                }
+                // Marco: 需要重新调
+//                if (mNfcAdapter.isNdefPushEnabled() && mPreference.isEnabled()) {
+//                    mPreference.setSummary(R.string.android_beam_on_summary);
+//                } else {
+//                    mPreference.setSummary(R.string.android_beam_off_summary);
+//                }
                 break;
             case NfcAdapter.STATE_TURNING_ON:
                 mPreference.setEnabled(false);

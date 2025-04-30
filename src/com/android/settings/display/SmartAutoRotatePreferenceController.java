@@ -169,7 +169,8 @@ public class SmartAutoRotatePreferenceController extends TogglePreferenceControl
         final boolean isLocked = !isChecked;
         mMetricsFeatureProvider.action(mContext, SettingsEnums.ACTION_ROTATION_LOCK,
                 isLocked);
-        RotationPolicy.setRotationLock(mContext, isLocked);
+        // Marco: 需要重新调
+//        RotationPolicy.setRotationLock(mContext, isLocked);
         return true;
     }
 

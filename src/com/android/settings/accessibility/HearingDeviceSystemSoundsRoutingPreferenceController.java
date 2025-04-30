@@ -43,15 +43,17 @@ public class HearingDeviceSystemSoundsRoutingPreferenceController extends
 
     @Override
     protected void saveRoutingValue(Context context, int routingValue) {
-        Settings.Secure.putInt(context.getContentResolver(),
-                Settings.Secure.HEARING_AID_SYSTEM_SOUNDS_ROUTING, routingValue);
+        // Marco: 需要重新调
+//        Settings.Secure.putInt(context.getContentResolver(),
+//                Settings.Secure.HEARING_AID_SYSTEM_SOUNDS_ROUTING, routingValue);
 
     }
 
     @Override
     protected int restoreRoutingValue(Context context) {
-        return Settings.Secure.getInt(context.getContentResolver(),
-                Settings.Secure.HEARING_AID_SYSTEM_SOUNDS_ROUTING,
-                HearingAidAudioRoutingConstants.RoutingValue.AUTO);
+        // Marco: 需要重新调
+//        return Settings.Secure.getInt(context.getContentResolver(),
+//                Settings.Secure.HEARING_AID_SYSTEM_SOUNDS_ROUTING,
+//                HearingAidAudioRoutingConstants.RoutingValue.AUTO);
     }
 }

@@ -713,8 +713,9 @@ public class ChooseLockPassword extends SettingsActivity {
         @VisibleForTesting
         boolean validatePassword(LockscreenCredential credential) {
             final byte[] password = credential.getCredential();
-            mValidationErrors = PasswordMetrics.validatePassword(
-                    mMinMetrics, mMinComplexity, !mIsAlphaMode, password);
+            // Marco: 需要重新调
+//            mValidationErrors = PasswordMetrics.validatePassword(
+//                    mMinMetrics, mMinComplexity, !mIsAlphaMode, password);
             if (mValidationErrors.isEmpty() &&  mLockPatternUtils.checkPasswordHistory(
                         password, getPasswordHistoryHashFactor(), mUserId)) {
                 mValidationErrors =

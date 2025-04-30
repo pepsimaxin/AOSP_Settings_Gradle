@@ -529,8 +529,10 @@ public abstract class DevelopmentTiles extends TileService {
 
         @Override
         protected boolean isEnabled() {
-            return Settings.System.getInt(mContext.getContentResolver(),
-                    Settings.System.DESKTOP_MODE, SETTING_VALUE_OFF) == SETTING_VALUE_ON;
+            // Marco: 需要重新调
+//            return Settings.System.getInt(mContext.getContentResolver(),
+//                    Settings.System.DESKTOP_MODE, SETTING_VALUE_OFF) == SETTING_VALUE_ON;
+            return true;
         }
 
         private boolean isDesktopModeFlagEnabled() {
@@ -570,9 +572,10 @@ public abstract class DevelopmentTiles extends TileService {
                 }
             }
 
-            Settings.System.putInt(mContext.getContentResolver(),
-                    Settings.System.DESKTOP_MODE,
-                    isEnabled ? SETTING_VALUE_ON : SETTING_VALUE_OFF);
+            // Marco: 需要重新调
+//            Settings.System.putInt(mContext.getContentResolver(),
+//                    Settings.System.DESKTOP_MODE,
+//                    isEnabled ? SETTING_VALUE_ON : SETTING_VALUE_OFF);
             closeShade();
         }
 

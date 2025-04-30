@@ -50,17 +50,19 @@ public class FaceUpdater {
     /** Wrapper around the {@link FaceManager#enroll} method. */
     public void enroll(int userId, byte[] hardwareAuthToken, CancellationSignal cancel,
             FaceManager.EnrollmentCallback callback, int[] disabledFeatures) {
-        mFaceManager.enroll(userId, hardwareAuthToken, cancel,
-                new NotifyingEnrollmentCallback(mContext, callback), disabledFeatures);
+        // Marco: SDK API 需要重新调
+//        mFaceManager.enroll(userId, hardwareAuthToken, cancel,
+//                new NotifyingEnrollmentCallback(mContext, callback), disabledFeatures);
     }
 
     /** Wrapper around the {@link FaceManager#enroll} method. */
     public void enroll(int userId, byte[] hardwareAuthToken, CancellationSignal cancel,
             FaceManager.EnrollmentCallback callback, int[] disabledFeatures,
             @Nullable Surface previewSurface, boolean debugConsent) {
-        mFaceManager.enroll(userId, hardwareAuthToken, cancel,
-                new NotifyingEnrollmentCallback(mContext, callback), disabledFeatures,
-                previewSurface, debugConsent);
+        // Marco: SDK API 需要重新调
+//        mFaceManager.enroll(userId, hardwareAuthToken, cancel,
+//                new NotifyingEnrollmentCallback(mContext, callback), disabledFeatures,
+//                previewSurface, debugConsent);
     }
 
     /** Wrapper around the {@link FaceManager#remove} method. */

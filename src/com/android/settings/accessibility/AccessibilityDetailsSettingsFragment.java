@@ -115,12 +115,13 @@ public class AccessibilityDetailsSettingsFragment extends InstrumentedFragment {
             return new LaunchFragmentArguments(destination, /* arguments= */ null);
         }
 
-        if (ACCESSIBILITY_HEARING_AIDS_COMPONENT_NAME.equals(componentName)
-                && FeatureFlagUtils.isEnabled(getContext(),
-                FeatureFlagUtils.SETTINGS_ACCESSIBILITY_HEARING_AID_PAGE)) {
-            final String destination = AccessibilityHearingAidsFragment.class.getName();
-            return new LaunchFragmentArguments(destination, /* arguments= */ null);
-        }
+        // Marco: 需要重新调
+//        if (ACCESSIBILITY_HEARING_AIDS_COMPONENT_NAME.equals(componentName)
+//                && FeatureFlagUtils.isEnabled(getContext(),
+//                FeatureFlagUtils.SETTINGS_ACCESSIBILITY_HEARING_AID_PAGE)) {
+//            final String destination = AccessibilityHearingAidsFragment.class.getName();
+//            return new LaunchFragmentArguments(destination, /* arguments= */ null);
+//        }
 
         return null;
     }

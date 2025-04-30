@@ -45,10 +45,11 @@ public class AppCheckBoxPreference extends CheckBoxPreference {
     public void onBindViewHolder(PreferenceViewHolder holder) {
         super.onBindViewHolder(holder);
 
-        final LinearLayout layout = (LinearLayout) holder.findViewById(R.id.summary_container);
-        if (layout != null) {
-            // If summary doesn't exist, make it gone
-            layout.setVisibility(TextUtils.isEmpty(getSummary()) ? View.GONE : View.VISIBLE);
-        }
+        // Marco：需要重新调
+//        final LinearLayout layout = (LinearLayout) holder.findViewById(R.id.summary_container);
+//        if (layout != null) {
+//            // If summary doesn't exist, make it gone
+//            layout.setVisibility(TextUtils.isEmpty(getSummary()) ? View.GONE : View.VISIBLE);
+//        }
     }
 }

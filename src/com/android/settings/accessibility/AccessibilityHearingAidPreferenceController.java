@@ -117,11 +117,12 @@ public class AccessibilityHearingAidPreferenceController extends BasePreferenceC
     public boolean handlePreferenceTreeClick(Preference preference) {
         if (TextUtils.equals(preference.getKey(), getPreferenceKey())) {
             final CachedBluetoothDevice device = mHelper.getConnectedHearingAidDevice();
-            if (FeatureFlagUtils.isEnabled(mContext,
-                    FeatureFlagUtils.SETTINGS_ACCESSIBILITY_HEARING_AID_PAGE)) {
-                launchHearingAidPage();
-                return true;
-            }
+            // Marco: 需要重新调
+//            if (FeatureFlagUtils.isEnabled(mContext,
+//                    FeatureFlagUtils.SETTINGS_ACCESSIBILITY_HEARING_AID_PAGE)) {
+//                launchHearingAidPage();
+//                return true;
+//            }
             if (device == null) {
                 launchHearingAidInstructionDialog();
             } else {
