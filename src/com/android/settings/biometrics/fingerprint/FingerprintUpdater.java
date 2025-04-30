@@ -49,8 +49,10 @@ public class FingerprintUpdater {
     public void enroll(byte [] hardwareAuthToken, CancellationSignal cancel, int userId,
             FingerprintManager.EnrollmentCallback callback,
             @FingerprintManager.EnrollReason int enrollReason) {
-        mFingerprintManager.enroll(hardwareAuthToken, cancel, userId,
-                new NotifyingEnrollmentCallback(mContext, callback), enrollReason);
+        // Marco: 这里有问题，sdk 问题，需要改
+//        mFingerprintManager.enroll(hardwareAuthToken, cancel, userId,
+//                new NotifyingEnrollmentCallback(mContext, callback), enrollReason);
+
     }
 
     /** Wrapper around the {@link FingerprintManager#remove} method. */
@@ -97,15 +99,15 @@ public class FingerprintUpdater {
             mCallback.onAcquired(isAcquiredGood);
         }
 
-        @Override
-        public void onPointerDown(int sensorId) {
-            mCallback.onPointerDown(sensorId);
-        }
-
-        @Override
-        public void onPointerUp(int sensorId) {
-            mCallback.onPointerUp(sensorId);
-        }
+//        @Override
+//        public void onPointerDown(int sensorId) {
+//            mCallback.onPointerDown(sensorId);
+//        }
+//
+//        @Override
+//        public void onPointerUp(int sensorId) {
+//            mCallback.onPointerUp(sensorId);
+//        }
     }
 
     /**

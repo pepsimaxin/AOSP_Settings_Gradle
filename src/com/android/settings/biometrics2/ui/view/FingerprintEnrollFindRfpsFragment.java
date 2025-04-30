@@ -118,7 +118,7 @@ public class FingerprintEnrollFindRfpsFragment extends Fragment {
                 new FooterButton.Builder(context)
                         .setText(R.string.security_settings_fingerprint_enroll_enrolling_skip)
                         .setButtonType(FooterButton.ButtonType.SKIP)
-                        .setTheme(R.style.SudGlifButton_Secondary)
+                        .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Secondary)
                         .build()
         );
         View animationView = mView.findViewById(R.id.fingerprint_sensor_location_animation);

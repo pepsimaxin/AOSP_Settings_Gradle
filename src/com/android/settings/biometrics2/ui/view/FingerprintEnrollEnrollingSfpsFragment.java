@@ -187,7 +187,7 @@ public class FingerprintEnrollEnrollingSfpsFragment extends Fragment {
                         .setText(R.string.security_settings_fingerprint_enroll_enrolling_skip)
                         .setListener(mOnSkipClickListener)
                         .setButtonType(FooterButton.ButtonType.SKIP)
-                        .setTheme(R.style.SudGlifButton_Secondary)
+                        .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Secondary)
                         .build()
         );
 

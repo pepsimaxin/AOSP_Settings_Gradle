@@ -496,7 +496,7 @@ public class ChooseLockPassword extends SettingsActivity {
                             .setText(R.string.lockpassword_clear_label)
                             .setListener(this::onSkipOrClearButtonClick)
                             .setButtonType(FooterButton.ButtonType.SKIP)
-                            .setTheme(R.style.SudGlifButton_Secondary)
+                            .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Secondary)
                             .build()
             );
             mixin.setPrimaryButton(
@@ -504,7 +504,7 @@ public class ChooseLockPassword extends SettingsActivity {
                             .setText(R.string.next_label)
                             .setListener(this::onNextButtonClick)
                             .setButtonType(FooterButton.ButtonType.NEXT)
-                            .setTheme(R.style.SudGlifButton_Primary)
+                            .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Primary)
                             .build()
             );
             mSkipOrClearButton = mixin.getSecondaryButton();

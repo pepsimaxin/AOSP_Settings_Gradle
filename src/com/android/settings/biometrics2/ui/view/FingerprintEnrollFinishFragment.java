@@ -86,7 +86,7 @@ public class FingerprintEnrollFinishFragment extends Fragment {
                                 : R.string.security_settings_fingerprint_enroll_done)
                         .setListener(mNextButtonClickListener)
                         .setButtonType(FooterButton.ButtonType.NEXT)
-                        .setTheme(R.style.SudGlifButton_Primary)
+                        .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Primary)
                         .build()
         );
         if (mViewModel.isAnotherFingerprintEnrollable()) {
@@ -94,7 +94,7 @@ public class FingerprintEnrollFinishFragment extends Fragment {
                     .setText(R.string.fingerprint_enroll_button_add)
                     .setListener(mAddButtonClickListener)
                     .setButtonType(FooterButton.ButtonType.SKIP)
-                    .setTheme(R.style.SudGlifButton_Secondary)
+                    .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Secondary)
                     .build());
         }
 

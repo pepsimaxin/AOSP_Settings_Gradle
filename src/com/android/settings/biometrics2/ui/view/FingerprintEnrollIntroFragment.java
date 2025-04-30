@@ -131,11 +131,11 @@ public class FingerprintEnrollIntroFragment extends Fragment {
         mPrimaryFooterButton = new FooterButton.Builder(context)
                 .setText(R.string.security_settings_fingerprint_enroll_introduction_agree)
                 .setButtonType(FooterButton.ButtonType.OPT_IN)
-                .setTheme(R.style.SudGlifButton_Primary)
+                .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Primary)
                 .build();
         mSecondaryFooterButton = new FooterButton.Builder(context)
                 .setButtonType(FooterButton.ButtonType.NEXT)
-                .setTheme(R.style.SudGlifButton_Primary)
+                .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Primary)
                 .build();
         getFooterBarMixin().setPrimaryButton(mPrimaryFooterButton);
         getFooterBarMixin().setSecondaryButton(mSecondaryFooterButton, true /* usePrimaryStyle */);

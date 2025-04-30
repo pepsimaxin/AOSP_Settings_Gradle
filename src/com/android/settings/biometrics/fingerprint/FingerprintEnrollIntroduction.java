@@ -406,7 +406,7 @@ public class FingerprintEnrollIntroduction extends BiometricEnrollIntroduction {
                     .setText(R.string.security_settings_fingerprint_enroll_introduction_agree)
                     .setListener(this::onNextButtonClick)
                     .setButtonType(FooterButton.ButtonType.OPT_IN)
-                    .setTheme(R.style.SudGlifButton_Primary)
+                    .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Primary)
                     .build();
         }
         return mPrimaryFooterButton;
@@ -420,7 +420,7 @@ public class FingerprintEnrollIntroduction extends BiometricEnrollIntroduction {
                     .setText(getNegativeButtonTextId())
                     .setListener(this::onSkipButtonClick)
                     .setButtonType(FooterButton.ButtonType.NEXT)
-                    .setTheme(R.style.SudGlifButton_Primary)
+                    .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Primary)
                     .build();
         }
         return mSecondaryFooterButton;
