@@ -41,8 +41,8 @@ public class BackgroundProcessLimitPreferenceController extends
     public BackgroundProcessLimitPreferenceController(Context context) {
         super(context);
 
-        mListValues = context.getResources().getStringArray(R.array.app_process_limit_values);
-        mListSummaries = context.getResources().getStringArray(R.array.app_process_limit_entries);
+        mListValues = context.getResources().getStringArray(com.android.settingslib.R.array.app_process_limit_values);
+        mListSummaries = context.getResources().getStringArray(com.android.settingslib.R.array.app_process_limit_entries);
     }
 
     @Override

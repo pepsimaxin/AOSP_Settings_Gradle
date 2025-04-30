@@ -366,23 +366,23 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
                         .build()
         );
 
-        if (FeatureFlagUtils.isEnabled(getApplicationContext(),
-                FeatureFlagUtils.SETTINGS_SHOW_UDFPS_ENROLL_IN_SETTINGS)) {
-            // Remove the space view and make the width of footer button container WRAP_CONTENT
-            // to avoid hiding the udfps view progress bar bottom.
-            final LinearLayout buttonContainer = mFooterBarMixin.getButtonContainer();
-            View spaceView = null;
-            for (int i = 0; i < buttonContainer.getChildCount(); i++) {
-                if (!(buttonContainer.getChildAt(i) instanceof FooterActionButton)) {
-                    spaceView = buttonContainer.getChildAt(i);
-                    break;
-                }
-            }
-            if (spaceView != null) {
-                spaceView.setVisibility(View.GONE);
-                buttonContainer.getLayoutParams().width = ViewGroup.LayoutParams.WRAP_CONTENT;
-            }
-        }
+//        if (FeatureFlagUtils.isEnabled(getApplicationContext(),
+//                FeatureFlagUtils.SETTINGS_SHOW_UDFPS_ENROLL_IN_SETTINGS)) {
+//            // Remove the space view and make the width of footer button container WRAP_CONTENT
+//            // to avoid hiding the udfps view progress bar bottom.
+//            final LinearLayout buttonContainer = mFooterBarMixin.getButtonContainer();
+//            View spaceView = null;
+//            for (int i = 0; i < buttonContainer.getChildCount(); i++) {
+//                if (!(buttonContainer.getChildAt(i) instanceof FooterActionButton)) {
+//                    spaceView = buttonContainer.getChildAt(i);
+//                    break;
+//                }
+//            }
+//            if (spaceView != null) {
+//                spaceView.setVisibility(View.GONE);
+//                buttonContainer.getLayoutParams().width = ViewGroup.LayoutParams.WRAP_CONTENT;
+//            }
+//        }
 
         final LayerDrawable fingerprintDrawable = mProgressBar != null
                 ? (LayerDrawable) mProgressBar.getBackground() : null;
@@ -1288,8 +1288,8 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
             return false;
         };
 
-        enrollLayout.findManagedViewById(isLandscape ? R.id.sud_landscape_content_area
-                : R.id.sud_layout_content).setOnHoverListener(onHoverListener);
+        enrollLayout.findManagedViewById(isLandscape ? com.google.android.setupdesign.R.id.sud_landscape_content_area
+                : com.google.android.setupdesign.R.id.sud_layout_content).setOnHoverListener(onHoverListener);
     }
 
 

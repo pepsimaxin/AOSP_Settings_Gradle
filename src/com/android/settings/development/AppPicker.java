@@ -168,7 +168,7 @@ public class AppPicker extends ListActivity {
             Collections.sort(mPackageInfoList, sDisplayNameComparator);
             if (mIncludeNothing) {
                 MyApplicationInfo info = new MyApplicationInfo();
-                info.label = context.getText(R.string.no_application);
+                info.label = context.getText(com.android.settingslib.R.string.no_application);
                 mPackageInfoList.add(0, info);
             }
             addAll(mPackageInfoList);

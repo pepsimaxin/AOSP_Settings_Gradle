@@ -55,8 +55,8 @@ public class DisableLogPersistWarningDialog extends InstrumentedDialogFragment i
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         return new AlertDialog.Builder(getActivity())
-                .setTitle(R.string.dev_logpersist_clear_warning_title)
-                .setMessage(R.string.dev_logpersist_clear_warning_message)
+                .setTitle(com.android.settingslib.R.string.dev_logpersist_clear_warning_title)
+                .setMessage(com.android.settingslib.R.string.dev_logpersist_clear_warning_message)
                 .setPositiveButton(android.R.string.ok, this /* onClickListener */)
                 .setNegativeButton(android.R.string.cancel, this /* onClickListener */)
                 .create();

@@ -446,7 +446,7 @@ public class FingerprintEnrollmentActivity extends FragmentActivity {
         }
         if (mAutoCredentialViewModel.checkNewCredentialFromActivityResult(
                 isChooseLock, activityResult)) {
-            overridePendingTransition(R.anim.sud_slide_next_in, R.anim.sud_slide_next_out);
+            overridePendingTransition(com.google.android.setupdesign.R.anim.sud_slide_next_in, com.google.android.setupdesign.R.anim.sud_slide_next_out);
         } else {
             onSetActivityResult(activityResult);
         }

@@ -46,8 +46,8 @@ public class HdcpCheckingPreferenceController extends DeveloperOptionsPreference
     public HdcpCheckingPreferenceController(Context context) {
         super(context);
 
-        mListValues = mContext.getResources().getStringArray(R.array.hdcp_checking_values);
-        mListSummaries = mContext.getResources().getStringArray(R.array.hdcp_checking_summaries);
+        mListValues = mContext.getResources().getStringArray(com.android.settingslib.R.array.hdcp_checking_values);
+        mListSummaries = mContext.getResources().getStringArray(com.android.settingslib.R.array.hdcp_checking_summaries);
     }
 
     @Override

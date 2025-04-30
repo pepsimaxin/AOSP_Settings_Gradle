@@ -43,8 +43,8 @@ public class BluetoothAvrcpVersionPreferenceController extends DeveloperOptionsP
     public BluetoothAvrcpVersionPreferenceController(Context context) {
         super(context);
 
-        mListValues = context.getResources().getStringArray(R.array.bluetooth_avrcp_version_values);
-        mListSummaries = context.getResources().getStringArray(R.array.bluetooth_avrcp_versions);
+        mListValues = context.getResources().getStringArray(com.android.settingslib.R.array.bluetooth_avrcp_version_values);
+        mListSummaries = context.getResources().getStringArray(com.android.settingslib.R.array.bluetooth_avrcp_versions);
     }
 
     @Override

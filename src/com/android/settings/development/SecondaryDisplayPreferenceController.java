@@ -38,9 +38,9 @@ public class SecondaryDisplayPreferenceController extends DeveloperOptionsPrefer
     public SecondaryDisplayPreferenceController(Context context) {
         super(context);
 
-        mListValues = context.getResources().getStringArray(R.array.overlay_display_devices_values);
+        mListValues = context.getResources().getStringArray(com.android.settingslib.R.array.overlay_display_devices_values);
         mListSummaries = context.getResources().getStringArray(
-                R.array.overlay_display_devices_entries);
+                com.android.settingslib.R.array.overlay_display_devices_entries);
     }
 
     @Override

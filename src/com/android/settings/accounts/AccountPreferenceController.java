@@ -352,7 +352,7 @@ public class AccountPreferenceController extends AbstractPreferenceController
         } else if (userInfo.isManagedProfile()) {
             if (mType == ProfileSelectFragment.ProfileType.ALL) {
                 setCategoryTitleFromDevicePolicyResource(preferenceGroup, WORK_CATEGORY_HEADER,
-                        R.string.category_work);
+                        com.android.settingslib.R.string.category_work);
                 final String workGroupSummary = getWorkGroupSummary(context, userInfo);
                 preferenceGroup.setSummary(workGroupSummary);
                 setContentDescriptionFromDevicePolicyResource(preferenceGroup,

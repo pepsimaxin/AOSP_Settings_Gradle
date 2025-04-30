@@ -43,9 +43,9 @@ public class ColorModePreference extends SwitchPreference implements DisplayList
 
         List<ColorModeDescription> colorModeDescriptions = new ArrayList<>();
         Resources resources = context.getResources();
-        int[] colorModes = resources.getIntArray(R.array.color_mode_ids);
-        String[] titles = resources.getStringArray(R.array.color_mode_names);
-        String[] descriptions = resources.getStringArray(R.array.color_mode_descriptions);
+        int[] colorModes = resources.getIntArray(com.android.settingslib.R.array.color_mode_ids);
+        String[] titles = resources.getStringArray(com.android.settingslib.R.array.color_mode_names);
+        String[] descriptions = resources.getStringArray(com.android.settingslib.R.array.color_mode_descriptions);
         // Map the resource information describing color modes.
         for (int i = 0; i < colorModes.length; i++) {
             if (colorModes[i] != -1 && i != 1 /* Skip Natural for now. */) {

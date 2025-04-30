@@ -173,7 +173,7 @@ public class AppFilterRegistry {
         mFilters[FILTER_APPS_WORK] = new AppFilterItem(
                 ApplicationsState.FILTER_WORK,
                 FILTER_APPS_WORK,
-                R.string.category_work);
+                com.android.settingslib.R.string.category_work);
 
         // Usage access screen, never displayed.
         mFilters[FILTER_APPS_USAGE_ACCESS] = new AppFilterItem(

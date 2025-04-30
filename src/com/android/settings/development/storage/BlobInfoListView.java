@@ -83,7 +83,7 @@ public class BlobInfoListView extends ListActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == SharedDataUtils.LEASE_VIEW_REQUEST_CODE
                 && resultCode == SharedDataUtils.LEASE_VIEW_RESULT_CODE_FAILURE) {
-            Toast.makeText(this, R.string.shared_data_delete_failure_text, Toast.LENGTH_LONG)
+            Toast.makeText(this, com.android.settingslib.R.string.shared_data_delete_failure_text, Toast.LENGTH_LONG)
                     .show();
         }
         // do nothing on LEASE_VIEW_RESULT_CODE_SUCCESS since data is updated in onResume()
@@ -103,7 +103,7 @@ public class BlobInfoListView extends ListActivity {
 
     private void showDeleteBlobDialog(BlobInfo blob) {
         final AlertDialog dialog = new AlertDialog.Builder(mContext)
-                .setMessage(R.string.shared_data_no_accessors_dialog_text)
+                .setMessage(com.android.settingslib.R.string.shared_data_no_accessors_dialog_text)
                 .setPositiveButton(android.R.string.ok, getDialogOnClickListener(blob))
                 .setNegativeButton(android.R.string.cancel, null)
                 .create();

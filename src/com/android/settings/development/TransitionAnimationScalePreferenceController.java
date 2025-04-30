@@ -50,9 +50,9 @@ public class TransitionAnimationScalePreferenceController extends
         mWindowManager = IWindowManager.Stub.asInterface(
                 ServiceManager.getService(Context.WINDOW_SERVICE));
         mListValues = context.getResources().getStringArray(
-                R.array.transition_animation_scale_values);
+                com.android.settingslib.R.array.transition_animation_scale_values);
         mListSummaries = context.getResources().getStringArray(
-                R.array.transition_animation_scale_entries);
+                com.android.settingslib.R.array.transition_animation_scale_entries);
     }
 
     @Override

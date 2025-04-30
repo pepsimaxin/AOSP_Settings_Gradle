@@ -62,9 +62,9 @@ public class LocalBackupPasswordPreferenceController extends DeveloperOptionsPre
         }
         try {
             if (mBackupManager.hasBackupPassword()) {
-                preference.setSummary(R.string.local_backup_password_summary_change);
+                preference.setSummary(com.android.settingslib.R.string.local_backup_password_summary_change);
             } else {
-                preference.setSummary(R.string.local_backup_password_summary_none);
+                preference.setSummary(com.android.settingslib.R.string.local_backup_password_summary_none);
             }
         } catch (RemoteException e) {
             // Not much we can do here

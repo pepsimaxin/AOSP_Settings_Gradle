@@ -49,9 +49,9 @@ public class WindowAnimationScalePreferenceController extends
 
         mWindowManager = IWindowManager.Stub.asInterface(
                 ServiceManager.getService(Context.WINDOW_SERVICE));
-        mListValues = context.getResources().getStringArray(R.array.window_animation_scale_values);
+        mListValues = context.getResources().getStringArray(com.android.settingslib.R.array.window_animation_scale_values);
         mListSummaries = context.getResources().getStringArray(
-                R.array.window_animation_scale_entries);
+                com.android.settingslib.R.array.window_animation_scale_entries);
     }
 
     @Override

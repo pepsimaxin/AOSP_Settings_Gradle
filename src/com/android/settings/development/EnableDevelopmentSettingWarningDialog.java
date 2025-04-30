@@ -51,8 +51,8 @@ public class EnableDevelopmentSettingWarningDialog extends InstrumentedDialogFra
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         return new AlertDialog.Builder(getActivity())
-                .setMessage(R.string.dev_settings_warning_message)
-                .setTitle(R.string.dev_settings_warning_title)
+                .setMessage(com.android.settingslib.R.string.dev_settings_warning_message)
+                .setTitle(com.android.settingslib.R.string.dev_settings_warning_title)
                 .setPositiveButton(android.R.string.ok, this)
                 .setNegativeButton(android.R.string.cancel, this)
                 .create();

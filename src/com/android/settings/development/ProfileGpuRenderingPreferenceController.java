@@ -40,8 +40,8 @@ public class ProfileGpuRenderingPreferenceController extends DeveloperOptionsPre
     public ProfileGpuRenderingPreferenceController(Context context) {
         super(context);
 
-        mListValues = context.getResources().getStringArray(R.array.track_frame_time_values);
-        mListSummaries = context.getResources().getStringArray(R.array.track_frame_time_entries);
+        mListValues = context.getResources().getStringArray(com.android.settingslib.R.array.track_frame_time_values);
+        mListSummaries = context.getResources().getStringArray(com.android.settingslib.R.array.track_frame_time_entries);
     }
 
     @Override
