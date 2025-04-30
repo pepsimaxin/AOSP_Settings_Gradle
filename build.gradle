@@ -56,15 +56,27 @@ android {
         versionName "34.0"
     }
 
+    signingConfigs {
+        platform {
+            storeFile file("platform.keystore")
+            storePassword '123456'
+            keyAlias 'platform'
+            keyPassword '123456'
+        }
+    }
+
     buildTypes {
         release {
+            debuggable false
             minifyEnabled false
+            signingConfig signingConfigs.platform
         }
 
         debug {
+            debuggable true
             minifyEnabled false
+            signingConfig signingConfigs.platform
         }
-
         applicationVariants.all { variant ->
             variant.outputs.all {
                 outputFileName = "Settings.apk"
@@ -233,7 +245,8 @@ dependencies {
     implementation "androidx.constraintlayout:constraintlayout:2.2.0"
 //    implementation "androidx.window:window-java:1.3.0"
     compileOnly files('libs/window-1.2.0-alpha01.aar')
-
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'com.mapzen:on-the-road:1.3.1'
 }
 
 //allprojects {
