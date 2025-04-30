@@ -54,9 +54,9 @@ class AlarmsAndRemindersAppListModel(
     private val context: Context,
     private val packageManagers: IPackageManagers = PackageManagers,
 ) : TogglePermissionAppListModel<AlarmsAndRemindersAppRecord> {
-    override val pageTitleResId = R.string.alarms_and_reminders_title
-    override val switchTitleResId = R.string.alarms_and_reminders_switch_title
-    override val footerResId = R.string.alarms_and_reminders_footer_title
+    override val pageTitleResId = com.android.settingslib.R.string.alarms_and_reminders_title
+    override val switchTitleResId = com.android.settingslib.R.string.alarms_and_reminders_switch_title
+    override val footerResId = com.android.settingslib.R.string.alarms_and_reminders_footer_title
 
     override fun transform(userIdFlow: Flow<Int>, appListFlow: Flow<List<ApplicationInfo>>) =
         userIdFlow.map { userId ->

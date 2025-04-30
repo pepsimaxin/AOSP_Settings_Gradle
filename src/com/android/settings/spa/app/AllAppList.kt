@@ -140,7 +140,7 @@ class AllAppListModel(
                             System.lineSeparator() + context.getString(R.string.not_installed)
                         }
                         isDisabled(record) -> {
-                            System.lineSeparator() + context.getString(R.string.disabled)
+                            System.lineSeparator() + context.getString(com.android.settingslib.R.string.disabled)
                         }
                         else -> ""
                     }

@@ -96,13 +96,13 @@ class SimEidPreferenceController(context: Context, preferenceKey: String) :
         )
         dialog.setCanceledOnTouchOutside(false)
         val textView = dialog.findViewById<TextView>(R.id.esim_id_value)
-        textView.text = PhoneNumberUtil.expandByTts(eid)
+        textView?.text = PhoneNumberUtil.expandByTts(eid)
 
         val qrCodeView = dialog.findViewById<ImageView>(R.id.esim_id_qrcode)
-        qrCodeView.setImageBitmap(getEidQrCode(eid))
+        qrCodeView?.setImageBitmap(getEidQrCode(eid))
 
         // After "Tap to show", eid is displayed on preference.
-        preference.summary = textView.text
+        preference.summary = textView?.text
     }
 
     override fun handlePreferenceTreeClick(preference: Preference): Boolean {
