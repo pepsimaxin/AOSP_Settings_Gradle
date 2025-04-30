@@ -15,10 +15,15 @@ buildscript {
         maven {
             url 'https://maven.aliyun.com/repository/google'
         }
+//        maven {
+//            // r8 maven
+//            url = uri("https://storage.googleapis.com/r8-releases/raw")
+//        }
     }
 
     dependencies {
         classpath 'com.android.tools.build:gradle:7.3.1'
+//        classpath 'com.android.tools:r8:8.2.16-dev'
         classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.18'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
