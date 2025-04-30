@@ -55,5 +55,6 @@ public class HearingDeviceSystemSoundsRoutingPreferenceController extends
 //        return Settings.Secure.getInt(context.getContentResolver(),
 //                Settings.Secure.HEARING_AID_SYSTEM_SOUNDS_ROUTING,
 //                HearingAidAudioRoutingConstants.RoutingValue.AUTO);
+        return 0;
     }
 }
