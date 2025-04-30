@@ -59,13 +59,13 @@ public abstract class WifiDppQrCodeBaseFragment extends InstrumentedFragment {
         if (isFooterAvailable()) {
             mLeftButton = new FooterButton.Builder(getContext())
                     .setButtonType(FooterButton.ButtonType.CANCEL)
-                    .setTheme(R.style.SudGlifButton_Secondary)
+                    .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Secondary)
                     .build();
             mGlifLayout.getMixin(FooterBarMixin.class).setSecondaryButton(mLeftButton);
 
             mRightButton = new FooterButton.Builder(getContext())
                     .setButtonType(FooterButton.ButtonType.NEXT)
-                    .setTheme(R.style.SudGlifButton_Primary)
+                    .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Primary)
                     .build();
             mGlifLayout.getMixin(FooterBarMixin.class).setPrimaryButton(mRightButton);
         }

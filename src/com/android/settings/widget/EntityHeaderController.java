@@ -116,7 +116,7 @@ public class EntityHeaderController {
             mHeader = header;
         } else {
             mHeader = LayoutInflater.from(fragment.getContext())
-                    .inflate(R.layout.settings_entity_header, null /* root */);
+                    .inflate(com.android.settingslib.widget.preference.layout.R.layout.settings_entity_header, null /* root */);
         }
     }
 
@@ -254,9 +254,9 @@ public class EntityHeaderController {
         }
         setText(R.id.entity_header_title, mLabel);
         setText(R.id.entity_header_summary, mSummary);
-        setText(R.id.entity_header_second_summary, mSecondSummary);
+        setText(com.android.settingslib.widget.preference.layout.R.id.entity_header_second_summary, mSecondSummary);
         if (mIsInstantApp) {
-            setText(R.id.install_type,
+            setText(com.android.settingslib.widget.preference.layout.R.id.install_type,
                     mHeader.getResources().getString(R.string.install_type_instant));
         }
 
@@ -271,7 +271,7 @@ public class EntityHeaderController {
      * Only binds entity header with button actions.
      */
     public EntityHeaderController bindHeaderButtons() {
-        final View entityHeaderContent = mHeader.findViewById(R.id.entity_header_content);
+        final View entityHeaderContent = mHeader.findViewById(com.android.settingslib.widget.preference.layout.R.id.entity_header_content);
         final ImageButton button1 = mHeader.findViewById(android.R.id.button1);
         final ImageButton button2 = mHeader.findViewById(android.R.id.button2);
         bindAppInfoLink(entityHeaderContent);
