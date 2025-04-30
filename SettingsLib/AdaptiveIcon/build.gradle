@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace = "com.android.settingslib.widget.adaptiveicon"
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {
@@ -28,10 +29,10 @@ android {
         abortOnError false
     }
 
-    afterEvaluate {
-        generateReleaseBuildConfig.enabled = false
-        generateDebugBuildConfig.enabled = false
-    }
+//    afterEvaluate {
+//        generateReleaseBuildConfig.enabled = false
+//        generateDebugBuildConfig.enabled = false
+//    }
 
     sourceSets {
         main {

@@ -27,6 +27,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
+import com.android.settingslib.widget.preference.app.R;
 
 /**
  * The Preference for the pages need to show big apps icon and name in the header of the page.

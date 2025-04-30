@@ -76,11 +76,11 @@ public class HeaderMixin implements Mixin {
     final TypedArray a =
         layout
             .getContext()
-            .obtainStyledAttributes(attrs, R.styleable.SucHeaderMixin, defStyleAttr, 0);
+            .obtainStyledAttributes(attrs, com.google.android.setupcompat.R.styleable.SucHeaderMixin, defStyleAttr, 0);
 
-    final CharSequence headerText = a.getText(R.styleable.SucHeaderMixin_sucHeaderText);
+    final CharSequence headerText = a.getText(com.google.android.setupcompat.R.styleable.SucHeaderMixin_sucHeaderText);
     final ColorStateList headerTextColor =
-        a.getColorStateList(R.styleable.SucHeaderMixin_sucHeaderTextColor);
+        a.getColorStateList(com.google.android.setupcompat.R.styleable.SucHeaderMixin_sucHeaderTextColor);
 
     a.recycle();
     if (getTextView() != null) {

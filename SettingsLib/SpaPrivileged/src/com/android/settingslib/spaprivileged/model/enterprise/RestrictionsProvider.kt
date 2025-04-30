@@ -22,7 +22,6 @@ import android.os.UserHandle
 import android.os.UserManager
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
-import androidx.lifecycle.compose.ExperimentalLifecycleComposeApi
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.android.settingslib.RestrictedLockUtils
 import com.android.settingslib.RestrictedLockUtils.EnforcedAdmin
@@ -56,10 +55,10 @@ private data class BlockedByAdminImpl(
 
     override fun getSummary(checked: Boolean?) = when (checked) {
         true -> enterpriseRepository.getEnterpriseString(
-            Settings.ENABLED_BY_ADMIN_SWITCH_SUMMARY, R.string.enabled_by_admin
+            Settings.ENABLED_BY_ADMIN_SWITCH_SUMMARY, com.android.settingslib.widget.restricted.R.string.enabled_by_admin
         )
         false -> enterpriseRepository.getEnterpriseString(
-            Settings.DISABLED_BY_ADMIN_SWITCH_SUMMARY, R.string.disabled_by_admin
+            Settings.DISABLED_BY_ADMIN_SWITCH_SUMMARY, com.android.settingslib.widget.restricted.R.string.disabled_by_admin
         )
         else -> ""
     }
@@ -86,7 +85,6 @@ internal class RestrictionsProviderImpl(
         emit(getRestrictedMode())
     }.flowOn(Dispatchers.IO)
 
-    @OptIn(ExperimentalLifecycleComposeApi::class)
     @Composable
     override fun restrictedModeState() =
         restrictedMode.collectAsStateWithLifecycle(initialValue = null)

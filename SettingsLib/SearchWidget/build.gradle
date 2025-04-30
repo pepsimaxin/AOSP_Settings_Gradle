@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.android.settingslib.searchwidget'
+    namespace 'com.android.settingslib.search'
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {

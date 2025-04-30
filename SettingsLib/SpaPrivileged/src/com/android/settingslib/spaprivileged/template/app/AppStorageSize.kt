@@ -36,7 +36,7 @@ private const val TAG = "AppStorageSize"
 @Composable
 fun ApplicationInfo.getStorageSize(): State<String> {
     val context = LocalContext.current
-    return produceState(initialValue = stringResource(R.string.summary_placeholder)) {
+    return produceState(initialValue = stringResource(com.android.settingslib.R.string.summary_placeholder)) {
         withContext(Dispatchers.IO) {
             val sizeBytes = calculateSizeBytes(context)
             value = if (sizeBytes != null) Formatter.formatFileSize(context, sizeBytes) else ""

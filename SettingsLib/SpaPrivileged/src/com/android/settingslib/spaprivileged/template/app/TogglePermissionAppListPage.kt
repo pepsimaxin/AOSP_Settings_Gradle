@@ -173,7 +173,7 @@ internal class TogglePermissionInternalAppListModel<T : AppRecord>(
         when (allowed.value) {
             true -> context.getString(R.string.app_permission_summary_allowed)
             false -> context.getString(R.string.app_permission_summary_not_allowed)
-            null -> context.getString(R.string.summary_placeholder)
+            null -> context.getString(com.android.settingslib.R.string.summary_placeholder)
         }
     }
 

@@ -13,9 +13,13 @@
  *      }
  */
 
-apply plugin: 'com.android.library'
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
 
 android {
+    namespace = "com.google.android.setupcompat"
     // Not specifying compileSdkVersion here so clients can specify it; must be at least Q
     compileSdkVersion 34
 
@@ -51,6 +55,10 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildFeatures {
+        aidl = true
     }
 }
 

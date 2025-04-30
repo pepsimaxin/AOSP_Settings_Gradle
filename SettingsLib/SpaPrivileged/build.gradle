@@ -4,11 +4,12 @@ plugins {
 }
 
 android {
+    namespace = "com.android.settingslib.spaprivileged"
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {
-        minSdkVersion 21
-        targetSdkVersion 30
+        minSdkVersion 31
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
     }
@@ -42,6 +43,10 @@ android {
 
     buildFeatures {
         compose = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = '1.5.0' // 假设1.4.0支持Kotlin 1.9.0
     }
 }
 

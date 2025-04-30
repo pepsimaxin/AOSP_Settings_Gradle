@@ -69,7 +69,7 @@ public class CollapsingToolbarAppCompatActivity extends AppCompatActivity {
         if (BuildCompatUtils.isAtLeastS()) {
             DynamicColors.applyToActivityIfAvailable(this);
         }
-        setTheme(R.style.Theme_SubSettingsBase);
+        setTheme(com.android.settingslib.widget.theme.R.style.Theme_SubSettingsBase);
 
         if (mCustomizeLayoutResId > 0 && !BuildCompatUtils.isAtLeastS()) {
             super.setContentView(mCustomizeLayoutResId);

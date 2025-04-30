@@ -37,6 +37,8 @@ import androidx.annotation.VisibleForTesting;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
+import com.android.settingslib.widget.adaptiveicon.R;
+
 /**
  * Adaptive outline drawable with white plain background color and black outline
  */

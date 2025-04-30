@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace = "com.android.settingslib.widget.schedulesprovider"
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {

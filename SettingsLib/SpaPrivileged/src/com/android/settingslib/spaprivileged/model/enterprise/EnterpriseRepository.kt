@@ -28,11 +28,11 @@ class EnterpriseRepository(private val context: Context) {
     }
 
     fun getEnterpriseString(updatableStringId: String, resId: Int): String =
-        resources.getString(updatableStringId) { context.getString(resId) }
+        checkNotNull(resources.getString(updatableStringId) { context.getString(resId) })
 
     fun getProfileTitle(isManagedProfile: Boolean): String = if (isManagedProfile) {
-        getEnterpriseString(WORK_CATEGORY_HEADER, R.string.category_work)
+        getEnterpriseString(WORK_CATEGORY_HEADER, com.android.settingslib.R.string.category_work)
     } else {
-        getEnterpriseString(PERSONAL_CATEGORY_HEADER, R.string.category_personal)
+        getEnterpriseString(PERSONAL_CATEGORY_HEADER, com.android.settingslib.R.string.category_personal)
     }
 }

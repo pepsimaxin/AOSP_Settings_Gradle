@@ -81,7 +81,7 @@ public class MainSwitchBar extends LinearLayout implements CompoundButton.OnChec
             final TypedArray a = context.obtainStyledAttributes(
                     new int[]{android.R.attr.colorAccent});
             mBackgroundActivatedColor = a.getColor(0, 0);
-            mBackgroundColor = context.getColor(R.color.material_grey_600);
+            mBackgroundColor = context.getColor(androidx.appcompat.R.color.material_grey_600);
             a.recycle();
         }
 

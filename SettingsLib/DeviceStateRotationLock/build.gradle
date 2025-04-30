@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+    namespace = "com.android.settingslib.devicestate"
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {

@@ -77,7 +77,7 @@ public class BannerMessageView extends LinearLayout {
 
         int minimum =
                 getResources()
-                        .getDimensionPixelSize(R.dimen.settingslib_preferred_minimum_touch_target);
+                        .getDimensionPixelSize(com.android.settingslib.widget.theme.R.dimen.settingslib_preferred_minimum_touch_target);
         int width = dismissButton.getWidth();
         int height = dismissButton.getHeight();
         int widthIncrease = width < minimum ? minimum - width : 0;

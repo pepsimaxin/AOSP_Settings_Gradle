@@ -49,7 +49,7 @@ public class FooterPreference extends Preference {
     private FooterLearnMoreSpan mLearnMoreSpan;
 
     public FooterPreference(Context context, AttributeSet attrs) {
-        super(context, attrs, R.attr.footerPreferenceStyle);
+        super(context, attrs, com.android.settingslib.widget.theme.R.attr.footerPreferenceStyle);
         init();
     }
 

@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace = "com.android.settingslib.drawer"
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {

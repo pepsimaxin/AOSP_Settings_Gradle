@@ -55,7 +55,7 @@ public class RestrictedSwitchPreference extends SwitchPreference {
     private int mIconSize;
 
     public RestrictedSwitchPreference(Context context, AttributeSet attrs,
-            int defStyleAttr, int defStyleRes) {
+                                      int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         mHelper = new RestrictedPreferenceHelper(context, this, attrs);
         if (attrs != null) {
@@ -125,11 +125,11 @@ public class RestrictedSwitchPreference extends SwitchPreference {
         if (mRestrictedSwitchSummary == null) {
             switchSummary = isChecked()
                     ? getUpdatableEnterpriseString(
-                            getContext(), ENABLED_BY_ADMIN_SWITCH_SUMMARY,
-                            R.string.enabled_by_admin)
+                    getContext(), ENABLED_BY_ADMIN_SWITCH_SUMMARY,
+                    com.android.settingslib.widget.restricted.R.string.enabled_by_admin)
                     : getUpdatableEnterpriseString(
-                            getContext(), DISABLED_BY_ADMIN_SWITCH_SUMMARY,
-                            R.string.disabled_by_admin);
+                    getContext(), DISABLED_BY_ADMIN_SWITCH_SUMMARY,
+                    com.android.settingslib.widget.restricted.R.string.disabled_by_admin);
         } else {
             switchSummary = mRestrictedSwitchSummary;
         }
@@ -243,7 +243,9 @@ public class RestrictedSwitchPreference extends SwitchPreference {
         return mHelper != null ? mHelper.packageName : null;
     }
 
-    /** Updates enabled state based on associated package. */
+    /**
+     * Updates enabled state based on associated package.
+     */
     public void updateState(
             @NonNull String packageName, int uid, boolean isEnableAllowed, boolean isEnabled) {
         mHelper.updatePackageDetails(packageName, uid);
@@ -262,7 +264,7 @@ public class RestrictedSwitchPreference extends SwitchPreference {
             setEnabled(true);
         } else if (appOpsAllowed && isDisabledByAppOps()) {
             setEnabled(true);
-        } else if (!appOpsAllowed){
+        } else if (!appOpsAllowed) {
             setDisabledByAppOps(true);
         }
     }

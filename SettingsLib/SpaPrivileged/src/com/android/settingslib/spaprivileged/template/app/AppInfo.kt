@@ -55,7 +55,7 @@ class AppInfoProvider(private val packageInfo: PackageInfo) {
                 .semantics(mergeDescendants = true) {},
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            val app = packageInfo.applicationInfo
+            val app = checkNotNull(packageInfo.applicationInfo)
             Box(modifier = Modifier.padding(SettingsDimension.itemPaddingAround)) {
                 AppIcon(app = app, size = SettingsDimension.appIconInfoSize)
             }
@@ -69,7 +69,7 @@ class AppInfoProvider(private val packageInfo: PackageInfo) {
     private fun InstallType(app: ApplicationInfo) {
         if (!app.isInstantApp) return
         Spacer(modifier = Modifier.height(4.dp))
-        SettingsBody(stringResource(R.string.install_type_instant))
+        SettingsBody(stringResource(com.android.settingslib.widget.preference.app.R.string.install_type_instant))
     }
 
     @Composable

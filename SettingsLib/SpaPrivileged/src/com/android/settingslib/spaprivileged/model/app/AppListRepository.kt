@@ -186,7 +186,7 @@ internal class AppListRepositoryImpl(private val context: Context) : AppListRepo
     companion object {
         private fun ApplicationInfo.isInAppList(
             showInstantApps: Boolean,
-            hiddenSystemModules: Set<String>,
+            hiddenSystemModules: Set<String?>,
             hideWhenDisabledPackages: Array<String>,
         ) = when {
             !showInstantApps && isInstantApp -> false

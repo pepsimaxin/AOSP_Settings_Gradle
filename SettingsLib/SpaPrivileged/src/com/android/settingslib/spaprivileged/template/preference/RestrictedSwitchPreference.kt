@@ -72,9 +72,9 @@ internal object RestrictedSwitchPreference {
         checked: State<Boolean?>,
     ): State<String> = when (restrictedMode) {
         is NoRestricted -> summaryIfNoRestricted
-        is BaseUserRestricted -> stateOf(context.getString(R.string.disabled))
+        is BaseUserRestricted -> stateOf(context.getString(com.android.settingslib.R.string.disabled))
         is BlockedByAdmin -> derivedStateOf { restrictedMode.getSummary(checked.value) }
-        null -> stateOf(context.getString(R.string.summary_placeholder))
+        null -> stateOf(context.getString(com.android.settingslib.R.string.summary_placeholder))
     }
 }
 

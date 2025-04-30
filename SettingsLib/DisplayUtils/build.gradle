@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace = "com.android.settingslib.display"
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {

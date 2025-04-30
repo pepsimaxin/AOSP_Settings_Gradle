@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace = "com.android.settingslib.emergencynumber"
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {

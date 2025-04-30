@@ -2,6 +2,7 @@
 buildscript {
     ext {
         kotlin_version = '1.9.0'
+//        kotlin_version = '1.7.20'
     }
 
     repositories {
@@ -22,7 +23,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.3.1'
+        classpath 'com.android.tools.build:gradle:8.1.0-rc01'
 //        classpath 'com.android.tools:r8:8.2.16-dev'
         classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.18'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
@@ -35,6 +36,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.android.settings'
     packagingOptions {
         exclude 'META-INF/androidx.window_window.version'
     }
@@ -104,7 +106,49 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+//    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    compileOnly files('libs/framework.jar')
+
+    implementation "com.google.guava:guava:33.3.1-android"
+
+    implementation files('libs/BiometricsSharedLib.jar')
+    implementation files('libs/BiometricsSharedLib-java.jar')
+    implementation files('libs/SystemUIUnfoldLib.jar')
+    implementation files('libs/android.hardware.dumpstate-V1-java.jar')
+    implementation files('libs/android.hardware.dumpstate-V1.0-java.jar')
+    implementation files('libs/android.hardware.dumpstate-V1.1-java.jar')
+    implementation files('libs/com_android_server_accessibility_flags_lib.jar')
+    implementation files('libs/net-utils-framework-common.jar')
+    implementation files('libs/notification_flags_lib.jar')
+    implementation files('libs/securebox.jar')
+
+    //    implementation files('../libs/FingerprintManagerInteractor.jar')
+    implementation files('libs/MediaDrmSettingsFlagsLib.jar')
+//    implementation files('../libs/Settings-change-ids.jar')
+    // SettingsLib的依赖在后面整体配置
+    implementation files('libs/aconfig_settings_flags_lib.jar')
+    implementation files('libs/accessibility_settings_flags_lib.jar')
+    implementation files('libs/app-usage-event-protos-lite.jar')
+    implementation files('libs/battery-event-protos-lite.jar')
+    implementation files('libs/battery-usage-slot-protos-lite.jar')
+    implementation files('libs/contextualcards.aar ')
+    implementation files('libs/development_settings_flag_lib.jar')
+    implementation files('libs/factory_reset_flags_lib.jar')
+    implementation files('libs/fuelgauge-log-protos-lite.jar')
+    implementation files('libs/fuelgauge-usage-state-protos-lite.jar')
+    implementation files('libs/power-anomaly-event-protos-lite.jar')
+    implementation files('libs/settings-contextual-card-protos-lite.jar')
+    implementation files('libs/settings-log-bridge-protos-lite.jar')
+    implementation files('libs/settings-logtags.jar')
+    implementation files('libs/settings-telephony-protos-lite.jar')
+//    implementation files('../libs/setupdesign-lottie-loading-layout.jar')
+//    implementation project(':lottie_loading_layout')
+
+    implementation files('libs/statslog-settings.jar')
+    implementation files('libs/settingslib_flags_lib.jar')
+    implementation files('libs/wifi_aconfig_flags_lib.jar')
+    implementation files('libs/android.view.accessibility.flags-aconfig-java.jar')
+    implementation files('libs/telephony_flags_core_java_lib.jar')
 
     implementation project(':WifiTrackerLib')
     implementation project(':iconloaderlib')
@@ -135,7 +179,7 @@ dependencies {
     implementation project(':SettingsLib:RadioButtonPreference')
     implementation project(':SettingsLib:RestrictedLockUtils')
     implementation project(':SettingsLib:SchedulesProvider')
-//    implementation project(':SettingsLib:Search')
+    implementation project(':SettingsLib:Search')
     implementation project(':SettingsLib:SearchProvider')
     implementation project(':SettingsLib:SearchWidget')
     implementation project(':SettingsLib:SelectorWithWidgetPreference')
@@ -151,6 +195,10 @@ dependencies {
     implementation project(':SettingsLib:Utils')
 
     implementation project(':spa')
+
+    implementation files('libs/settingslib_media_flags_lib.jar')
+    implementation files('libs/core-all.jar')
+    implementation files('libs/android.hidl.base-V1.0-java.jar')
 
     implementation "com.google.protobuf:protoc:3.8.0"
     implementation "com.google.protobuf:protobuf-javalite:3.8.0"
@@ -178,7 +226,7 @@ dependencies {
     implementation "androidx.room:room-runtime:2.7.0-alpha01"
     annotationProcessor "androidx.room:room-compiler:2.7.0-alpha01"
     implementation "org.jetbrains.kotlinx:atomicfu:0.26.1"
-
+    implementation "androidx.compose.runtime:runtime-livedata:1.4.0-alpha01"
 
 
     implementation "androidx.constraintlayout:constraintlayout:2.2.0"

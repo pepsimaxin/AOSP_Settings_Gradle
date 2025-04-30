@@ -28,6 +28,7 @@ import androidx.preference.PreferenceViewHolder;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+import com.android.settingslib.widget.preference.twotarget.R;
 
 /**
  * The Base preference with two target areas divided by a vertical divider

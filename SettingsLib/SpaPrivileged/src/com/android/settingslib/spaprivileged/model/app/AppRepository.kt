@@ -40,7 +40,7 @@ interface AppRepository {
     @Composable
     fun produceLabel(app: ApplicationInfo, isClonedAppPage: Boolean = false): State<String> {
         val context = LocalContext.current
-        return produceState(initialValue = stringResource(R.string.summary_placeholder), app) {
+        return produceState(initialValue = stringResource(com.android.settingslib.R.string.summary_placeholder), app) {
             withContext(Dispatchers.IO) {
                 value = if (isClonedAppPage || isCloneApp(context, app)) {
                     context.getString(R.string.cloned_app_info_label, loadLabel(app))
@@ -82,7 +82,7 @@ internal class AppRepositoryImpl(private val context: Context) : AppRepository {
             withContext(Dispatchers.IO) {
                 value = when {
                     context.userManager.isManagedProfile(app.userId) -> {
-                        context.getString(R.string.category_work)
+                        context.getString(com.android.settingslib.R.string.category_work)
                     }
 
                     else -> null

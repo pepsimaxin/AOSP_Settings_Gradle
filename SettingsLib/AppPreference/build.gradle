@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace = "com.android.settingslib.widget.preference.app"
     compileSdkVersion COMPILE_SDK
 
     defaultConfig {
@@ -28,10 +29,10 @@ android {
         abortOnError false
     }
 
-    afterEvaluate {
-        generateReleaseBuildConfig.enabled = false
-        generateDebugBuildConfig.enabled = false
-    }
+//    afterEvaluate {
+//        generateReleaseBuildConfig.enabled = false
+//        generateDebugBuildConfig.enabled = false
+//    }
 
     sourceSets {
         main {

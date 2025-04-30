@@ -30,6 +30,8 @@ import androidx.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
+import com.android.settingslib.widget.schedulesprovider.R;
+
 /**
  * A bridge for client apps to provide the schedule data. Client provider needs to implement
  * {@link #getScheduleInfoList()} returning a list of {@link ScheduleInfo}.
