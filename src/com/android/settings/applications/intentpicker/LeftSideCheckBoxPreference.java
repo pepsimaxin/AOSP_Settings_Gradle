@@ -33,7 +33,7 @@ public class LeftSideCheckBoxPreference extends TwoTargetPreference {
     public LeftSideCheckBoxPreference(Context context, AttributeSet attrs,
             int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
-        setLayoutResource(R.layout.preference_checkable_two_target);
+        setLayoutResource(com.android.settingslib.R.layout.preference_checkable_two_target);
     }
 
     public LeftSideCheckBoxPreference(Context context, AttributeSet attrs, int defStyleAttr) {
@@ -51,7 +51,7 @@ public class LeftSideCheckBoxPreference extends TwoTargetPreference {
     public LeftSideCheckBoxPreference(Context context, boolean isChecked) {
         super(context);
         mChecked = isChecked;
-        setLayoutResource(R.layout.preference_checkable_two_target);
+        setLayoutResource(com.android.settingslib.R.layout.preference_checkable_two_target);
     }
 
     @Override

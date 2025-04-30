@@ -73,7 +73,7 @@ public class ApplicationViewHolder extends RecyclerView.ViewHolder {
         mAppName = itemView.findViewById(android.R.id.title);
         mAppIcon = itemView.findViewById(android.R.id.icon);
         mSummary = itemView.findViewById(android.R.id.summary);
-        mDisabled = itemView.findViewById(R.id.appendix);
+        mDisabled = itemView.findViewById(com.android.settingslib.widget.preference.app.R.id.appendix);
         mSwitch = itemView.findViewById(R.id.switchWidget);
         mWidgetContainer = itemView.findViewById(android.R.id.widget_frame);
         mAddIcon = itemView.findViewById(R.id.add_preference_widget);
@@ -86,7 +86,7 @@ public class ApplicationViewHolder extends RecyclerView.ViewHolder {
 
     static View newView(ViewGroup parent, boolean twoTarget, int listType) {
         ViewGroup view = (ViewGroup) LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.preference_app, parent, false);
+                .inflate(com.android.settingslib.widget.preference.app.R.layout.preference_app, parent, false);
         ViewGroup widgetFrame = view.findViewById(android.R.id.widget_frame);
         if (twoTarget) {
             if (widgetFrame != null) {
@@ -110,7 +110,7 @@ public class ApplicationViewHolder extends RecyclerView.ViewHolder {
 
     static View newHeader(ViewGroup parent, int resText) {
         ViewGroup view = (ViewGroup) LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.preference_app_header, parent, false);
+                .inflate(com.android.settingslib.widget.preference.app.R.layout.preference_app_header, parent, false);
         TextView textView = view.findViewById(R.id.apps_top_intro_text);
         textView.setText(resText);
         return view;

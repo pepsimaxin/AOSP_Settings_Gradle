@@ -128,7 +128,7 @@ public class BlobInfoListView extends ListActivity {
             mAdapter.updateList(mBlobStoreManager.queryBlobsForUser(UserHandle.CURRENT));
         } catch (IOException e) {
             Log.e(TAG, "Unable to fetch blobs for current user: " + e.getMessage());
-            Toast.makeText(this, R.string.shared_data_query_failure_text, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, com.android.settingslib.R.string.shared_data_query_failure_text, Toast.LENGTH_LONG).show();
             finish();
         }
     }
@@ -155,7 +155,7 @@ public class BlobInfoListView extends ListActivity {
 
             final BlobInfo blob = getItem(position);
             holder.blobLabel.setText(blob.getLabel());
-            holder.blobId.setText(getString(R.string.blob_id_text, blob.getId()));
+            holder.blobId.setText(getString(com.android.settingslib.R.string.blob_id_text, blob.getId()));
             holder.blobExpiry.setText(formatExpiryTime(blob.getExpiryTimeMs()));
             holder.blobSize.setText(SharedDataUtils.formatSize(blob.getSizeBytes()));
             return convertView;
@@ -165,7 +165,7 @@ public class BlobInfoListView extends ListActivity {
             if (expiryTimeMs == 0) {
                 return getString(R.string.blob_never_expires_text);
             }
-            return getString(R.string.blob_expires_text, SharedDataUtils.formatTime(expiryTimeMs));
+            return getString(com.android.settingslib.R.string.blob_expires_text, SharedDataUtils.formatTime(expiryTimeMs));
         }
     }
 }

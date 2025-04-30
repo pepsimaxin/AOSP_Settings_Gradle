@@ -46,8 +46,8 @@ public class BluetoothMapVersionPreferenceController extends DeveloperOptionsPre
     public BluetoothMapVersionPreferenceController(Context context) {
         super(context);
 
-        mListValues = context.getResources().getStringArray(R.array.bluetooth_map_version_values);
-        mListSummaries = context.getResources().getStringArray(R.array.bluetooth_map_versions);
+        mListValues = context.getResources().getStringArray(com.android.settingslib.R.array.bluetooth_map_version_values);
+        mListSummaries = context.getResources().getStringArray(com.android.settingslib.R.array.bluetooth_map_versions);
     }
 
     @Override

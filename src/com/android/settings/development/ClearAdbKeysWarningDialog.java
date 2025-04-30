@@ -51,7 +51,7 @@ public class ClearAdbKeysWarningDialog extends InstrumentedDialogFragment implem
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         return new AlertDialog.Builder(getActivity())
-                .setMessage(R.string.adb_keys_warning_message)
+                .setMessage(com.android.settingslib.R.string.adb_keys_warning_message)
                 .setPositiveButton(android.R.string.ok, this /* onClickListener */)
                 .setNegativeButton(android.R.string.cancel, null /* onClickListener */)
                 .create();

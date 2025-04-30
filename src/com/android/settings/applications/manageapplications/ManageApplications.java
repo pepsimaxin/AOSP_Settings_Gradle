@@ -688,7 +688,7 @@ public class ManageApplications extends InstrumentedFragment
                 startAppInfoFragment(WriteSettingsDetails.class, R.string.write_system_settings);
                 break;
             case LIST_TYPE_MANAGE_SOURCES:
-                startAppInfoFragment(ExternalSourcesDetails.class, R.string.install_other_apps);
+                startAppInfoFragment(ExternalSourcesDetails.class, com.android.settingslib.R.string.install_other_apps);
                 break;
             case LIST_TYPE_GAMES:
                 startAppInfoFragment(AppStorageSettings.class, R.string.game_storage_settings);
@@ -1051,7 +1051,7 @@ public class ManageApplications extends InstrumentedFragment
         } else if (className.equals(WriteSettingsActivity.class.getName())) {
             screenTitle = R.string.write_settings;
         } else if (className.equals(ManageExternalSourcesActivity.class.getName())) {
-            screenTitle = R.string.install_other_apps;
+            screenTitle = com.android.settingslib.R.string.install_other_apps;
         } else if (className.equals(ChangeWifiStateActivity.class.getName())) {
             screenTitle = R.string.change_wifi_state_title;
         } else if (className.equals(ManageExternalStorageActivity.class.getName())) {
@@ -1059,7 +1059,7 @@ public class ManageApplications extends InstrumentedFragment
         } else if (className.equals(MediaManagementAppsActivity.class.getName())) {
             screenTitle = R.string.media_management_apps_title;
         } else if (className.equals(AlarmsAndRemindersActivity.class.getName())) {
-            screenTitle = R.string.alarms_and_reminders_title;
+            screenTitle = com.android.settingslib.R.string.alarms_and_reminders_title;
         } else if (className.equals(NotificationAppListActivity.class.getName())
                 || className.equals(
                 NotificationReviewPermissionsActivity.class.getName())) {
@@ -1075,7 +1075,7 @@ public class ManageApplications extends InstrumentedFragment
         } else if (className.equals(ChangeNfcTagAppsActivity.class.getName())) {
             screenTitle = R.string.change_nfc_tag_apps_title;
         } else if (className.equals(TurnScreenOnSettingsActivity.class.getName())) {
-            screenTitle = R.string.turn_screen_on_title;
+            screenTitle = com.android.settingslib.R.string.turn_screen_on_title;
         } else {
             if (screenTitle == -1) {
                 screenTitle = R.string.all_apps;

@@ -135,7 +135,7 @@ public abstract class BaseBluetoothDialogPreference extends CustomDialogPreferen
         }
         return index == getDefaultIndex() ? mSummaryStrings.get(getDefaultIndex()) :
                 String.format(getContext().getResources().getString(
-                        R.string.bluetooth_select_a2dp_codec_streaming_label),
+                        com.android.settingslib.R.string.bluetooth_select_a2dp_codec_streaming_label),
                         mSummaryStrings.get(index));
     }
 
