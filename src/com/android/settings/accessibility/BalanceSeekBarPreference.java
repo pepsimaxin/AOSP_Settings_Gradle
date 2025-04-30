@@ -43,7 +43,7 @@ public class BalanceSeekBarPreference extends SeekBarPreference {
 
     public BalanceSeekBarPreference(Context context, AttributeSet attrs) {
         super(context, attrs, TypedArrayUtils.getAttr(context,
-                R.attr.preferenceStyle,
+                androidx.preference.R.attr.preferenceStyle,
                 android.R.attr.preferenceStyle));
         mContext = context;
         setLayoutResource(R.layout.preference_balance_slider);

@@ -194,8 +194,8 @@ public class NetworkSelectSettings extends DashboardFragment {
 
         final Activity activity = getActivity();
         if (activity != null) {
-            mProgressHeader = setPinnedHeaderView(R.layout.progress_header)
-                    .findViewById(R.id.progress_bar_animation);
+            mProgressHeader = setPinnedHeaderView(com.android.settingslib.widget.progressbar.R.layout.progress_header)
+                    .findViewById(com.android.settingslib.widget.progressbar.R.id.progress_bar_animation);
             setProgressBarVisible(false);
         }
         forceUpdateConnectedPreferenceCategory();

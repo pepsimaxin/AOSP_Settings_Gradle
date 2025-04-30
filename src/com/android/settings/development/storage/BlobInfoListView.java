@@ -116,7 +116,7 @@ public class BlobInfoListView extends ListActivity {
                 mBlobStoreManager.deleteBlob(blob);
             } catch (IOException e) {
                 Log.e(TAG, "Unable to delete blob: " + e.getMessage());
-                Toast.makeText(this, R.string.shared_data_delete_failure_text, Toast.LENGTH_LONG)
+                Toast.makeText(this, com.android.settingslib.R.string.shared_data_delete_failure_text, Toast.LENGTH_LONG)
                         .show();
             }
             queryBlobsAndUpdateList();

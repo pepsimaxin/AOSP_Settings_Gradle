@@ -59,16 +59,16 @@ class BluetoothBroadcastSourcePreference extends Preference {
     @Override
     public void onBindViewHolder(final PreferenceViewHolder view) {
         super.onBindViewHolder(view);
-        view.findViewById(R.id.two_target_divider).setVisibility(View.INVISIBLE);
-        final ImageButton imageButton = (ImageButton) view.findViewById(R.id.icon_button);
+        view.findViewById(com.android.settingslib.widget.preference.twotarget.R.id.two_target_divider).setVisibility(View.INVISIBLE);
+        final ImageButton imageButton = (ImageButton) view.findViewById(com.android.settingslib.R.id.icon_button);
         imageButton.setVisibility(View.GONE);
-        mFrictionImageView = (ImageView) view.findViewById(R.id.friction_icon);
+        mFrictionImageView = (ImageView) view.findViewById(com.android.settingslib.R.id.friction_icon);
         updateStatusButton();
     }
 
     private void initUi() {
-        setLayoutResource(R.layout.preference_access_point);
-        setWidgetLayoutResource(R.layout.access_point_friction_widget);
+        setLayoutResource(com.android.settingslib.R.layout.preference_access_point);
+        setWidgetLayoutResource(com.android.settingslib.R.layout.access_point_friction_widget);
         mTitle = getContext().getString(RESOURCE_ID_UNKNOWN_PROGRAM_INFO);
         mStatus = false;
         final Drawable drawable = getContext().getDrawable(RESOURCE_ID_ICON);

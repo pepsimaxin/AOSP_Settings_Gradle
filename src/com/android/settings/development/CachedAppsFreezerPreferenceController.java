@@ -46,9 +46,9 @@ public class CachedAppsFreezerPreferenceController extends DeveloperOptionsPrefe
     public CachedAppsFreezerPreferenceController(Context context) {
         super(context);
 
-        mListValues = context.getResources().getStringArray(R.array.cached_apps_freezer_values);
+        mListValues = context.getResources().getStringArray(com.android.settingslib.R.array.cached_apps_freezer_values);
         mListSummaries = context.getResources().getStringArray(
-                R.array.cached_apps_freezer_entries);
+                com.android.settingslib.R.array.cached_apps_freezer_entries);
     }
 
     @Override
@@ -76,7 +76,7 @@ public class CachedAppsFreezerPreferenceController extends DeveloperOptionsPrefe
 
         if (!newValue.equals(currentValue)) {
             final AlertDialog dialog = new AlertDialog.Builder(mContext)
-                    .setMessage(R.string.cached_apps_freezer_reboot_dialog_text)
+                    .setMessage(com.android.settingslib.R.string.cached_apps_freezer_reboot_dialog_text)
                     .setPositiveButton(android.R.string.ok, getRebootDialogOkListener(newValue))
                     .setNegativeButton(android.R.string.cancel, getRebootDialogCancelListener())
                     .create();

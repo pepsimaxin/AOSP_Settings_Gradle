@@ -192,7 +192,7 @@ public class VpnSettings extends RestrictedSettingsFragment implements
         if (mUnavailable) {
             // Show a message to explain that VPN settings have been disabled
             if (!isUiRestrictedByOnlyAdmin()) {
-                getEmptyTextView().setText(R.string.vpn_settings_not_available);
+                getEmptyTextView().setText(com.android.settingslib.R.string.vpn_settings_not_available);
             }
             getPreferenceScreen().removeAll();
             return;

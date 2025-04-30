@@ -703,7 +703,7 @@ public class ManageApplications extends InstrumentedFragment
                 break;
             case LIST_TYPE_ALARMS_AND_REMINDERS:
                 startAppInfoFragment(AlarmsAndRemindersDetails.class,
-                        R.string.alarms_and_reminders_label);
+                        com.android.settingslib.R.string.alarms_and_reminders_label);
                 break;
             case LIST_TYPE_MEDIA_MANAGEMENT_APPS:
                 startAppInfoFragment(MediaManagementAppsDetails.class,
@@ -740,7 +740,7 @@ public class ManageApplications extends InstrumentedFragment
                         R.string.change_nfc_tag_apps_title);
                 break;
             case LIST_TYPE_TURN_SCREEN_ON:
-                startAppInfoFragment(TurnScreenOnDetails.class, R.string.turn_screen_on_title);
+                startAppInfoFragment(TurnScreenOnDetails.class, com.android.settingslib.R.string.turn_screen_on_title);
                 break;
             // TODO: Figure out if there is a way where we can spin up the profile's settings
             // process ahead of time, to avoid a long load of data when user clicks on a managed

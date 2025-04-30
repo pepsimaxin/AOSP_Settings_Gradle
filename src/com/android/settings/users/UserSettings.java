@@ -1506,7 +1506,7 @@ public class UserSettings extends SettingsPreferenceFragment
         icon.setTintBlendMode(BlendMode.SRC_IN);
         icon.setTint(getColorAttrDefaultColor(getContext(), android.R.attr.textColorPrimary));
 
-        Drawable bg = getContext().getDrawable(R.drawable.user_avatar_bg).mutate();
+        Drawable bg = getContext().getDrawable(com.android.settingslib.R.drawable.user_avatar_bg).mutate();
         LayerDrawable ld = new LayerDrawable(new Drawable[] {bg, icon});
         int size = getContext().getResources().getDimensionPixelSize(
                 R.dimen.multiple_users_avatar_size);
