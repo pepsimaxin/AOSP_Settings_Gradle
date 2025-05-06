@@ -80,11 +80,11 @@ android_library {
         "guava",
         "jsr305",
         "net-utils-framework-common",
-        "app-usage-event-protos-lite",
+        "app-usage-event-protos-lite",                   // implementation files('libs-implementation/app-usage-event-protos-lite.jar')
         "battery-event-protos-lite",                     // implementation files('libs-implementation/battery-event-protos-lite.jar')
-        "settings-contextual-card-protos-lite",
-        "settings-log-bridge-protos-lite",
-        "settings-telephony-protos-lite",
+        "settings-contextual-card-protos-lite",          // implementation files('libs-implementation/settings-contextual-card-protos-lite.jar')
+        "settings-log-bridge-protos-lite",               // implementation files('libs-implementation/settings-log-bridge-protos-lite.jar')
+        "settings-telephony-protos-lite",                // implementation files('libs-implementation/settings-telephony-protos-lite.jar')
         "fuelgauge-log-protos-lite",                     // implementation files('libs-implementation/fuelgauge-log-protos-lite.jar')
         "fuelgauge-usage-state-protos-lite",             // implementation files('libs-implementation/fuelgauge-usage-state-protos-lite.jar')
         "contextualcards",

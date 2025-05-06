@@ -146,9 +146,14 @@ dependencies {
     // search 生成索引类插件
     // annotationProcessor files('libs/CP-SettingsLib-annotation-processor.jar')
 
+    // Setting 依赖 Jar 包，从 out 下获取
+    implementation files('libs-implementation/app-usage-event-protos-lite.jar')
     implementation files('libs-implementation/battery-event-protos-lite.jar')
     implementation files('libs-implementation/fuelgauge-log-protos-lite.jar')
     implementation files('libs-implementation/fuelgauge-usage-state-protos-lite.jar')
+    implementation files('libs-implementation/settings-contextual-card-protos-lite.jar')
+    implementation files('libs-implementation/settings-log-bridge-protos-lite.jar')
+    implementation files('libs-implementation/settings-telephony-protos-lite.jar')
 
 
     // implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
@@ -168,17 +173,13 @@ dependencies {
     implementation files('libs/MediaDrmSettingsFlagsLib.jar')
     implementation files('libs/aconfig_settings_flags_lib.jar')
     implementation files('libs/accessibility_settings_flags_lib.jar')
-    implementation files('libs/app-usage-event-protos-lite.jar')
 
     implementation files('libs/battery-usage-slot-protos-lite.jar')
     implementation files('libs/development_settings_flag_lib.jar')
     implementation files('libs/factory_reset_flags_lib.jar')
 
     implementation files('libs/power-anomaly-event-protos-lite.jar')
-    implementation files('libs/settings-contextual-card-protos-lite.jar')
-    implementation files('libs/settings-log-bridge-protos-lite.jar')
     implementation files('libs/settings-logtags.jar')
-    implementation files('libs/settings-telephony-protos-lite.jar')
 
     implementation files('libs/statslog-settings.jar')
     implementation files('libs/settingslib_flags_lib.jar')
