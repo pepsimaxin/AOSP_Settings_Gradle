@@ -228,15 +228,15 @@ dependencies {
 
     api("androidx.slice:slice-core:1.1.0-alpha02")
     api("androidx.slice:slice-view:1.1.0-alpha02")
-    implementation "androidx.appcompat:appcompat:1.7.0"
+//    implementation "androidx.appcompat:appcompat:1.7.0"
     implementation "com.google.android.material:material:1.7.0-alpha03"
     implementation "androidx.slice:slice-builders:1.1.0-alpha02"
     implementation "androidx.slice:slice-core:1.1.0-alpha02"
     implementation "androidx.slice:slice-view:1.1.0-alpha02"
-    implementation "com.airbnb.android:lottie:6.5.0"
+    implementation libs.lottie
     implementation "androidx.compose.material3:material3:1.1.0-alpha06"
     implementation "androidx.compose.material:material-icons-core:1.7.0-alpha03"
-    implementation "androidx.preference:preference:1.2.1"
+    implementation libs.preference
     implementation "androidx.room:room-runtime:2.7.0-alpha01"
     annotationProcessor "androidx.room:room-compiler:2.7.0-alpha01"
     implementation "org.jetbrains.kotlinx:atomicfu:0.26.1"
