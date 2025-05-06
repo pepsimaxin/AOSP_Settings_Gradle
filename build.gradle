@@ -151,16 +151,27 @@ dependencies {
     implementation files('libs-implementation/battery-event-protos-lite.jar')
     implementation files('libs-implementation/fuelgauge-log-protos-lite.jar')
     implementation files('libs-implementation/fuelgauge-usage-state-protos-lite.jar')
+    implementation files('libs-implementation/securebox.jar')
     implementation files('libs-implementation/settings-contextual-card-protos-lite.jar')
     implementation files('libs-implementation/settings-log-bridge-protos-lite.jar')
     implementation files('libs-implementation/settings-logtags.jar')
     implementation files('libs-implementation/settings-telephony-protos-lite.jar')
     implementation files('libs-implementation/statslog-settings.jar')
 
+    // Settings 依赖 androidx 包，从 prebuilt 下获取
     implementation files('libs-androidx/room-runtime-2.5.0-alpha01.aar')
     implementation files('libs-androidx/room-compiler-2.5.0-alpha01.jar')
     implementation files('libs-androidx/room-common-2.5.0-alpha01.jar')
 //    implementation libs.androidx.room.common.jvm
+
+
+
+
+
+
+
+
+
 
 
     // implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
@@ -176,7 +187,7 @@ dependencies {
     implementation files('libs/com_android_server_accessibility_flags_lib.jar')
     implementation files('libs/net-utils-framework-common.jar')
     implementation files('libs/notification_flags_lib.jar')
-    implementation files('libs/securebox.jar')
+
     implementation files('libs/MediaDrmSettingsFlagsLib.jar')
     implementation files('libs/aconfig_settings_flags_lib.jar')
     implementation files('libs/accessibility_settings_flags_lib.jar')

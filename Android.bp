@@ -88,7 +88,7 @@ android_library {
         "fuelgauge-log-protos-lite",                     // implementation files('libs-implementation/fuelgauge-log-protos-lite.jar')
         "fuelgauge-usage-state-protos-lite",             // implementation files('libs-implementation/fuelgauge-usage-state-protos-lite.jar')
         "contextualcards",
-        "securebox",
+        "securebox",                                     // implementation files('libs-implementation/securebox.jar')
         "settings-logtags",                              // implementation files('libs-implementation/settings-logtags.jar')
         "statslog-settings",                             // implementation files('libs-implementation/statslog-settings.jar')
         "zxing-core-1.7",
@@ -99,11 +99,12 @@ android_library {
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "Settings-change-ids",
-        "androidx.room_room-runtime",
+        "androidx.room_room-runtime",                   // implementation files('libs-androidx/room-runtime-2.5.0-alpha01.aar')
+                                                        // implementation files('libs-androidx/room-common-2.5.0-alpha01.jar')
         "SystemUIUnfoldLib",
     ],
 
-    plugins: ["androidx.room_room-compiler-plugin"],
+    plugins: ["androidx.room_room-compiler-plugin"],    // implementation files('libs-androidx/room-compiler-2.5.0-alpha01.jar')
 
     libs: [
         "telephony-common",
