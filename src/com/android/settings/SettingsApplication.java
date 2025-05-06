@@ -16,6 +16,8 @@
 
 package com.android.settings;
 
+import static android.util.Log.println;
+
 import android.app.Application;
 import android.database.ContentObserver;
 import android.net.Uri;
@@ -34,6 +36,8 @@ import com.google.android.setupcompat.util.WizardManagerHelper;
 
 import java.lang.ref.WeakReference;
 
+import kotlin.jvm.internal.Intrinsics;
+
 /** Settings application which sets up activity embedding rules for the large screen device. */
 public class SettingsApplication extends Application {
 
@@ -42,6 +46,12 @@ public class SettingsApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        try {
+            Class.forName("kotlin.jvm.internal.Intrinsics");
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
 
         // Add null checking to avoid test case failed.
         if (getApplicationContext() != null) {

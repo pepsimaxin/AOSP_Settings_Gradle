@@ -34,11 +34,13 @@ apply plugin: 'com.android.application'
 //apply plugin: 'com.google.protobuf'
 //apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
 
 android {
     namespace 'com.android.settings'
     packagingOptions {
         exclude 'META-INF/androidx.window_window.version'
+        pickFirst 'META-INF/*.kotlin_module'
     }
 
     configurations {
@@ -69,13 +71,17 @@ android {
         release {
             debuggable false
             minifyEnabled false
+            shrinkResources false
             signingConfig signingConfigs.platform
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
 
         debug {
             debuggable true
             minifyEnabled false
+            shrinkResources false
             signingConfig signingConfigs.platform
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         applicationVariants.all { variant ->
             variant.outputs.all {
@@ -118,16 +124,31 @@ android {
 }
 
 dependencies {
+    implementation fileTree(dir: 'libs-compile', include: ['*.jar', '*.aar'])
+
     implementation libs.androidx.constraintlayout
-    implementation libs.zxing
+    implementation libs.guava
     implementation libs.lottie
     implementation libs.preference
+    implementation libs.protobuf.javalite
+    implementation libs.room.runtime
+    implementation libs.zxing
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.0"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:1.9.0"
+
+    implementation "com.google.android.material:material:1.7.0-alpha03"
+    implementation "androidx.compose.material:material-icons-core:1.7.0-alpha03"
+    kapt "androidx.room:room-compiler:2.7.0-alpha01"
+    implementation "androidx.room:room-runtime:2.7.0-alpha01"
+
+    // search 生成索引类插件
+    // annotationProcessor files('libs/CP-SettingsLib-annotation-processor.jar')
 
     // implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
     compileOnly files('libs/window-1.2.0-alpha01.aar')
     compileOnly files('libs/framework.jar')
-
-    implementation "com.google.guava:guava:33.3.1-android"
 
     implementation files('libs/BiometricsSharedLib.jar')
     implementation files('libs/BiometricsSharedLib-java.jar')
@@ -139,17 +160,12 @@ dependencies {
     implementation files('libs/net-utils-framework-common.jar')
     implementation files('libs/notification_flags_lib.jar')
     implementation files('libs/securebox.jar')
-
-    //    implementation files('../libs/FingerprintManagerInteractor.jar')
     implementation files('libs/MediaDrmSettingsFlagsLib.jar')
-//    implementation files('../libs/Settings-change-ids.jar')
-
     implementation files('libs/aconfig_settings_flags_lib.jar')
     implementation files('libs/accessibility_settings_flags_lib.jar')
     implementation files('libs/app-usage-event-protos-lite.jar')
     implementation files('libs/battery-event-protos-lite.jar')
     implementation files('libs/battery-usage-slot-protos-lite.jar')
-    implementation fileTree(dir: 'libs-compile', include: ['*.jar', '*.aar'])
     implementation files('libs/development_settings_flag_lib.jar')
     implementation files('libs/factory_reset_flags_lib.jar')
     implementation files('libs/fuelgauge-log-protos-lite.jar')
@@ -159,8 +175,6 @@ dependencies {
     implementation files('libs/settings-log-bridge-protos-lite.jar')
     implementation files('libs/settings-logtags.jar')
     implementation files('libs/settings-telephony-protos-lite.jar')
-//    implementation files('../libs/setupdesign-lottie-loading-layout.jar')
-//    implementation project(':lottie_loading_layout')
 
     implementation files('libs/statslog-settings.jar')
     implementation files('libs/settingslib_flags_lib.jar')
@@ -168,12 +182,11 @@ dependencies {
     implementation files('libs/android.view.accessibility.flags-aconfig-java.jar')
     implementation files('libs/telephony_flags_core_java_lib.jar')
 
-    implementation project(':WifiTrackerLib')
-    implementation project(':iconloaderlib')
-    implementation project(':setupdesign')
-    implementation project(':setupcompat')
+    implementation files('libs/settingslib_media_flags_lib.jar')
+    implementation files('libs/core-all.jar')
+    implementation files('libs/android.hidl.base-V1.0-java.jar')
 
-    // SettingsLib 依赖
+    // SettingsLib dependencies
     implementation project(':SettingsLib')
     implementation project(':SettingsLib:ActionBarShadow')
     implementation project(':SettingsLib:ActionButtonsPreference')
@@ -213,42 +226,11 @@ dependencies {
     implementation project(':SettingsLib:Utils')
     implementation project(':spa')
 
-    implementation files('libs/settingslib_media_flags_lib.jar')
-    implementation files('libs/core-all.jar')
-    implementation files('libs/android.hidl.base-V1.0-java.jar')
-
-    implementation "com.google.protobuf:protoc:3.8.0"
-    implementation "com.google.protobuf:protobuf-javalite:3.8.0"
-
-    implementation("com.github.bumptech.glide:glide:4.11.0") {
-        exclude group: "com.android.support"    // 排除掉 com.android.support 组
-    }
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
-//    annotationProcessor files('libs/CP-SettingsLib-annotation-processor.jar')    // search 生成索引类插件
-
-    // baseline profile
-    implementation "androidx.profileinstaller:profileinstaller:1.3.1"
-
-    api("androidx.slice:slice-core:1.1.0-alpha02")
-    api("androidx.slice:slice-view:1.1.0-alpha02")
-//    implementation "androidx.appcompat:appcompat:1.7.0"
-    implementation "com.google.android.material:material:1.7.0-alpha03"
-//    implementation "androidx.slice:slice-builders:1.1.0-alpha02"
-//    implementation "androidx.slice:slice-core:1.1.0-alpha02"
-//    implementation "androidx.slice:slice-view:1.1.0-alpha02"
-
-    implementation "androidx.compose.material3:material3:1.1.0-alpha06"
-    implementation "androidx.compose.material:material-icons-core:1.7.0-alpha03"
-    implementation "androidx.room:room-runtime:2.7.0-alpha01"
-    annotationProcessor "androidx.room:room-compiler:2.7.0-alpha01"
-    implementation "org.jetbrains.kotlinx:atomicfu:0.26.1"
-    implementation "androidx.compose.runtime:runtime-livedata:1.4.0-alpha01"
-
-
-//    implementation "androidx.window:window-java:1.3.0"
-
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'com.mapzen:on-the-road:1.3.1'
+    // Other dependencies
+    implementation project(':WifiTrackerLib')
+    implementation project(':iconloaderlib')
+    implementation project(':setupdesign')
+    implementation project(':setupcompat')
 }
 
 //allprojects {
@@ -302,3 +284,11 @@ dependencies {
 //        }
 //    }
 //}
+
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        if (details.requested.group == 'org.jetbrains.kotlin') {
+            details.useVersion "$kotlin_version"
+        }
+    }
+}

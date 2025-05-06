@@ -65,3 +65,19 @@
 -keep class androidx.window.extensions.** { *; }
 -dontwarn androidx.window.extensions.**
 -keep class androidx.window.** { *; }
+
+# 保留 Kotlin 核心类，避免 Room、Compose 等依赖出错
+-keep class kotlin.** { *; }
+-keep class kotlin.jvm.internal.Intrinsics { *; }
+-keepclassmembers class ** {
+    ** kotlin.jvm.internal.Intrinsics;
+}
+-dontwarn kotlin.**
+
+# Room Runtime
+-keep class androidx.room.** { *; }
+-dontwarn androidx.room.**
+
+# Jetpack Compose（如果用到了）
+-keep class androidx.compose.** { *; }
+-dontwarn androidx.compose.**
