@@ -97,6 +97,35 @@ android {
 //]
 
 dependencies {
+    implementation files('../libs-androidx/room-runtime-2.5.0-alpha01.aar')
+    implementation files('../libs-androidx/room-compiler-2.5.0-alpha01.jar')
+    implementation files('../libs-androidx/room-common-2.5.0-alpha01.jar')
+    implementation files('../libs-androidx/sqlite-2.4.0-alpha01.aar')
+    implementation files('../libs-androidx/sqlite-framework-2.4.0-alpha01.aar')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     implementation files('../libs/core-all.jar')
 //    compileOnly files('../libs/framework.jar')
 //    compileOnly files('../libs/zxing-core-1.7.jar')
@@ -105,10 +134,6 @@ dependencies {
     implementation('androidx.legacy:legacy-support-v4:1.0.0', {
         exclude group: 'androidx.preference', module: 'preference'
     })
-
-    implementation files('../libs-androidx/room-runtime-2.5.0-alpha01.aar')
-    implementation files('../libs-androidx/room-compiler-2.5.0-alpha01.jar')
-    implementation files('../libs-androidx/room-common-2.5.0-alpha01.jar')
 
 //    implementation "androidx.recyclerview:recyclerview:1.2.1"
 //    implementation "androidx.appcompat:appcompat:1.4.0-alpha03"
@@ -120,7 +145,7 @@ dependencies {
     implementation "androidx.preference:preference:1.2.1"
     implementation "androidx.localbroadcastmanager:localbroadcastmanager:1.1.0"
 //    implementation "androidx.room:room-runtime:2.7.0-alpha01"
-    implementation "androidx.sqlite:sqlite:2.5.0-alpha01"
+//    implementation "androidx.sqlite:sqlite:2.5.0-alpha01"
     implementation "com.google.zxing:core:3.5.3"
     implementation "com.google.guava:guava:33.3.1-android"
 //    implementation "androidx.concurrent:concurrent-futures-ktx:1.2.0"

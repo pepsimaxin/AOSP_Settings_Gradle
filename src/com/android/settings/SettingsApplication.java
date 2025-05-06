@@ -47,12 +47,6 @@ public class SettingsApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        try {
-            Class.forName("kotlin.jvm.internal.Intrinsics");
-        } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
-        }
-
         // Add null checking to avoid test case failed.
         if (getApplicationContext() != null) {
             ElapsedTimeUtils.assignSuwFinishedTimeStamp(getApplicationContext());

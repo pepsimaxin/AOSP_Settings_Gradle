@@ -73,8 +73,8 @@ android_library {
         "androidx.recyclerview_recyclerview",
         "androidx.window_window",
         "com.google.android.material_material",
-        "setupcompat",
-        "setupdesign",
+        "setupcompat",                                   // implementation project(':setupcompat')
+        "setupdesign",                                   // implementation project(':setupdesign')
         "androidx.lifecycle_lifecycle-runtime",
         "androidx.lifecycle_lifecycle-viewmodel",
         "guava",
@@ -96,11 +96,13 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "android.hardware.dumpstate-V1-java",
         "lottie",
-        "WifiTrackerLib",
+        "WifiTrackerLib",                               // implementation project(':WifiTrackerLib')
         "SettingsLibActivityEmbedding",
         "Settings-change-ids",
         "androidx.room_room-runtime",                   // implementation files('libs-androidx/room-runtime-2.5.0-alpha01.aar')
                                                         // implementation files('libs-androidx/room-common-2.5.0-alpha01.jar')
+                                                        // implementation files('libs-androidx/sqlite-2.4.0-alpha01.aar')
+                                                        // implementation files('libs-androidx/sqlite-framework-2.4.0-alpha01.aar')
         "SystemUIUnfoldLib",
     ],
 

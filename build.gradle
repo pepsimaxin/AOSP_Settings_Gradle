@@ -159,9 +159,12 @@ dependencies {
     implementation files('libs-implementation/statslog-settings.jar')
 
     // Settings 依赖 androidx 包，从 prebuilt 下获取
+//    implementation fileTree(dir: 'libs-androidx', include: ['*.jar', '*.aar'])
     implementation files('libs-androidx/room-runtime-2.5.0-alpha01.aar')
     implementation files('libs-androidx/room-compiler-2.5.0-alpha01.jar')
     implementation files('libs-androidx/room-common-2.5.0-alpha01.jar')
+    implementation files('libs-androidx/sqlite-2.4.0-alpha01.aar')
+    implementation files('libs-androidx/sqlite-framework-2.4.0-alpha01.aar')
 //    implementation libs.androidx.room.common.jvm
 
 
