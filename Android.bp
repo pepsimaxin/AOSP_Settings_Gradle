@@ -81,12 +81,12 @@ android_library {
         "jsr305",
         "net-utils-framework-common",
         "app-usage-event-protos-lite",
-        "battery-event-protos-lite",
+        "battery-event-protos-lite",                     // implementation files('libs-implementation/battery-event-protos-lite.jar')
         "settings-contextual-card-protos-lite",
         "settings-log-bridge-protos-lite",
         "settings-telephony-protos-lite",
-        "fuelgauge-log-protos-lite",
-        "fuelgauge-usage-state-protos-lite",
+        "fuelgauge-log-protos-lite",                     // implementation files('libs-implementation/fuelgauge-log-protos-lite.jar')
+        "fuelgauge-usage-state-protos-lite",             // implementation files('libs-implementation/fuelgauge-usage-state-protos-lite.jar')
         "contextualcards",
         "securebox",
         "settings-logtags",

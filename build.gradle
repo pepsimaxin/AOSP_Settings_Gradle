@@ -146,6 +146,11 @@ dependencies {
     // search 生成索引类插件
     // annotationProcessor files('libs/CP-SettingsLib-annotation-processor.jar')
 
+    implementation files('libs-implementation/battery-event-protos-lite.jar')
+    implementation files('libs-implementation/fuelgauge-log-protos-lite.jar')
+    implementation files('libs-implementation/fuelgauge-usage-state-protos-lite.jar')
+
+
     // implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
     compileOnly files('libs/window-1.2.0-alpha01.aar')
     compileOnly files('libs/framework.jar')
@@ -164,12 +169,11 @@ dependencies {
     implementation files('libs/aconfig_settings_flags_lib.jar')
     implementation files('libs/accessibility_settings_flags_lib.jar')
     implementation files('libs/app-usage-event-protos-lite.jar')
-    implementation files('libs/battery-event-protos-lite.jar')
+
     implementation files('libs/battery-usage-slot-protos-lite.jar')
     implementation files('libs/development_settings_flag_lib.jar')
     implementation files('libs/factory_reset_flags_lib.jar')
-    implementation files('libs/fuelgauge-log-protos-lite.jar')
-    implementation files('libs/fuelgauge-usage-state-protos-lite.jar')
+
     implementation files('libs/power-anomaly-event-protos-lite.jar')
     implementation files('libs/settings-contextual-card-protos-lite.jar')
     implementation files('libs/settings-log-bridge-protos-lite.jar')
