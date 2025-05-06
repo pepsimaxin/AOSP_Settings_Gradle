@@ -131,7 +131,7 @@ dependencies {
     implementation libs.lottie
     implementation libs.preference
     implementation libs.protobuf.javalite
-    implementation libs.room.runtime
+//    implementation libs.room.runtime
     implementation libs.zxing
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.0"
@@ -140,8 +140,8 @@ dependencies {
 
     implementation "com.google.android.material:material:1.7.0-alpha03"
     implementation "androidx.compose.material:material-icons-core:1.7.0-alpha03"
-    kapt "androidx.room:room-compiler:2.7.0-alpha01"
-    implementation "androidx.room:room-runtime:2.7.0-alpha01"
+//    kapt "androidx.room:room-compiler:2.7.0-alpha01"
+//    implementation "androidx.room:room-runtime:2.7.0-alpha01"
 
     // search 生成索引类插件
     // annotationProcessor files('libs/CP-SettingsLib-annotation-processor.jar')
@@ -153,7 +153,14 @@ dependencies {
     implementation files('libs-implementation/fuelgauge-usage-state-protos-lite.jar')
     implementation files('libs-implementation/settings-contextual-card-protos-lite.jar')
     implementation files('libs-implementation/settings-log-bridge-protos-lite.jar')
+    implementation files('libs-implementation/settings-logtags.jar')
     implementation files('libs-implementation/settings-telephony-protos-lite.jar')
+    implementation files('libs-implementation/statslog-settings.jar')
+
+    implementation files('libs-androidx/room-runtime-2.5.0-alpha01.aar')
+    implementation files('libs-androidx/room-compiler-2.5.0-alpha01.jar')
+    implementation files('libs-androidx/room-common-2.5.0-alpha01.jar')
+//    implementation libs.androidx.room.common.jvm
 
 
     // implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
@@ -179,9 +186,7 @@ dependencies {
     implementation files('libs/factory_reset_flags_lib.jar')
 
     implementation files('libs/power-anomaly-event-protos-lite.jar')
-    implementation files('libs/settings-logtags.jar')
 
-    implementation files('libs/statslog-settings.jar')
     implementation files('libs/settingslib_flags_lib.jar')
     implementation files('libs/wifi_aconfig_flags_lib.jar')
     implementation files('libs/android.view.accessibility.flags-aconfig-java.jar')
