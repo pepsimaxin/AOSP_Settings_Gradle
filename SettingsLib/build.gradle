@@ -214,10 +214,10 @@ configurations.configureEach {
     exclude group: 'com.google.common.util.concurrent.ListenableFuture', module: 'guava'
 }
 
-configurations.all {
-    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
-        if (details.requested.group == 'org.jetbrains.kotlin') {
-            details.useVersion "$kotlin_version"
-        }
-    }
-}
+//configurations.all {
+//    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+//        if (details.requested.group == 'org.jetbrains.kotlin') {
+//            details.useVersion "$kotlin_version"
+//        }
+//    }
+//}
