@@ -40,7 +40,6 @@ android {
     namespace 'com.android.settings'
     packagingOptions {
         exclude 'META-INF/androidx.window_window.version'
-        pickFirst 'META-INF/*.kotlin_module'
     }
 
     configurations {
@@ -73,7 +72,7 @@ android {
             minifyEnabled false
             shrinkResources false
             signingConfig signingConfigs.platform
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
 
         debug {
@@ -81,7 +80,7 @@ android {
             minifyEnabled false
             shrinkResources false
             signingConfig signingConfigs.platform
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         applicationVariants.all { variant ->
             variant.outputs.all {
