@@ -111,7 +111,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = '1.4.4' // 假设1.4.0支持Kotlin 1.9.0
+        kotlinCompilerExtensionVersion = '1.4.4'
     }
 
     lintOptions {
@@ -131,9 +131,7 @@ dependencies {
 //    implementation libs.room.runtime
     implementation libs.zxing
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-common:$kotlin_version"
-    implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+    implementation libs.kotlin.stdlib
 
     implementation "com.google.android.material:material:1.7.0-alpha03"
     implementation "androidx.compose.material:material-icons-core:1.7.0-alpha03"
@@ -253,63 +251,3 @@ dependencies {
     implementation project(':setupdesign')
     implementation project(':setupcompat')
 }
-
-//allprojects {
-//    repositories {
-//        maven {
-//            url 'https://maven.aliyun.com/repository/jcenter'
-//        }
-//        maven {
-//            url 'https://maven.aliyun.com/repository/central'
-//        }
-//        maven {
-//            url 'https://maven.aliyun.com/repository/google'
-//        }
-//    }
-
-//    gradle.projectsEvaluated {
-//        tasks.withType(JavaCompile) {
-//            if (options.bootstrapClasspath != null) {
-//                Set<File> fileSet = options.bootstrapClasspath.getFiles()
-//                List<File> newFileList = new ArrayList<>()
-//                // 相对位置，根据存放的位置修改路径
-//                newFileList.add(new File("libs-compile/framework.jar"))
-//                newFileList.add(new File("libs-compile/core-all.jar"))
-//                newFileList.addAll(fileSet)
-//                options.bootstrapClasspath = files(
-//                        newFileList.toArray()
-//                )
-//            }
-//        }
-//    }
-//}
-
-//protobuf {
-//    protoc {
-//        // 通用 artifact
-//        artifact = 'com.google.protobuf:protoc:3.8.0'
-//        // MacOS
-//        if (org.gradle.internal.os.OperatingSystem.current().isMacOsX()) {
-//            artifact = 'com.google.protobuf:protoc:3.8.0:osx-x86_64'
-//        }
-//    }
-//
-//    generateProtoTasks {
-//        all().each { task ->
-//            task.builtins {
-//                remove java
-//                java {
-//                    option "lite"
-//                }
-//            }
-//        }
-//    }
-//}
-
-//configurations.all {
-//    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
-//        if (details.requested.group == 'org.jetbrains.kotlin') {
-//            details.useVersion "$kotlin_version"
-//        }
-//    }
-//}
