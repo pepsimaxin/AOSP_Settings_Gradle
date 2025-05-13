@@ -7,6 +7,7 @@ buildscript {
 
     repositories {
         google()
+        mavenCentral()
 //        maven {
 //            url 'https://maven.aliyun.com/repository/jcenter'
 //        }
@@ -44,15 +45,6 @@ apply plugin: 'kotlin-kapt'
 
 android {
     namespace 'com.android.settings'
-    packagingOptions {
-        exclude 'META-INF/androidx.window_window.version'
-    }
-
-    configurations {
-        all*.exclude group: 'androidx.window', module: 'window'
-        all*.exclude group: 'com.squareup.okhttp3', module: 'okhttp'
-    }
-
     compileSdk = 34
 
     defaultConfig {
