@@ -57,7 +57,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = '1.5.0' // 假设1.4.0支持Kotlin 1.9.0
+        kotlinCompilerExtensionVersion = '1.4.4' // 假设1.4.0支持Kotlin 1.9.0
     }
 }
 
