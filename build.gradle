@@ -24,7 +24,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.1.0-rc01'
+//        classpath 'com.android.tools.build:gradle:8.1.0-rc01'
 //        classpath 'com.android.tools:r8:8.2.16-dev'
         classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.18'
 //        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
@@ -34,10 +34,12 @@ buildscript {
 plugins {
 //    id 'com.android.application' version '8.0.0' apply false
 //    id 'com.android.library' version '8.0.0' apply false
-    id 'org.jetbrains.kotlin.android' version '1.8.10' apply false
+    id 'org.jetbrains.kotlin.android' version '1.8.10' apply true
+    id 'com.android.application' version '8.1.0' apply true
+//    id 'org.jetbrains.kotlin.android'
 }
 
-apply plugin: 'com.android.application'
+//apply plugin: 'com.android.application'
 //apply plugin: 'com.google.protobuf'
 //apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
@@ -128,15 +130,16 @@ dependencies {
     implementation libs.lottie
     implementation libs.preference
     implementation libs.protobuf.javalite
-//    implementation libs.room.runtime
+    implementation libs.room.runtime
+    annotationProcessor libs.room.compiler
     implementation libs.zxing
 
     implementation libs.kotlin.stdlib
 
     implementation "com.google.android.material:material:1.7.0-alpha03"
     implementation "androidx.compose.material:material-icons-core:1.7.0-alpha03"
-//    kapt "androidx.room:room-compiler:2.7.0-alpha01"
-//    implementation "androidx.room:room-runtime:2.7.0-alpha01"
+//    kapt "androidx.room:room-compiler:2.5.0-alpha01"
+//    implementation "androidx.room:room-runtime:2.5.0-alpha01"
 
     // search 生成索引类插件
     // annotationProcessor files('libs/CP-SettingsLib-annotation-processor.jar')
@@ -155,11 +158,11 @@ dependencies {
 
     // Settings 依赖 androidx 包，从 prebuilt 下获取
 //    implementation fileTree(dir: 'libs-androidx', include: ['*.jar', '*.aar'])
-    implementation files('libs-androidx/room-runtime-2.5.0-alpha01.aar')
-    implementation files('libs-androidx/room-compiler-2.5.0-alpha01.jar')
-    implementation files('libs-androidx/room-common-2.5.0-alpha01.jar')
-    implementation files('libs-androidx/sqlite-2.4.0-alpha01.aar')
-    implementation files('libs-androidx/sqlite-framework-2.4.0-alpha01.aar')
+//    implementation files('libs-androidx/room-runtime-2.5.0-alpha01.aar')
+//    implementation files('libs-androidx/room-compiler-2.5.0-alpha01.jar')
+//    implementation files('libs-androidx/room-common-2.5.0-alpha01.jar')
+//    implementation files('libs-androidx/sqlite-2.4.0-alpha01.aar')
+//    implementation files('libs-androidx/sqlite-framework-2.4.0-alpha01.aar')
 //    implementation libs.androidx.room.common.jvm
 
 
