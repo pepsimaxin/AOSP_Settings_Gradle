@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.android.settingslib.spaprivileged"
-    compileSdkVersion COMPILE_SDK
+    compileSdk 34
 
     defaultConfig {
         minSdkVersion 31
@@ -20,25 +20,15 @@ android {
         }
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
-    }
-
-    lintOptions {
-        checkReleaseBuilds false
-        abortOnError false
-    }
-
-//    afterEvaluate {
-//        generateReleaseBuildConfig.enabled = false
-//        generateDebugBuildConfig.enabled = false
-//    }
-
     sourceSets.main {
         manifest.srcFile 'AndroidManifest.xml'
         java.srcDirs = ['src']
         res.srcDirs = ['res']
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 
     buildFeatures {
@@ -46,7 +36,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = '1.4.4' // 假设1.4.0支持Kotlin 1.9.0
+        kotlinCompilerExtensionVersion = '1.4.4'
     }
 }
 
@@ -55,7 +45,8 @@ dependencies {
     implementation project(':SettingsLib')
     implementation project(':SettingsLib:RestrictedLockUtils')
     implementation project(':SettingsLib:AppPreference')
-    implementation "androidx.compose.ui:ui:1.4.0-alpha01"
+
+    implementation libs.compose.ui
     implementation "androidx.compose.material3:material3:1.1.0-alpha06"
     implementation "androidx.compose.material:material-icons-extended:1.4.0-beta01"
     implementation "androidx.compose.runtime:runtime-livedata:1.4.0-beta01"

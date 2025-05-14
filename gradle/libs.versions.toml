@@ -80,7 +80,7 @@ javapoet = {group = "com.squareup", name = "javapoet", version.ref = "javapoet"}
 #slice_core = {group = "androidx.slice", name = "slice-core", version.ref = "slice_builders"}
 #slice_view = {group = "androidx.slice", name = "slice-view", version.ref = "slice_builders"}
 #
-#compose-ui = {group = "androidx.compose.ui", name= "ui", version.ref = "material"}
+compose-ui = {group = "androidx.compose.ui", name= "ui", version.ref = "material"}
 #compose-material3 = {group = "androidx.compose.material3", name= "material3", version.ref = "compose-material3"}
 #material-icons-core = {group = "androidx.compose.material", name= "material-icons-core", version.ref = "material"}
 #atomicfu = {group = "org.jetbrains.kotlinx", name = "atomicfu", version.ref = "atomicfu"}
