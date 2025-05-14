@@ -1,14 +1,15 @@
 plugins {
     id 'com.android.library'
+    id 'kotlin-android'
 }
 
 android {
     namespace = "com.android.settingslib.widget.adaptiveicon"
-    compileSdkVersion COMPILE_SDK
+    compileSdk 34
 
     defaultConfig {
-        minSdkVersion 21
-        targetSdkVersion 30
+        minSdkVersion 31
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
     }
@@ -19,21 +20,6 @@ android {
         }
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-    lintOptions {
-        checkReleaseBuilds false
-        abortOnError false
-    }
-
-//    afterEvaluate {
-//        generateReleaseBuildConfig.enabled = false
-//        generateDebugBuildConfig.enabled = false
-//    }
-
     sourceSets {
         main {
             java.srcDirs = ['src']
@@ -41,18 +27,14 @@ android {
             manifest.srcFile 'AndroidManifest.xml'
         }
     }
-}
 
-//repositories {
-//    flatDir {
-//        dirs '../../libs'
-//    }
-//}
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
 
 dependencies {
-//    compileOnly files('../../libs/framework.jar')
     implementation project(':SettingsLib:Tile')
-    implementation "androidx.appcompat:appcompat:1.4.0-alpha03"
+    implementation libs.androidx.annotation.annotation
 }
-
-//apply from: './upload.gradle'

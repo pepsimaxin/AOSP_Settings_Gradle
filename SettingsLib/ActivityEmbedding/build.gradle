@@ -1,10 +1,11 @@
 plugins {
     id 'com.android.library'
+    id 'kotlin-android'
 }
 
 android {
     namespace = "com.android.settingslib.widget.activityembedding"
-    compileSdkVersion COMPILE_SDK
+    compileSdk 34
 
     defaultConfig {
         minSdkVersion 31
@@ -19,21 +20,6 @@ android {
         }
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
-    }
-
-    lintOptions {
-        checkReleaseBuilds false
-        abortOnError false
-    }
-
-//    afterEvaluate {
-//        generateReleaseBuildConfig.enabled = false
-//        generateDebugBuildConfig.enabled = false
-//    }
-
     sourceSets {
         main {
             java.srcDirs = ['src']
@@ -41,11 +27,15 @@ android {
             manifest.srcFile 'AndroidManifest.xml'
         }
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
 }
 
 dependencies {
-//    compileOnly files('../../libs/framework.jar')
     compileOnly files('../../libs/window-1.2.0-alpha01.aar')
     implementation project(':SettingsLib:Utils')
-    implementation "androidx.core:core:1.9.0"
+    implementation libs.androidx.core.core
 }
