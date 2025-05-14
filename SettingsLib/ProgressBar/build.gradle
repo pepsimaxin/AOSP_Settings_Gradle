@@ -5,11 +5,11 @@ plugins {
 
 android {
     namespace = "com.android.settingslib.widget.progressbar"
-    compileSdkVersion COMPILE_SDK
+    compileSdk 34
 
     defaultConfig {
-        minSdkVersion 21
-        targetSdkVersion 30
+        minSdkVersion 31
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
     }
@@ -20,25 +20,17 @@ android {
         }
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
-    }
-
-    lintOptions {
-        checkReleaseBuilds false
-        abortOnError false
-    }
-
-//    afterEvaluate {
-//        generateReleaseBuildConfig.enabled = false
-//        generateDebugBuildConfig.enabled = false
-//    }
-
     sourceSets {
         main {
             res.srcDirs = ['res']
             manifest.srcFile 'AndroidManifest.xml'
         }
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
 }
+
+dependencies {}

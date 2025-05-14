@@ -5,11 +5,11 @@ plugins {
 
 android {
     namespace = "com.android.settingslib.widget.preference.radiobutton"
-    compileSdkVersion COMPILE_SDK
+    compileSdk 34
 
     defaultConfig {
-        minSdkVersion 21
-        targetSdkVersion 30
+        minSdkVersion 31
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
     }
@@ -20,21 +20,6 @@ android {
         }
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
-    }
-
-    lintOptions {
-        checkReleaseBuilds false
-        abortOnError false
-    }
-
-//    afterEvaluate {
-//        generateReleaseBuildConfig.enabled = false
-//        generateDebugBuildConfig.enabled = false
-//    }
-
     sourceSets {
         main {
             java.srcDirs = ['src']
@@ -42,17 +27,17 @@ android {
             manifest.srcFile 'AndroidManifest.xml'
         }
     }
-}
 
-//repositories {
-//    flatDir {
-//        dirs '../../libs'
-//    }
-//}
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
 
 dependencies {
     implementation project(':SettingsLib:SettingsTheme')
-    implementation "androidx.recyclerview:recyclerview:1.2.1"
-    implementation "androidx.appcompat:appcompat:1.4.0-alpha03"
-    implementation "androidx.preference:preference:1.2.0"
+    implementation project(':SettingsLib:SelectorWithWidgetPreference')
+    implementation libs.recyclerview
+    implementation libs.androidx.appcompat
+    implementation libs.preference
 }

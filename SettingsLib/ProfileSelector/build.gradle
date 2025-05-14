@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.android.settingslib.widget.profileselector"
-    compileSdkVersion COMPILE_SDK
+    compileSdk 34
 
     defaultConfig {
         minSdkVersion 31
@@ -20,30 +20,19 @@ android {
         }
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
-    }
-
-    lintOptions {
-        checkReleaseBuilds false
-        abortOnError false
-    }
-
-//    afterEvaluate {
-//        generateReleaseBuildConfig.enabled = false
-//        generateDebugBuildConfig.enabled = false
-//    }
-
     sourceSets.main {
         manifest.srcFile 'AndroidManifest.xml'
         java.srcDirs = ['src']
         res.srcDirs = ['res']
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
 }
 
 dependencies {
-    implementation "com.google.android.material:material:1.5.0-alpha02"
-    implementation "androidx.fragment:fragment:1.4.1"
     implementation project(':SettingsLib:SettingsTheme')
+    implementation libs.material
 }
