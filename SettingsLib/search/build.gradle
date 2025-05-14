@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.android.settingslib.search"
-    compileSdkVersion COMPILE_SDK
+    compileSdk 34
 
     defaultConfig {
         minSdkVersion 31
@@ -20,28 +20,18 @@ android {
         }
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
-    }
-
-    lintOptions {
-        checkReleaseBuilds false
-        abortOnError false
-    }
-//
-//    afterEvaluate {
-//        generateReleaseBuildConfig.enabled = false
-//        generateDebugBuildConfig.enabled = false
-//    }
-
     sourceSets.main {
         manifest.srcFile 'AndroidManifest.xml'
         java.srcDirs = ['src', 'stub-src', /*'processor-src',*/ 'interface-src']
         res.srcDirs = ['resources']
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
 }
 
 dependencies {
-    implementation "com.squareup:javapoet:1.13.0"
+    implementation libs.javapoet
 }
