@@ -1,18 +1,19 @@
 pluginManagement {
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
-        mavenCentral()
-        maven {
-            // r8 maven
-            url = uri("https://storage.googleapis.com/r8-releases/raw")
-        }
+        google()
+//        google {
+//            content {
+//                includeGroupByRegex("com\\.android.*")
+//                includeGroupByRegex("com\\.google.*")
+//                includeGroupByRegex("androidx.*")
+//            }
+//        }
         gradlePluginPortal()
+        mavenCentral()
+//        maven {
+//            // r8 maven
+//            url = uri("https://storage.googleapis.com/r8-releases/raw")
+//        }
         maven { url 'https://jitpack.io' }
     }
 //    dependencies {

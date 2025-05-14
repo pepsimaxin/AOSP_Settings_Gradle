@@ -40,7 +40,7 @@ zxing = "3.5.3"
 #dagger = "2.51"
 
 [libraries]
-#androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 #junit = { group = "junit", name = "junit", version.ref = "junit" }
 #androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 #androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -96,7 +96,7 @@ zxing = {group = "com.google.zxing", name = "core", version.ref = "zxing"}
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-#android-library = { id = "com.android.library", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
 #atomicfu = {id = "org.jetbrains.kotlinx.atomicfu", version.ref = "atomicfu"}
 #protobuf = {id = "com.google.protobuf", version.ref = "protobuf"}
 
